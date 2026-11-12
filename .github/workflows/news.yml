@@ -1,0 +1,80 @@
+# Social Red — Actualización automática de noticias y YouTube
+#
+# QUÉ HACE: cada 30 minutos (y cuando se lanza a mano desde la pestaña
+# Actions) descarga los feeds RSS de Xataka y BBC Mundo y los convierte
+# en el JSON estático data/news.json, que el sitio lee con un fetch
+# relativo. Así las noticias se actualizan en GitHub Pages sin depender
+# del CORS del navegador (los 3 feeds fallaban al hacer fetch directo
+# desde el cliente; ver auditoría 2026-11-12, sección 3 / P0 #4).
+# Además sincroniza el canal de YouTube a data/youtube.json: lista de
+# vídeos desde su RSS oficial y cifras del canal (suscriptores, vistas,
+# nº de vídeos) leídas de la página "Acerca de" del canal.
+#
+# CÓMO: ejecuta scripts/fetch_news.py y scripts/fetch_youtube.py (solo
+# biblioteca estándar de Python, sin secretos). Cada script tolera que
+# una fuente falle sin romper las demás y conserva los datos previos
+# de la fuente que falló. El workflow hace commit + push SOLO si
+# data/news.json o data/youtube.json cambiaron.
+#
+# NOTA: El Economista está bloqueado en origen (HTTP 403 AccessDenied,
+# verificado 2026-11-12; rss2json también falla con 422), así que por
+# ahora no aporta notas; el script lo registra en el JSON con
+# status "error". Si el medio lo desbloquea, volverá solo, sin tocar
+# este workflow.
+#
+# NOTA 2: las cifras de YouTube se leen parseando el HTML/JSON embebido
+# de la página del canal, que YouTube cambia a menudo; si el scrape
+# falla, stats queda en null con una nota y el paso NO tumba el resto
+# (continue-on-error) ni impide publicar las noticias.
+#
+# Permisos: solo contents: write (para el commit de los JSON) con el
+# GITHUB_TOKEN que GitHub ya proporciona; no se necesitan secretos.
+# Las ejecuciones programadas solo corren en la rama por defecto (main).
+
+name: Actualizar noticias y YouTube (RSS → data/*.json)
+
+on:
+  schedule:
+    - cron: "*/30 * * * *" # cada 30 minutos
+  workflow_dispatch: # ejecución manual desde Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news-update
+  cancel-in-progress: false
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Descargar RSS y generar data/news.json
+        run: python3 scripts/fetch_news.py
+
+      - name: Sincronizar YouTube y generar data/youtube.json
+        # No tumba el trabajo de noticias si el scrape de cifras falla:
+        # el script ya deja stats en null con nota, pero si hasta el RSS
+        # fallara, las noticias se publican igualmente.
+        continue-on-error: true
+        run: python3 scripts/fetch_youtube.py
+
+      - name: Publicar solo si hubo cambios
+        run: |
+          if git diff --quiet -- data/news.json data/youtube.json; then
+            echo "Sin cambios en data/news.json ni data/youtube.json; no se hace commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data/news.json data/youtube.json
+            git commit -m "Contenido: actualizar data/news.json y data/youtube.json [skip ci]"
+            git push
+          fi
