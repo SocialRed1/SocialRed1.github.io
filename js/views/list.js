@@ -1,5 +1,14 @@
 /* ==========================================================
    Vista: Listados de Cursos y Noticias — referencia imagen 4
+
+   ESTADO (verificado 2026-11-12 por lectura de js/router.js):
+   - La rama de NOTICIAS sí se usa: el router la llama para
+     #/noticias, y esta vista delega en SR.newsCatalogView.
+   - La rama de CURSOS es SOLO RESPALDO: el router (líneas 25-30)
+     usa SR.coursesCatalogView para #/cursos y #/cursos/:id siempre
+     que exista (se carga en index.html antes que el router), y solo
+     cae a esta vista si courses-catalog.js no cargó. No borrar: sin
+     esta rama, ese respaldo del router dejaría de funcionar.
    ========================================================== */
 window.SR = window.SR || {};
 SR.views = SR.views || {};
@@ -46,7 +55,7 @@ SR.views.list = function ({ type }) {
           <div class="tabs" id="listTabs" role="tablist">
             ${tabs.map((t, i) => `<button role="tab" class="tab${i === 0 ? ' is-active' : ''}" data-tab="${i}" aria-selected="${i === 0}">${t}</button>`).join('')}
           </div>
-          <div class="list-cards" id="listCards"></div>
+          <div class="list-cards" id="listCards">${SR.skeletonHTML(4, 'row')}</div>
           <p class="grid-empty light" id="listEmpty" hidden>No hay resultados.</p>
         </div>
 
@@ -90,7 +99,7 @@ SR.views.list = function ({ type }) {
             <a class="cc-cover" href="#/${type}/${d.id}" tabindex="-1" aria-hidden="true">${SR.cover(d.id + 'c', d.hue, d.icon)}</a>
             <div class="cc-info">
               <div class="cc-top"><h3><a href="#/${type}/${d.id}">${SR.esc(d.title)}</a></h3>
-                <span class="rating">${isCourses ? `${SR.icon('star')}${d.rating.toFixed(1)}` : `${SR.icon('clock')}${d.read} min`}</span></div>
+                <span class="rating">${isCourses ? (Number.isFinite(d.rating) ? `${SR.icon('star')}${d.rating.toFixed(1)}` : 'Sin valoración') : `${SR.icon('clock')}${d.read} min`}</span></div>
               <p>${SR.esc(d.short || d.excerpt)}</p>
               <div class="cc-tags"><span class="tag-l">${SR.esc(d.category)}</span>${isCourses ? `<span class="tag-l">${SR.esc(d.level)}</span>` : ''}</div>
               <div class="cc-foot">
@@ -100,7 +109,11 @@ SR.views.list = function ({ type }) {
             </div>
           </article>`).join('');
       };
-      draw();
+      // Primera carga: el skeleton del HTML se pinta un frame antes de
+      // dibujar las tarjetas (la rama de cursos solo es respaldo del
+      // router; la de noticias delega en newsCatalogView).
+      if ('requestAnimationFrame' in window) requestAnimationFrame(draw);
+      else draw();
 
       SR.$('#sideCats', root).addEventListener('click', (e) => {
         const b = e.target.closest('.side-link');

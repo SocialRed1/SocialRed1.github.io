@@ -29,13 +29,14 @@ SR.views.category = function ({ route, query = {} }) {
     // Combinar apps del motor autónomo con apps multiplataforma
     const rawApps = (SR.appsEngine && SR.appsEngine.getAllApps()) || (SR.APPS_CATALOG || []);
     const platformApps = SR.PLATFORM_APPS || [];
-    const allApps = [...rawApps, ...platformApps];
-
-    const stats = (SR.appsEngine && SR.appsEngine.getStats()) || {
-      total: allApps.length,
-      categoriesCount: 10,
-      sources: { ninite: 160, pmpc: 500, ruckzuck: 600 }
-    };
+    // getAllApps() ya incluye las apps multiplataforma: sin dedup por id
+    // se contarían dos veces (y su total de descargas también).
+    const seenAppIds = new Set();
+    const allApps = [...rawApps, ...platformApps].filter((app) => {
+      if (!app || !app.id || seenAppIds.has(app.id)) return false;
+      seenAppIds.add(app.id);
+      return true;
+    });
 
     const categories = (SR.appsEngine && SR.appsEngine.getCategories()) || SR.APP_CATEGORIES || [];
     const platforms = SR.APP_PLATFORMS || [];
@@ -47,11 +48,32 @@ SR.views.category = function ({ route, query = {} }) {
       platformAppCounts[p] = (platformAppCounts[p] || 0) + 1;
     });
 
-    const totalDl = allApps.reduce((acc, it) => {
-      const d = it.downloadCount || (typeof it.downloads === 'number' ? it.downloads : 15000);
-      return acc + d;
-    }, 0);
-    const avgRating = (allApps.reduce((acc, it) => acc + (it.rating || 4.8), 0) / allApps.length).toFixed(1);
+    // Descargas: SOLO cifras reales del catálogo (campo numérico
+    // downloadCount). En las 39 apps del catálogo principal "downloads" es
+    // un objeto con enlaces de descarga, no un conteo: antes se les
+    // asignaban 15,000 descargas inventadas a cada una y el total mostrado
+    // (22,685,384) sumaba además dos veces las multiplataforma. Las apps
+    // sin cifra no aportan al total; se indica cuántas tienen datos.
+    const downloadCountOf = (app) => (app && typeof app.downloadCount === 'number' && Number.isFinite(app.downloadCount) ? app.downloadCount : 0);
+    const appsWithDownloads = allApps.filter((app) => downloadCountOf(app) > 0);
+    const totalDl = appsWithDownloads.reduce((acc, it) => acc + downloadCountOf(it), 0);
+    // Valoración media REAL: solo apps con rating numérico. Si ninguna
+    // app tiene valoración, null (no se inventa un 4.8 por defecto).
+    const avgRating = SR.avgRating(allApps);
+
+    // Respaldo honesto si el motor no está disponible: conteos calculados
+    // desde los datos reales, nunca cifras fijas inventadas. (El motor sí
+    // calcula los conteos por fuente desde las apps; este respaldo solo se
+    // usa si el motor falta.)
+    const fallbackSources = {};
+    allApps.forEach((app) => (app.sources || []).forEach((source) => {
+      fallbackSources[source] = (fallbackSources[source] || 0) + 1;
+    }));
+    const stats = (SR.appsEngine && SR.appsEngine.getStats()) || {
+      total: allApps.length,
+      categoriesCount: categories.length,
+      sources: fallbackSources
+    };
 
     const miniCards = rawApps.slice(0, 3).map((it) => `
       <div class="lap-card">
@@ -106,7 +128,7 @@ SR.views.category = function ({ route, query = {} }) {
                 </div>
               </div>
               <div class="lap-chart">
-                <small>+ ${SR.fmtNum(totalDl)} descargas</small>
+                <small>${appsWithDownloads.length ? `+ ${SR.fmtNum(totalDl)} descargas registradas` : 'Descargas sin cifras publicadas'}</small>
                 <div class="bars">${bars}</div>
               </div>
             </div>
@@ -144,11 +166,11 @@ SR.views.category = function ({ route, query = {} }) {
         </div>
 
         <div class="stat-bar" data-reveal>
-          <div><b>${allApps.length}+</b><small>Aplicaciones</small></div>
-          <div><b>${categories.length}</b><small>Categorías</small></div>
-          <div><b>${platforms.length}</b><small>Plataformas</small></div>
-          <div><b>${avgRating}</b><small>Calificación media</small></div>
-          <div><b>${SR.fmtNum(totalDl)}</b><small>Descargas acumuladas</small></div>
+          <div><b data-count-up="${allApps.length}" data-count-suffix="+">${allApps.length}+</b><small>Aplicaciones</small></div>
+          <div><b data-count-up="${categories.length}">${categories.length}</b><small>Categorías</small></div>
+          <div><b data-count-up="${platforms.length}">${platforms.length}</b><small>Plataformas</small></div>
+          ${avgRating !== null ? `<div><b data-count-up="${avgRating}" data-count-decimals="1">${avgRating}</b><small>Calificación media</small></div>` : `<div><b>Sin datos</b><small>Calificación media · sin valoraciones publicadas</small></div>`}
+          ${appsWithDownloads.length ? `<div><b data-count-up="${totalDl}">${SR.fmtNum(totalDl)}</b><small>Descargas registradas · ${appsWithDownloads.length} apps con datos</small></div>` : `<div><b>Sin datos</b><small>Descargas sin cifras publicadas</small></div>`}
           <a class="btn btn-accent" href="#catalogo" data-scroll="catalogo">Ver catálogo ${SR.icon('arrow')}</a>
         </div>
       </div>
@@ -203,7 +225,7 @@ SR.views.category = function ({ route, query = {} }) {
         </div>
 
         <!-- Grid de aplicaciones -->
-        <div class="item-grid" id="appsGrid"></div>
+        <div class="item-grid" id="appsGrid">${SR.skeletonHTML(8)}</div>
         <p class="grid-empty" id="appsEmpty" hidden>No se encontraron aplicaciones con esos criterios de búsqueda.</p>
 
         <p class="tagline-strip">
@@ -264,10 +286,16 @@ SR.views.category = function ({ route, query = {} }) {
 
         const renderGrid = () => {
           const q = SR.norm(search.value.trim());
-          // Combinar apps del motor autónomo con apps multiplataforma
+          // Combinar apps del motor autónomo con apps multiplataforma,
+          // sin duplicar: getAllApps() ya incluye las multiplataforma.
           const engineApps = (SR.appsEngine && SR.appsEngine.getAllApps()) || (SR.APPS_CATALOG || []);
           const pApps = SR.PLATFORM_APPS || [];
-          const allAppsList = [...engineApps, ...pApps];
+          const seenGridIds = new Set();
+          const allAppsList = [...engineApps, ...pApps].filter((app) => {
+            if (!app || !app.id || seenGridIds.has(app.id)) return false;
+            seenGridIds.add(app.id);
+            return true;
+          });
 
           let list = allAppsList.filter((app) => {
             const matchCat = !activeCat || app.category === activeCat;
@@ -286,8 +314,9 @@ SR.views.category = function ({ route, query = {} }) {
             return matchCat && matchPlatform && matchSrc && matchQuery;
           });
 
-          // Ordenamiento
-          if (sort.value === 'pop') list.sort((a, b) => (b.downloads || 0) - (a.downloads || 0));
+          // Ordenamiento ("downloads" es un objeto con enlaces, no un
+          // conteo: ordenar por el campo numérico real downloadCount).
+          if (sort.value === 'pop') list.sort((a, b) => downloadCountOf(b) - downloadCountOf(a));
           if (sort.value === 'rate') list.sort((a, b) => (b.rating || 0) - (a.rating || 0));
           if (sort.value === 'recent') list.sort((a, b) => (b.releaseDate || '').localeCompare(a.releaseDate || ''));
           if (sort.value === 'az') list.sort((a, b) => a.name.localeCompare(b.name, 'es'));
@@ -314,7 +343,17 @@ SR.views.category = function ({ route, query = {} }) {
           });
         };
 
-        renderGrid();
+        // Primera carga: el skeleton del HTML se pinta un frame antes de
+        // dibujar el grid; si el dibujado falla, aviso visible con reintento.
+        const renderGridSafe = () => {
+          try { renderGrid(); } catch (error) {
+            console.error('No se pudo dibujar el catálogo de aplicaciones:', error);
+            SR.showLoadError(grid, { title: 'No se pudieron cargar las aplicaciones', message: 'Ocurrió un error al dibujar el catálogo. Inténtalo de nuevo.', onRetry: renderGridSafe });
+          }
+        };
+        if ('requestAnimationFrame' in window) requestAnimationFrame(renderGridSafe);
+        else renderGridSafe();
+        SR.observeCountUps(root);
 
         // Eventos de categorías
         SR.$('#appCategoryChips', root).addEventListener('click', (e) => {
@@ -396,7 +435,8 @@ SR.views.category = function ({ route, query = {} }) {
   // Comportamiento habitual para las demás secciones (Canal, SO, Juegos, Propios)
   const items = SR.ITEMS[sec.key];
   const totalDl = items.reduce((n, i) => n + i.downloads, 0);
-  const avg = (items.reduce((n, i) => n + i.rating, 0) / items.length).toFixed(1);
+  // Valoración media REAL; null si ningún ítem tiene rating (sin 4.8 inventado).
+  const avg = SR.avgRating(items);
   const tags = Array.from(new Set(items.flatMap((i) => i.tags)));
 
   const bars = [38, 56, 44, 72, 60, 88, 100].map((h, i) => `<i style="--h:${h}%;--i:${i}"></i>`).join('');
@@ -439,9 +479,9 @@ SR.views.category = function ({ route, query = {} }) {
       </div>
 
       <div class="stat-bar" data-reveal>
-        <div><b>${items.length}+</b><small>Recursos</small></div>
-        <div><b>${avg}</b><small>Calificación media</small></div>
-        <div><b>${SR.fmtNum(totalDl)}</b><small>Descargas</small></div>
+        <div><b data-count-up="${items.length}" data-count-suffix="+">${items.length}+</b><small>Recursos</small></div>
+        ${avg !== null ? `<div><b data-count-up="${avg}" data-count-decimals="1">${avg}</b><small>Calificación media</small></div>` : `<div><b>Sin datos</b><small>Calificación media · sin valoraciones publicadas</small></div>`}
+        <div><b data-count-up="${totalDl}">${SR.fmtNum(totalDl)}</b><small>Descargas</small></div>
         <a class="btn btn-accent" href="#catalogo" data-scroll="catalogo">Ver catálogo ${SR.icon('arrow')}</a>
       </div>
     </div>
@@ -462,7 +502,7 @@ SR.views.category = function ({ route, query = {} }) {
         <button class="chip is-active" data-tag="">Todo</button>
         ${tags.map((t) => `<button class="chip" data-tag="${SR.esc(t)}">${SR.esc(t)}</button>`).join('')}
       </div>
-      <div class="item-grid" id="catGrid"></div>
+      <div class="item-grid" id="catGrid">${SR.skeletonHTML(6)}</div>
       <p class="grid-empty" id="catEmpty" hidden>No hay resultados con esos filtros.</p>
       <p class="tagline-strip">${sec.tagline.map((t) => `<span>${SR.esc(t)}</span>`).join('<i>·</i>')}</p>
     </div>
@@ -489,7 +529,17 @@ SR.views.category = function ({ route, query = {} }) {
         grid.innerHTML = list.map((it) => SR.itemCard(it, sec.key)).join('');
         SR.reveal(grid);
       };
-      draw();
+      // Primera carga: el skeleton del HTML se pinta un frame antes de
+      // dibujar el grid; si el dibujado falla, aviso visible con reintento.
+      const drawSafe = () => {
+        try { draw(); } catch (error) {
+          console.error('No se pudo dibujar el catálogo:', error);
+          SR.showLoadError(grid, { title: 'No se pudo cargar el catálogo', message: 'Ocurrió un error al dibujar los recursos. Inténtalo de nuevo.', onRetry: drawSafe });
+        }
+      };
+      if ('requestAnimationFrame' in window) requestAnimationFrame(drawSafe);
+      else drawSafe();
+      SR.observeCountUps(root);
 
       SR.$('#catChips', root).addEventListener('click', (e) => {
         const b = e.target.closest('.chip');

@@ -55,12 +55,28 @@ SR.views.home = function () {
       </a>
     </article>`).join('');
 
-  const news = SR.NEWS.slice(0, 3).map((n) => `
+  // Fecha de la noticia: las notas locales guardan "date" como desplazamiento
+  // en días (número) y las externas como fecha ISO (texto). SR.addDays solo
+  // acepta números; con ISO hay que construir la fecha directamente.
+  const newsDateLabel = (n) => {
+    const d = typeof n.date === 'number' ? SR.addDays(n.date) : new Date(n.date);
+    if (Number.isNaN(d.getTime())) return '';
+    return SR.fmtDate(d, { day: 'numeric', month: 'short' });
+  };
+  // Miniatura de la noticia: si la nota trae imagen (campo "image" del JSON
+  // de noticias de la Action, o enriquecimiento por Commons) se muestra
+  // encima de la portada generativa; si la imagen falla al cargar se quita
+  // y queda la portada como respaldo. Sin "image", solo la portada.
+  const newsCard = (n) => {
+    const label = newsDateLabel(n);
+    return `
     <a class="news-card" href="#/noticias/${n.id}" data-reveal>
-      <div class="news-thumb">${SR.cover(n.id, n.hue, n.icon)}</div>
+      <div class="news-thumb">${SR.cover(n.id, n.hue, n.icon)}${n.image ? `<img src="${SR.esc(n.image)}" alt="" loading="lazy" onerror="this.remove()">` : ''}</div>
       <div><span class="eyebrow">${SR.esc(n.category)}</span><h3>${SR.esc(n.title)}</h3>
-      <small>${SR.fmtDate(SR.addDays(n.date), { day: 'numeric', month: 'short' })} · ${n.read} min</small></div>
-    </a>`).join('');
+      <small>${label ? `${label} · ` : ''}${n.read} min</small></div>
+    </a>`;
+  };
+  const news = SR.NEWS.slice(0, 3).map(newsCard).join('');
 
   const html = `
   <section class="home-hero">
@@ -106,11 +122,11 @@ SR.views.home = function () {
   <section class="home-youtube-strip" data-reveal>
     <div class="container home-youtube-inner">
       <div class="home-youtube-intro"><span class="home-youtube-mark">▶</span><div><span class="home-small-label">TAMBIÉN EN YOUTUBE</span><h2>Sigue a Social Red</h2><p>Tutoriales, tecnología y contenido para aprender y disfrutar.</p></div></div>
-      <div class="home-youtube-stat"><b>480</b><small>Suscriptores</small></div>
-      <div class="home-youtube-stat"><b>80,157</b><small>Reproducciones</small></div>
-      <div class="home-youtube-stat"><b>75</b><small>Videos publicados</small></div>
+      <div class="home-youtube-stat"><b id="homeYtSubs">480</b><small>Suscriptores</small></div>
+      <div class="home-youtube-stat"><b id="homeYtViews">80,157</b><small>Reproducciones</small></div>
+      <div class="home-youtube-stat"><b id="homeYtVideos">75</b><small>Videos publicados</small></div>
       <a class="home-youtube-button" href="${channelUrl}" target="_blank" rel="noopener noreferrer">Visitar canal ${SR.icon('arrow')}</a>
-      <small class="home-youtube-date">Métricas consultadas · 12 nov 2026</small>
+      <small class="home-youtube-date" id="homeYtDate">Métricas consultadas · 12 nov 2026</small>
     </div>
   </section>
 
@@ -118,6 +134,7 @@ SR.views.home = function () {
     <div class="container">
       <div class="home-market-heading" data-reveal><div><span class="home-small-label">MERCADO DIGITAL</span><h2>Criptomonedas en tiempo real</h2><p>Precios, variación y rangos de las principales criptomonedas.</p></div>
         <a href="${marketUrl}" target="_blank" rel="noopener noreferrer">Datos de mercado · CoinGecko ${SR.icon('arrow')}</a></div>
+      <div class="home-market-ticker" aria-label="Cotizaciones destacadas"><div class="home-market-ticker-track" id="homeMarketTicker"><span>Cargando cotizaciones…</span></div></div>
       <div class="home-market-panel" data-reveal>
         <div class="home-market-chart">
           <div class="home-market-chart-head"><span><i></i> Tendencia de las últimas 24 h · escala normalizada</span><small id="homeMarketUpdated">Conectando al mercado…</small></div>
@@ -125,7 +142,7 @@ SR.views.home = function () {
           <div class="home-market-legend">${marketAssets.map((asset) => `<span><i style="--coin-color:${asset.hue}"></i>${asset.symbol}</span>`).join('')}</div>
         </div>
         <div class="home-market-table-wrap"><table class="home-market-table">
-          <thead><tr><th>Activo</th><th>Precio USD</th><th>24 h</th><th>Mín. 24 h</th><th>Máx. 24 h</th><th>Tendencia</th></tr></thead>
+          <thead><tr><th>Activo</th><th>Precio USD</th><th>24 h</th><th class="col-min">Mín. 24 h</th><th class="col-max">Máx. 24 h</th><th>Tendencia</th></tr></thead>
           <tbody id="homeMarketRows"><tr><td colspan="6"><span class="home-market-loading"><i></i> Cargando cotizaciones actuales…</span></td></tr></tbody>
         </table></div>
         <p class="home-market-note">Datos informativos; las cotizaciones pueden retrasarse y no constituyen asesoría financiera. <span id="homeMarketSource">Fuente: CoinGecko · referencia de gráficos: CoinMarketCap.</span></p>
@@ -162,6 +179,7 @@ SR.views.home = function () {
         <a class="btn btn-ghost btn-sm" href="#/noticias">Ver todas ${SR.icon('arrow')}</a>
       </div>
       <div class="news-row">${news}</div>
+      <div class="sr-error-slot" id="homeNewsErrorSlot"></div>
     </div>
   </section>
 
@@ -199,7 +217,7 @@ SR.views.home = function () {
         visits = Number.isSafeInteger(visits) && visits > 0 ? visits : 1;
       }
       const visitCount = SR.$('#homeVisitCount', root);
-      if (visitCount) visitCount.textContent = SR.fmtNum(visits);
+      if (visitCount) SR.animateCount(visitCount, visits);
 
       const clock = () => {
         if (!root.isConnected || document.body.dataset.view !== 'home') {
@@ -246,6 +264,83 @@ SR.views.home = function () {
       });
       input.addEventListener('input', SR.debounce(draw, 120));
 
+      /* ---- Home en vivo: cifras del canal + noticias ---- */
+      // Cifras del canal desde data/youtube.json (Action) vía
+      // SR.loadChannelData() (js/channel-catalog.js): primero el JSON, luego
+      // la copia guardada y luego la semilla. Si el JSON no trae cifras
+      // (stats null), se conservan los valores fijos del HTML (480 /
+      // 80,157 / 75) con su fecha de consulta y una nota discreta.
+      const ytSubs = SR.$('#homeYtSubs', root);
+      const ytViews = SR.$('#homeYtViews', root);
+      const ytVideos = SR.$('#homeYtVideos', root);
+      const ytDate = SR.$('#homeYtDate', root);
+      const fmtChannelWhen = (iso) => {
+        try {
+          return new Intl.DateTimeFormat('es-MX', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }).format(new Date(iso));
+        } catch (error) { return ''; }
+      };
+      const applyChannelStats = (data) => {
+        if (!data) return;
+        if (data.stats) {
+          if (Number.isFinite(data.stats.subscribers) && ytSubs) SR.animateCount(ytSubs, data.stats.subscribers);
+          if (Number.isFinite(data.stats.views) && ytViews) SR.animateCount(ytViews, data.stats.views);
+        }
+        if (Number.isFinite(data.totalVideos) && ytVideos) SR.animateCount(ytVideos, data.totalVideos);
+        if (ytDate) {
+          if (data.source === 'youtube-json' && data.fetchedAt) {
+            ytDate.textContent = data.live
+              ? `Actualizado ${fmtChannelWhen(data.fetchedAt)} · cifras en vivo`
+              : data.approximate
+                ? `Actualizado ${fmtChannelWhen(data.fetchedAt)} · cifras aproximadas`
+                : `Actualizado ${fmtChannelWhen(data.fetchedAt)}`;
+          } else if (data.source === 'cache' && data.fetchedAt) {
+            ytDate.textContent = `Última sincronización guardada ${fmtChannelWhen(data.fetchedAt)}`;
+          } else {
+            ytDate.textContent = 'Métricas consultadas · 12 nov 2026 · cifras de respaldo';
+          }
+        }
+      };
+      if (typeof SR.loadChannelData === 'function') {
+        SR.loadChannelData().then(applyChannelStats).catch((error) => {
+          console.error('No se pudieron cargar las cifras del canal en el Home:', error);
+          // Aviso visible (no solo consola): se conservan las cifras
+          // fijas de respaldo del HTML.
+          if (ytDate) ytDate.textContent = 'No se pudieron actualizar las cifras del canal; se muestran las cifras de respaldo.';
+        });
+      }
+      // Noticias: SR.refreshNews() (js/news-catalog.js) lee PRIMERO
+      // data/news.json (Action) y solo si falla intenta los RSS directos.
+      // Al terminar se redibujan las 3 últimas noticias con su miniatura
+      // (campo "image" del JSON o de Commons). Si falla, quedan las locales.
+      const newsRow = SR.$('.news-row', root);
+      const newsErrorSlot = SR.$('#homeNewsErrorSlot', root);
+      const drawHomeNews = () => {
+        if (!newsRow) return;
+        newsRow.innerHTML = SR.NEWS.slice(0, 3).map(newsCard).join('');
+      };
+      // Skeleton mientras se actualizan las noticias; si la actualización
+      // falla, quedan las notas locales Y un aviso visible con reintento
+      // (antes el fallo solo quedaba en la consola).
+      const refreshHomeNews = () => {
+        if (typeof SR.refreshNews !== 'function') return;
+        if (newsRow) newsRow.innerHTML = SR.skeletonHTML(3, 'row');
+        if (newsErrorSlot) newsErrorSlot.innerHTML = '';
+        SR.refreshNews().then(() => {
+          drawHomeNews();
+          if (newsErrorSlot) newsErrorSlot.innerHTML = '';
+        }).catch((error) => {
+          console.warn('No se pudieron actualizar las noticias del Home:', error);
+          drawHomeNews();
+          SR.showLoadError(newsErrorSlot, {
+            title: 'No se pudieron actualizar las noticias',
+            message: 'Se muestran las notas guardadas. Se reintentará automáticamente.',
+            retryLabel: 'Reintentar ahora',
+            onRetry: refreshHomeNews
+          });
+        });
+      };
+      refreshHomeNews();
+
       const marketRows = SR.$('#homeMarketRows', root);
       const marketGraph = SR.$('#homeMarketGraph', root);
       const marketUpdated = SR.$('#homeMarketUpdated', root);
@@ -272,6 +367,35 @@ SR.views.home = function () {
         }).join('');
         if (paths) marketGraph.innerHTML = `<svg viewBox="0 0 760 150" preserveAspectRatio="none" aria-label="Tendencia normalizada de Bitcoin, Ethereum, BNB, Solana y XRP durante las últimas 24 horas"><path d="M0 13H760M0 54H760M0 95H760M0 137H760" stroke="rgba(255,255,255,.09)" stroke-dasharray="4 7" vector-effect="non-scaling-stroke"/>${paths}</svg>`;
       };
+      // Animación de precios: se guarda el precio anterior para animar el
+      // cambio (flash + flecha + color + count-up) en vez de sustituirlo.
+      const marketTicker = SR.$('#homeMarketTicker', root);
+      const prevPrices = new Map();
+      const animatePrice = (el, from, to) => {
+        if (SR.reducedMotion() || !Number.isFinite(from) || from === to) { el.textContent = currency.format(to); return; }
+        const start = performance.now();
+        const duration = 500;
+        const frame = (now) => {
+          const progress = Math.min(1, (now - start) / duration);
+          const eased = 1 - Math.pow(1 - progress, 3);
+          el.textContent = currency.format(from + (to - from) * eased);
+          if (progress < 1 && el.isConnected) requestAnimationFrame(frame);
+          else el.textContent = currency.format(to);
+        };
+        requestAnimationFrame(frame);
+      };
+      const renderTicker = (byId) => {
+        if (!marketTicker) return;
+        const items = marketAssets.map((asset) => {
+          const coin = byId.get(asset.id);
+          if (!coin) return '';
+          const change = Number(coin.price_change_percentage_24h);
+          const dir = change >= 0 ? 'is-up' : 'is-down';
+          return `<span class="home-ticker-item"><b>${asset.symbol}</b>&nbsp;${currency.format(coin.current_price)} <i class="${dir}">${change >= 0 ? '▲' : '▼'} ${change >= 0 ? '+' : ''}${number.format(change)}%</i></span>`;
+        }).filter(Boolean).join('<span class="home-ticker-sep" aria-hidden="true">•</span>');
+        // Contenido duplicado para que el marquee haga el bucle sin salto.
+        if (items) marketTicker.innerHTML = `${items}<span class="home-ticker-sep" aria-hidden="true">•</span>${items}`;
+      };
       const refreshMarket = async () => {
         if (!root.isConnected || document.body.dataset.view !== 'home') return;
         try {
@@ -286,20 +410,36 @@ SR.views.home = function () {
             if (!coin) return '';
             const change = Number(coin.price_change_percentage_24h);
             const direction = change >= 0 ? 'is-up' : 'is-down';
+            const prev = prevPrices.get(asset.id);
+            const tick = prev === undefined ? '' : (coin.current_price > prev ? 'up' : coin.current_price < prev ? 'down' : 'flat');
             const trend = buildSparkline(coin.sparkline_in_7d && coin.sparkline_in_7d.price || [], asset.hue);
-            return `<tr><td><span class="home-coin-name"><i style="--coin-color:${asset.hue}">${asset.symbol.slice(0,1)}</i><b>${asset.name}</b><small>${asset.symbol}</small></span></td>
-              <td class="home-coin-price">${currency.format(coin.current_price)}</td>
+            return `<tr data-coin-row="${asset.id}"${tick === 'up' ? ' class="flash-up"' : tick === 'down' ? ' class="flash-down"' : ''}><td><span class="home-coin-name"><i style="--coin-color:${asset.hue}">${asset.symbol.slice(0,1)}</i><b>${asset.name}</b><small>${asset.symbol}</small></span></td>
+              <td class="home-coin-price${tick ? ` price-${tick}` : ''}"><span class="home-coin-value" data-coin="${asset.id}">${currency.format(coin.current_price)}</span>${tick === 'up' ? '<span class="home-coin-arrow" aria-hidden="true">▲</span>' : tick === 'down' ? '<span class="home-coin-arrow" aria-hidden="true">▼</span>' : ''}</td>
               <td><span class="home-coin-change ${direction}">${change >= 0 ? '+' : ''}${number.format(change)}%</span></td>
-              <td>${currency.format(coin.low_24h)}</td><td>${currency.format(coin.high_24h)}</td>
+              <td class="col-min">${currency.format(coin.low_24h)}</td><td class="col-max">${currency.format(coin.high_24h)}</td>
               <td class="home-coin-sparkline">${trend}</td></tr>`;
           }).filter(Boolean);
           if (!rows.length) throw new Error('La respuesta del mercado no incluyó los activos solicitados.');
           marketRows.innerHTML = rows.join('');
+          // Count-up desde el precio anterior (si lo hay) y ticker.
+          marketAssets.forEach((asset) => {
+            const coin = byId.get(asset.id);
+            if (!coin) return;
+            const prev = prevPrices.get(asset.id);
+            const valueEl = marketRows.querySelector(`[data-coin="${asset.id}"]`);
+            if (valueEl && prev !== undefined && prev !== coin.current_price) animatePrice(valueEl, prev, coin.current_price);
+            prevPrices.set(asset.id, coin.current_price);
+          });
+          renderTicker(byId);
           marketUpdated.textContent = `Actualizado ${new Intl.DateTimeFormat('es-MX', { hour: '2-digit', minute: '2-digit', second: '2-digit' }).format(new Date())}`;
         } catch (error) {
           console.error('No se pudieron cargar las cotizaciones de criptomonedas:', error);
           marketUpdated.textContent = 'Cotizaciones temporalmente no disponibles';
-          marketRows.innerHTML = '<tr><td colspan="6"><span class="home-market-error">No se pudo conectar al proveedor de datos. Se reintentará automáticamente.</span></td></tr>';
+          // Si ya hay cotizaciones en pantalla, se conservan (aunque sean
+          // de la carga anterior) en vez de borrar la tabla.
+          if (!marketRows.querySelector('[data-coin-row]')) {
+            marketRows.innerHTML = '<tr><td colspan="6"><span class="home-market-error">No se pudo conectar al proveedor de datos. Se reintentará automáticamente.</span></td></tr>';
+          }
         }
       };
       refreshMarket();
@@ -311,7 +451,7 @@ SR.views.home = function () {
           return;
         }
         if (document.visibilityState === 'visible') refreshMarket();
-      }, 60 * 1000);
+      }, 30 * 1000);
 
       const hero = SR.$('.home-hero', root);
       const visual = SR.$('.home-hero-dashboard', root);

@@ -131,8 +131,10 @@ body[data-view="home"] main { background: linear-gradient(180deg, #2a1480 0, #1a
 .news-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
 .news-card { display: grid; grid-template-columns: 110px 1fr; gap: 16px; align-items: center; padding: 14px; border-radius: 20px; background: var(--glass); border: 1px solid var(--glass-border); transition: transform var(--t) var(--ease), background var(--t), border-color var(--t); }
 .news-card:hover { transform: translateY(-4px); background: var(--glass-strong); border-color: rgba(161, 132, 255, .5); }
-.news-thumb { aspect-ratio: 1; border-radius: 16px; overflow: hidden; }
+.news-thumb { position: relative; aspect-ratio: 1; border-radius: 16px; overflow: hidden; }
 .news-thumb svg { width: 100%; height: 100%; }
+/* Miniatura real de la noticia sobre la portada generativa (respaldo). */
+.news-thumb img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .news-card h3 { font-size: 16px; margin: 6px 0; line-height: 1.25; }
 .news-card small { color: #9aa1cf; font-size: 12px; }
 .news-card .eyebrow { font-size: 11px; color: var(--orange-400); }
@@ -144,8 +146,8 @@ body[data-view="home"] main { background: linear-gradient(180deg, #2a1480 0, #1a
 .cta-box h2 { font-size: clamp(26px, 3vw, 38px); margin-bottom: 10px; }
 .cta-box p { color: #d9d6ff; max-width: 540px; margin-bottom: 22px; }
 
-@media (max-width: 1200px) { .card-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } .featured-row { grid-template-columns: 1fr; } }
-@media (max-width: 980px) {
+@media (max-width: 1280px) { .card-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } .featured-row { grid-template-columns: 1fr; } }
+@media (max-width: 1024px) {
   .hero-grid { grid-template-columns: 1fr; }
   .hero-visual { height: 420px; order: 2; }
   .card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -154,12 +156,14 @@ body[data-view="home"] main { background: linear-gradient(180deg, #2a1480 0, #1a
   .cta-box { grid-template-columns: 1fr; text-align: center; justify-items: center; padding: 32px 24px; }
   .cube-a { display: none; }
 }
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .feature-panel, .feature-panel:nth-child(2) { grid-template-columns: 1fr; }
   .feature-panel:nth-child(2) .feature-card { order: 0; }
   .feature-card { min-height: 220px; }
-  .hero-visual { height: 340px; transform: scale(.82); transform-origin: top center; }
+  /* Sin transform scale(): el hero se reacomoda con altura propia en vez
+     de encogerse y dejar espacio vacío en el layout. */
+  .hero-visual { height: 400px; transform: none; }
   .home-hero { padding-bottom: 150px; }
   .explore-tools { width: 100%; }
 }

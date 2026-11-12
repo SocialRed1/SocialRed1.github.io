@@ -1,0 +1,156 @@
+/* ==========================================================
+   Social Red — efectos profesionales: skeletons, contadores
+   animados y estados de error visibles.
+   Usado por js/utils.js (SR.skeletonHTML, SR.showLoadError,
+   SR.animateCount, SR.observeCountUps) y por las vistas que
+   cargan datos (Noticias, Juegos, Aplicaciones, Videos).
+   Respeta prefers-reduced-motion en todas las animaciones.
+   ========================================================== */
+
+/* ---------- Skeleton loaders ---------- */
+.sr-skeleton-wrap {
+  display: contents;
+}
+
+/* Cuando el wrap va dentro de un grid (.item-grid, .card-grid,
+   .list-cards...), cada skeleton ocupa una celda del grid. */
+.sr-skeleton {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, .08);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, .03);
+}
+
+.sr-skeleton-card .sr-sk-media,
+.sr-skeleton-video .sr-sk-media {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+}
+
+.sr-skeleton-row {
+  grid-template-columns: 96px 1fr;
+  align-items: center;
+}
+
+.sr-skeleton-row .sr-sk-thumb {
+  display: block;
+  width: 96px;
+  height: 64px;
+  border-radius: 10px;
+}
+
+.sr-sk-lines {
+  display: grid;
+  gap: 8px;
+}
+
+.sr-sk-lines i {
+  display: block;
+  height: 12px;
+  border-radius: 6px;
+}
+
+.sr-sk-lines i:nth-child(2) { width: 78%; }
+.sr-sk-lines i:nth-child(3) { width: 55%; }
+
+/* Brillo que recorre el skeleton (shimmer). */
+.sr-sk-media,
+.sr-sk-thumb,
+.sr-sk-lines i {
+  background: linear-gradient(100deg, rgba(255, 255, 255, .06) 30%, rgba(255, 255, 255, .16) 50%, rgba(255, 255, 255, .06) 70%);
+  background-size: 200% 100%;
+  animation: sr-skeleton-shimmer 1.4s linear infinite;
+}
+
+@keyframes sr-skeleton-shimmer {
+  from { background-position: 180% 0; }
+  to { background-position: -20% 0; }
+}
+
+/* ---------- Estado de error visible ---------- */
+.sr-load-error {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 16px 0;
+  padding: 14px 16px;
+  border: 1px solid rgba(255, 130, 145, .45);
+  border-radius: 12px;
+  background: rgba(247, 89, 113, .12);
+  color: #ffd7db;
+}
+
+.sr-load-error-icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(247, 89, 113, .22);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.sr-load-error-text {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.sr-load-error-text b {
+  color: #fff;
+  font-size: 14px;
+}
+
+.sr-load-error-text small {
+  color: #f3b8bf;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.sr-load-error-retry {
+  flex: none;
+  margin-left: auto;
+  padding: 9px 14px;
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .1);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background .2s ease, transform .2s ease;
+}
+
+.sr-load-error-retry:hover {
+  background: rgba(255, 255, 255, .2);
+  transform: translateY(-1px);
+}
+
+/* El slot de error no ocupa espacio mientras está vacío. */
+.sr-error-slot:empty {
+  display: none;
+}
+
+/* ---------- Contadores animados ---------- */
+[data-count-up] {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- Movimiento reducido ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .sr-sk-media,
+  .sr-sk-thumb,
+  .sr-sk-lines i {
+    animation: none;
+  }
+
+  .sr-load-error-retry {
+    transition: none;
+  }
+}

@@ -1,5 +1,19 @@
 /* ==========================================================
    Vista: Detalle de curso / noticia — referencia imagen 5
+
+   ESTADO (verificado 2026-11-12 por lectura de js/router.js):
+   INALCANZABLE en operación normal. El router atiende antes
+   #/cursos/:id con SR.coursesCatalogView (líneas 28-30) y
+   #/noticias/:id con SR.newsArticleView (líneas 31-33); ambos
+   existen siempre que courses-catalog.js y news-catalog.js carguen
+   (index.html los carga antes que el router). La línea 35 del
+   router, que llama a esta vista, solo se alcanza si alguno de
+   esos dos scripts no cargó: es un RESPALDO, no código en uso.
+   NO SE BORRA por eso: eliminarlo (y su <script> en index.html)
+   quitaría el único detalle de curso/noticia si esos scripts
+   fallan. Si el coordinador decide retirar el respaldo, hay que
+   borrar este archivo, su <script> en index.html y la línea 35
+   del router, juntos.
    ========================================================== */
 window.SR = window.SR || {};
 SR.views = SR.views || {};

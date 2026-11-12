@@ -124,6 +124,55 @@ SR.showSyncModal = function () {
   });
 };
 
+/* ---------- Respaldo de logo: SVG en línea o placeholder genérico ---------- */
+// Tercer nivel de respaldo cuando fallan `logo` y `logoFallback` (nunca dejar el panel sin imagen).
+// SR.appLogo() (js/utils.js) usa claves distintas a algunos IDs del catálogo; este mapa las reconcilia.
+SR._appLogoAliases = {
+  'telegram-desktop': 'telegram',
+  'telegram-desktop-mac': 'telegram-mac',
+  'vlc-media-player': 'vlc',
+  'visual-studio-code': 'vscode',
+  'notepad-plus-plus': 'notepad-plus',
+  '7-zip': '7zip',
+  'powertoys': 'power-toys',
+  'everything-search': 'everything',
+  'sumatrapdf': 'sumatra',
+  'dotnet-desktop-runtime': 'dotnet-runtime'
+};
+
+SR.appLogoSafe = function (app) {
+  const id = (app && app.id) || '';
+  if (typeof SR.appLogo === 'function') {
+    const direct = SR.appLogo(id);
+    if (direct) return direct;
+    const alias = SR._appLogoAliases[id];
+    if (alias) { const via = SR.appLogo(alias); if (via) return via; }
+  }
+  // Placeholder genérico: iniciales de la app en un círculo con color derivado del ID.
+  const name = String((app && app.name) || id || '?').trim();
+  const initials = (name.split(/[\s\-_]+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join('') || '?').toUpperCase();
+  const hue = typeof SR.hashStr === 'function' ? SR.hashStr(id || name) % 360 : 260;
+  return `<svg viewBox="0 0 58 58" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo de ${SR.esc(name)}"><rect width="58" height="58" rx="12" fill="hsl(${hue} 65% 45%)"/><text x="29" y="37" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#fff">${SR.esc(initials)}</text></svg>`;
+};
+
+// Manejador de error de <img> de logo: 1) intenta logoFallback una vez; 2) sustituye por
+// SR.appLogoSafe() (SVG en línea o placeholder). Nunca oculta la imagen con display:none.
+SR.appImgError = function (img) {
+  if (img.dataset.fallback && !img.dataset.tried) {
+    img.dataset.tried = '1';
+    img.src = img.dataset.fallback;
+    return;
+  }
+  const svg = SR.appLogoSafe({ id: img.dataset.appId || '', name: img.dataset.appName || img.dataset.appId || '' });
+  const host = img.parentElement;
+  if (!host || !svg) { img.style.display = 'none'; return; }
+  const inModal = !!img.closest('.modal-app-logo');
+  const wrap = document.createElement(inModal ? 'div' : 'span');
+  if (!inModal) wrap.className = 'app-logo-img';
+  wrap.innerHTML = svg;
+  img.replaceWith(wrap);
+};
+
 /* ---------- Tarjeta Enriquecida de Aplicación ---------- */
 SR.appCard = function (app) {
   const safeName = SR.esc(app.name);
@@ -142,9 +191,11 @@ SR.appCard = function (app) {
   const logoFallback = app.logo && app.logoFallback
     ? ` data-fallback="${SR.esc(app.logoFallback)}"`
     : '';
+  // Tercer nivel de respaldo: si fallan logo y logoFallback, SR.appImgError sustituye
+  // la <img> por el SVG en línea de SR.appLogo() o por un placeholder genérico.
   const logoBlock = logoUrl
-    ? `<img class="app-logo-img" src="${SR.esc(logoUrl)}" alt="Logo de ${safeName}" loading="lazy"${logoFallback} onerror="if(this.dataset.fallback&&!this.dataset.tried){this.dataset.tried='1';this.src=this.dataset.fallback;}else{this.style.display='none';}">`
-    : '';
+    ? `<img class="app-logo-img" src="${SR.esc(logoUrl)}" alt="Logo de ${safeName}" loading="lazy" data-app-id="${SR.esc(app.id)}" data-app-name="${safeName}"${logoFallback} onerror="SR.appImgError(this)">`
+    : `<span class="app-logo-img">${SR.appLogoSafe(app)}</span>`;
 
   return `
     <article class="app-card" data-app-id="${app.id}" data-category="${app.category}" data-reveal>
@@ -310,9 +361,10 @@ SR.openAppModal = function (appId, onClose) {
   const modalLogoFallback = app.logo && app.logoFallback
     ? ` data-fallback="${SR.esc(app.logoFallback)}"`
     : '';
+  // Tercer nivel de respaldo (igual que en la tarjeta): SVG en línea o placeholder genérico.
   const modalLogoBlock = modalLogoUrl
-    ? `<img src="${SR.esc(modalLogoUrl)}" alt="Logo de ${SR.esc(app.name)}"${modalLogoFallback} onerror="if(this.dataset.fallback&&!this.dataset.tried){this.dataset.tried='1';this.src=this.dataset.fallback;}else{this.style.display='none';}">`
-    : '';
+    ? `<img src="${SR.esc(modalLogoUrl)}" alt="Logo de ${SR.esc(app.name)}" data-app-id="${SR.esc(app.id)}" data-app-name="${SR.esc(app.name)}"${modalLogoFallback} onerror="SR.appImgError(this)">`
+    : `<div>${SR.appLogoSafe(app)}</div>`;
 
   const wrap = SR.openOverlay(`
     <button class="icon-btn modal-close" data-close aria-label="Cerrar ventana">${SR.icon('close')}</button>
@@ -343,7 +395,7 @@ SR.openAppModal = function (appId, onClose) {
     <!-- Navegación por pestañas -->
     <nav class="modal-tabs" aria-label="Pestañas de la aplicación">
       <button class="modal-tab-btn is-active" data-tab="tab-desc">${SR.icon('book')} Descripción</button>
-      <button class="modal-tab-btn" data-tab="tab-screens">${SR.icon('tv')} Capturas de Pantalla</button>
+      <button class="modal-tab-btn" data-tab="tab-screens">${SR.icon('tv')} Imágenes ilustrativas</button>
       <button class="modal-tab-btn" data-tab="tab-specs">${SR.icon('cpu')} Recursos y Requisitos</button>
       <button class="modal-tab-btn" data-tab="tab-versions">${SR.icon('clock')} Historial de Versiones</button>
       <button class="modal-tab-btn" data-tab="tab-downloads">${SR.icon('download')} Enlaces de Descarga</button>
@@ -380,7 +432,7 @@ SR.openAppModal = function (appId, onClose) {
       <!-- Pestaña 2: Capturas de Pantalla -->
       <div class="tab-pane" id="tab-screens">
         <h4 style="font-family:var(--font-display);font-size:17px;color:#fff;margin-bottom:14px">
-          Capturas de Pantalla Oficiales (Haz clic en una imagen para ampliar)
+          Imágenes ilustrativas (Haz clic en una imagen para ampliar)
         </h4>
         ${screenshotsHtml}
       </div>

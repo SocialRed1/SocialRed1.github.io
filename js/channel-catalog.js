@@ -9,6 +9,122 @@ window.SR = window.SR || {};
     encodeURIComponent('https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw');
   const cacheKey = 'sr-channel-videos';
   const refreshInterval = 30 * 60 * 1000;
+
+  /* Datos en vivo del canal: data/youtube.json, generado por la GitHub
+     Action cada 30 min (scripts/fetch_youtube.py). Contrato del JSON:
+     { generated_at, videos: [{id, title, date, url, thumbnail}],
+       stats: {subscribers, views, videos, fetched_at, live, approximate,
+       note} | null,
+       stats_fallback: {subscribers: 480, views: 80157, videos: 75, note},
+       notes: [...] }.
+     - stats.live === true: cifras leídas EN VIVO de la página "Acerca de".
+     - stats.approximate === true: cifras aproximadas (p. ej. redondeadas).
+     - stats === null: sin cifras en vivo; se usan las FIJAS de respaldo
+       (480 subs / 80,157 vistas / 75 vídeos, consultados: 12 nov 2026)
+       y se indica así en la interfaz. Nunca se inventan cifras. */
+  const youtubeJsonUrl = 'data/youtube.json';
+  const channelJsonCacheKey = 'sr-channel-data-v1';
+  let seedVideoIds = null; // Se inicializa perezosamente: `videos` se declara más abajo en este IIFE.
+  let channelDataCache = null;
+  let channelDataPromise = null;
+
+  const pickChannelNumber = (...values) => {
+    for (const value of values) {
+      const n = Number(value);
+      if (Number.isFinite(n) && n >= 0) return n;
+    }
+    return null;
+  };
+  const normalizeChannelStats = (raw) => {
+    if (!raw || typeof raw !== 'object') return null;
+    const subscribers = pickChannelNumber(raw.subscribers, raw.subs, raw.subscriberCount);
+    const views = pickChannelNumber(raw.views, raw.viewCount, raw.totalViews);
+    const videoCount = pickChannelNumber(raw.videos, raw.videoCount, raw.totalVideos);
+    if (subscribers === null && views === null && videoCount === null) return null;
+    return { subscribers, views, videos: videoCount };
+  };
+  const normalizeChannelItem = (item) => {
+    if (!item || typeof item !== 'object') return null;
+    const directId = typeof item.id === 'string' && /^[A-Za-z0-9_-]{11}$/.test(item.id) ? item.id : '';
+    const fromLink = `${item.guid || ''} ${item.link || ''} ${item.url || ''}`.match(/[A-Za-z0-9_-]{11}/)?.[0] || '';
+    const id = directId || fromLink;
+    const title = String(item.title || '').trim();
+    if (!id || !title) return null;
+    return { id, title, published: item.published || item.publishedAt || item.pubDate || item.date || '' };
+  };
+  const finishChannelData = (data) => {
+    if (!seedVideoIds) seedVideoIds = new Set(videos.map(([id]) => id));
+    const extras = new Set((data.videos || []).map((video) => video.id).filter((id) => !seedVideoIds.has(id)));
+    return { ...data, totalVideos: seedVideoIds.size + extras.size };
+  };
+  const readChannelJsonCache = () => {
+    try {
+      const cached = JSON.parse(localStorage.getItem(channelJsonCacheKey) || 'null');
+      if (!cached || typeof cached !== 'object') return null;
+      return {
+        videos: (Array.isArray(cached.videos) ? cached.videos : []).map(normalizeChannelItem).filter(Boolean),
+        stats: normalizeChannelStats(cached.stats || null),
+        fetchedAt: cached.fetchedAt || '',
+        live: cached.live === true,
+        approximate: cached.approximate === true,
+        note: typeof cached.note === 'string' ? cached.note : '',
+        source: 'cache'
+      };
+    } catch (error) {
+      console.warn('No se pudo leer la caché local de datos del canal:', error);
+      return null;
+    }
+  };
+  /* Lee PRIMERO data/youtube.json (Action), con respaldo a la última copia
+     guardada en localStorage y luego a la semilla local. Nunca rechaza: si
+     todo falla devuelve las cifras fijas con source 'seed'. El resultado se
+     cachea en memoria para no descargar el JSON varias veces por sesión. */
+  SR.loadChannelData = function (force) {
+    if (channelDataCache && !force) return Promise.resolve(channelDataCache);
+    if (channelDataPromise && !force) return channelDataPromise;
+    channelDataPromise = (async () => {
+      try {
+        const response = await fetch(youtubeJsonUrl, { cache: 'no-store' });
+        if (!response.ok) throw new Error(`data/youtube.json respondió ${response.status}`);
+        const payload = await response.json();
+        const statsRaw = payload.stats || null;
+        const stats = normalizeChannelStats(statsRaw);
+        const data = finishChannelData({
+          videos: (Array.isArray(payload.videos) ? payload.videos : []).map(normalizeChannelItem).filter(Boolean),
+          stats,
+          fetchedAt: (statsRaw && statsRaw.fetched_at) || payload.fetched_at || payload.generated_at || '',
+          live: statsRaw ? statsRaw.live === true : false,
+          approximate: statsRaw ? statsRaw.approximate === true : false,
+          note: (statsRaw && statsRaw.note) || '',
+          source: 'youtube-json'
+        });
+        try {
+          localStorage.setItem(channelJsonCacheKey, JSON.stringify({
+            videos: data.videos, stats: data.stats, fetchedAt: data.fetchedAt,
+            live: data.live, approximate: data.approximate, note: data.note
+          }));
+        } catch (error) {
+          console.warn('No se pudo guardar la caché local de datos del canal:', error);
+        }
+        channelDataCache = data;
+        return data;
+      } catch (error) {
+        console.warn('No se pudo leer data/youtube.json; se usa el respaldo:', error);
+        const cached = readChannelJsonCache();
+        if (cached && (cached.videos.length || cached.stats)) {
+          channelDataCache = finishChannelData(cached);
+          return channelDataCache;
+        }
+        // Semilla local: cifras fijas de respaldo, marcadas como tales.
+        channelDataCache = finishChannelData({
+          videos: [], stats: null, fetchedAt: '', live: false, approximate: false,
+          note: 'Cifras fijas de respaldo (consultados: 12 nov 2026).', source: 'seed'
+        });
+        return channelDataCache;
+      }
+    })();
+    return channelDataPromise;
+  };
   const videos = [
     ['HTWrW0htTJA', 'Google lanza dos chips de IA contra Nvidia 🤖'],
     ['mMpItBOn3yM', 'Tu cámara de seguridad ahora vuela 🚁'],
@@ -145,10 +261,10 @@ window.SR = window.SR || {};
             <div class="channel-about-copy"><span class="channel-section-kicker">TECNOLOGÍA, SIN COMPLICACIONES</span><h2>Descubre el canal Social Red</h2>
               <p>Un espacio para conocer herramientas digitales, aprender con guías paso a paso y disfrutar de contenido sobre videojuegos y tecnología. Encuentra aquí los videos publicados en el canal, con acceso directo a cada uno en YouTube.</p></div>
             <div class="channel-stats" aria-label="Estadísticas públicas del canal">
-              <div><b>${SR.fmtNum(channelStats.subscribers)}</b><small>Suscriptores</small></div>
-              <div><b>${SR.fmtNum(channelStats.views)}</b><small>Reproducciones</small></div>
+              <div><b id="channelStatSubs">${SR.fmtNum(channelStats.subscribers)}</b><small>Suscriptores</small></div>
+              <div><b id="channelStatViews">${SR.fmtNum(channelStats.views)}</b><small>Reproducciones</small></div>
               <div><b id="channelVideoTotal">${categorized.length}</b><small>Videos</small></div>
-              <small class="channel-stats-date">Suscriptores y reproducciones consultados: 12 nov 2026</small>
+              <small class="channel-stats-date" id="channelStatsDate">Suscriptores y reproducciones consultados: 12 nov 2026</small>
             </div>
           </div>
         </section>
@@ -250,12 +366,14 @@ window.SR = window.SR || {};
         const mergeFeedVideos = (items) => {
           const known = new Set(categorized.map((video) => video.id));
           const additions = items.flatMap((item) => {
-            const source = `${item.guid || ''} ${item.link || ''}`;
-            const id = source.match(/[A-Za-z0-9_-]{11}/)?.[0];
-            const title = String(item.title || '').trim();
-            if (!id || !title || known.has(id)) return [];
+            // Acepta ítems normalizados {id, title, published} (JSON del
+            // Action) y crudos del feed rss2json {guid, link, title, pubDate}.
+            const normalized = normalizeChannelItem(item);
+            if (!normalized) return [];
+            const { id, title } = normalized;
+            if (known.has(id)) return [];
             known.add(id);
-            return [{ id, title, category: categoryOf(title), published: item.pubDate || '' }];
+            return [{ id, title, category: categoryOf(title), published: normalized.published }];
           });
           if (additions.length) {
             categorized = [...additions, ...categorized].sort((a, b) =>
@@ -297,6 +415,48 @@ window.SR = window.SR || {};
           console.error('No se pudo leer la caché local de videos del canal:', error);
         }
         render();
+        // 1) JSON estático del Action (vídeos + cifras en vivo); 2) rss2json
+        // como respaldo para vídeos nuevos; 3) semilla local si todo falla.
+        if (typeof SR.loadChannelData === 'function') {
+          SR.loadChannelData().then((data) => {
+            const statSubs = SR.$('#channelStatSubs', root);
+            const statViews = SR.$('#channelStatViews', root);
+            const statsDate = SR.$('#channelStatsDate', root);
+            const fmtWhen = (iso) => {
+              try {
+                return new Intl.DateTimeFormat('es-MX', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' }).format(new Date(iso));
+              } catch (error) { return ''; }
+            };
+            if (data.stats) {
+              if (Number.isFinite(data.stats.subscribers) && statSubs) statSubs.textContent = SR.fmtNum(data.stats.subscribers);
+              if (Number.isFinite(data.stats.views) && statViews) statViews.textContent = SR.fmtNum(data.stats.views);
+            }
+            if (statsDate) {
+              if (data.source === 'youtube-json' && data.fetchedAt) {
+                statsDate.textContent = data.live
+                  ? `Cifras en vivo · actualizadas ${fmtWhen(data.fetchedAt)}`
+                  : data.approximate
+                    ? `Cifras aproximadas · actualizadas ${fmtWhen(data.fetchedAt)}`
+                    : `Actualizadas ${fmtWhen(data.fetchedAt)}`;
+              } else if (data.source === 'cache' && data.fetchedAt) {
+                statsDate.textContent = `Última sincronización guardada ${fmtWhen(data.fetchedAt)}`;
+              } else {
+                statsDate.textContent = 'Suscriptores y reproducciones consultados: 12 nov 2026';
+              }
+            }
+            if (data.videos && data.videos.length) {
+              const added = mergeFeedVideos(data.videos);
+              if (added) {
+                render();
+                syncStatus.textContent = data.source === 'youtube-json'
+                  ? `Canal actualizado desde el Action · ${added} video${added === 1 ? '' : 's'} nuevo${added === 1 ? '' : 's'}`
+                  : 'Canal actualizado desde la copia guardada';
+              }
+            }
+          }).catch((error) => {
+            console.error('No se pudieron cargar los datos del canal:', error);
+          });
+        }
         refreshVideos();
         if (SR.channelVideoRefreshTimer) window.clearInterval(SR.channelVideoRefreshTimer);
         SR.channelVideoRefreshTimer = window.setInterval(() => {

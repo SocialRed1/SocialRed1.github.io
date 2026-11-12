@@ -97,11 +97,11 @@ SR.APPS_CATALOG = [
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/GoogleChrome.png",
     "screenshots": [
       {
-        "title": "Página principal y buscador omnibox",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=1000&q=80"
       },
       {
-        "title": "Pestañas agrupadas y panel lateral",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -199,11 +199,11 @@ SR.APPS_CATALOG = [
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/MozillaFirefox.png",
     "screenshots": [
       {
-        "title": "Interfaz limpia con pestañas redondeadas",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1000&q=80"
       },
       {
-        "title": "Protección contra rastreo mejorada",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -290,11 +290,11 @@ SR.APPS_CATALOG = [
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/Brave.png",
     "screenshots": [
       {
-        "title": "Brave Shields bloqueando anuncios y trackers",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1000&q=80"
       },
       {
-        "title": "Panel de control y buscador privado Brave Search",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -371,10 +371,10 @@ SR.APPS_CATALOG = [
       "officialSite": "https://www.microsoft.com/en-us/edge/business/download"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/9/98/Microsoft_Edge_logo_%282019%29.svg",
-    "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/MicrosoftEdge.png",
+    "logoFallback": "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/microsoftedge.svg",
     "screenshots": [
       {
-        "title": "Pestañas verticales y barra lateral Copilot",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -454,7 +454,7 @@ SR.APPS_CATALOG = [
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/Opera.png",
     "screenshots": [
       {
-        "title": "Barra lateral con mensajería integrada y VPN gratuita",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -523,15 +523,15 @@ SR.APPS_CATALOG = [
       "offlineMsi": "https://dl.discordapp.net/apps/win/DiscordSetup.exe",
       "officialSite": "https://discord.com/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/95/Discord_icon_2021.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/discord.com/t/static/logo.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Discord_logo_simplified.svg",
+    "logoFallback": "https://cdn.simpleicons.org/discord",
     "screenshots": [
       {
-        "title": "Canales de texto y voz organizados por servidores",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1000&q=80"
       },
       {
-        "title": "Transmisión de pantalla en directo con baja latencia",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -608,10 +608,10 @@ SR.APPS_CATALOG = [
       "officialSite": "https://desktop.telegram.org/"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
-    "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/Telegram.png",
+    "logoFallback": "https://cdn.simpleicons.org/telegram",
     "screenshots": [
       {
-        "title": "Chats organizados por carpetas y canales con descargas ultrarrápidas",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -688,10 +688,10 @@ SR.APPS_CATALOG = [
       "officialSite": "https://zoom.us/"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Zoom_Communications_Logo.svg",
-    "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/Zoom.png",
+    "logoFallback": "https://cdn.simpleicons.org/zoom",
     "screenshots": [
       {
-        "title": "Videoconferencias en cuadrícula con fondos virtuales",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -757,10 +757,10 @@ SR.APPS_CATALOG = [
       "officialSite": "https://www.videolan.org/vlc/"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e6/VLC_Icon.svg",
-    "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/VLC.png",
+    "logoFallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/VLC_Icon.svg/120px-VLC_Icon.svg.png",
     "screenshots": [
       {
-        "title": "Reproducción fluida de video 4K con interfaz clásica",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -847,7 +847,7 @@ SR.APPS_CATALOG = [
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/OBSStudio.png",
     "screenshots": [
       {
-        "title": "Panel de control de escenas, fuentes y mezclador de audio profesional",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -923,11 +923,11 @@ SR.APPS_CATALOG = [
       "offlineMsi": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.1/audacity-win-3.7.1-64bit.exe",
       "officialSite": "https://audacityteam.org"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Audacity_Logo_2022.svg",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Audacity_Logo_Plain.svg",
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/Audacity.png",
     "screenshots": [
       {
-        "title": "Edición multipista con espectrograma y efectos de sonido en tiempo real",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -1000,14 +1000,14 @@ SR.APPS_CATALOG = [
       "officialSite": "https://code.visualstudio.com/"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
-    "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/VisualstudioCode.png",
+    "logoFallback": "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/visualstudiocode.svg",
     "screenshots": [
       {
-        "title": "Editor con resaltado de sintaxis, depuración y terminal integrada",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1000&q=80"
       },
       {
-        "title": "Explorador de extensiones y control de versiones Git integrado",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -1094,7 +1094,7 @@ SR.APPS_CATALOG = [
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/Git.png",
     "screenshots": [
       {
-        "title": "Git Bash con comandos Unix y soporte completo de SSH",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -1160,10 +1160,10 @@ SR.APPS_CATALOG = [
       "officialSite": "http://notepad-plus-plus.org/"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Notepad%2B%2B_Logo.svg",
-    "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/NotepadPlusPlus.png",
+    "logoFallback": "https://cdn.simpleicons.org/notepadplusplus",
     "screenshots": [
       {
-        "title": "Edición ultrarrápida con pestañas, macros y búsqueda con expresiones regulares",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -1240,10 +1240,10 @@ SR.APPS_CATALOG = [
       "officialSite": "https://www.python.org/"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
-    "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/Python3.png",
+    "logoFallback": "https://cdn.simpleicons.org/python",
     "screenshots": [
       {
-        "title": "Intérprete interactivo REPL y suite de librerías científicas",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -1315,11 +1315,11 @@ SR.APPS_CATALOG = [
       "offlineMsi": "https://www.7-zip.org/a/7z2409-x64.msi",
       "officialSite": "http://www.7-zip.org/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/7-Zip_Icon.svg/300px-7-Zip_Icon.svg.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/32/7-Zip_Icon.svg",
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/7-Zip.png",
     "screenshots": [
       {
-        "title": "Administrador de archivos de 7-Zip con opciones avanzadas de compresión LZMA2",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -1401,11 +1401,10 @@ SR.APPS_CATALOG = [
       "offlineMsi": "https://github.com/microsoft/PowerToys/releases/download/v0.88.0/PowerToysSetup-0.88.0-x64.exe",
       "officialSite": "https://github.com/microsoft/PowerToys"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/91/Microsoft_PowerToys_Icon.svg",
-    "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/PowerToys.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Microsoft_PowerToys_Symbol_090_PowerToys.png",
     "screenshots": [
       {
-        "title": "Distribución de ventanas FancyZones y lanzador PowerToys Run",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -1473,11 +1472,11 @@ SR.APPS_CATALOG = [
       "offlineMsi": "https://www.voidtools.com/Everything-1.4.1.1026.x64-Setup.exe",
       "officialSite": "https://www.voidtools.com/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Everything_%28software%29_icon.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/68/Everything_%28software%29_icon.png",
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/Everything.png",
     "screenshots": [
       {
-        "title": "Búsqueda instantánea en millones de archivos en menos de 1 segundo",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -1545,11 +1544,11 @@ SR.APPS_CATALOG = [
       "offlineMsi": "https://github.com/pbatard/rufus/releases/download/v4.6/rufus-4.6.exe",
       "officialSite": "https://rufus.ie/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Rufus_logo.svg",
+    "logo": "https://raw.githubusercontent.com/pbatard/rufus/master/res/rufus.ico",
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/Rufus.png",
     "screenshots": [
       {
-        "title": "Creación de USB arrancable con opciones avanzadas de Windows 11 sin TPM",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -1614,11 +1613,11 @@ SR.APPS_CATALOG = [
       "offlineMsi": "https://data-cdn.mbamupdates.com/v1/mbam/desktop/data/mb4-setup-consumer/MBSetup.exe",
       "officialSite": "https://www.malwarebytes.com/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/02/Malwarebytes_logo.svg",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/06/Malwarebytes_logo_new.svg",
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/Malwarebytes.png",
     "screenshots": [
       {
-        "title": "Escaneo rápido y detección heurística de malware y ransomware",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -1682,11 +1681,11 @@ SR.APPS_CATALOG = [
       "offlineMsi": "https://vault.bitwarden.com/download/?app=desktop&platform=windows",
       "officialSite": "https://bitwarden.com/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/09/Bitwarden_logo.svg",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Bitwarden_logo.svg",
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/Bitwarden.png",
     "screenshots": [
       {
-        "title": "Bóveda cifrada con contraseñas, tarjetas y autenticación 2FA",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -1762,7 +1761,7 @@ SR.APPS_CATALOG = [
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/LibreOffice.png",
     "screenshots": [
       {
-        "title": "Suite completa con procesador Writer, hojas de cálculo Calc e Impress",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -1834,11 +1833,11 @@ SR.APPS_CATALOG = [
       "offlineMsi": "https://www.sumatrapdfreader.org/dl/SumatraPDF-3.5.2-64-install.exe",
       "officialSite": "http://www.sumatrapdfreader.org/free-pdf-reader.html"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Sumatra_PDF_icon.svg",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Sumatra_PDF_logo.svg",
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/SumatraPDF.png",
     "screenshots": [
       {
-        "title": "Lector ultraligero de PDFs, EPUBs y cómics con apertura instantánea",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -1909,11 +1908,11 @@ SR.APPS_CATALOG = [
       "offlineMsi": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.7.7/Obsidian.1.7.7.exe",
       "officialSite": "https://obsidian.md/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/10/Obsidian_logo_2023.svg",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/10/2023_Obsidian_logo.svg",
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/Obsidian.png",
     "screenshots": [
       {
-        "title": "Vista de grafo interactiva con enlaces bidireccionales entre notas",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -1978,11 +1977,11 @@ SR.APPS_CATALOG = [
       "offlineMsi": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-5.0.3/qbittorrent_5.0.3_x64_setup.exe/download",
       "officialSite": "http://www.fosshub.com/qBittorrent.html"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/66/QBittorrent_Logo.svg",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/66/New_qBittorrent_Logo.svg",
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/qBittorrent.png",
     "screenshots": [
       {
-        "title": "Descargas BitTorrent limpias sin anuncios y con motor de búsqueda interno",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -2062,7 +2061,7 @@ SR.APPS_CATALOG = [
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/Dropbox.png",
     "screenshots": [
       {
-        "title": "Sincronización en segundo plano con Smart Sync",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -2128,10 +2127,10 @@ SR.APPS_CATALOG = [
       "officialSite": "https://dotnet.microsoft.com/"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg",
-    "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/DotNetCore.png",
+    "logoFallback": "https://cdn.simpleicons.org/dotnet",
     "screenshots": [
       {
-        "title": "Entorno de ejecución de aplicaciones modernas para Windows WPF y WinForms",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -2196,11 +2195,11 @@ SR.APPS_CATALOG = [
       "offlineMsi": "https://github.com/abbodi1406/vcredist/releases/download/v0.85.0/VisualCppRedist_AIO_x86_x64.exe",
       "officialSite": "https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/df/Microsoft_Visual_Studio_2022_logo.svg",
-    "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/VisualCppRedist.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/59/Visual_Studio_Icon_2019.svg",
+    "logoFallback": "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/visualstudio.svg",
     "screenshots": [
       {
-        "title": "Instalación silenciosa desatendida de todos los paquetes runtime de C++",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -2266,10 +2265,10 @@ SR.APPS_CATALOG = [
       "officialSite": "http://www.gimp.org/"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/4/45/The_GIMP_icon_-_gnome.svg",
-    "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/GIMP.png",
+    "logoFallback": "https://cdn.simpleicons.org/gimp",
     "screenshots": [
       {
-        "title": "Edición avanzada de imagen con capas, máscaras y filtros GEGL",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -2342,10 +2341,10 @@ SR.APPS_CATALOG = [
       "officialSite": "https://www.blender.org/about/"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Blender_logo_no_text.svg",
-    "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/Blender.png",
+    "logoFallback": "https://cdn.simpleicons.org/blender",
     "screenshots": [
       {
-        "title": "Modelado 3D, escultura digital y renderizado fotorrealista con Cycles",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -2425,7 +2424,7 @@ SR.APPS_CATALOG = [
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/Inkscape.png",
     "screenshots": [
       {
-        "title": "Diseño de gráficos vectoriales SVG con soporte de nodos y tipografía avanzada",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -2497,11 +2496,11 @@ SR.APPS_CATALOG = [
       "offlineMsi": "https://github.com/paintdotnet/release/releases/download/v5.1.4/paint.net.5.1.4.install.anycpu.web.zip",
       "officialSite": "https://www.getpaint.net"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Paint.NET_5.0_icon.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Paint.NET_Logo.png",
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/PaintDotNet.png",
     "screenshots": [
       {
-        "title": "Interfaz intuitiva con soporte de capas y aceleración por GPU DirectX",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -2573,11 +2572,11 @@ SR.APPS_CATALOG = [
       "offlineMsi": "https://github.com/ShareX/ShareX/releases/download/v17.0.0/ShareX-17.0.0-setup.exe",
       "officialSite": "http://getsharex.com/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/77/ShareX_Logo.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d1/ShareX_Logo.png",
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/ShareX.png",
     "screenshots": [
       {
-        "title": "Captura de pantalla, grabación en GIF y subida automática a la nube",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -2650,10 +2649,10 @@ SR.APPS_CATALOG = [
       "officialSite": "https://www.spotify.com/"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
-    "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/Spotify.png",
+    "logoFallback": "https://cdn.simpleicons.org/spotify",
     "screenshots": [
       {
-        "title": "Catálogo musical ilimitado con letras en vivo y listas recomendadas",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -2718,11 +2717,11 @@ SR.APPS_CATALOG = [
       "offlineMsi": "https://github.com/HandBrake/HandBrake/releases/download/1.9.1/HandBrake-1.9.1-x86_64-Win_GUI.exe",
       "officialSite": "https://handbrake.fr/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/46/HandBrake_Icon.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d9/HandBrake_Icon.png",
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/HandBrake.png",
     "screenshots": [
       {
-        "title": "Conversión y compresión por lotes con perfiles preestablecidos para web y móvil",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -2794,10 +2793,10 @@ SR.APPS_CATALOG = [
       "officialSite": "https://nodejs.org/en/"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
-    "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/NodeJS.png",
+    "logoFallback": "https://cdn.simpleicons.org/nodedotjs",
     "screenshots": [
       {
-        "title": "Entorno de ejecución JavaScript del lado del servidor con gestor de paquetes npm",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -2870,10 +2869,10 @@ SR.APPS_CATALOG = [
       "officialSite": "https://filezilla-project.org/"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/0/01/FileZilla_logo.svg",
-    "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/FileZilla.png",
+    "logoFallback": "https://cdn.simpleicons.org/filezilla",
     "screenshots": [
       {
-        "title": "Administrador de sitios y transferencia de archivos FTP, FTPS y SFTP",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -2938,11 +2937,11 @@ SR.APPS_CATALOG = [
       "offlineMsi": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.57.1/KeePass-2.57.1-Setup.exe/download",
       "officialSite": "https://keepass.info/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/19/KeePass_icon.svg",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/KeePass_icon.svg",
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/KeePass.png",
     "screenshots": [
       {
-        "title": "Bóveda local cifrada KDBX4 con generador de claves y grupos de contraseñas",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -3006,11 +3005,11 @@ SR.APPS_CATALOG = [
       "offlineMsi": "https://protonvpn.com/download/ProtonVPN_win_v3.4.3.exe",
       "officialSite": "https://protonvpn.com/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/30/ProtonVPN_logo.svg",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/56/ProtonVPN_Logo.svg",
     "logoFallback": "https://content.patchmypc.com/downloads/icons/homeupdater/ProtonVPN.png",
     "screenshots": [
       {
-        "title": "Mapa interactivo de servidores seguros y política estricta de cero registros",
+        "title": "Imagen ilustrativa",
         "url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1000&q=80"
       }
     ],
@@ -3121,10 +3120,10 @@ SR.PLATFORM_APPS = [
       "officialSite": "https://www.adobe.com/products/photoshop.html"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/adobe.com/t/static/icon.svg?c=000000",
+    "logoFallback": "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/adobephotoshop.svg",
     "screenshots": [
-      { "title": "Interfaz principal con paneles de capas, ajustes y herramientas", "url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=1000&q=80" },
-      { "title": "Edición avanzada con máscaras y selección inteligente", "url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=1000&q=80" },
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "El editor de imágenes profesional líder mundial con IA generativa integrada",
     "description": {
@@ -3172,11 +3171,11 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://ardownloader.net/download/adobe-illustrator-2025",
       "officialSite": "https://www.adobe.com/products/illustrator.html"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Adobe_Illustrator_CC_icon.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/adobe.com/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg",
+    "logoFallback": "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/adobeillustrator.svg",
     "screenshots": [
-      { "title": "Espacio de trabajo de ilustración vectorial con panel de trazo y relleno", "url": "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=1000&q=80" },
-      { "title": "Diseño de logotipos con herramientas de forma y Pathfinder", "url": "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=1000&q=80" },
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Ilustración vectorial profesional para logotipos, iconos y gráficos escalables",
     "description": {
@@ -3222,10 +3221,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://www.coreldraw.com/download",
       "officialSite": "https://www.coreldraw.com/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2c/CorelDRAW_2019_Logo.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/coreldraw.com/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f1/CorelDraw_logo.svg",
+    "logoFallback": "https://cdn.simpleicons.org/coreldraw",
     "screenshots": [
-      { "title": "Suite completa de diseño gráfico con herramientas vectoriales y de foto", "url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Suite completa de diseño gráfico con herramientas vectoriales, de foto y tipografía",
     "description": {
@@ -3271,10 +3270,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://www.sketchup.com/download",
       "officialSite": "https://www.sketchup.com/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/03/SketchUp_2021_Logo.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/sketchup.com/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4e/SketchUp_Logo_2020.svg",
+    "logoFallback": "https://cdn.simpleicons.org/sketchup",
     "screenshots": [
-      { "title": "Modelado 3D arquitectónico con herramientas de dibujo intuitivas", "url": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Modelado 3D intuitivo para arquitectura, diseño interior y construcción",
     "description": {
@@ -3320,10 +3319,9 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-es.exe",
       "officialSite": "https://www.win-rar.com/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/21/WinRAR_Logo.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/win-rar.com/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/WinRAR_icon.svg",
     "screenshots": [
-      { "title": "Interfaz principal con gestión de archivos comprimidos y extracción", "url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "El compresor de archivos más popular del mundo con soporte para RAR, ZIP y más de 20 formatos",
     "description": {
@@ -3369,10 +3367,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://windowsstore.cdn.skype.com/public/desktop-bundles/production/skype-windows-8.115.0.103.exe",
       "officialSite": "https://www.skype.com/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Skype_logo.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/skype.com/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Skype_logo_%28fully_transparent%29.svg",
+    "logoFallback": "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/skype.svg",
     "screenshots": [
-      { "title": "Videollamadas y mensajería con contactos y grupos", "url": "https://images.unsplash.com/photo-1586181987697-e297c8dbd47e?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1586181987697-e297c8dbd47e?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Videollamadas, llamadas y mensajería gratuita a cualquier parte del mundo",
     "description": {
@@ -3418,10 +3416,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://download.virtualbox.org/virtualbox/7.1.4/VirtualBox-7.1.4-164713-Win.exe",
       "officialSite": "https://www.virtualbox.org/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/VirtualBox_logo.png",
-    "logoFallback": "https://cdn.brandfetch.io/assets/virtualbox.org/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/ff/VirtualBox_2024_Logo.svg",
+    "logoFallback": "https://cdn.simpleicons.org/virtualbox",
     "screenshots": [
-      { "title": "Máquinas virtuales con múltiples sistemas operativos corriendo simultáneamente", "url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Hipervisor de código abierto para crear y gestionar máquinas virtuales en Windows",
     "description": {
@@ -3467,10 +3465,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://download.sublimetext.com/sublime_text_build_4175_x64_setup.exe",
       "officialSite": "https://www.sublimetext.com/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/95/Sublime_Text_Logo_White.svg",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/05/Sublime_Text_Logo_White.svg",
     "logoFallback": "https://www.sublimetext.com/images/logo.svg",
     "screenshots": [
-      { "title": "Editor de código ultrarrápido con múltiples selecciones y comandos", "url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Editor de código ultrarrápido y altamente personalizable con soporte multiplataforma",
     "description": {
@@ -3516,10 +3514,9 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://www.ghisler.com/files/tc95a_x64Setup.exe",
       "officialSite": "https://www.ghisler.com/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/07/Total_Commander_Logo.png",
-    "logoFallback": "https://www.ghisler.com/logo.gif",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/39/Total_Commander_Logo.png",
     "screenshots": [
-      { "title": "Gestor de archivos dual-pane con FTP integrado y comparador", "url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Gestor de archivos dual-pane profesional con FTP, comparador y plugins de compresión",
     "description": {
@@ -3565,10 +3562,9 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://www.manycam.com/download",
       "officialSite": "https://www.manycam.com/"
     },
-    "logo": "https://cdn.brandfetch.io/assets/manycam.com/t/static/logo.svg?c=000000",
-    "logoFallback": "https://www.manycam.com/images/manycam-logo.png",
+    "logo": "https://www.manycam.com/images/logo.png",
     "screenshots": [
-      { "title": "Cámara virtual con efectos, filtros y fuentes de video múltiples", "url": "https://images.unsplash.com/photo-1586181987697-e297c8dbd47e?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1586181987697-e297c8dbd47e?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Cámara virtual con efectos, filtros y fuentes de video múltiples para streaming y videollamadas",
     "description": {
@@ -3616,10 +3612,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://download.mozilla.org/?product=firefox-latest-ssl&os=osx&lang=es-ES",
       "officialSite": "https://www.mozilla.org/es-ES/firefox/new/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo_2019.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/mozilla.org/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg",
+    "logoFallback": "https://cdn.simpleicons.org/firefox",
     "screenshots": [
-      { "title": "Navegador web con sincronización y protecciones avanzadas en macOS", "url": "https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Navegador web de código abierto con privacidad avanzada y sincronización multiplataforma",
     "description": {
@@ -3665,10 +3661,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://get.videolan.org/vlc/3.0.21/macosx/vlc-3.0.21-arm64.dmg",
       "officialSite": "https://www.videolan.org/vlc/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e6/VLC_Icon_2014.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/videolan.org/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e6/VLC_Icon.svg",
+    "logoFallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/VLC_Icon.svg/120px-VLC_Icon.svg.png",
     "screenshots": [
-      { "title": "Reproductor multimedia universal con soporte para todos los formatos en macOS", "url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Reproductor multimedia universal que reproduce todos los formatos sin codecs adicionales",
     "description": {
@@ -3714,10 +3710,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://download.gimp.org/macos-gimp-2.10.38.dmg",
       "officialSite": "https://www.gimp.org/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Gimp_logo.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/gimp.org/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/92/Gimp_logo.svg",
+    "logoFallback": "https://cdn.simpleicons.org/gimp",
     "screenshots": [
-      { "title": "Editor de imágenes profesional de código abierto con capas y filtros", "url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Editor de imágenes profesional de código abierto, alternativa gratuita a Photoshop",
     "description": {
@@ -3764,9 +3760,9 @@ SR.PLATFORM_APPS = [
       "officialSite": "https://www.blender.org/"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Blender_logo_no_text.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/blender.org/t/static/icon.svg?c=000000",
+    "logoFallback": "https://cdn.simpleicons.org/blender",
     "screenshots": [
-      { "title": "Suite completa de modelado 3D, animación y renderizado en macOS", "url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Suite completa de modelado 3D, animación, escultura y renderizado de código abierto",
     "description": {
@@ -3813,9 +3809,9 @@ SR.PLATFORM_APPS = [
       "officialSite": "https://obsproject.com/"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/OBS_Studio_Logo.svg",
-    "logoFallback": "https://static-00.iconduck.com/assets.00/obs-studio-icon-512x512-6w8p0j0n.png",
+    "logoFallback": "https://cdn.simpleicons.org/obsstudio",
     "screenshots": [
-      { "title": "Software de captura y streaming con escenas, fuentes y mezclas de audio", "url": "https://images.unsplash.com/photo-1586181987697-e297c8dbd47e?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1586181987697-e297c8dbd47e?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Software gratuito de captura y streaming con escenas, fuentes y mezclas de audio",
     "description": {
@@ -3861,10 +3857,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://download.documentfoundation.org/libreoffice/stable/24.8.4/macosx-aarch64/LibreOffice_24.8.4_MacOS_aarch64.dmg",
       "officialSite": "https://www.libreoffice.org/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/LibreOffice_logo_2020.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/libreoffice.org/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/02/LibreOffice_Logo_Flat.svg",
+    "logoFallback": "https://cdn.simpleicons.org/libreoffice",
     "screenshots": [
-      { "title": "Suite ofimática completa con Writer, Calc, Impress y más en macOS", "url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Suite ofimática completa y gratuita con Writer, Calc, Impress, Draw y Base",
     "description": {
@@ -3911,9 +3907,9 @@ SR.PLATFORM_APPS = [
       "officialSite": "https://www.spotify.com/"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/spotify.com/t/static/icon.svg?c=000000",
+    "logoFallback": "https://cdn.simpleicons.org/spotify",
     "screenshots": [
-      { "title": "Reproductor de música con streaming y descargas offline en macOS", "url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "La plataforma de streaming de música más popular del mundo con más de 100 millones de canciones",
     "description": {
@@ -3960,9 +3956,9 @@ SR.PLATFORM_APPS = [
       "officialSite": "https://telegram.org/"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/telegram.org/t/static/icon.svg?c=000000",
+    "logoFallback": "https://cdn.simpleicons.org/telegram",
     "screenshots": [
-      { "title": "Mensajería instantánea con canales, grupos y cifrado de extremo a extremo", "url": "https://images.unsplash.com/photo-1586181987697-e297c8dbd47e?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1586181987697-e297c8dbd47e?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Mensajería instantánea rápida y segura con canales, grupos y cifrado de extremo a extremo",
     "description": {
@@ -4010,10 +4006,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=es-ES",
       "officialSite": "https://www.mozilla.org/es-ES/firefox/new/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo_2019.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/mozilla.org/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg",
+    "logoFallback": "https://cdn.simpleicons.org/firefox",
     "screenshots": [
-      { "title": "Navegador web con privacidad avanzada y rendimiento en Linux", "url": "https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Navegador web de código abierto con privacidad avanzada, el navegador predilecto de Linux",
     "description": {
@@ -4059,10 +4055,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://get.videolan.org/vlc/3.0.21/rpm/vlc-3.0.21-1.x86_64.rpm",
       "officialSite": "https://www.videolan.org/vlc/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e6/VLC_Icon_2014.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/videolan.org/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e6/VLC_Icon.svg",
+    "logoFallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/VLC_Icon.svg/120px-VLC_Icon.svg.png",
     "screenshots": [
-      { "title": "Reproductor multimedia universal en Linux con soporte para todos los formatos", "url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Reproductor multimedia universal que reproduce todos los formatos sin codecs adicionales en Linux",
     "description": {
@@ -4108,10 +4104,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://flathub.org/apps/org.gimp.GIMP",
       "officialSite": "https://www.gimp.org/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Gimp_logo.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/gimp.org/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/92/Gimp_logo.svg",
+    "logoFallback": "https://cdn.simpleicons.org/gimp",
     "screenshots": [
-      { "title": "Editor de imágenes profesional de código abierto en Linux", "url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Editor de imágenes profesional de código abierto, la alternativa gratuita a Photoshop en Linux",
     "description": {
@@ -4158,9 +4154,9 @@ SR.PLATFORM_APPS = [
       "officialSite": "https://www.blender.org/"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Blender_logo_no_text.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/blender.org/t/static/icon.svg?c=000000",
+    "logoFallback": "https://cdn.simpleicons.org/blender",
     "screenshots": [
-      { "title": "Suite completa de modelado 3D, animación y renderizado en Linux", "url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Suite completa de modelado 3D, animación, escultura y renderizado de código abierto en Linux",
     "description": {
@@ -4207,9 +4203,9 @@ SR.PLATFORM_APPS = [
       "officialSite": "https://obsproject.com/"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/OBS_Studio_Logo.svg",
-    "logoFallback": "https://static-00.iconduck.com/assets.00/obs-studio-icon-512x512-6w8p0j0n.png",
+    "logoFallback": "https://cdn.simpleicons.org/obsstudio",
     "screenshots": [
-      { "title": "Software de captura y streaming con escenas, fuentes y mezclas de audio en Linux", "url": "https://images.unsplash.com/photo-1586181987697-e297c8dbd47e?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1586181987697-e297c8dbd47e?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Software gratuito de captura y streaming con escenas, fuentes y mezclas de audio en Linux",
     "description": {
@@ -4255,10 +4251,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://download.documentfoundation.org/libreoffice/stable/24.8.4/rpm/x86_64/LibreOffice_24.8.4_Linux_x86-64_rpm.tar.gz",
       "officialSite": "https://www.libreoffice.org/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/LibreOffice_logo_2020.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/libreoffice.org/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/02/LibreOffice_Logo_Flat.svg",
+    "logoFallback": "https://cdn.simpleicons.org/libreoffice",
     "screenshots": [
-      { "title": "Suite ofimática completa con Writer, Calc, Impress y más en Linux", "url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Suite ofimática completa y gratuita con Writer, Calc, Impress, Draw y Base en Linux",
     "description": {
@@ -4304,10 +4300,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://media.inkscape.org/dl/resources/file/linux/Inkscape-1.4.0-x86_64.AppImage",
       "officialSite": "https://inkscape.org/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/90/Inkscape-logo.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/inkscape.org/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Inkscape_Logo.svg",
+    "logoFallback": "https://cdn.simpleicons.org/inkscape",
     "screenshots": [
-      { "title": "Editor de gráficos vectoriales con herramientas de dibujo y Pathfinder en Linux", "url": "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Editor de gráficos vectoriales de código abierto, alternativa gratuita a Illustrator en Linux",
     "description": {
@@ -4355,10 +4351,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://download.mozilla.org/?product=firefox-latest&os=android&lang=es-ES",
       "officialSite": "https://www.mozilla.org/es-ES/firefox/new/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo_2019.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/mozilla.org/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg",
+    "logoFallback": "https://cdn.simpleicons.org/firefox",
     "screenshots": [
-      { "title": "Navegador web con privacidad avanzada y bloqueo de rastreadores en Android", "url": "https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Navegador web de código abierto con privacidad avanzada y bloqueo de rastreadores en Android",
     "description": {
@@ -4404,10 +4400,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://get.videolan.org/vlc/3.0.21/vlc-3.0.21-arm64-v8a.apk",
       "officialSite": "https://www.videolan.org/vlc/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e6/VLC_Icon_2014.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/videolan.org/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e6/VLC_Icon.svg",
+    "logoFallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/VLC_Icon.svg/120px-VLC_Icon.svg.png",
     "screenshots": [
-      { "title": "Reproductor multimedia universal en Android con soporte para todos los formatos", "url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Reproductor multimedia universal que reproduce todos los formatos sin codecs adicionales en Android",
     "description": {
@@ -4453,10 +4449,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://download.mozilla.org/?product=firefox-focus-latest&os=android&lang=es-ES",
       "officialSite": "https://www.mozilla.org/es-ES/firefox/private-browsing/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Firefox_Focus_logo_2019.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/mozilla.org/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/62/Firefox_Focus_2021_Icon.svg",
+    "logoFallback": "https://cdn.simpleicons.org/firefox",
     "screenshots": [
-      { "title": "Navegador de privacidad que bloquea rastreadores y anuncios automáticamente", "url": "https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Navegador de privacidad que bloquea rastreadores y anuncios automáticamente en Android",
     "description": {
@@ -4502,10 +4498,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://github.com/TeamNewPipe/NewPipe/releases/download/v0.24.3/NewPipe_v0.24.3_apkanon.apk",
       "officialSite": "https://newpipe.net/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/57/NewPipelogo.svg",
-    "logoFallback": "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/master/art/ic_launcher.svg",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/22/NewPipelogo.svg",
+    "logoFallback": "https://newpipe.net/img/logo.svg",
     "screenshots": [
-      { "title": "Cliente de YouTube ligero sin anuncios con descarga de video y audio", "url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Cliente de YouTube ligero sin anuncios con descarga de video y audio en Android",
     "description": {
@@ -4551,10 +4547,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://signal.org/android/apk/signal-8.25.apk",
       "officialSite": "https://signal.org/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/49/Signal_Logo_2023.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/signal.org/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Signal-Logo.svg",
+    "logoFallback": "https://cdn.simpleicons.org/signal",
     "screenshots": [
-      { "title": "Mensajería cifrada de extremo a extremo con llamadas y videollamadas", "url": "https://images.unsplash.com/photo-1586181987697-e297c8dbd47e?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1586181987697-e297c8dbd47e?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Mensajería cifrada de extremo a extremo con llamadas y videollamadas seguras",
     "description": {
@@ -4601,9 +4597,9 @@ SR.PLATFORM_APPS = [
       "officialSite": "https://telegram.org/"
     },
     "logo": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/telegram.org/t/static/icon.svg?c=000000",
+    "logoFallback": "https://cdn.simpleicons.org/telegram",
     "screenshots": [
-      { "title": "Mensajería instantánea con canales, grupos y cifrado de extremo a extremo en Android", "url": "https://images.unsplash.com/photo-1586181987697-e297c8dbd47e?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1586181987697-e297c8dbd47e?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Mensajería instantánea rápida y segura con canales, grupos y cifrado de extremo a extremo en Android",
     "description": {
@@ -4649,10 +4645,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-21.1-arm64-v8a-release.apk",
       "officialSite": "https://kodi.tv/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Kodi.png",
-    "logoFallback": "https://cdn.brandfetch.io/assets/kodi.tv/t/static/icon.svg?c=000000",
+    "logo": "https://cdn.simpleicons.org/kodi",
+    "logoFallback": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Kodi-side-by-side.svg",
     "screenshots": [
-      { "title": "Centro multimedia con soporte para video, música, fotos y addons en Android", "url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Centro multimedia de código abierto con soporte para video, música, fotos y addons en Android",
     "description": {
@@ -4698,10 +4694,10 @@ SR.PLATFORM_APPS = [
       "offlineMsi": "https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music",
       "officialSite": "https://music.youtube.com/"
     },
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6d/YouTube_Music_logo_2020.svg",
-    "logoFallback": "https://cdn.brandfetch.io/assets/youtube.com/t/static/icon.svg?c=000000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1c/YouTube_Music_2024.svg",
+    "logoFallback": "https://cdn.simpleicons.org/youtubemusic",
     "screenshots": [
-      { "title": "Streaming de música con recomendaciones personalizadas y descargas offline", "url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1000&q=80" }
+      { "title": "Imagen ilustrativa", "url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1000&q=80" }
     ],
     "tagline": "Streaming de música con recomendaciones personalizadas y descargas offline en Android",
     "description": {

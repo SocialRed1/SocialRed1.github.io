@@ -10,6 +10,11 @@ window.SR = window.SR || {};
     { name: 'BBC Mundo', url: 'https://feeds.bbci.co.uk/mundo/rss.xml', page: 'https://www.bbc.com/mundo/topics/cyx5krnw38vt' }
   ];
   const storageKey = 'social-red-news-feed-v1';
+  // JSON estático generado por la GitHub Action (.github/workflows/news.yml
+  // + scripts/fetch_news.py). Fetch relativo: funciona en GitHub Pages.
+  const staticNewsUrl = 'data/news.json';
+  // Estado visible de la última actualización (lo lee la vista del catálogo).
+  SR.newsFeedStatus = { source: 'local', updatedAt: '', sources: [], errors: [] };
   const fallbackImage = 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=85';
   const commonsApi = 'https://commons.wikimedia.org/w/api.php';
   const stopWords = new Set('para desde sobre entre este esta estos estas como donde cuando quien quienes una uno unos unas los las del con sin por que se sus sus ante bajo cada muy más menos nota noticias última últimas tecnología tecnologías actualidad claves clave después nuevo nueva según desde hacia hasta también'.split(' '));
@@ -160,7 +165,97 @@ window.SR = window.SR || {};
     }
   };
 
+  const stripHtml = (value) => String(value || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+
+  // Normaliza una nota del JSON estático al formato interno del catálogo.
+  // Devuelve null si no trae título o enlace https válido.
+  const normalizeStaticItem = (raw) => {
+    if (!raw || typeof raw !== 'object') return null;
+    const title = stripHtml(raw.title);
+    const link = String(raw.sourceUrl || raw.url || '').trim();
+    if (!title || !/^https:\/\//i.test(link)) return null;
+    const excerpt = stripHtml(raw.excerpt || raw.lead || raw.description || '').slice(0, 900);
+    const parsedDate = Date.parse(raw.date);
+    return {
+      id: String(raw.id || `feed-${SR.hashStr(link).toString(36)}`),
+      title, category: stripHtml(raw.category) || 'Tecnología', hue: 195, icon: 'news',
+      date: Number.isFinite(parsedDate) ? new Date(parsedDate).toISOString() : new Date().toISOString(),
+      author: stripHtml(raw.author) || 'No indicado por la fuente',
+      sourceName: stripHtml(raw.sourceName || raw.source) || 'Fuente externa',
+      sourceUrl: link, sourcePage: String(raw.sourcePage || raw.page || ''),
+      read: Math.max(2, Math.ceil(excerpt.split(/\s+/).length / 190)),
+      excerpt, lead: excerpt, body: [], facts: [],
+      image: String(raw.image || ''), video: String(raw.video || ''),
+      external: true
+    };
+  };
+
+  // Lee el JSON estático generado por la GitHub Action. Si el archivo no
+  // existe o falla, lanza excepción y el llamador usa el respaldo (notas
+  // locales + caché); el sitio nunca se rompe por esto.
+  const loadStaticNews = async () => {
+    const response = await fetch(staticNewsUrl, { cache: 'no-store' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const payload = await response.json();
+    const rawItems = Array.isArray(payload) ? payload : payload.items;
+    const items = (Array.isArray(rawItems) ? rawItems : []).map(normalizeStaticItem).filter(Boolean);
+    const sources = Array.isArray(payload && payload.sources) ? payload.sources : [];
+    return { items, generatedAt: (payload && payload.generated_at) || '', sources };
+  };
+
+  // Fusiona las notas del JSON estático con las locales y actualiza la caché.
+  const applyStaticItems = (items, generatedAt, sources) => {
+    const merged = new Map(items.map((item) => [item.sourceUrl, item]));
+    SR.NEWS.filter((item) => item.external).forEach((item) => {
+      if (!merged.has(item.sourceUrl)) merged.set(item.sourceUrl, item);
+    });
+    const fresh = Array.from(merged.values()).sort((a, b) => Date.parse(b.date) - Date.parse(a.date)).slice(0, 60);
+    const localItems = SR.NEWS.filter((item) => !item.external);
+    SR.NEWS = fresh.concat(localItems);
+    SR.newsFeedStatus = {
+      source: 'static', updatedAt: generatedAt || '',
+      sources: sources.map((entry) => entry.name || ''),
+      errors: sources.filter((entry) => entry.status === 'error').map((entry) => entry.name || '')
+    };
+    try {
+      localStorage.setItem(storageKey, JSON.stringify(fresh));
+    } catch (error) {
+      console.warn('No se pudo guardar la caché de noticias:', error);
+    }
+    return fresh;
+  };
+
   SR.refreshNews = async function () {
+    // 1) Vía principal: JSON estático generado por la GitHub Action.
+    try {
+      const staticNews = await loadStaticNews();
+      if (staticNews.items.length) {
+        const fresh = applyStaticItems(staticNews.items, staticNews.generatedAt, staticNews.sources);
+        const imagesUpdated = await enrichImages(SR.NEWS.filter((item) => !item.external).concat(fresh));
+        if (imagesUpdated) {
+          try {
+            localStorage.setItem(storageKey, JSON.stringify(fresh));
+          } catch (error) {
+            console.warn('No se pudo guardar la caché de noticias:', error);
+          }
+        }
+        const results = staticNews.sources.length
+          ? staticNews.sources.map((source) => ({
+            feed: { name: source.name },
+            items: fresh.filter((item) => item.sourceName === source.name),
+            error: source.status === 'error' ? (source.error || 'Sin respuesta') : ''
+          }))
+          : [{ feed: { name: 'JSON estático' }, items: fresh, error: '' }];
+        return { items: fresh, results, imagesUpdated, source: 'static', generatedAt: staticNews.generatedAt };
+      }
+      console.warn('data/news.json no trae notas; se intenta el fetch directo de los RSS.');
+    } catch (error) {
+      console.warn('No se pudo leer data/news.json (se intenta el fetch directo de los RSS):', error);
+    }
+
+    // 2) Respaldo: fetch directo de los RSS desde el navegador. En GitHub
+    // Pages suele fallar por CORS/bloqueo del origen; en ese caso el sitio
+    // sigue mostrando las notas locales y la caché, sin romperse.
     const results = await Promise.all(feeds.map(async (feed) => {
       try {
         const response = await fetch(feed.url);
@@ -189,7 +284,13 @@ window.SR = window.SR || {};
         console.warn('No se pudo guardar la caché de noticias:', error);
       }
     }
-    return { items: fresh, results, imagesUpdated };
+    SR.newsFeedStatus = {
+      source: fresh.length ? 'live' : 'local',
+      updatedAt: fresh.length ? new Date().toISOString() : SR.newsFeedStatus.updatedAt,
+      sources: results.filter((entry) => entry.items.length).map((entry) => entry.feed.name),
+      errors: results.filter((entry) => entry.error).map((entry) => entry.feed.name)
+    };
+    return { items: fresh, results, imagesUpdated, source: fresh.length ? 'live' : 'local' };
   };
 
   const dateValue = (value) => typeof value === 'number' ? SR.addDays(value) : new Date(value);
@@ -233,12 +334,13 @@ window.SR = window.SR || {};
           </div>
           <div class="news-hero-latest"><span>EN PORTADA</span><b>${SR.esc(top ? top.title : 'Noticias y tendencias tecnológicas')}</b><small>${top ? SR.esc(top.sourceName || 'Social Red') : 'Selección editorial'}</small></div>
         </header>
+        <div class="news-carousel-wrap container"><div class="news-carousel" id="newsCarousel" role="region" aria-roledescription="carrusel" aria-label="Noticias destacadas de las últimas 48 horas"></div></div>
         <div class="news-content container">
           <div class="news-toolbar"><div><span class="news-kicker">ACTUALIDAD Y ANÁLISIS</span><h2>Noticias destacadas</h2></div>
             <label class="news-search">${SR.icon('search')}<input id="newsSearch" type="search" placeholder="Buscar noticia o tema" autocomplete="off"></label>
             <button type="button" class="news-refresh" id="newsRefresh">${SR.icon('clock')} Actualizar</button>
           </div>
-          <div class="news-feed-status" id="newsFeedStatus" role="status">Mostrando notas locales mientras se consultan las fuentes…</div>
+          <div class="news-feed-status" id="newsFeedStatus" role="status">Actualizando noticias…</div>
           <div class="news-cards-grid" id="newsCardsGrid">${items.map((item, index) => card(item, index, index === 0)).join('')}</div>
           <p class="news-empty" id="newsEmpty" hidden>No hay noticias que coincidan con la búsqueda.</p>
           <p class="news-editorial-note">Social Red muestra titulares y extractos breves publicados en los feeds, junto con su fuente y atribución. El contenido completo, imágenes y videos pertenecen a sus respectivos editores; abre la fuente original para consultar la nota íntegra.</p>
@@ -250,6 +352,83 @@ window.SR = window.SR || {};
         const status = SR.$('#newsFeedStatus', root);
         const empty = SR.$('#newsEmpty', root);
         let current = SR.NEWS.slice();
+        // ---------- Carrusel destacado: top de las últimas 48 horas ----------
+        const carousel = SR.$('#newsCarousel', root);
+        let carouselTimer = null;
+        let carouselIndex = 0;
+        let carouselItems = [];
+        let carouselPaused = false;
+        const carouselLink = (item) => (item.external && item.sourceUrl ? item.sourceUrl : `#/noticias/${encodeURIComponent(item.id)}`);
+        const carouselIsExternal = (item) => Boolean(item.external && item.sourceUrl);
+        const topNews = () => {
+          const now = Date.now();
+          const recent = SR.NEWS.filter((item) => now - dateValue(item.date).getTime() <= 48 * 60 * 60 * 1000);
+          const pool = recent.length ? recent : SR.NEWS.slice();
+          return pool.slice().sort((a, b) => dateValue(b.date) - dateValue(a.date)).slice(0, 5);
+        };
+        const stopCarousel = () => {
+          if (carouselTimer) { window.clearInterval(carouselTimer); carouselTimer = null; }
+        };
+        const showSlide = (index) => {
+          if (!carouselItems.length || !carousel) return;
+          carouselIndex = (index + carouselItems.length) % carouselItems.length;
+          carousel.querySelectorAll('.news-carousel-slide').forEach((slide, i) => {
+            slide.classList.toggle('is-active', i === carouselIndex);
+            slide.setAttribute('aria-hidden', i === carouselIndex ? 'false' : 'true');
+            slide.setAttribute('tabindex', i === carouselIndex ? '0' : '-1');
+          });
+          carousel.querySelectorAll('.news-carousel-dot').forEach((dot, i) => {
+            dot.classList.toggle('is-active', i === carouselIndex);
+            dot.setAttribute('aria-current', i === carouselIndex ? 'true' : 'false');
+          });
+        };
+        const startCarousel = () => {
+          stopCarousel();
+          if (!carousel || carouselItems.length < 2 || SR.reducedMotion()) return;
+          carouselTimer = window.setInterval(() => {
+            if (!document.body.contains(carousel)) { stopCarousel(); return; }
+            if (carouselPaused) return;
+            showSlide(carouselIndex + 1);
+          }, 5000);
+        };
+        // Reconstruye el carrusel solo cuando cambia la lista de noticias
+        // (mismas notas en el mismo orden = no se toca, no se duplica el intervalo).
+        const buildCarousel = () => {
+          if (!carousel) return;
+          const fresh = topNews();
+          const signature = fresh.map((item) => item.id).join('|');
+          if (carousel.dataset.signature === signature) return;
+          carousel.dataset.signature = signature;
+          carouselItems = fresh;
+          carouselIndex = 0;
+          stopCarousel();
+          if (!fresh.length) { carousel.innerHTML = ''; return; }
+          carousel.innerHTML = `
+            <div class="news-carousel-track">${fresh.map((item, i) => `
+              <a class="news-carousel-slide${i === 0 ? ' is-active' : ''}" href="${SR.esc(carouselLink(item))}"${carouselIsExternal(item) ? ' target="_blank" rel="noopener noreferrer"' : ''} aria-hidden="${i === 0 ? 'false' : 'true'}" tabindex="${i === 0 ? '0' : '-1'}">
+                <img src="${SR.esc(imageFor(item))}" alt="" loading="${i === 0 ? 'eager' : 'lazy'}" onerror="this.onerror=null;this.src='${fallbackImage}'">
+                <span class="news-carousel-shade" aria-hidden="true"></span>
+                <span class="news-carousel-caption">
+                  <span class="news-carousel-meta">${SR.esc(item.sourceName || 'Social Red')} · ${SR.esc(dateLabel(item.date))}</span>
+                  <span class="news-carousel-title">${SR.esc(item.title)}</span>
+                  <span class="news-carousel-cta">Leer la nota completa ${SR.icon('arrow')}</span>
+                </span>
+              </a>`).join('')}
+            </div>
+            <button type="button" class="news-carousel-arrow news-carousel-prev" aria-label="Noticia anterior">${SR.icon('left')}</button>
+            <button type="button" class="news-carousel-arrow news-carousel-next" aria-label="Noticia siguiente">${SR.icon('right')}</button>
+            <div class="news-carousel-dots" role="tablist" aria-label="Elegir noticia destacada">${fresh.map((item, i) => `<button type="button" class="news-carousel-dot${i === 0 ? ' is-active' : ''}" role="tab" aria-label="Ir a la noticia ${i + 1}: ${SR.esc(item.title)}" aria-current="${i === 0 ? 'true' : 'false'}"></button>`).join('')}</div>`;
+          SR.$('.news-carousel-prev', carousel).addEventListener('click', () => showSlide(carouselIndex - 1));
+          SR.$('.news-carousel-next', carousel).addEventListener('click', () => showSlide(carouselIndex + 1));
+          carousel.querySelectorAll('.news-carousel-dot').forEach((dot, i) => dot.addEventListener('click', () => showSlide(i)));
+          startCarousel();
+        };
+        if (carousel) {
+          carousel.addEventListener('mouseenter', () => { carouselPaused = true; });
+          carousel.addEventListener('mouseleave', () => { carouselPaused = false; });
+          carousel.addEventListener('focusin', () => { carouselPaused = true; });
+          carousel.addEventListener('focusout', () => { carouselPaused = false; });
+        }
         const draw = () => {
           const query = SR.norm(search.value.trim());
           const filtered = current.filter((item) => !query || SR.norm([item.title, item.excerpt, item.category, item.sourceName].join(' ')).includes(query));
@@ -259,22 +438,37 @@ window.SR = window.SR || {};
         const refresh = async () => {
           const button = SR.$('#newsRefresh', root);
           button.disabled = true;
-          status.textContent = 'Consultando feeds RSS de Xataka, El Economista y BBC Mundo…';
+          status.textContent = 'Actualizando noticias…';
           const result = await SR.refreshNews();
           current = SR.NEWS.slice().sort((a, b) => dateValue(b.date) - dateValue(a.date));
           draw();
+          buildCarousel();
           const successes = result.results.filter((entry) => entry.items.length).map((entry) => entry.feed.name);
-          const failures = result.results.filter((entry) => !entry.items.length).map((entry) => entry.feed.name);
-          const updated = result.items.length
-            ? `${result.items.length} noticias cargadas${successes.length ? ` desde ${successes.join(', ')}` : ''}.`
-            : 'No hubo nuevas noticias; se mantienen las notas guardadas y el catálogo local.';
+          const failures = result.results.filter((entry) => entry.error).map((entry) => entry.feed.name);
+          const updatedLabel = result.generatedAt && !Number.isNaN(Date.parse(result.generatedAt))
+            ? ` · actualizado ${SR.fmtDate(new Date(result.generatedAt), { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}`
+            : '';
+          const updated = result.source === 'static'
+            ? `${result.items.length} noticias actualizadas desde el servidor${successes.length ? ` (${successes.join(', ')})` : ''}${updatedLabel}.`
+            : result.items.length
+              ? `${result.items.length} noticias cargadas${successes.length ? ` desde ${successes.join(', ')}` : ''}.`
+              : 'No se pudo actualizar: mostrando las notas locales y guardadas. Se reintentará automáticamente.';
           const imageMessage = result.imagesUpdated ? ` Se encontraron ${result.imagesUpdated} imágenes relacionadas con licencia abierta.` : '';
-          status.textContent = `${updated}${imageMessage}${failures.length ? ` Fuentes sin respuesta: ${failures.join(', ')} (puede ser una restricción CORS o del sitio).` : ''}`;
+          status.textContent = `${updated}${imageMessage}${failures.length ? ` Fuentes sin respuesta: ${failures.join(', ')}.` : ''}`;
+          // Estado de error VISIBLE (con reintento) solo si no llegó ninguna nota:
+          // el texto de estado existe, pero es fácil de pasar por alto.
+          const errorSlot = SR.$('#newsErrorSlot', root);
+          if (!result.items.length) {
+            const host = errorSlot || document.createElement('div');
+            if (!errorSlot) { host.id = 'newsErrorSlot'; grid.before(host); }
+            SR.showLoadError(host, { title: 'No se pudieron cargar las noticias', message: 'No llegó ninguna nota nueva. Se muestran las notas locales; revisa tu conexión e inténtalo de nuevo.', onRetry: () => refresh() });
+          } else if (errorSlot) { errorSlot.remove(); }
           button.disabled = false;
         };
         search.addEventListener('input', SR.debounce(draw, 120));
         SR.$('#newsRefresh', root).addEventListener('click', refresh);
         draw();
+        buildCarousel();
         refresh();
         const timer = window.setInterval(() => {
           if (!document.body.contains(grid)) window.clearInterval(timer);
@@ -339,4 +533,12 @@ window.SR = window.SR || {};
     const urls = new Set(cached.map((item) => item.sourceUrl));
     SR.NEWS = cached.concat(SR.NEWS.filter((item) => !item.external && !urls.has(item.sourceUrl)));
   }
+  // Carga inicial del JSON estático (sin esperar): así el Home, que muestra
+  // las 3 últimas noticias sin llamar a refreshNews(), también se beneficia.
+  loadStaticNews().then(({ items, generatedAt, sources }) => {
+    if (items.length) applyStaticItems(items, generatedAt, sources);
+  }).catch((error) => {
+    console.warn('No se pudo cargar data/news.json al inicio; se usan las notas locales y la caché:', error);
+  });
+
 })();

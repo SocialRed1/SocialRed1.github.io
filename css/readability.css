@@ -3,7 +3,7 @@ html { font-size: 100%; }
 body { font-size: clamp(16px, calc(15px + .2vw), 18px); }
 
 body :where(p, li, a, button, input, select, textarea, label, small, time, figcaption, th, td, span, div, b, strong, .eyebrow, [class*="kicker"], [class*="label"], [class*="caption"], [class*="meta"], [class*="status"], [class*="count"], [class*="source"], [class*="legend"], [class*="note"], [class*="tag"], [class*="foot"], [class*="duration"], [class*="result"], [class*="desc"]):not(.channel-feature-number) {
-  font-size: max(14px, 1em) !important;
+  font-size: max(12px, 1em) !important; /* Piso 12 px (antes 14 px): 14 px inflaba etiquetas disenadas a 11-12 px y contradecia la escala tipografica (auditoria S7: cuerpo 13-14 px, etiquetas 11-12 px). El 1em sigue dominando si el padre es mayor de 12 px; la escala por componente (P1 #9) sigue pendiente. */
 }
 
 .channel-video-info > b,
@@ -48,7 +48,7 @@ body :where(p, li, a, button, input, select, textarea, label, small, time, figca
   .home-dashboard-links { grid-template-columns: 1fr; }
   .home-dashboard-links > a { min-height: 44px; }
   .home-dashboard-links small { display: block; }
-  .home-market-table { min-width: 560px; }
+  /* Sin min-width fijo en la tabla de criptomonedas: en <=480 px la tabla se simplifica (home-dashboard.css oculta min./max.) y no necesita scroll horizontal. El !important de home-dashboard.css que lo neutralizaba ya no es necesario (se deja ahi hasta retirarlo). */
   .channel-topbar-inner { gap: 8px; }
   .channel-topbar nav { gap: 14px; }
   .channel-video-grid { grid-template-columns: 1fr; gap: 22px; }

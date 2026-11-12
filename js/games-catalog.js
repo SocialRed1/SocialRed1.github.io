@@ -604,10 +604,14 @@ SR.gamesCatalogView = function (query = {}) {
           featureIndex = 0;
           shown = 24;
           draw();
+          const slot = SR.$('#gamesErrorSlot', root); if (slot) slot.remove();
           status.textContent = `Catálogo actualizado: ${count} juegos free-to-play disponibles en la fuente.`;
         }).catch((error) => {
           console.error('No se pudo actualizar el catálogo de juegos:', error);
           status.textContent = 'No se pudo conectar con el catálogo en línea; se muestra la última copia disponible.';
+          const host = SR.$('#gamesErrorSlot', root) || document.createElement('div');
+          if (!host.id) { host.id = 'gamesErrorSlot'; status.after(host); }
+          SR.showLoadError(host, { title: 'No se pudo actualizar el catálogo', message: 'Se muestra la última copia disponible. Revisa tu conexión e inténtalo de nuevo.', onRetry: () => refresh() });
         }).finally(() => { button.disabled = false; });
       };
       SR.$('#gamesRefresh', root).addEventListener('click', refresh);

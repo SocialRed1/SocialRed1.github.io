@@ -60,6 +60,13 @@
 
   /* Tipografía */
   --font-display: "Sora", "Segoe UI", system-ui, sans-serif;
+  /* Escala tipográfica mínima: nada por debajo de 11 px en la interfaz
+     (etiquetas 11-12 px, cuerpo 13-14 px en móvil). */
+  --text-xs: 11px;
+  --text-sm: 12px;
+  --text-md: 13px;
+  --text-base: 14px;
+  --text-lg: 16px;
   --font-body: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
 
   --header-h: 72px;

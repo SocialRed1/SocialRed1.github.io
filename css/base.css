@@ -160,4 +160,9 @@ main { outline: none; min-height: 60vh; }
 @keyframes fade-in { from { opacity: 0; } }
 @keyframes fade-out { to { opacity: 0; } }
 @keyframes modal-in { from { opacity: 0; transform: translateY(26px) scale(.96); } }
+
+/* Contenedor en móvil: menos margen lateral para ganar ancho legible. */
+@media (max-width: 480px) {
+  .container { width: min(100% - 32px, var(--container)); }
+}
 @keyframes modal-out { to { opacity: 0; transform: translateY(14px) scale(.97); } }

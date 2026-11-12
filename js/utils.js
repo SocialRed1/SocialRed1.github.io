@@ -502,3 +502,83 @@ SR.closeOverlay = (instant = false, after) => {
   wrap.classList.add('is-closing');
   setTimeout(done, 210);
 };
+
+/* ==========================================================
+   Efectos profesionales: skeletons, contadores y errores
+   (css/effects.css). Reutilizables por todas las vistas.
+   ========================================================== */
+
+/* Promedio REAL de valoraciones: solo ratings numéricos finitos.
+   Devuelve null si no hay ningún dato real (nunca inventa un 4.8). */
+SR.avgRating = function (items) {
+  // Ojo: Number(null) es 0 y Number('') es 0: null/vacío NO es un 0,
+  // es "sin dato" y se excluye.
+  const rated = (items || []).filter((it) => it && it.rating !== null && it.rating !== undefined && it.rating !== '' && Number.isFinite(Number(it.rating)));
+  if (!rated.length) return null;
+  return Number((rated.reduce((acc, it) => acc + Number(it.rating), 0) / rated.length).toFixed(1));
+};
+
+/* Skeleton loaders: HTML de tarjetas/filas de carga para que las
+   secciones que cargan datos no muestren estados vacíos.
+   Variantes: 'card' (grid de catálogo), 'row' (lista de noticias),
+   'video' (miniatura 16:9 + líneas). */
+SR.skeletonHTML = function (count = 6, variant = 'card') {
+  const n = Math.max(1, Math.min(12, Number(count) || 6));
+  const v = ['card', 'row', 'video'].includes(variant) ? variant : 'card';
+  const one = v === 'row'
+    ? `<div class="sr-skeleton sr-skeleton-row" aria-hidden="true"><span class="sr-sk-thumb"></span><span class="sr-sk-lines"><i></i><i></i></span></div>`
+    : v === 'video'
+      ? `<div class="sr-skeleton sr-skeleton-video" aria-hidden="true"><span class="sr-sk-media"></span><span class="sr-sk-lines"><i></i><i></i></span></div>`
+      : `<div class="sr-skeleton sr-skeleton-card" aria-hidden="true"><span class="sr-sk-media"></span><span class="sr-sk-lines"><i></i><i></i><i></i></span></div>`;
+  return `<div class="sr-skeleton-wrap" role="status" aria-label="Cargando contenido">${one.repeat(n)}</div>`;
+};
+
+/* Estado de error VISIBLE (role="alert") para una carga fallida.
+   `host` es el contenedor donde aparece el aviso; `onRetry` (opcional)
+   añade un botón de reintento. Devuelve el aviso creado. */
+SR.showLoadError = function (host, { title = 'No se pudo cargar el contenido', message = 'Revisa tu conexión e inténtalo de nuevo.', retryLabel = 'Reintentar', onRetry = null } = {}) {
+  if (!host) return null;
+  host.innerHTML = '';
+  const el = document.createElement('div');
+  el.className = 'sr-load-error';
+  el.setAttribute('role', 'alert');
+  el.innerHTML = `<span class="sr-load-error-icon" aria-hidden="true">⚠</span><span class="sr-load-error-text"><b>${SR.esc(title)}</b><small>${SR.esc(message)}</small></span>${onRetry ? `<button type="button" class="sr-load-error-retry">${SR.esc(retryLabel)}</button>` : ''}`;
+  if (onRetry) el.querySelector('.sr-load-error-retry').addEventListener('click', onRetry);
+  host.appendChild(el);
+  return el;
+};
+
+/* Contador animado (count-up) de 0 al valor objetivo.
+   Sin animación si prefers-reduced-motion. `decimals` para medias
+   como 4.8 (data-count-decimals="1"). */
+SR.animateCount = function (el, target, { duration = 900, decimals = 0 } = {}) {
+  if (!el || !Number.isFinite(Number(target))) return;
+  const final = Number(target);
+  const suffix = el.dataset.countSuffix || '';
+  const fmt = (v) => (decimals > 0 ? v.toFixed(decimals) : SR.fmtNum(Math.round(v))) + suffix;
+  if (el._countRaf) cancelAnimationFrame(el._countRaf);
+  if (SR.reducedMotion() || !('requestAnimationFrame' in window)) { el.textContent = fmt(final); return; }
+  const start = performance.now();
+  const frame = (now) => {
+    const p = Math.min(1, (now - start) / duration);
+    const eased = 1 - Math.pow(1 - p, 3);
+    el.textContent = fmt(final * eased);
+    if (p < 1 && el.isConnected) el._countRaf = requestAnimationFrame(frame);
+    else el.textContent = fmt(final);
+  };
+  el._countRaf = requestAnimationFrame(frame);
+};
+
+/* Anima todos los [data-count-up] de `root` cuando aparecen en
+   pantalla (IntersectionObserver, una sola vez). El valor final ya
+   está en el HTML, así que sin JS (o sin movimiento) se ve igual. */
+SR.observeCountUps = function (root = document) {
+  const els = SR.$$('[data-count-up]', root);
+  if (!els.length) return;
+  const run = (el) => SR.animateCount(el, Number(el.dataset.countUp), { decimals: Number(el.dataset.countDecimals || 0) });
+  if (SR.reducedMotion() || !('IntersectionObserver' in window)) { els.forEach(run); return; }
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((en) => { if (en.isIntersecting) { run(en.target); io.unobserve(en.target); } });
+  }, { threshold: 0.4 });
+  els.forEach((el) => io.observe(el));
+};

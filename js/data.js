@@ -83,14 +83,14 @@ SR.SECTIONS = {
 
 /* ---------- Catálogo ---------- */
 SR.ITEMS = {
-  apps: [
-    { id: 'editor-de-fotos-lumen', name: 'Lumen Studio', tagline: 'Editor de fotos con capas y filtros', desc: 'Edición no destructiva con capas, máscaras y presets. Ideal para retoque rápido y diseño ligero.', tags: ['Diseño', 'Fotografía'], version: '3.4.1', size: '148 MB', license: 'Freemium', rating: 4.7, downloads: 18400, platform: 'Windows · macOS · Linux', hue: 285, icon: 'pen' },
-    { id: 'gestor-de-notas-nodo', name: 'Nodo Notas', tagline: 'Notas enlazadas y tableros', desc: 'Organiza ideas con notas enlazadas, etiquetas y vista de grafo. Funciona sin conexión.', tags: ['Productividad'], version: '2.9.0', size: '62 MB', license: 'Gratis', rating: 4.8, downloads: 24100, platform: 'Todas', hue: 190, icon: 'book' },
-    { id: 'convertidor-de-medios', name: 'Fluxo Converter', tagline: 'Convierte audio y video por lotes', desc: 'Convierte, comprime y extrae audio con perfiles listos para web, móvil y redes sociales.', tags: ['Multimedia', 'Utilidades'], version: '5.1.2', size: '96 MB', license: 'Gratis', rating: 4.5, downloads: 31200, platform: 'Windows · Linux', hue: 160, icon: 'play' },
-    { id: 'clima-y-pronostico', name: 'Brisa', tagline: 'Pronóstico claro y sin anuncios', desc: 'Pronóstico por hora, radar de lluvia y alertas. Diseño limpio, ligero y sin rastreadores.', tags: ['Utilidades'], version: '1.8.5', size: '24 MB', license: 'Gratis', rating: 4.6, downloads: 9800, platform: 'Android · iOS', hue: 205, icon: 'cloud' },
-    { id: 'gestor-de-contrasenas', name: 'Cerrojo', tagline: 'Bóveda de contraseñas local', desc: 'Guarda tus claves cifradas en tu equipo, con generador y autocompletado seguro.', tags: ['Seguridad'], version: '4.0.3', size: '38 MB', license: 'Código abierto', rating: 4.9, downloads: 27600, platform: 'Todas', hue: 250, icon: 'lock' },
-    { id: 'grabador-de-pantalla', name: 'Captura Pro', tagline: 'Graba y transmite tu pantalla', desc: 'Grabación en alta calidad, escenas, webcam y atajos. Para tutoriales y directos.', tags: ['Multimedia', 'Streaming'], version: '6.2.0', size: '121 MB', license: 'Pro', rating: 4.4, downloads: 15200, platform: 'Windows · macOS', hue: 340, icon: 'tv' }
-  ],
+  // Apps: vacío a propósito. El catálogo real vive en
+  // js/apps-database.js y lo sirve el motor (SR.appsEngine); antes
+  // aquí había 6 apps ficticias (Lumen Studio, Nodo Notas, Fluxo
+  // Converter, Brisa, Cerrojo, Captura Pro) que inflaban el conteo
+  // del Home y no tenían descarga real. Eliminadas 2026-11-12.
+  // allEntries() y courseDownloadTotal() usan el motor o
+  // SR.APPS_CATALOG como respaldo, nunca esta lista.
+  apps: [],
   canal: [],
   so: [
     { id: 'ubuntu-desktop', name: 'Ubuntu Desktop', tagline: 'Linux amigable para empezar', desc: 'Distribución popular, estable y con enorme comunidad. Excelente primera opción en Linux.', tags: ['Linux', 'Escritorio'], version: '24.04 LTS', size: '5.8 GB', license: 'Código abierto', rating: 4.8, downloads: 52000, platform: 'x86_64', hue: 22, icon: 'os' },
@@ -100,14 +100,21 @@ SR.ITEMS = {
     { id: 'raspberry-pi-os', name: 'Raspberry Pi OS', tagline: 'Para tu mini computadora', desc: 'Sistema oficial para Raspberry Pi, ideal para proyectos de electrónica y aprendizaje.', tags: ['Linux', 'IoT'], version: 'Bookworm', size: '1.1 GB', license: 'Código abierto', rating: 4.6, downloads: 19700, platform: 'ARM', hue: 330, icon: 'cpu' },
     { id: 'freebsd', name: 'FreeBSD', tagline: 'Alternativa robusta a Linux', desc: 'Sistema Unix de alto rendimiento, muy usado en redes y almacenamiento.', tags: ['BSD', 'Servidor'], version: '14.1', size: '1.0 GB', license: 'Código abierto', rating: 4.5, downloads: 8100, platform: 'x86_64 · ARM', hue: 0, icon: 'shield' }
   ],
-  juegos: [
-    { id: 'neon-runner', name: 'Neon Runner', tagline: 'Carreras arcade sin frenos', desc: 'Esquiva obstáculos a toda velocidad en pistas futuristas con banda sonora synthwave.', tags: ['Arcade', 'Indie'], version: '1.4', size: '320 MB', license: 'Gratis', rating: 4.6, downloads: 12900, platform: 'Windows · Linux', hue: 300, icon: 'bolt' },
-    { id: 'castillo-de-bloques', name: 'Castillo de Bloques', tagline: 'Construye, defiende, repite', desc: 'Estrategia ligera: levanta murallas, reúne recursos y resiste oleadas de enemigos.', tags: ['Estrategia'], version: '0.8', size: '210 MB', license: 'Gratis', rating: 4.4, downloads: 8600, platform: 'Windows · macOS', hue: 28, icon: 'layers' },
-    { id: 'lab-de-puzles', name: 'Laboratorio de Puzles', tagline: '120 niveles para pensar', desc: 'Puzles de lógica con mecánicas nuevas en cada mundo. Perfecto para partidas cortas.', tags: ['Puzles', 'Casual'], version: '2.1', size: '85 MB', license: 'Gratis', rating: 4.8, downloads: 17400, platform: 'Todas', hue: 190, icon: 'cpu' },
-    { id: 'galaxia-pixel', name: 'Galaxia Píxel', tagline: 'Shooter espacial retro', desc: 'Naves, jefes enormes y modo cooperativo local con estética de 16 bits.', tags: ['Acción', 'Retro'], version: '1.0', size: '140 MB', license: 'Gratis', rating: 4.5, downloads: 10300, platform: 'Windows · Linux', hue: 255, icon: 'game' },
-    { id: 'granja-del-valle', name: 'Granja del Valle', tagline: 'Cultiva a tu ritmo', desc: 'Simulador relajante: planta, cosecha y decora tu granja con amigos en línea.', tags: ['Simulación', 'Multijugador'], version: '3.2', size: '510 MB', license: 'Pro', rating: 4.7, downloads: 21800, platform: 'Windows · macOS', hue: 130, icon: 'heart' },
-    { id: 'turbo-karts', name: 'Turbo Karts', tagline: 'Carreras con amigos', desc: 'Hasta 8 jugadores en línea, circuitos locos y objetos que cambian cada vuelta.', tags: ['Carreras', 'Multijugador'], version: '2.6', size: '780 MB', license: 'Gratis', rating: 4.3, downloads: 14500, platform: 'Windows', hue: 10, icon: 'play' }
-  ],
+  // Juegos: vacío a propósito. Antes había 6 juegos ficticios
+  // (Neon Runner, Castillo de Bloques, Laboratorio de Puzles,
+  // Galaxia Píxel, Granja del Valle, Turbo Karts), eliminados
+  // 2026-11-12: js/games-catalog.js ya sobrescribía esta lista en
+  // carga (línea 203: SR.ITEMS.juegos = SR.GAME_CATALOG), así que
+  // en ejecución nunca se veían. El catálogo real es GAME_CATALOG.
+  juegos: [],
+  // Sistemas propios: SE CONSERVAN (no se borran). Son 4 nombres
+  // sin producto real detrás (Inventario Red, Agenda Red, Admin
+  // Red, Licencias Red), PERO se renderizan visibles en
+  // js/own-systems.js:145-146 ("Otros sistemas propios") y aparecen
+  // en el buscador del Home; quitarlos cambia contenido visible de
+  // la página de Sistemas Propios. Decisión de contenido pendiente
+  // para SaId/coordinador: o se sustituyen por sistemas reales
+  // (AdminPos) o se retiran junto con esa sección.
   propios: [
     { id: 'sistema-de-inventario', name: 'Inventario Red', tagline: 'Control de inventario web', desc: 'Entradas, salidas, alertas de stock y reportes. Pensado para negocios pequeños.', tags: ['Gestión', 'Web'], version: '1.6.0', size: 'Web', license: 'Privado', rating: 4.8, downloads: 1200, platform: 'Web', hue: 45, icon: 'layers' },
     { id: 'sistema-de-citas', name: 'Agenda Red', tagline: 'Reservas y recordatorios', desc: 'Agenda en línea con recordatorios automáticos, calendario compartido y pagos.', tags: ['Gestión', 'Automatización'], version: '2.0.2', size: 'Web', license: 'Privado', rating: 4.7, downloads: 980, platform: 'Web', hue: 30, icon: 'calendar' },

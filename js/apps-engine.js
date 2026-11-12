@@ -200,67 +200,11 @@ SR.appsEngine = (function () {
         });
       }
 
-      // 3. Verificación heurística y garantía de versiones estables 2025/2026
-      // Asegura que las aplicaciones clave muestren las compilaciones oficiales más recientes
-      const LATEST_REGISTRY = {
-        'google-chrome': '133.0.6943.54',
-        'mozilla-firefox': '135.0.0',
-        'brave-browser': '1.74.51',
-        'microsoft-edge': '133.0.3065.59',
-        'opera': '116.0.5366.69',
-        'discord': '1.0.9175',
-        'telegram-desktop': '5.10.3',
-        'zoom': '6.3.5.55122',
-        'vlc-media-player': '3.0.21',
-        'obs-studio': '31.0.1',
-        'audacity': '3.7.1',
-        'visual-studio-code': '1.97.0',
-        'git': '2.48.1',
-        'notepad-plus-plus': '8.7.5',
-        'python': '3.13.2',
-        '7-zip': '24.09',
-        'powertoys': '0.88.0',
-        'everything-search': '1.4.1.1026',
-        'rufus': '4.6.0',
-        'malwarebytes': '5.2.2.153',
-        'bitwarden': '2025.1.1',
-        'libreoffice': '24.8.4',
-        'sumatrapdf': '3.5.2',
-        'obsidian': '1.7.7',
-        'qbittorrent': '5.0.3',
-        'dotnet-desktop-runtime': '9.0.2',
-        'vcredist-aio': '0.85.0',
-        'gimp': '2.10.38',
-        'blender': '4.3.2',
-        'inkscape': '1.4.0',
-        'paint-net': '5.1.4',
-        'sharex': '17.0.0',
-        'spotify': '1.2.53.440',
-        'handbrake': '1.9.1',
-        'nodejs': '22.14.0 LTS',
-        'filezilla': '3.68.1',
-        'keepass': '2.58.0',
-        'proton-vpn': '3.4.3'
-      };
-
-      Object.entries(LATEST_REGISTRY).forEach(([id, targetVer]) => {
-        const app = SR.APPS_CATALOG.find((a) => a.id === id);
-        if (app && app.version !== targetVer) {
-          if (!app.pastVersions.some((v) => v.version === app.version)) {
-            app.pastVersions.unshift({
-              version: app.version,
-              date: app.releaseDate || 'Anterior',
-              type: 'Estable',
-              notes: 'Actualización incremental archivada por el motor autónomo.',
-              downloadUrl: app.downloads.direct64
-            });
-          }
-          app.version = targetVer;
-          app.isUpdated = true;
-          updates[id] = { version: targetVer, releaseDate: new Date().toISOString().slice(0, 10) };
-          updatedCount++;
-        }
-      });
+      // 3. Sin registro fijo de versiones (P0 2026-11-12): antes un LATEST_REGISTRY
+      // con versiones de febrero 2025 sobrescribía aquí cualquier versión más
+      // nueva de la base de datos (Chrome 157 -> 133, Edge 157 -> 133,
+      // Discord 1.0.9267 -> 1.0.9175, Telegram 7.4 -> 5.10.3) y lo guardaba en
+      // localStorage. Ese paso se eliminó: mandan la base de datos y RuckZuck.
 
       saveStoredUpdates(updates);
       setLastSyncDate();
