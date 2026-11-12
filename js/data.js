@@ -107,20 +107,13 @@ SR.ITEMS = {
   // carga (línea 203: SR.ITEMS.juegos = SR.GAME_CATALOG), así que
   // en ejecución nunca se veían. El catálogo real es GAME_CATALOG.
   juegos: [],
-  // Sistemas propios: SE CONSERVAN (no se borran). Son 4 nombres
-  // sin producto real detrás (Inventario Red, Agenda Red, Admin
-  // Red, Licencias Red), PERO se renderizan visibles en
-  // js/own-systems.js:145-146 ("Otros sistemas propios") y aparecen
-  // en el buscador del Home; quitarlos cambia contenido visible de
-  // la página de Sistemas Propios. Decisión de contenido pendiente
-  // para SaId/coordinador: o se sustituyen por sistemas reales
-  // (AdminPos) o se retiran junto con esa sección.
-  propios: [
-    { id: 'sistema-de-inventario', name: 'Inventario Red', tagline: 'Control de inventario web', desc: 'Entradas, salidas, alertas de stock y reportes. Pensado para negocios pequeños.', tags: ['Gestión', 'Web'], version: '1.6.0', size: 'Web', license: 'Privado', rating: 4.8, downloads: 1200, platform: 'Web', hue: 45, icon: 'layers' },
-    { id: 'sistema-de-citas', name: 'Agenda Red', tagline: 'Reservas y recordatorios', desc: 'Agenda en línea con recordatorios automáticos, calendario compartido y pagos.', tags: ['Gestión', 'Automatización'], version: '2.0.2', size: 'Web', license: 'Privado', rating: 4.7, downloads: 980, platform: 'Web', hue: 30, icon: 'calendar' },
-    { id: 'panel-administrativo', name: 'Admin Red', tagline: 'Panel administrativo modular', desc: 'Usuarios, roles, auditoría y módulos conectables para cualquier proyecto interno.', tags: ['Dashboard', 'Seguridad'], version: '0.9.8', size: 'Web', license: 'Privado', rating: 4.6, downloads: 760, platform: 'Web', hue: 220, icon: 'chart' },
-    { id: 'gestor-de-licencias', name: 'Licencias Red', tagline: 'Administra licencias y claves', desc: 'Emite, renueva y revoca licencias con registro de activaciones y avisos de vencimiento.', tags: ['Licencias', 'Seguridad'], version: '1.1.4', size: 'Web', license: 'Privado', rating: 4.9, downloads: 640, platform: 'Web', hue: 275, icon: 'lock' }
-  ]
+  // Sistemas propios: solo AdminPos. Los 4 nombres ficticios
+  // (Inventario Red, Agenda Red, Admin Red, Licencias Red) se
+  // eliminaron 2026-11-12 por decisión de SaId: quitarlos y dejar
+  // solo AdminPos. La sección "Otros sistemas propios" de
+  // js/own-systems.js ya es condicional (products.length), así que
+  // con la lista vacía no se renderiza nada.
+  propios: []
 };
 
 SR.SECTION_BY_KEY = {};
