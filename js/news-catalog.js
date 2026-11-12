@@ -320,21 +320,16 @@ window.SR = window.SR || {};
 
   SR.newsCatalogView = function () {
     const items = SR.NEWS.slice().sort((a, b) => dateValue(b.date) - dateValue(a.date));
-    const top = items[0];
     return {
       title: 'Noticias Tech', view: 'news-catalog', theme: 'dark', accent: 'noticias',
       html: `<section class="news-hub">
         <header class="news-hero">
           <div class="news-hero-art" aria-hidden="true"></div>
-          <div class="news-hero-copy">
-            <span class="news-kicker">TECNOLOGÍA <i>•</i> INNOVACIÓN <i>•</i> FUTURO</span>
-            <h1>LO ÚLTIMO<br><strong>EN TECNOLOGÍA</strong></h1>
-            <p>Actualidad tecnológica de fuentes reconocidas, organizada en un solo lugar.</p>
+          <div class="news-hero-side">
             <div class="news-source-row">${feeds.map((feed) => `<a href="${SR.esc(feed.page)}" target="_blank" rel="noopener noreferrer">${SR.esc(feed.name)} ${SR.icon('arrow')}</a>`).join('')}</div>
           </div>
-          <div class="news-hero-latest"><span>EN PORTADA</span><b>${SR.esc(top ? top.title : 'Noticias y tendencias tecnológicas')}</b><small>${top ? SR.esc(top.sourceName || 'Social Red') : 'Selección editorial'}</small></div>
+          <div class="news-carousel news-hero-carousel" id="newsCarousel" role="region" aria-roledescription="carrusel" aria-label="Noticias destacadas de las últimas 48 horas"></div>
         </header>
-        <div class="news-carousel-wrap container"><div class="news-carousel" id="newsCarousel" role="region" aria-roledescription="carrusel" aria-label="Noticias destacadas de las últimas 48 horas"></div></div>
         <div class="news-content container">
           <div class="news-toolbar"><div><span class="news-kicker">ACTUALIDAD Y ANÁLISIS</span><h2>Noticias destacadas</h2></div>
             <label class="news-search">${SR.icon('search')}<input id="newsSearch" type="search" placeholder="Buscar noticia o tema" autocomplete="off"></label>
