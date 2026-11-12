@@ -9,7 +9,8 @@ body[data-view="news-article"] .site-header { background: rgba(5,12,27,.9); back
 .news-hero { position: relative; display: grid; grid-template-columns: minmax(280px, 5fr) 7fr; gap: clamp(20px, 3vw, 48px); align-items: center; min-height: 440px; overflow: hidden; padding: calc(var(--header-h) + 35px) clamp(24px,8vw,120px); isolation: isolate; background: #061022; }
 .news-hero-art { position: absolute; z-index: -1; inset: 0; background: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=2000&q=90") center 48%/cover no-repeat; opacity: .5; mask-image: linear-gradient(90deg, rgba(0,0,0,.35), #000 30%, #000 75%, rgba(0,0,0,.35)); }
 .news-hero-side { position: relative; z-index: 1; display: flex; flex-direction: column; justify-content: center; gap: 18px; min-height: 300px; padding: clamp(24px, 3vw, 40px); border: 1px solid rgba(120, 200, 255, .18); border-radius: 20px; background: linear-gradient(135deg, rgba(10, 13, 43, .94) 0%, rgba(8, 23, 61, .82) 52%, rgba(0, 141, 255, .28) 100%); box-shadow: 0 24px 60px rgba(0, 0, 0, .35); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
-.news-hero-side .news-source-row a { padding: 10px 14px; font-size: 13px; }
+.news-hero-side .news-source-row { flex-direction: column; align-items: stretch; }
+.news-hero-side .news-source-row a { justify-content: center; padding: 12px 14px; font-size: 13px; }
 .news-hero .news-carousel { width: 100%; max-height: 400px; }
 .news-kicker { color: #c4d2e7; font-size: 12px; font-weight: 800; letter-spacing: .24em; }
 .news-kicker i { margin: 0 9px; color: #28c6ff; font-style: normal; }
@@ -99,6 +100,7 @@ body[data-view="news-article"] .site-header { background: rgba(5,12,27,.9); back
   .news-hero { grid-template-columns: 1fr; min-height: 0; }
   .news-hero-side { min-height: 0; }
   .news-hero-carousel { order: -1; }
+  .news-hero-side .news-source-row { flex-direction: row; }
   .news-cards-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
   .news-reading-body { grid-template-columns: 1fr; gap: 25px; }
   .news-reading-aside { display: grid; grid-template-columns: 150px 1fr; align-items: center; gap: 0 14px; }
