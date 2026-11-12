@@ -1,0 +1,18 @@
+/* ==========================================================
+   Transiciones entre pantallas + animaciones de aparición
+   ========================================================== */
+#app { transition: opacity .24s var(--ease-in-out), transform .24s var(--ease-in-out), filter .24s var(--ease-in-out); }
+#app.is-leaving { opacity: 0; transform: translateY(14px) scale(.995); filter: blur(4px); pointer-events: none; }
+#app.is-entering { animation: page-in .7s var(--ease) both; }
+@keyframes page-in { from { opacity: 0; transform: translateY(26px); filter: blur(6px); } to { opacity: 1; transform: none; filter: blur(0); } }
+
+/* Aparición al hacer scroll */
+[data-reveal] { opacity: 0; transform: translateY(28px); transition: opacity .8s var(--ease), transform .8s var(--ease); transition-delay: var(--d, 0ms); }
+[data-reveal].is-in { opacity: 1; transform: none; }
+/* No retrasar el hover de elementos revelados */
+[data-reveal].is-in { transition: opacity .8s var(--ease), transform var(--t) var(--ease), box-shadow var(--t), border-color var(--t), background var(--t); transition-delay: 0ms; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+  [data-reveal] { opacity: 1; transform: none; }
+}

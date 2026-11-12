@@ -1,0 +1,163 @@
+/* ==========================================================
+   Reset + elementos base
+   ========================================================== */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  color: #e8eaff;
+  background: var(--navy-900);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+img, svg { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+button, input, select { font: inherit; color: inherit; }
+button { cursor: pointer; background: none; border: 0; padding: 0; }
+h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.12; margin: 0; letter-spacing: -.02em; }
+p { margin: 0; }
+ul { list-style: none; margin: 0; padding: 0; }
+main { outline: none; min-height: 60vh; }
+
+:focus-visible { outline: 2px solid var(--accent-2); outline-offset: 3px; border-radius: 6px; }
+
+.skip-link {
+  position: fixed; left: 12px; top: -60px; z-index: 999;
+  background: #fff; color: var(--navy-900); padding: 10px 16px; border-radius: 10px; font-weight: 600;
+  transition: top var(--t-fast);
+}
+.skip-link:focus { top: 12px; }
+
+.container { width: min(100% - 48px, var(--container)); margin-inline: auto; }
+
+/* Scrollbar */
+* { scrollbar-width: thin; scrollbar-color: rgba(124, 77, 255, .5) transparent; }
+
+/* ---------- Botones ---------- */
+.btn {
+  --btn-bg: linear-gradient(135deg, var(--violet-500), var(--magenta-500));
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  padding: 13px 24px; border-radius: 999px;
+  font-family: var(--font-display); font-weight: 600; font-size: 15px; letter-spacing: -.01em;
+  color: #fff; background: var(--btn-bg);
+  box-shadow: 0 12px 30px -12px rgba(124, 77, 255, .8);
+  transition: transform var(--t) var(--ease), box-shadow var(--t) var(--ease), filter var(--t);
+}
+.btn:hover { transform: translateY(-2px); box-shadow: 0 18px 36px -12px rgba(124, 77, 255, .9); filter: brightness(1.08); }
+.btn:active { transform: translateY(0); }
+.btn svg { width: 18px; height: 18px; }
+.btn-ghost {
+  background: var(--glass); border: 1px solid var(--glass-border); box-shadow: none;
+  backdrop-filter: blur(10px);
+}
+.btn-ghost:hover { background: var(--glass-strong); box-shadow: none; }
+.btn-light { --btn-bg: #fff; color: var(--ink-900); box-shadow: 0 14px 30px -14px rgba(0, 0, 0, .5); }
+.btn-warm { --btn-bg: linear-gradient(135deg, #ffb347, var(--orange-500)); color: #fff; box-shadow: 0 10px 22px -10px rgba(255, 138, 43, .8); }
+.btn-sm { padding: 9px 18px; font-size: 13px; }
+.btn-accent { --btn-bg: linear-gradient(135deg, var(--accent), var(--accent-2)); color: #06142a; box-shadow: 0 14px 30px -14px var(--accent); }
+
+.icon-btn {
+  width: 42px; height: 42px; display: grid; place-items: center; border-radius: 50%;
+  color: #dfe3ff; transition: background var(--t-fast), transform var(--t-fast), color var(--t-fast);
+}
+.icon-btn:hover { background: var(--glass-strong); color: #fff; }
+.icon-btn svg { width: 20px; height: 20px; }
+
+/* ---------- Chips / etiquetas ---------- */
+.chip {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 8px 16px; border-radius: 999px; font-size: 14px; font-weight: 500;
+  color: #cfd4f6; background: var(--glass); border: 1px solid var(--glass-border);
+  transition: all var(--t) var(--ease);
+}
+.chip:hover { background: var(--glass-strong); color: #fff; transform: translateY(-1px); }
+.chip.is-active {
+  color: #fff; border-color: transparent;
+  background: linear-gradient(135deg, var(--violet-500), var(--magenta-500));
+  box-shadow: 0 10px 24px -12px rgba(224, 69, 200, .9);
+}
+.tag {
+  display: inline-block; padding: 3px 10px; border-radius: 8px; font-size: 12px; font-weight: 500;
+  background: rgba(255, 255, 255, .1); color: #cfd4f6;
+}
+
+/* Campo de búsqueda */
+.search-pill {
+  display: flex; align-items: center; gap: 10px; min-width: 240px;
+  padding: 10px 16px; border-radius: 999px;
+  background: rgba(255, 255, 255, .08); border: 1px solid var(--glass-border);
+  transition: border-color var(--t), background var(--t);
+}
+.search-pill:focus-within { border-color: var(--accent-2); background: rgba(255, 255, 255, .13); }
+.search-pill svg { width: 18px; height: 18px; opacity: .7; flex: none; }
+.search-pill input { background: none; border: 0; outline: 0; width: 100%; font-size: 14px; }
+.search-pill input::placeholder { color: #9aa1cf; }
+
+/* ---------- Texto utilitario ---------- */
+.eyebrow {
+  font-family: var(--font-body); font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--accent-2);
+}
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ---------- Toast ---------- */
+.toast-host { position: fixed; right: 20px; bottom: 20px; z-index: 300; display: grid; gap: 10px; }
+.toast {
+  padding: 12px 18px; border-radius: 14px; font-size: 14px; color: #fff;
+  background: rgba(17, 21, 77, .96); border: 1px solid var(--glass-border); box-shadow: var(--shadow-md);
+  backdrop-filter: blur(12px);
+  animation: toast-in .45s var(--ease) both;
+}
+.toast.is-out { animation: toast-out .3s var(--ease) both; }
+@keyframes toast-in { from { opacity: 0; transform: translateY(14px) scale(.96); } }
+@keyframes toast-out { to { opacity: 0; transform: translateY(8px) scale(.96); } }
+
+/* ---------- Modal / overlay ---------- */
+.overlay {
+  position: fixed; inset: 0; z-index: 200; display: grid; place-items: center; padding: 24px;
+  background: rgba(4, 5, 22, .72); backdrop-filter: blur(8px);
+  animation: fade-in .25s var(--ease) both;
+}
+.overlay.is-closing { animation: fade-out .22s var(--ease) both; }
+.modal {
+  width: min(100%, 760px); max-height: 88vh; overflow: auto; border-radius: var(--radius-xl);
+  background: linear-gradient(160deg, #161a5e, #0d1038); border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-lg); position: relative;
+  animation: modal-in .5s var(--ease) both;
+}
+.overlay.is-closing .modal { animation: modal-out .22s var(--ease) both; }
+.modal-close { position: absolute; right: 14px; top: 14px; z-index: 2; background: rgba(0, 0, 0, .35); }
+.modal-cover { height: 200px; position: relative; overflow: hidden; }
+.modal-cover svg { width: 100%; height: 100%; }
+.modal-body { padding: 28px 32px 32px; display: grid; gap: 18px; }
+.modal-body h3 { font-size: 28px; }
+.modal-body .lead { color: #c3c8ee; }
+.spec-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; }
+.spec { padding: 12px 14px; border-radius: 14px; background: var(--glass); border: 1px solid var(--glass-border); }
+.spec small { display: block; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: #9aa1cf; }
+.spec b { font-family: var(--font-display); font-size: 16px; }
+.modal-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+
+/* Buscador global */
+.search-modal { width: min(100%, 640px); padding: 18px; }
+.search-modal .search-pill { width: 100%; padding: 14px 18px; border-radius: 16px; }
+.search-modal .search-pill input { font-size: 17px; }
+.search-results { margin-top: 12px; display: grid; gap: 6px; max-height: 52vh; overflow: auto; }
+.search-hit {
+  display: flex; align-items: center; gap: 14px; padding: 10px 12px; border-radius: 14px; text-align: left;
+  transition: background var(--t-fast), transform var(--t-fast);
+}
+.search-hit:hover, .search-hit:focus-visible { background: var(--glass-strong); transform: translateX(3px); }
+.search-hit .thumb { width: 46px; height: 46px; border-radius: 12px; overflow: hidden; flex: none; }
+.search-hit .thumb svg { width: 100%; height: 100%; }
+.search-hit b { display: block; font-family: var(--font-display); font-size: 15px; }
+.search-hit small { color: #9aa1cf; }
+.search-empty { padding: 28px; text-align: center; color: #9aa1cf; }
+
+@keyframes fade-in { from { opacity: 0; } }
+@keyframes fade-out { to { opacity: 0; } }
+@keyframes modal-in { from { opacity: 0; transform: translateY(26px) scale(.96); } }
+@keyframes modal-out { to { opacity: 0; transform: translateY(14px) scale(.97); } }

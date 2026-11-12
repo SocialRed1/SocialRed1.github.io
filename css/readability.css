@@ -1,0 +1,59 @@
+/* Legibilidad base y ajuste de contenido para cualquier tamaño de ventana. */
+html { font-size: 100%; }
+body { font-size: clamp(16px, calc(15px + .2vw), 18px); }
+
+body :where(p, li, a, button, input, select, textarea, label, small, time, figcaption, th, td, span, div, b, strong, .eyebrow, [class*="kicker"], [class*="label"], [class*="caption"], [class*="meta"], [class*="status"], [class*="count"], [class*="source"], [class*="legend"], [class*="note"], [class*="tag"], [class*="foot"], [class*="duration"], [class*="result"], [class*="desc"]):not(.channel-feature-number) {
+  font-size: max(14px, 1em) !important;
+}
+
+.channel-video-info > b,
+.home-dashboard-links b,
+.home-coin-name > b,
+.home-coin-name > i,
+.home-market-chart-head,
+.home-market-loading,
+.home-market-error { font-size: 14px !important; }
+
+.container,
+.channel-page .container { width: min(100% - 32px, var(--container, 1240px)); }
+
+.home-dashboard-links b { white-space: normal; }
+.channel-video-info > b { min-height: 0; }
+.channel-video-duration { letter-spacing: 0; }
+
+@media (max-width: 760px) {
+  .container,
+  .channel-page .container { width: min(100% - 28px, 560px); }
+
+  .section-head { align-items: flex-start; flex-direction: column; }
+  .search-pill { min-width: 0; width: 100%; }
+  .channel-topbar-inner { flex-wrap: wrap; padding-block: 10px; }
+  .channel-topbar nav { order: 3; flex-basis: 100%; justify-content: center; gap: clamp(12px, 5vw, 28px); }
+  .channel-topbar nav a { padding-block: 10px; }
+  .channel-topbar nav a:nth-child(2) { display: initial; }
+  .channel-feature { min-height: 620px; }
+  .channel-feature-content { padding-bottom: 48px; }
+  .channel-feature-label { margin-top: 40px; }
+  .channel-controls { align-items: stretch; flex-direction: column; }
+  .channel-video-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 14px; }
+}
+
+@media (max-width: 480px) {
+  .container,
+  .channel-page .container { width: min(100% - 24px, 420px); }
+
+  .btn-sm { padding: 10px 14px; }
+  .home-dashboard-body { grid-template-columns: 1fr; }
+  .home-dashboard-orbit { width: min(100%, 150px); }
+  .home-dashboard-links { grid-template-columns: 1fr; }
+  .home-dashboard-links > a { min-height: 44px; }
+  .home-dashboard-links small { display: block; }
+  .home-market-table { min-width: 560px; }
+  .channel-topbar-inner { gap: 8px; }
+  .channel-topbar nav { gap: 14px; }
+  .channel-video-grid { grid-template-columns: 1fr; gap: 22px; }
+  .channel-video-info > b { font-size: 16px !important; }
+  .channel-video-info > span { flex-wrap: wrap; }
+  .footer-grid { grid-template-columns: 1fr; }
+  .footer-brand { grid-column: auto; }
+}
