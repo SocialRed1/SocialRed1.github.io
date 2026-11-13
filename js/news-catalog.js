@@ -302,7 +302,7 @@ window.SR = window.SR || {};
   const imageFor = (item) => item.image || fallbackImage;
   const imageLabel = (item) => item.imageLicense
     ? `Wikimedia Commons · ${item.imageLicense}`
-    : item.image ? `Imagen de ${item.sourceName || 'la fuente'}` : 'Ilustración general de tecnología';
+    : item.imageCredit ? `Imagen: ${item.imageCredit}` : item.image ? `Imagen de ${item.sourceName || 'la fuente'}` : 'Ilustración general de tecnología';
   const card = (item, index, featured = false) => `
     <article class="news-card${featured ? ' news-card-featured' : ''}" style="--news-delay:${Math.min(index, 9) * 45}ms">
       <a class="news-card-image" href="#/noticias/${encodeURIComponent(item.id)}" aria-label="Leer ${SR.esc(item.title)}">

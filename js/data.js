@@ -180,6 +180,30 @@ SR.COURSES = [
 /* ---------- Noticias ---------- */
 SR.NEWS = [
   {
+    id: 'caida-outlook-microsoft-365', title: 'Se cae Outlook y Microsoft 365: miles de usuarios sin correo', category: 'Tecnología', hue: 210, icon: 'bolt', date: 0, author: 'Redacción Social Red', read: 4,
+    excerpt: 'Outlook y Microsoft 365 dejaron de funcionar para miles de usuarios. Microsoft confirmó la falla en Exchange Online y trabaja en la solución.',
+    lead: 'Downdetector registró más de 130,000 reportes de Outlook en el pico de la caída. También fallaron Teams, SharePoint y Copilot.',
+    body: ['Este jueves 12 de noviembre, Outlook y Microsoft 365 dejaron de funcionar para miles de usuarios. Downdetector registró más de 130,000 reportes de Outlook en su punto máximo, alrededor de la 1:27 p.m. hora del este, y más de 46,000 reportes de Microsoft 365.',
+      'Microsoft confirmó la falla a través de su cuenta de estado de Microsoft 365: el problema está en Exchange Online, el servicio que maneja el correo, bajo el incidente EX1550543. Al inicio, la afectación se concentraba en las Américas, pero la compañía advirtió que podría alcanzar a usuarios de cualquier región.',
+      'La caída no se limitó al correo: también fallaron Teams, SharePoint, Copilot 365 y Defender XDR. Microsoft pausó despliegues, movió tráfico y reinicia servidores para recuperar el servicio.',
+      'Hasta el momento no hay una hora confirmada para la restauración total, aunque los reportes ya iban en descenso durante la tarde. Seguiremos actualizando esta nota conforme Microsoft confirme la recuperación completa del servicio.'],
+    facts: ['Más de 130,000 reportes de Outlook en Downdetector', 'Incidente EX1550543 en Exchange Online', 'También fallaron Teams, SharePoint y Copilot', 'Sin hora confirmada de restauración total'],
+    image: 'assets/noticias/2026-11-12-caida-outlook.jpg', imageCredit: 'BleepingComputer (captura genérica de una caída de Outlook)',
+    sourceUrl: 'https://www.reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/', sourceName: 'Reuters'
+  },
+  {
+    id: 'nvidia-junta-jensen-huang', title: 'La junta de Nvidia prepara la salida de su CEO Jensen Huang', category: 'Tecnología', hue: 140, icon: 'cpu', date: 0, author: 'Redacción Social Red', read: 4,
+    excerpt: 'The Wall Street Journal reporta que la junta de Nvidia prepara destituir a Jensen Huang, su fundador y CEO desde 1993. La decisión aún no es oficial.',
+    lead: 'La junta se reunió el miércoles 11 de noviembre y podría decidir el futuro del CEO este jueves. Las acciones cayeron cerca de 8% tras el reporte.',
+    body: ['The Wall Street Journal reporta que la junta directiva de Nvidia prepara la destitución de Jensen Huang, fundador de la compañía y su director ejecutivo desde 1993. Según el reporte, la junta se reunió el miércoles 11 de noviembre y podría tomar una decisión sobre su futuro este jueves.',
+      'El reporte señala que la decisión estaría relacionada con dos relaciones extramaritales: una con una presunta agente de inteligencia china, Alice Huang, ejecutiva de Megaspeed, y otra con una empleada de Nvidia. The New York Times había reportado antes la segunda relación. Nvidia no ha anunciado ninguna decisión oficial: la junta "prepara" la salida, no es un hecho consumado.',
+      'La reacción del mercado fue inmediata: las acciones de Nvidia cayeron cerca de 8% tras el reporte, entre el cierre extendido del miércoles y la preapertura del jueves, y los mercados asiáticos también registraron caídas. Además, hay investigaciones del Congreso en marcha sobre el caso.',
+      'Es una escalada nueva del escándalo: días antes se habían reportado la investigación, una demanda y una caída de alrededor de 190,000 millones de dólares en valor de mercado. El hecho nuevo es la posible salida del fundador y CEO. Seguiremos actualizando esta nota conforme haya una decisión oficial.'],
+    facts: ['Jensen Huang es fundador y CEO de Nvidia desde 1993', 'La junta se reunió el miércoles 11 de noviembre', 'Acciones cayeron cerca de 8% tras el reporte', 'Aún no hay decisión oficial de Nvidia'],
+    image: 'assets/noticias/2026-11-12-nvidia-jensen-huang.jpg', imageCredit: 'Jensen Huang en escenario, con su chamarra de cuero negra',
+    sourceUrl: 'https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad', sourceName: 'The Wall Street Journal'
+  },
+  {
     id: 'nueva-version-ubuntu-lts', title: 'Llega una nueva versión LTS con mejoras de rendimiento', category: 'Sistemas', hue: 22, icon: 'os', date: -1, author: 'Redacción Social Red', read: 4, views: 5820,
     excerpt: 'La actualización trae un kernel más reciente, mejor soporte de hardware y un instalador renovado.',
     lead: 'La nueva versión de soporte extendido prioriza estabilidad, seguridad y tiempos de arranque más cortos.',
