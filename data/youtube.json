@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T06:52:18.175321Z",
+  "generated_at": "2026-11-13T08:08:02.276903Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -122,9 +122,9 @@
   ],
   "stats": {
     "subscribers": 482,
-    "views": 80157,
+    "views": 80513,
     "videos": 77,
-    "fetched_at": "2026-11-13T06:52:18.683034Z",
+    "fetched_at": "2026-11-13T08:08:02.796963Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
@@ -136,7 +136,7 @@
     "note": "Cifras FIJAS que muestra hoy el sitio (js/channel-catalog.js: 480 suscriptores, 80,157 vistas; 75 vídeos en su lista fija). Solo referencia mientras no haya stats en vivo; NO usarlas como si estuvieran actualizadas."
   },
   "notes": [
-    "Vídeos: el RSS falló en esta ejecución (HTTP Error 404: Not Found); se conservan los vídeos del JSON previo.",
+    "Vídeos: EN VIVO desde el RSS oficial del canal (últimos 15 del feed + historial conservado de ejecuciones previas, hasta 100).",
     "Cifras del canal: Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
   ]
 }
