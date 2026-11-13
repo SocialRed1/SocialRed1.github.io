@@ -180,7 +180,7 @@ SR.COURSES = [
 /* ---------- Noticias ---------- */
 SR.NEWS = [
   {
-    id: 'caida-outlook-microsoft-365', title: 'Se cae Outlook y Microsoft 365: miles de usuarios sin correo', category: 'Tecnología', hue: 210, icon: 'bolt', date: 0, author: 'Redacción Social Red', read: 4,
+    id: 'caida-outlook-microsoft-365', title: 'Se cae Outlook y Microsoft 365: miles de usuarios sin correo', category: 'Tecnología', hue: 210, icon: 'bolt', date: '2026-11-12T21:47:00-06:00', author: 'Redacción Social Red', read: 4,
     excerpt: 'Outlook y Microsoft 365 dejaron de funcionar para miles de usuarios. Microsoft confirmó la falla en Exchange Online y trabaja en la solución.',
     lead: 'Downdetector registró más de 130,000 reportes de Outlook en el pico de la caída. También fallaron Teams, SharePoint y Copilot.',
     body: ['Este jueves 12 de noviembre, Outlook y Microsoft 365 dejaron de funcionar para miles de usuarios. Downdetector registró más de 130,000 reportes de Outlook en su punto máximo, alrededor de la 1:27 p.m. hora del este, y más de 46,000 reportes de Microsoft 365.',
@@ -192,7 +192,7 @@ SR.NEWS = [
     sourceUrl: 'https://www.reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/', sourceName: 'Reuters'
   },
   {
-    id: 'nvidia-junta-jensen-huang', title: 'La junta de Nvidia prepara la salida de su CEO Jensen Huang', category: 'Tecnología', hue: 140, icon: 'cpu', date: 0, author: 'Redacción Social Red', read: 4,
+    id: 'nvidia-junta-jensen-huang', title: 'La junta de Nvidia prepara la salida de su CEO Jensen Huang', category: 'Tecnología', hue: 140, icon: 'cpu', date: '2026-11-12T21:46:00-06:00', author: 'Redacción Social Red', read: 4,
     excerpt: 'The Wall Street Journal reporta que la junta de Nvidia prepara destituir a Jensen Huang, su fundador y CEO desde 1993. La decisión aún no es oficial.',
     lead: 'La junta se reunió el miércoles 11 de noviembre y podría decidir el futuro del CEO este jueves. Las acciones cayeron cerca de 8% tras el reporte.',
     body: ['The Wall Street Journal reporta que la junta directiva de Nvidia prepara la destitución de Jensen Huang, fundador de la compañía y su director ejecutivo desde 1993. Según el reporte, la junta se reunió el miércoles 11 de noviembre y podría tomar una decisión sobre su futuro este jueves.',
