@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T00:11:42.727019Z",
+  "generated_at": "2026-11-13T01:36:51.966310Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "xSCHVlFEbo8",
+      "title": "Sony cancela Fairgames 🎮",
+      "date": "2026-11-13T01:12:43Z",
+      "url": "https://www.youtube.com/shorts/xSCHVlFEbo8",
+      "thumbnail": "https://i1.ytimg.com/vi/xSCHVlFEbo8/hqdefault.jpg"
+    },
     {
       "id": "pB4LQvwEJ1E",
       "title": "El iPad mini por fin tiene OLED 📱",
@@ -116,8 +123,8 @@
   "stats": {
     "subscribers": 481,
     "views": 80157,
-    "videos": 76,
-    "fetched_at": "2026-11-13T00:11:43.656874Z",
+    "videos": 77,
+    "fetched_at": "2026-11-13T01:36:52.500261Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
