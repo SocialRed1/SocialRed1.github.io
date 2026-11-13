@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T22:32:51.398773Z",
+  "generated_at": "2026-11-13T23:28:55.316639Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-puuuuj",
+      "title": "Qué se sabe sobre la falla global que afectó a Outlook y otros servicios de Microsoft",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-13T22:45:45Z",
+      "author": "No indicado por la fuente",
+      "sourceName": "BBC Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/c8dx192g5pn5o?at_medium=RSS&at_campaign=rss",
+      "sourcePage": "https://www.bbc.com/mundo/topics/cyx5krnw38vt",
+      "read": 2,
+      "excerpt": "Microsoft ha afirmado que la interrupción del servicio no fue causada por un incidente de ciberseguridad. Los esfuerzos por solucionar los problemas hasta el momento no han sido completamente exitosos.",
+      "lead": "Microsoft ha afirmado que la interrupción del servicio no fue causada por un incidente de ciberseguridad. Los esfuerzos por solucionar los problemas hasta el momento no han sido completamente exitosos.",
+      "body": [],
+      "facts": [],
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/eaad/live/73b2c830-df45-11f1-a48c-75dd2efdacb5.jpg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-yoqb9l",
       "title": "El USB del espacio: Europa crea un conector universal para reparar satélites en órbita en lugar de tirarlos",
@@ -424,26 +444,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/87365c/niels-baars-rszoaizc7cs-unsplash/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-puuuuj",
-      "title": "Qué se sabe sobre la falla global que afecta Outlook y otros servicios de Microsoft",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-13T09:21:47Z",
-      "author": "No indicado por la fuente",
-      "sourceName": "BBC Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c8dx192g5pn5o?at_medium=RSS&at_campaign=rss",
-      "sourcePage": "https://www.bbc.com/mundo/topics/cyx5krnw38vt",
-      "read": 2,
-      "excerpt": "Microsoft ha afirmado que la interrupción del servicio no fue causada por un incidente de ciberseguridad. Los esfuerzos por solucionar los problemas hasta el momento no han sido completamente exitosos.",
-      "lead": "Microsoft ha afirmado que la interrupción del servicio no fue causada por un incidente de ciberseguridad. Los esfuerzos por solucionar los problemas hasta el momento no han sido completamente exitosos.",
-      "body": [],
-      "facts": [],
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/eaad/live/73b2c830-df45-11f1-a48c-75dd2efdacb5.jpg",
       "video": "",
       "external": true
     }
