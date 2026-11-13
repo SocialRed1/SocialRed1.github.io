@@ -180,6 +180,19 @@ SR.COURSES = [
 /* ---------- Noticias ---------- */
 SR.NEWS = [
   {
+    id: 'apple-homeview-apple-tv-4k', title: 'Apple lanza HomeView y el nuevo Apple TV 4K: hoy llegan a las tiendas', category: 'Tecnología', hue: 220, icon: 'home', date: '2026-11-13T06:30:00-06:00', author: 'Redacción Social Red', read: 4,
+    excerpt: 'Apple pone a la venta hoy su nueva pantalla para el hogar inteligente, HomeView, y el Apple TV 4K de cuarta generación con Siri AI. Los dos cuestan $299.',
+    lead: 'HomeView es el primer producto nuevo de Apple para el hogar en años: una pantalla de 7 pulgadas que reconoce hasta seis personas por rostro y voz.',
+    body: ['Apple pone a la venta hoy, viernes 13 de noviembre, dos productos: el nuevo HomeView, su pantalla para el hogar inteligente, y el Apple TV 4K de cuarta generación. Ambos cuestan $299 y estaban en preventa desde mediados de octubre, tras anunciarse el 13 de octubre junto al HomePod mini 2, según MacRumors.',
+      'HomeView es la gran novedad: una pantalla cuadrada de 7 pulgadas, disponible en modelo de mesa con base de altavoz y en versión de pared, impulsada por Apple Intelligence con Siri AI. Reconoce hasta seis personas por rostro y voz y muestra a cada una su propia pantalla personalizada. Sirve para videollamadas, ver videos, consultar el calendario y el clima, escuchar música y controlar los dispositivos del hogar. No tiene App Store, pero trae las apps de Apple preinstaladas y puede mostrar widgets del iPhone.',
+      'El nuevo Apple TV 4K llega con chip A19, Siri AI, 128 GB de almacenamiento y Wi-Fi 7, además de un control Siri Remote actualizado con altavoz para encontrarlo con Find My y soporte para sonido envolvente con hasta cuatro HomePod mini 2. Según la prueba de MacRumors, Siri AI funciona mejor que la Siri anterior para recomendar películas y series, aunque todavía falla en las preguntas de seguimiento: Apple advierte que está en beta.',
+      'Hay dos detalles a tomar en cuenta. HomeView no se vende en la Unión Europea porque Siri AI aún no está disponible en iOS en esa región por temas regulatorios, y Apple dice que trabaja para encontrar una solución, sin fecha. Además, Apple reconoció un problema de Siri AI en HomeView para controlar productos del hogar como cerraduras, con arreglo previsto para el próximo mes.',
+      'Los modelos anteriores de Apple TV 4K (segunda y tercera generación) también recibirán Siri AI con la actualización tvOS 27.2.1, según Apple. El lanzamiento llega justo antes de la temporada de compras de fin de año, y será la primera prueba real de si la nueva Siri con IA convence en el centro del hogar.'],
+    facts: ['HomeView y Apple TV 4K ya a la venta hoy, viernes 13 de noviembre, a $299 cada uno', 'HomeView reconoce hasta 6 personas por rostro y voz', 'Apple TV 4K trae chip A19, Siri AI y control con Find My', 'HomeView no se vende por ahora en la Unión Europea'],
+    image: 'assets/noticias/2026-11-13-apple-homeview.jpg', imageCredit: 'MacRumors',
+    sourceUrl: 'https://www.macrumors.com/2026/11/13/apple-launches-two-products-today/', sourceName: 'MacRumors'
+  },
+  {
     id: 'caida-outlook-microsoft-365', title: 'Se cae Outlook y Microsoft 365: miles de usuarios sin correo', category: 'Tecnología', hue: 210, icon: 'bolt', date: '2026-11-12T21:47:00-06:00', author: 'Redacción Social Red', read: 4,
     excerpt: 'Outlook y Microsoft 365 dejaron de funcionar para miles de usuarios. Microsoft confirmó la falla en Exchange Online y trabaja en la solución.',
     lead: 'Downdetector registró más de 130,000 reportes de Outlook en el pico de la caída. También fallaron Teams, SharePoint y Copilot.',
