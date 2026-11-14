@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T17:02:32.456589Z",
+  "generated_at": "2026-11-14T17:57:54.404403Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "RZI5YAjeVB4",
+      "title": "3 trucos para cazar ofertas en el Buen Fin 🛒",
+      "date": "2026-11-14T17:21:41Z",
+      "url": "https://www.youtube.com/shorts/RZI5YAjeVB4",
+      "thumbnail": "https://i3.ytimg.com/vi/RZI5YAjeVB4/hqdefault.jpg"
+    },
     {
       "id": "fog57Qzj_Pc",
       "title": "Switch 2 en el Buen Fin: ¿$6,498? 🎮",
@@ -130,8 +137,8 @@
   "stats": {
     "subscribers": 483,
     "views": 81223,
-    "videos": 78,
-    "fetched_at": "2026-11-14T17:02:33.080813Z",
+    "videos": 79,
+    "fetched_at": "2026-11-14T17:57:55.024587Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
