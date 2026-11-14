@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T06:40:13.081859Z",
+  "generated_at": "2026-11-14T07:49:03.401343Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-6tu8ny",
+      "title": "En 2004 el PSOE dio un vuelco electoral. Automáticamente los científicos notaron algo: un cambio en los embarazos y las bodas",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-14T07:01:23Z",
+      "author": "Carlos Prego",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/magnet/2004-psoe-dio-vuelco-electoral-automaticamente-cientificos-notaron-algo-cambio-embarazos-bodas",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Cuando una pareja decide tener hijos valora cuestiones como su estabilidad laboral, el precio de vivienda , si tendrá o no apoyo familiar ( benditos abuelos ) o la marcha de la economía , pero… ¿Entra la política en esa ecuación? ¿Pueden influir unas elecciones en la demografía de un territorio, alterando, aunque sea brevemente, la natalidad, la tasa de abortos y el número de enlaces? Un estudio realizado por investigadores de la Universitat de Barcelona (UB), la Pompeu Fabra (UPF) y Cambra de Barcelona cree que sí. Y mucho. Al menos esa es la conclusión que han sacado al analizar las elecciones de 2004, una de las más convulsas de la democracia, cuando contra todo pronóstico y pese a los sondeos que daban ganador al PP, la candidatura de José Luis Rodríguez Zapatero acabó imponiéndose con 164 escaños . ¿Demografía y elecciones? Correcto. No son dos conceptos que suelan relacionarse, per",
+      "lead": "Cuando una pareja decide tener hijos valora cuestiones como su estabilidad laboral, el precio de vivienda , si tendrá o no apoyo familiar ( benditos abuelos ) o la marcha de la economía , pero… ¿Entra la política en esa ecuación? ¿Pueden influir unas elecciones en la demografía de un territorio, alterando, aunque sea brevemente, la natalidad, la tasa de abortos y el número de enlaces? Un estudio realizado por investigadores de la Universitat de Barcelona (UB), la Pompeu Fabra (UPF) y Cambra de Barcelona cree que sí. Y mucho. Al menos esa es la conclusión que han sacado al analizar las elecciones de 2004, una de las más convulsas de la democracia, cuando contra todo pronóstico y pese a los sondeos que daban ganador al PP, la candidatura de José Luis Rodríguez Zapatero acabó imponiéndose con 164 escaños . ¿Demografía y elecciones? Correcto. No son dos conceptos que suelan relacionarse, per",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/a0cc61/jim-luo-qg8itgt3di8-unsplash/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-92166c",
       "title": "Los científicos coinciden: las personas más inteligentes son también las más solitarias por culpa de la evolución",
@@ -424,26 +444,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/91d59d/entrevista-pedro-sanchez-jordi-wild-portada-1/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-1kfbnv4",
-      "title": "Uno de los mejores móviles pequeños de 2026, a mínimo histórico: el Pixel 11 Pro cae por debajo de los 790 euros",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-13T14:15:22Z",
-      "author": "Juan Lorente",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/seleccion/uno-mejores-moviles-pequenos-2026-a-minimo-historico-pixel-11-pro-cae-debajo-790-euros",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "Aunque tenemos muy buenas opciones si buscamos un móvil con pantalla grande, todavía hay muchos usuarios que prefieren una opción pequeña y compacta. De entre todos los móviles pequeños que se han lanzado en 2026, uno de los mejores sin duda es el Google Pixel 11 Pro y ahora mismo lo tenemos a su precio más bajo hasta la fecha: sale por 788 euros en MediaMarkt si usamos el código ' PIXEL111PARATI ' Google Pixel 11 Pro – Smartphone Android Libre – Arenisca, 256GB | Con Gemini Intelligence, batería de más de 30 horas y pantalla Super Actua de 6,3” PVP en MediaMarkt (con cupón) — 788,00 € Amazon — 899,00 € Reacondicionados Back Market — 876,07 € El precio podría variar. Obtenemos comisión por estos enlaces Un móvil compacto que destaca en fotografía Ahora mismo, lo tenemos rebajado a 899 euros tanto en Amazon como en MediaMarkt. Sin embargo, el precio al que se queda el dispositivo tras apl",
-      "lead": "Aunque tenemos muy buenas opciones si buscamos un móvil con pantalla grande, todavía hay muchos usuarios que prefieren una opción pequeña y compacta. De entre todos los móviles pequeños que se han lanzado en 2026, uno de los mejores sin duda es el Google Pixel 11 Pro y ahora mismo lo tenemos a su precio más bajo hasta la fecha: sale por 788 euros en MediaMarkt si usamos el código ' PIXEL111PARATI ' Google Pixel 11 Pro – Smartphone Android Libre – Arenisca, 256GB | Con Gemini Intelligence, batería de más de 30 horas y pantalla Super Actua de 6,3” PVP en MediaMarkt (con cupón) — 788,00 € Amazon — 899,00 € Reacondicionados Back Market — 876,07 € El precio podría variar. Obtenemos comisión por estos enlaces Un móvil compacto que destaca en fotografía Ahora mismo, lo tenemos rebajado a 899 euros tanto en Amazon como en MediaMarkt. Sin embargo, el precio al que se queda el dispositivo tras apl",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/9198df/pixel-11-pro-portada/1024_2000.jpeg",
       "video": "",
       "external": true
     }
