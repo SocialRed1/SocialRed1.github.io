@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T17:57:53.389844Z",
+  "generated_at": "2026-11-14T18:30:03.865640Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-c7ars3",
+      "title": "Cuando el desierto se queda corto: resulta que la sequía extrema amenaza la supervivencia del cactus",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-14T18:01:23Z",
+      "author": "Eva R. de Luis",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/ecologia-y-naturaleza/cuando-desierto-se-queda-corto-resulta-que-sequia-extrema-amenaza-supervivencia-cactus",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Si pensamos en seres capaces de sobrevivir en condiciones extremas, uno de los que nos viene a la cabeza dentro del reino vegetal son los cactus: tienen espinas, un tallo que almacena agua y un metabolismo optimizado en función de la sed que tengan. Si el cambio climático trae sequía (que la trae , entre otras cosas ), los cactus a priori parece que están preparados para el secarral. Pues no: un nuevo estudio cuestiona que esa fama sea una garantía frente al calentamiento global y la razón está no tanto en el aumento medio de la temperatura, sino en los peores años. El estudio . Un equipo de investigación reunió 648.316 observaciones de cactus (dónde se ha visto cada especie) para averiguar en qué clima viven hoy. Después, simuló mapas globales considerando las proyecciones del clima futuro para calcular cuánta de esa zona con clima adecuado seguirá existiendo a finales de siglo, lo hici",
+      "lead": "Si pensamos en seres capaces de sobrevivir en condiciones extremas, uno de los que nos viene a la cabeza dentro del reino vegetal son los cactus: tienen espinas, un tallo que almacena agua y un metabolismo optimizado en función de la sed que tengan. Si el cambio climático trae sequía (que la trae , entre otras cosas ), los cactus a priori parece que están preparados para el secarral. Pues no: un nuevo estudio cuestiona que esa fama sea una garantía frente al calentamiento global y la razón está no tanto en el aumento medio de la temperatura, sino en los peores años. El estudio . Un equipo de investigación reunió 648.316 observaciones de cactus (dónde se ha visto cada especie) para averiguar en qué clima viven hoy. Después, simuló mapas globales considerando las proyecciones del clima futuro para calcular cuánta de esa zona con clima adecuado seguirá existiendo a finales de siglo, lo hici",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/370ec2/lydia-venjohn-zs4dlmzosp8-unsplash/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-2uh4ra",
       "title": "Ante el problema de las riadas, en parte de Valencia ya subvencionan hasta 500 euros por instalar barreras en la puerta de tu casa",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/fa90be/airpods-pro-3-y-samsung-galaxy-s26-plus/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-1rofwq8",
-      "title": "Dónde duerme el turismo en Europa: el mapa que retrata la masificación en la España mediterránea",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-14T09:01:23Z",
-      "author": "Eva R. de Luis",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/magnet/donde-duerme-turismo-europa-mapa-que-retrata-masificacion-espana-mediterranea",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "Uno de los problemas del turismo es que no se reparte de forma uniforme: mientras hay municipios como Benidorm al que los foráneos les salen hasta por las orejas, en Almazán no pasa lo mismo. La actividad turística suele aglutinarse en puntos muy concretos, como las cosas, islas, capitales históricas y también valles alpinos. Precisamente, e ste mapa sintetiza esa asimetría turística de Europa en una sola cartografía. Es, en pocas palabras, algo que puede medirse con un término que la Organización Mundial del Turismo define como \"Overtourism\" o Sobreturismo, cuando el impacto del turismo en un municipio influye tanto, y a veces de forma negatica, en la calidad de vida de sus redidentes. El mapa es obra de Josep Ferrer , analista de datos y profesor de la Universidad de Navarra, a partir de datos de Eurostat de 2025 sobre noches en alojamientos registrados (ojo a este dato, porque la real",
-      "lead": "Uno de los problemas del turismo es que no se reparte de forma uniforme: mientras hay municipios como Benidorm al que los foráneos les salen hasta por las orejas, en Almazán no pasa lo mismo. La actividad turística suele aglutinarse en puntos muy concretos, como las cosas, islas, capitales históricas y también valles alpinos. Precisamente, e ste mapa sintetiza esa asimetría turística de Europa en una sola cartografía. Es, en pocas palabras, algo que puede medirse con un término que la Organización Mundial del Turismo define como \"Overtourism\" o Sobreturismo, cuando el impacto del turismo en un municipio influye tanto, y a veces de forma negatica, en la calidad de vida de sus redidentes. El mapa es obra de Josep Ferrer , analista de datos y profesor de la Universidad de Navarra, a partir de datos de Eurostat de 2025 sobre noches en alojamientos registrados (ojo a este dato, porque la real",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/575134/gemini_generated_image_9hl8d69hl8d69hl8/1024_2000.jpeg",
       "video": "",
       "external": true
     },
