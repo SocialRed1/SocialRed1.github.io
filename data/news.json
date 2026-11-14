@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T20:00:08.209622Z",
+  "generated_at": "2026-11-14T20:31:50.112271Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-mzjaff",
+      "title": "El Schlörwagen, el superaerodinámico y peligrosísimo coche alemán que intentó revolucionar el mundo en 1939",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-14T20:01:21Z",
+      "author": "Javier Pastor",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/movilidad/schlorwagen-superaerodinamico-peligrosisimo-coche-aleman-que-intento-revolucionar-mundo-1939",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "En la década de 1930 casi todos los coches seguían el mismo patrón : grandes partes delanteras —los motores eran enormes— y habitáculos reducidos. Las líneas no eran especialmente curvas y la aerodinámica parecía ser un factor secundario. Y entonces llegó el Schlörwagen . Lo hizo en 1939 de la mano de Karl Schlör, un ingeniero que lo ideó con un objetivo claro: que fuera superaerodinámico. El resultado fue una especie de “huevo” que ciertamente presentaba un coeficiente de resistencia aerodinámica realmente bajo. El problema era que era demasiado moderno. Schlör llevaba años proponiendo una carrocería con un coeficiente de arrastre muy bajo, y finalmente puso sus ideas en práctica con el desarrollo de un prototipo basado en el chasis del Mercedes-Benz 170H , que era muy especial por un factor necesario para el diseño de Schlör: tenía el motor detrás (de ahí la H, que hacía referencia a l",
+      "lead": "En la década de 1930 casi todos los coches seguían el mismo patrón : grandes partes delanteras —los motores eran enormes— y habitáculos reducidos. Las líneas no eran especialmente curvas y la aerodinámica parecía ser un factor secundario. Y entonces llegó el Schlörwagen . Lo hizo en 1939 de la mano de Karl Schlör, un ingeniero que lo ideó con un objetivo claro: que fuera superaerodinámico. El resultado fue una especie de “huevo” que ciertamente presentaba un coeficiente de resistencia aerodinámica realmente bajo. El problema era que era demasiado moderno. Schlör llevaba años proponiendo una carrocería con un coeficiente de arrastre muy bajo, y finalmente puso sus ideas en práctica con el desarrollo de un prototipo basado en el chasis del Mercedes-Benz 170H , que era muy especial por un factor necesario para el diseño de Schlör: tenía el motor detrás (de ahí la H, que hacía referencia a l",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/3c0390/schlorwagen_with_a_russian_aircraft_power_unit/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-4sg08c",
       "title": "Los mayas decoraron sus ciudades con tanto pigmento rojo que acabaron provocando un colapso ecológico en sus reservas de agua",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/89031d/abrams_kentucky_2560/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-18zm9cs",
-      "title": "AOC Agon Pro AGP346UCSD, análisis: un monitor ultrapanorámico que me ha hecho olvidarme de mis dos monitores",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-14T10:01:24Z",
-      "author": "Rubén Andrés",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/analisis/aoc-agon-pro-agp346ucsd-analisis-caracteristicas-precio-especificaciones",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "Debo reconocer que los monitores ultrapanorámicos y de gran formato se han convertido en mi placer culpable , y eso que habitualmente trabajo frente a dos monitores de 27 pulgadas. Tener más espacio en los laterales me permite tener más espacio disponible para mantener varias ventanas abiertas a la vez mientras trabajo, y una experiencia más inmersiva cuando llega el momento de desconectar y pegar unos tiritos en el ' Counter Strike 2 ' o en ' Valorant '. El AOC Agon Pro AGP346UCSD , además de un nombre impronunciable, mejora las prestaciones de sus antecesores ofreciendo el mejor rendimiento en ambos usos : nitidez y fidelidad de color para el trabajo, gracias a su panel QD-OLED de quinta generación , y una respuesta más rápida para juegos. ✅ Cómpralo si… Quieres jugar y trabajar con un solo monitor, y a lo grande Necesitas una conectividad excelente para usar varios equipos con la mism",
-      "lead": "Debo reconocer que los monitores ultrapanorámicos y de gran formato se han convertido en mi placer culpable , y eso que habitualmente trabajo frente a dos monitores de 27 pulgadas. Tener más espacio en los laterales me permite tener más espacio disponible para mantener varias ventanas abiertas a la vez mientras trabajo, y una experiencia más inmersiva cuando llega el momento de desconectar y pegar unos tiritos en el ' Counter Strike 2 ' o en ' Valorant '. El AOC Agon Pro AGP346UCSD , además de un nombre impronunciable, mejora las prestaciones de sus antecesores ofreciendo el mejor rendimiento en ambos usos : nitidez y fidelidad de color para el trabajo, gracias a su panel QD-OLED de quinta generación , y una respuesta más rápida para juegos. ✅ Cómpralo si… Quieres jugar y trabajar con un solo monitor, y a lo grande Necesitas una conectividad excelente para usar varios equipos con la mism",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/4847a7/calidad-de-imagen/1024_2000.jpeg",
       "video": "",
       "external": true
     },
