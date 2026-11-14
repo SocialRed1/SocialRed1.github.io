@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T05:38:20.950870Z",
+  "generated_at": "2026-11-14T06:40:13.081859Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-92166c",
+      "title": "Los científicos coinciden: las personas más inteligentes son también las más solitarias por culpa de la evolución",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-14T06:31:21Z",
+      "author": "Esther Miguel Trula",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/investigacion/cientificos-coinciden-personas-inteligentes-tambien-solitarias-culpa-evolucion",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "“Tan listo para unas cosas y tan tonto para otras”. Lo que podría ser el tópico espetado a un niño prodigio cuando se le ve fallar en operaciones tan simples como el saber relacionarse con otros niños en el patio de colegio, puede tener en el fondo parte de razón; y lo que es más, raíces biológicas heredadas de siglos y siglos de ancestros. Esto es lo que dice la ciencia sobre los inteligentes tristes y solitarios. Mejor solo que neciamente acompañado: en 2016 dos investigadores publicaron en el British Journal of Psychology un concienzudo análisis sobre más de 15.000 sujetos y cuyos hallazgos han sido desde entonces muy compartidos: los individuos de alta inteligencia experimentan un nivel de satisfacción personal más bajo cuando socializan con amigos frecuentemente, lo que promueve la reclusión del sujeto. En Xataka Cuando tus amigos no te consideran amigo suyo: sólo la mitad de los qu",
+      "lead": "“Tan listo para unas cosas y tan tonto para otras”. Lo que podría ser el tópico espetado a un niño prodigio cuando se le ve fallar en operaciones tan simples como el saber relacionarse con otros niños en el patio de colegio, puede tener en el fondo parte de razón; y lo que es más, raíces biológicas heredadas de siglos y siglos de ancestros. Esto es lo que dice la ciencia sobre los inteligentes tristes y solitarios. Mejor solo que neciamente acompañado: en 2016 dos investigadores publicaron en el British Journal of Psychology un concienzudo análisis sobre más de 15.000 sujetos y cuyos hallazgos han sido desde entonces muy compartidos: los individuos de alta inteligencia experimentan un nivel de satisfacción personal más bajo cuando socializan con amigos frecuentemente, lo que promueve la reclusión del sujeto. En Xataka Cuando tus amigos no te consideran amigo suyo: sólo la mitad de los qu",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/59ac13/photo-1684347417284-1271ef9b078c/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-1t14rgd",
       "title": "Hoy No Circula sabatino: qué autos pueden circular y cuáles descansan el 14 de noviembre",
@@ -424,26 +444,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/9198df/pixel-11-pro-portada/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-wbbch8",
-      "title": "Más de 60 huesos encontrados en Murcia han permitido reconstruir al lince ibérico más antiguo conocido: vivió hace un millón de años",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-13T14:15:22Z",
-      "author": "José A. Lizana",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/ecologia-y-naturaleza/hallado-murcia-esqueleto-antiguo-lince-iberico-viaje-millon-anos-a-origenes-felino-emblematico",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "El lince ibérico es el felino más representativo de la península y, durante mucho tiempo, fue también uno de los más amenazados del planeta por su riesgo de desaparecer. Conocemos bien sus hábitos actuales, su inconfundible perfil y su estrecha dependencia del conejo, pero en su árbol genealógico más antiguo siempre hemos encontrado una cierta bruma paleontológica. Lo que sabemos. Un equipo de paleontólogos ha confirmado el hallazgo del esqueleto más antiguo de un lince ibérico conocido hasta la fecha en el yacimiento de Quibas (Abanilla, Murcia) con 60 piezas de un mismo individuo, con costillas y vértebras, entre otros. Pero este descubrimiento no es fruto de un solo día de suerte con el pincel y la paleta, sino el resultado de años de excavaciones. Un rompecabezas. La historia de este esqueleto comenzó a perfilarse en 2021 durante las campañas de excavación en la sierra murciana hecha",
-      "lead": "El lince ibérico es el felino más representativo de la península y, durante mucho tiempo, fue también uno de los más amenazados del planeta por su riesgo de desaparecer. Conocemos bien sus hábitos actuales, su inconfundible perfil y su estrecha dependencia del conejo, pero en su árbol genealógico más antiguo siempre hemos encontrado una cierta bruma paleontológica. Lo que sabemos. Un equipo de paleontólogos ha confirmado el hallazgo del esqueleto más antiguo de un lince ibérico conocido hasta la fecha en el yacimiento de Quibas (Abanilla, Murcia) con 60 piezas de un mismo individuo, con costillas y vértebras, entre otros. Pero este descubrimiento no es fruto de un solo día de suerte con el pincel y la paleta, sino el resultado de años de excavaciones. Un rompecabezas. La historia de este esqueleto comenzó a perfilarse en 2021 durante las campañas de excavación en la sierra murciana hecha",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/961f31/lince-iberico/1024_2000.jpeg",
       "video": "",
       "external": true
     }
