@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T11:10:02.021898Z",
+  "generated_at": "2026-11-14T12:01:56.797324Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-11qp2b3",
+      "title": "Aparece en un castro gallego una piedra de 2.000 años con un grabado cuyo significado sigue siendo un misterio",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-14T11:31:23Z",
+      "author": "Isra Fdez",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/magnet/aparece-castro-gallego-piedra-2-000-anos-grabado-cuyo-significado-sigue-siendo-misterio",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "“Hay una ley que nunca falla: el último día de excavación siempre aparece algo”. Así sentencia la compañía gallega Árbore Arqueoloxía la máxima de muchos espeleólogos y así ha funcionado esta especie de profecía autocumplida. Al levantar una piedra para darle la vuelta, en la cara oculta apareció un trisquel en muy buen estado. La Voz de Galicia recogió el caso hablando con el arqueólogo Benito Vilas. Al parecer la vieron semanas antes y no la tocaron. Estaba entre los restos de un derrumbe, en el castro del Pico da Bandeira (no el brasileño, sino el gallego, en el monte Torroso de A Guarda , en Pontevedra). Hablamos de un bloque de granito de 25 centímetros de alto por 33 de ancho, con un grabado que ningún arqueólogo del equipo sabía identificar. Podrían haberlo sacado en el acto, pero optaron por esperar al último día de campaña, el 17 de octubre. Y la razón es poco romántics: en el m",
+      "lead": "“Hay una ley que nunca falla: el último día de excavación siempre aparece algo”. Así sentencia la compañía gallega Árbore Arqueoloxía la máxima de muchos espeleólogos y así ha funcionado esta especie de profecía autocumplida. Al levantar una piedra para darle la vuelta, en la cara oculta apareció un trisquel en muy buen estado. La Voz de Galicia recogió el caso hablando con el arqueólogo Benito Vilas. Al parecer la vieron semanas antes y no la tocaron. Estaba entre los restos de un derrumbe, en el castro del Pico da Bandeira (no el brasileño, sino el gallego, en el monte Torroso de A Guarda , en Pontevedra). Hablamos de un bloque de granito de 25 centímetros de alto por 33 de ancho, con un grabado que ningún arqueólogo del equipo sabía identificar. Podrían haberlo sacado en el acto, pero optaron por esperar al último día de campaña, el 17 de octubre. Y la razón es poco romántics: en el m",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/efa34d/xx/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-1x5jrxt",
       "title": "Para construir la presa más alta del mundo, China ha colocado 27 espejos en una montaña contra el frío extremo",
@@ -444,26 +464,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/0b38c7/tcl-75p8l/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-1ffr6a",
-      "title": "Donald Trump intentó que Jensen Huang siguiera como CEO: “Nvidia es demasiado grande como para caer”",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-13T16:01:22Z",
-      "author": "Alejandro Alcolea",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/empresas-y-economia/donald-trump-intento-que-jensen-huang-siguiera-como-ceo-nvidia-demasiado-grande-como-para-caer",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "Nvidia, la empresa que se ha convertido por méritos propios en el pegamento de la inteligencia artificial, se ha quedado sin su fundador y CEO . Estados Unidos y la propia Nvidia podían aguantar que Jensen hubiese sido víctima de una supuesta espía china , pero por políticas internas y tras conocerse otras dos relaciones extramatrimoniales con empleadas, el CEO anunció su dimisión. Ahora, el New York Times apunta que Donald Trump lleva días convenciendo a Jensen Huang para que luche por su puesto. Y tiene todo el sentido si tenemos en cuenta que Jensen, aparte del CEO de Nvidia, era una pieza geopolítica clave para el actual Gobierno estadounidense. En corto . El Times cita a dos personas relacionadas con una conversación entre Trump y Huang que se produjo en plena tormenta. El pasado martes 10 de noviembre, el presidente le pidió que siguiera luchando por su puesto de CEO. No surtió efe",
-      "lead": "Nvidia, la empresa que se ha convertido por méritos propios en el pegamento de la inteligencia artificial, se ha quedado sin su fundador y CEO . Estados Unidos y la propia Nvidia podían aguantar que Jensen hubiese sido víctima de una supuesta espía china , pero por políticas internas y tras conocerse otras dos relaciones extramatrimoniales con empleadas, el CEO anunció su dimisión. Ahora, el New York Times apunta que Donald Trump lleva días convenciendo a Jensen Huang para que luche por su puesto. Y tiene todo el sentido si tenemos en cuenta que Jensen, aparte del CEO de Nvidia, era una pieza geopolítica clave para el actual Gobierno estadounidense. En corto . El Times cita a dos personas relacionadas con una conversación entre Trump y Huang que se produjo en plena tormenta. El pasado martes 10 de noviembre, el presidente le pidió que siguiera luchando por su puesto de CEO. No surtió efe",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/8ff46e/trump-y-jensen-huang-ante-la-prensa/1024_2000.png",
       "video": "",
       "external": true
     }
