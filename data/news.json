@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T03:37:23.440786Z",
+  "generated_at": "2026-11-14T04:39:35.189857Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-1t14rgd",
+      "title": "Hoy No Circula sabatino: qué autos pueden circular y cuáles descansan el 14 de noviembre",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-14T04:01:20Z",
+      "author": "Alberto de la Torre",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/mexico/hoy-no-circula-sabatino-que-autos-pueden-circular-cuales-descansan-14-noviembre",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Llega un nuevo fin de semana y con él se activa otra jornada del programa Hoy No Circula sabatino, la estrategia ambiental con la que la Secretaría de Medio Ambiente de la Ciudad de México ( SEDEMA ) restringe el tránsito de determinados automotores para contener los niveles de contaminación en el Valle de México. Como cada semana, los conductores que tengan previsto ponerse al volante deberán verificar con detenimiento el último dígito de su placa y su holograma de verificación antes de salir a rodar. El alcance de esta medida no se circunscribe únicamente a las 16 alcaldías de la CDMX, sino que también abarca a diversos municipios conurbados del Estado de México. De este modo, el dispositivo tiene plena aplicación en: Atizapán de Zaragoza Coacalco de Berriozábal Cuautitlán Cuautitlán Izcalli Chalco Chicoloapan Chimalhuacán Ecatepec de Morelos Huixquilucan Ixtapaluca La Paz Naucalpan de",
+      "lead": "Llega un nuevo fin de semana y con él se activa otra jornada del programa Hoy No Circula sabatino, la estrategia ambiental con la que la Secretaría de Medio Ambiente de la Ciudad de México ( SEDEMA ) restringe el tránsito de determinados automotores para contener los niveles de contaminación en el Valle de México. Como cada semana, los conductores que tengan previsto ponerse al volante deberán verificar con detenimiento el último dígito de su placa y su holograma de verificación antes de salir a rodar. El alcance de esta medida no se circunscribe únicamente a las 16 alcaldías de la CDMX, sino que también abarca a diversos municipios conurbados del Estado de México. De este modo, el dispositivo tiene plena aplicación en: Atizapán de Zaragoza Coacalco de Berriozábal Cuautitlán Cuautitlán Izcalli Chalco Chicoloapan Chimalhuacán Ecatepec de Morelos Huixquilucan Ixtapaluca La Paz Naucalpan de",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/f30307/jimmy-hu-ajlj5vb2fie-unsplash/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-puuuuj",
       "title": "Qué se sabe sobre la falla global que afectó a Outlook y otros servicios de Microsoft",
@@ -424,26 +444,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/961f31/lince-iberico/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-1e0g1zt",
-      "title": "Ryanair adelanta a 60 minutos el cierre del equipaje facturado en todos sus aeropuertos",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-13T14:01:22Z",
-      "author": "Antonio Vallejo",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/movilidad/ryanair-adelanta-a-60-minutos-cierre-equipaje-facturado-todos-sus-aeropuertos",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "Tal y como contábamos en abril, Ryanair ha cambiado el límite de tiempo para entregar el equipaje facturado en el aeropuerto. Desde este martes 10 de noviembre, los mostradores de entrega de maletas y facturación cierran una hora antes de la salida programada, en lugar de 40 minutos como antes. Te contamos en qué cambia todo y en qué te puede influir. Hay que facturar antes . El cambio solo afecta a los pasajeros que quieren facturar una maleta en el aeropuerto y deben acercarse a los mostradores de la aerolínea. En este caso, llegar tarde puede significar que se les deniegue el embarque y, según las condiciones de la tarifa, perder el valor del billete, tal y como apuntan desde El Confidencial. Básicamente, para tenerlo claro, para un vuelo que sale a las 12:00, la maleta debe entregarse antes de las 11:00. En detalle. La aerolínea anunció la medida en abril y volvió a recordárselo a lo",
-      "lead": "Tal y como contábamos en abril, Ryanair ha cambiado el límite de tiempo para entregar el equipaje facturado en el aeropuerto. Desde este martes 10 de noviembre, los mostradores de entrega de maletas y facturación cierran una hora antes de la salida programada, en lugar de 40 minutos como antes. Te contamos en qué cambia todo y en qué te puede influir. Hay que facturar antes . El cambio solo afecta a los pasajeros que quieren facturar una maleta en el aeropuerto y deben acercarse a los mostradores de la aerolínea. En este caso, llegar tarde puede significar que se les deniegue el embarque y, según las condiciones de la tarifa, perder el valor del billete, tal y como apuntan desde El Confidencial. Básicamente, para tenerlo claro, para un vuelo que sale a las 12:00, la maleta debe entregarse antes de las 11:00. En detalle. La aerolínea anunció la medida en abril y volvió a recordárselo a lo",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/87365c/niels-baars-rszoaizc7cs-unsplash/1024_2000.jpeg",
       "video": "",
       "external": true
     }
