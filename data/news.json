@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T18:30:03.865640Z",
+  "generated_at": "2026-11-14T19:18:17.802132Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-4sg08c",
+      "title": "Los mayas decoraron sus ciudades con tanto pigmento rojo que acabaron provocando un colapso ecológico en sus reservas de agua",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-14T19:01:20Z",
+      "author": "José A. Lizana",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/ecologia-y-naturaleza/mayas-decoraron-sus-ciudades-pigmento-rojo-que-acabaron-provocando-colapso-ecologico-sus-reservas-agua",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Las grandes urbes de las Tierras Bajas mayas lucían espectaculares. Palacios, plazas, templos y cerámicas estaban frecuentemente bañados en un intenso y vibrante color rojo. Sin embargo, ese afán estético y ritual escondía una trampa química letal por culpa del uso masivo de cinabrio , un mineral compuesto de sulfuro de mercurio. Y con este sustrato fue la lluvia la que se encargó del resto, lavando la pintura de las fachadas y arrastrando el metal pesado directamente hacia las reservas de agua dulce. El rastro letal. Para saber exactamente lo que había ocurrido en estas tierras, un equipo de investigadores comenzó a interesarse por las aguas del lago Cobá y del cenote Xcach. De aquí extrajeron núcleos de sedimentos en mayo de 2023, sobre los cuales utilizaron un método de datación por radiocarbono, reconstruyendo la historia ambiental de esos cuerpos de agua. Los resultados fueron muy i",
+      "lead": "Las grandes urbes de las Tierras Bajas mayas lucían espectaculares. Palacios, plazas, templos y cerámicas estaban frecuentemente bañados en un intenso y vibrante color rojo. Sin embargo, ese afán estético y ritual escondía una trampa química letal por culpa del uso masivo de cinabrio , un mineral compuesto de sulfuro de mercurio. Y con este sustrato fue la lluvia la que se encargó del resto, lavando la pintura de las fachadas y arrastrando el metal pesado directamente hacia las reservas de agua dulce. El rastro letal. Para saber exactamente lo que había ocurrido en estas tierras, un equipo de investigadores comenzó a interesarse por las aguas del lago Cobá y del cenote Xcach. De aquí extrajeron núcleos de sedimentos en mayo de 2023, sobre los cuales utilizaron un método de datación por radiocarbono, reconstruyendo la historia ambiental de esos cuerpos de agua. Los resultados fueron muy i",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/2ff0e4/mayas/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-c7ars3",
       "title": "Cuando el desierto se queda corto: resulta que la sequía extrema amenaza la supervivencia del cactus",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/4847a7/calidad-de-imagen/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-1fhd8x",
-      "title": "Las mejores ofertas previas al Black Friday: desde móviles de gama alta hasta televisores y auriculares",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-14T09:45:27Z",
-      "author": "Alberto García",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/seleccion/mejores-ofertas-previas-al-black-friday-moviles-gama-alta-televisores-auriculares",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "Quedan poco menos de dos semanas para la llegada del Black Friday, pero las tiendas están dando un buen adelanto de ofertas en tecnología . Por ello, en este artículo vamos a repasar los mejores chollos que están ahora mismo disponibles en móviles, auriculares y más. Google Pixel 11 Pro por 788 euros , un precio mucho más ajustado en uno de los mejores móviles de la marca. AirPods Pro 3 por 199 euros , un buen precio si somos del Club Carrefour. Samsung Galaxy S26+ por 896,22 euros , un móvil grande y con una buena pantalla. Sony WH-1000XM4C por 199 euros , unos auriculares cómodos y con muy buena cancelación de ruido. LG OLED B6 por 1.099 euros , un televisor de 65 pulgadas con tratamiento antirreflejos. Sony WH-1000XM4C Hoy en Amazon — 194,22 € El Corte Inglés — 199,00 € MediaMarkt — 199,00 € Fnac — 199,99 € El precio podría variar. Obtenemos comisión por estos enlaces Google Pixel 11 ",
-      "lead": "Quedan poco menos de dos semanas para la llegada del Black Friday, pero las tiendas están dando un buen adelanto de ofertas en tecnología . Por ello, en este artículo vamos a repasar los mejores chollos que están ahora mismo disponibles en móviles, auriculares y más. Google Pixel 11 Pro por 788 euros , un precio mucho más ajustado en uno de los mejores móviles de la marca. AirPods Pro 3 por 199 euros , un buen precio si somos del Club Carrefour. Samsung Galaxy S26+ por 896,22 euros , un móvil grande y con una buena pantalla. Sony WH-1000XM4C por 199 euros , unos auriculares cómodos y con muy buena cancelación de ruido. LG OLED B6 por 1.099 euros , un televisor de 65 pulgadas con tratamiento antirreflejos. Sony WH-1000XM4C Hoy en Amazon — 194,22 € El Corte Inglés — 199,00 € MediaMarkt — 199,00 € Fnac — 199,99 € El precio podría variar. Obtenemos comisión por estos enlaces Google Pixel 11 ",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/fa90be/airpods-pro-3-y-samsung-galaxy-s26-plus/1024_2000.jpeg",
       "video": "",
       "external": true
     },
