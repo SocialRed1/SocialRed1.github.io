@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T07:49:03.401343Z",
+  "generated_at": "2026-11-14T08:37:53.798596Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-1leujzj",
+      "title": "EEUU para todos los despegues durante cuatro horas y cancela más de 6.000 vuelos: lo que sabemos (y lo que no) del caos aéreo",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-14T08:29:00Z",
+      "author": "Eva R. de Luis",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/movilidad/eeuu-para-todos-despegues-durante-cuatro-horas-cancela-6-000-vuelos-que-sabemos-que-no-caos-aereo",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Ayer viernes 13 de noviembre de 2026, la Administración Federal de Aviación (FAA) estadounidense ordenó que ningún avión despegara en todo Estados Unidos. La FAA explicaba inicialmente que tomaba esta decisión debido a \"circunstancias extraordinarias y por razones de seguridad\", como recoge NBC News , dejando claro que todo el tráfico aéreo en despegue \"debería permanecer en tierra hasta nuevo aviso\". Qué ha pasado . La orden se emitió a las 15:54 horas (horario del este) y se levantó a las 20:15. Durante el lapso de tiempo del parón se cancelaron más de 6.000 vuelos según Axios , que verificó el dato a las 21 horas en FlightAware. A las 23:30 ya se habían cancelado casi 10.000 vuelos, según Flightradar vía Reuters . CNBC habla de más de 10.000 vuelos afectados, entre cancelaciones y retrasos, que previsiblemente se prolongarán durante todo el fin de semana. El secretario del Departament",
+      "lead": "Ayer viernes 13 de noviembre de 2026, la Administración Federal de Aviación (FAA) estadounidense ordenó que ningún avión despegara en todo Estados Unidos. La FAA explicaba inicialmente que tomaba esta decisión debido a \"circunstancias extraordinarias y por razones de seguridad\", como recoge NBC News , dejando claro que todo el tráfico aéreo en despegue \"debería permanecer en tierra hasta nuevo aviso\". Qué ha pasado . La orden se emitió a las 15:54 horas (horario del este) y se levantó a las 20:15. Durante el lapso de tiempo del parón se cancelaron más de 6.000 vuelos según Axios , que verificó el dato a las 21 horas en FlightAware. A las 23:30 ya se habían cancelado casi 10.000 vuelos, según Flightradar vía Reuters . CNBC habla de más de 10.000 vuelos afectados, entre cancelaciones y retrasos, que previsiblemente se prolongarán durante todo el fin de semana. El secretario del Departament",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/4f17f0/chris-leipelt-hqkflgbfvf4-unsplash/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-6tu8ny",
       "title": "En 2004 el PSOE dio un vuelco electoral. Automáticamente los científicos notaron algo: un cambio en los embarazos y las bodas",
@@ -424,26 +444,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/5af6c2/wild2/1024_2000.png",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-zdhwot",
-      "title": "Pedro Sánchez, en el podcast de Jordi Wild: \"Aquí tienes mi móvil, puedes ver lo que quieras ver\"",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-13T14:25:10Z",
-      "author": "Iván Linares",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/seguridad/pedro-sanchez-podcast-jordi-wild-aqui-tienes-mi-movil-puedes-ver-que-quieras-ver",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "Hoy ha empezado la campaña electoral para las elecciones generales del 29N y quizá no hayas notado nada diferente. Los partidos y candidatos andan en precampaña constante, por lo que solo cambia que, ahora, podremos ver su publicidad por la calle y en nuestros buzones, además de en los distintos medios y programas por los que irán pasando, como The Wild Project, el pódcast de Jordi Wild. Las entrevistas ya están publicadas . Jordi grabó en su estudio de Manresa las charlas con los principales candidatos, y las ha publicado hoy , escalonadas a lo largo de la mañana. El compromiso era tener a los cuatro principales, aunque ya sabíamos que uno se cayó por el camino: Vox suspendió a última hora la grabación con Santiago Abascal , prevista para el miércoles, por desacuerdos sobre el uso del contenido. De entre los supervivientes, Pedro Sánchez era de los más esperados. Las tres extensas entre",
-      "lead": "Hoy ha empezado la campaña electoral para las elecciones generales del 29N y quizá no hayas notado nada diferente. Los partidos y candidatos andan en precampaña constante, por lo que solo cambia que, ahora, podremos ver su publicidad por la calle y en nuestros buzones, además de en los distintos medios y programas por los que irán pasando, como The Wild Project, el pódcast de Jordi Wild. Las entrevistas ya están publicadas . Jordi grabó en su estudio de Manresa las charlas con los principales candidatos, y las ha publicado hoy , escalonadas a lo largo de la mañana. El compromiso era tener a los cuatro principales, aunque ya sabíamos que uno se cayó por el camino: Vox suspendió a última hora la grabación con Santiago Abascal , prevista para el miércoles, por desacuerdos sobre el uso del contenido. De entre los supervivientes, Pedro Sánchez era de los más esperados. Las tres extensas entre",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/91d59d/entrevista-pedro-sanchez-jordi-wild-portada-1/1024_2000.jpeg",
       "video": "",
       "external": true
     }
