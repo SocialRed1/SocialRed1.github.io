@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T17:05:20.455517Z",
+  "generated_at": "2026-11-15T17:58:04.019252Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-1odrdng",
+      "title": "EEUU mira al fondo del agua para montar sus centros de datos y los Grandes Lagos tienen todas las papeletas",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-15T17:01:24Z",
+      "author": "Eva R. de Luis",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/robotica-e-ia/eeuu-mira-al-fondo-agua-para-montar-sus-centros-datos-grandes-lagos-tienen-todas-papeletas",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Los centros de datos para la IA generan rechazo a lo largo y ancho del planeta y Estados Unidos, uno de los lugares donde más datacenters hay, ya les ha dicho que no hasta en referéndums . Da igual, siguen siendo esenciales para el despegue de la inteligencia artificial y hay mucho dinero encima de la mesa como para dejarlos aparcados en un cajón. Así, ya han mirado al espacio y también al agua. En los Grandes Lagos aún no hay ninguno propuesto, pero un grupo ecologista ya se ha anticipado a esa posibilidad, como recoge The Guardian . La administración está a favor . Trump tiene claro que Estados Unidos gana con los centros de datos y que si no se montan en su territorio, se irán a China, como defendía en un mitin en Ohio . Mientras tanto, la Agencia de Protección Ambiental (EPA) también respalda su desarrollo, aunque asegura que usará sus competencias para proteger la calidad del agua. ",
+      "lead": "Los centros de datos para la IA generan rechazo a lo largo y ancho del planeta y Estados Unidos, uno de los lugares donde más datacenters hay, ya les ha dicho que no hasta en referéndums . Da igual, siguen siendo esenciales para el despegue de la inteligencia artificial y hay mucho dinero encima de la mesa como para dejarlos aparcados en un cajón. Así, ya han mirado al espacio y también al agua. En los Grandes Lagos aún no hay ninguno propuesto, pero un grupo ecologista ya se ha anticipado a esa posibilidad, como recoge The Guardian . La administración está a favor . Trump tiene claro que Estados Unidos gana con los centros de datos y que si no se montan en su territorio, se irán a China, como defendía en un mitin en Ohio . Mientras tanto, la Agencia de Protección Ambiental (EPA) también respalda su desarrollo, aunque asegura que usará sus competencias para proteger la calidad del agua. ",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/e752ab/gemini_generated_image_aqf5vtaqf5vtaqf5/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-7sonm0",
       "title": "Los primeros ricos de Europa no heredaron la riqueza: se la ganaron (y tardaron siglos en hacerla hereditaria)",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/c09048/photo-1785688835731-324a926f6bba/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-mzjaff",
-      "title": "El Schlörwagen, el superaerodinámico y peligrosísimo coche alemán que intentó revolucionar el mundo en 1939",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-14T20:01:21Z",
-      "author": "Javier Pastor",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/movilidad/schlorwagen-superaerodinamico-peligrosisimo-coche-aleman-que-intento-revolucionar-mundo-1939",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "En la década de 1930 casi todos los coches seguían el mismo patrón : grandes partes delanteras —los motores eran enormes— y habitáculos reducidos. Las líneas no eran especialmente curvas y la aerodinámica parecía ser un factor secundario. Y entonces llegó el Schlörwagen . Lo hizo en 1939 de la mano de Karl Schlör, un ingeniero que lo ideó con un objetivo claro: que fuera superaerodinámico. El resultado fue una especie de “huevo” que ciertamente presentaba un coeficiente de resistencia aerodinámica realmente bajo. El problema era que era demasiado moderno. Schlör llevaba años proponiendo una carrocería con un coeficiente de arrastre muy bajo, y finalmente puso sus ideas en práctica con el desarrollo de un prototipo basado en el chasis del Mercedes-Benz 170H , que era muy especial por un factor necesario para el diseño de Schlör: tenía el motor detrás (de ahí la H, que hacía referencia a l",
-      "lead": "En la década de 1930 casi todos los coches seguían el mismo patrón : grandes partes delanteras —los motores eran enormes— y habitáculos reducidos. Las líneas no eran especialmente curvas y la aerodinámica parecía ser un factor secundario. Y entonces llegó el Schlörwagen . Lo hizo en 1939 de la mano de Karl Schlör, un ingeniero que lo ideó con un objetivo claro: que fuera superaerodinámico. El resultado fue una especie de “huevo” que ciertamente presentaba un coeficiente de resistencia aerodinámica realmente bajo. El problema era que era demasiado moderno. Schlör llevaba años proponiendo una carrocería con un coeficiente de arrastre muy bajo, y finalmente puso sus ideas en práctica con el desarrollo de un prototipo basado en el chasis del Mercedes-Benz 170H , que era muy especial por un factor necesario para el diseño de Schlör: tenía el motor detrás (de ahí la H, que hacía referencia a l",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/3c0390/schlorwagen_with_a_russian_aircraft_power_unit/1024_2000.jpeg",
       "video": "",
       "external": true
     },
