@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T11:26:33.188966Z",
+  "generated_at": "2026-11-15T12:06:09.190849Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-qksdan",
+      "title": "En esta aldea asturiana quedan seis habitantes. Dos de ellos son dos mujeres que pasan el día jugando al parchís",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-15T11:33:22Z",
+      "author": "Isra Fdez",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/magnet/esta-aldea-asturiana-quedan-seis-habitantes-dos-ellos-dos-mujeres-que-pasan-dia-jugando-al-parchis",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "En Xataka ya hemos hablado de aquel pueblo asturiano que nació para una térmica y se quedó vacío . O también de la villa con 14 casas que ahora mismo está a la venta , entero. Cansinos es la tercera versión: nadie cerró nada, simplemente se fue yendo la gente. Apenas quedan seis personas. Esta semana, dos primas y vecinas de toda la vida, Milina y Luisa, han puesto a Cansitos en los titulares : “Cuando acabemos nosotras, el pueblo acabará también”. Entretanto, allí toman café y juegan al parchís con otra vecina de 88 años, recordando cómo era la vida cuando las casas estaban llenas. Dónde está. Cansinos es parte de la parroquia de La Plaza, en el concejo de Teverga, a 620 metros de altitud y a 1 kilómetro de la capital municipal . Tiene 10 viviendas y unos 15 empadronados , 7 hombres y 8 mujeres. Teverga está en pleno Parque Natural y Reserva de la Biosfera de Las Ubiñas-La Mesa . Claro,",
+      "lead": "En Xataka ya hemos hablado de aquel pueblo asturiano que nació para una térmica y se quedó vacío . O también de la villa con 14 casas que ahora mismo está a la venta , entero. Cansinos es la tercera versión: nadie cerró nada, simplemente se fue yendo la gente. Apenas quedan seis personas. Esta semana, dos primas y vecinas de toda la vida, Milina y Luisa, han puesto a Cansitos en los titulares : “Cuando acabemos nosotras, el pueblo acabará también”. Entretanto, allí toman café y juegan al parchís con otra vecina de 88 años, recordando cómo era la vida cuando las casas estaban llenas. Dónde está. Cansinos es parte de la parroquia de La Plaza, en el concejo de Teverga, a 620 metros de altitud y a 1 kilómetro de la capital municipal . Tiene 10 viviendas y unos 15 empadronados , 7 hombres y 8 mujeres. Teverga está en pleno Parque Natural y Reserva de la Biosfera de Las Ubiñas-La Mesa . Claro,",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/b64292/primas/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-t01zli",
       "title": "Nvidia se está planteando una decisión radical para dejar de depender de Samsung en la producción de memoria",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/18254f/cyberghost-black-friday-portada/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-f64ovm",
-      "title": "Liam Pearson-Noseworthy, profesor de ciencias del deporte: “Levantar pesas despacio no es siempre lo mejor”",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-14T14:01:21Z",
-      "author": "Azucena Martín",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/medicina-y-salud/liam-pearson-noseworthy-profesor-ciencias-deporte-levantar-pesas-despacio-no-siempre-mejor",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "Generalmente, cuando levantamos peso en el gimnasio , solemos hacerlo despacio, con el movimiento controlado. Eso nos ayuda a evitar lesiones y, de paso, favorece la formación de nuevo músculo y el aumento de fuerza. Sin embargo, según explica en un artículo para The Conversation Liam Pearson-Noseworthy, profesor de ciencias del deporte en la Universidad Northumbria, las personas mayores de 60 años deberían probar a levantar las pesas más deprisa. Esto es así porque, si bien no mejorarán tanto su fuerza, sí que contribuirán a incrementar su potencia, algo que se ha visto que mejora su desempeño en las tareas del día a día. De hecho, no es útil solo para personas mayores. La potencia muscular es útil para todos. Eso sí, si vas a levantar peso más deprisa, ten cuidado de hacerlo bien. Dos tipos de fibras musculares . Nuestros músculos están compuestos por dos tipos de fibras: las de contra",
-      "lead": "Generalmente, cuando levantamos peso en el gimnasio , solemos hacerlo despacio, con el movimiento controlado. Eso nos ayuda a evitar lesiones y, de paso, favorece la formación de nuevo músculo y el aumento de fuerza. Sin embargo, según explica en un artículo para The Conversation Liam Pearson-Noseworthy, profesor de ciencias del deporte en la Universidad Northumbria, las personas mayores de 60 años deberían probar a levantar las pesas más deprisa. Esto es así porque, si bien no mejorarán tanto su fuerza, sí que contribuirán a incrementar su potencia, algo que se ha visto que mejora su desempeño en las tareas del día a día. De hecho, no es útil solo para personas mayores. La potencia muscular es útil para todos. Eso sí, si vas a levantar peso más deprisa, ten cuidado de hacerlo bien. Dos tipos de fibras musculares . Nuestros músculos están compuestos por dos tipos de fibras: las de contra",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/a07765/levantar-peso-rapido/1024_2000.jpeg",
       "video": "",
       "external": true
     },
