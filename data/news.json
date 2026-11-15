@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T17:58:04.019252Z",
+  "generated_at": "2026-11-15T18:33:39.144489Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-1wxfn47",
+      "title": "Llevamos años llamando \"superalimento al arándano, pero ya hemos encontrado un problema en muchos de los estudios que lo alaban",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-15T18:01:21Z",
+      "author": "José A. Lizana",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/medicina-y-salud/arandano-lleva-anos-acumulando-promesas-nuestra-salud-ciencia-empieza-a-separar-que-funciona-que-puro-marketing",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "El arándano lleva años coronando las listas de \"superalimentos\" con promesas que abarcan desde la prevención de infartos hasta mejoras milagrosas en la memoria, haciendo que mucha gente lo lleve en su carro de la compra. Pero la pregunta que debemos hacernos en estos casos es si de verdad hay evidencias sólidas que apunten a que tiene tantos beneficios para nuestra salud como se promete. Un problema de fondo. La realidad es que puede ser muy fácil encontrar literatura científica que defiende los muchos beneficios que tienen los arándonos como por ejemplo la mejora en la tensión, en la reducción del riesgo de infarto o en la mejora de la memoria. Pero el problema está en el sesgo, puesto que muchos de estos estudios han sido financiados por la propia industria que produce y distribuye estos arándanos. Esto quiere decir que siempre debemos coger los resultados con muchas pinzas, porque lóg",
+      "lead": "El arándano lleva años coronando las listas de \"superalimentos\" con promesas que abarcan desde la prevención de infartos hasta mejoras milagrosas en la memoria, haciendo que mucha gente lo lleve en su carro de la compra. Pero la pregunta que debemos hacernos en estos casos es si de verdad hay evidencias sólidas que apunten a que tiene tantos beneficios para nuestra salud como se promete. Un problema de fondo. La realidad es que puede ser muy fácil encontrar literatura científica que defiende los muchos beneficios que tienen los arándonos como por ejemplo la mejora en la tensión, en la reducción del riesgo de infarto o en la mejora de la memoria. Pero el problema está en el sesgo, puesto que muchos de estos estudios han sido financiados por la propia industria que produce y distribuye estos arándanos. Esto quiere decir que siempre debemos coger los resultados con muchas pinzas, porque lóg",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/379abb/arandanos/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-1odrdng",
       "title": "EEUU mira al fondo del agua para montar sus centros de datos y los Grandes Lagos tienen todas las papeletas",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/60184e/hielo-/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-1xbvov7",
-      "title": "Los médicos siguen teniendo guardias de 24 horas en los hospitales. El origen de todo es la cocaína",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-15T06:01:26Z",
-      "author": "Esther Miguel Trula",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/medicina-y-salud/medicos-siguen-teniendo-guardias-24-horas-hospitales-origen-todo-cocaina",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "La necesidad es la madre de todas las invenciones, dicen. Cada tanto tiempo, uno se pregunta por qué los médicos residentes trabajan jornadas maratonianas. El Estatuto Jurídico del Personal Médico de nuestro país apunta a la “no existencia de una jornada máxima anual” , que es algo que va en contra del artículo 40.2 de la Constitución Española y que posibilita que este colectivo, a diferencia de la inmensa mayoría de sectores, no cuente de facto con un derecho al descanso que limite la duración de la jornada laboral. Aunque en las últimas décadas se han contemplado algunas limitaciones, como la exclusión, en la medida de lo posible de los recursos del centro, de los médicos mayores de 55 años , eso es lo que hace que veamos a los doctores de los hospitales trabajar las famosas guardias de 24 o más horas. Algunos tienen suerte y pueden descansar un rato a las tantas de la madrugada, pero ",
-      "lead": "La necesidad es la madre de todas las invenciones, dicen. Cada tanto tiempo, uno se pregunta por qué los médicos residentes trabajan jornadas maratonianas. El Estatuto Jurídico del Personal Médico de nuestro país apunta a la “no existencia de una jornada máxima anual” , que es algo que va en contra del artículo 40.2 de la Constitución Española y que posibilita que este colectivo, a diferencia de la inmensa mayoría de sectores, no cuente de facto con un derecho al descanso que limite la duración de la jornada laboral. Aunque en las últimas décadas se han contemplado algunas limitaciones, como la exclusión, en la medida de lo posible de los recursos del centro, de los médicos mayores de 55 años , eso es lo que hace que veamos a los doctores de los hospitales trabajar las famosas guardias de 24 o más horas. Algunos tienen suerte y pueden descansar un rato a las tantas de la madrugada, pero ",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/c09048/photo-1785688835731-324a926f6bba/1024_2000.jpeg",
       "video": "",
       "external": true
     },
