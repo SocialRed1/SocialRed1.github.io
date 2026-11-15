@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T15:04:54.288933Z",
+  "generated_at": "2026-11-15T16:03:45.943827Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-1b4057q",
+      "title": "Menos chuletón, más lentejas: un estudio finlandés relaciona la proteína vegetal con niveles más altos de testosterona",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-15T15:31:25Z",
+      "author": "Azucena Martín",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/medicina-y-salud/chuleton-lentejas-estudio-finlandes-relaciona-proteina-vegetal-niveles-altos-testosterona",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "El imaginario tradicional relaciona la testosterona con hombres muy viriles y a esos hombres viriles los asocia mucho más con un buen chuletón que con un plato de lentejas. Sin embargo, según un estudio publicado recientemente por científicos finlandeses, el consumo de proteína vegetal se asocia con niveles más altos de testosterona que el de proteína animal. Habrá personas a las que esto les sorprenda muchísimo, pero vamos a ver los datos. Más de 2.000 participantes . Los datos para llevar a cabo este estudio se tomaron en Finlandia, entre 1984 y 1989. En total, participaron 2.546 hombres, con edades comprendidas entre los 42 y los 60 años. A todos ellos se les hizo registrar su alimentación durante cuatro días y se les tomaron muestras de sangre para analizar tanto los niveles de testosterona como los de SHBG. Esta última es una proteína que se une a la testosterona en sangre para regu",
+      "lead": "El imaginario tradicional relaciona la testosterona con hombres muy viriles y a esos hombres viriles los asocia mucho más con un buen chuletón que con un plato de lentejas. Sin embargo, según un estudio publicado recientemente por científicos finlandeses, el consumo de proteína vegetal se asocia con niveles más altos de testosterona que el de proteína animal. Habrá personas a las que esto les sorprenda muchísimo, pero vamos a ver los datos. Más de 2.000 participantes . Los datos para llevar a cabo este estudio se tomaron en Finlandia, entre 1984 y 1989. En total, participaron 2.546 hombres, con edades comprendidas entre los 42 y los 60 años. A todos ellos se les hizo registrar su alimentación durante cuatro días y se les tomaron muestras de sangre para analizar tanto los niveles de testosterona como los de SHBG. Esta última es una proteína que se une a la testosterona en sangre para regu",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/eb0cb7/lentejas/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-tdla1y",
       "title": "De 'GTA V' a 'GTA VI': 13 años, 4.700 empleados y una industria que sigue apartándose del camino de Rockstar",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/370ec2/lydia-venjohn-zs4dlmzosp8-unsplash/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-2uh4ra",
-      "title": "Ante el problema de las riadas, en parte de Valencia ya subvencionan hasta 500 euros por instalar barreras en la puerta de tu casa",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-14T17:31:24Z",
-      "author": "Isra Fdez",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/magnet/problema-riadas-parte-valencia-subvencionan-500-euros-instalar-barreras-puerta-tu-casa",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "71 litros por metro cuadrado en media hora. Eso fue lo que cayó sobre Torrent la noche del 16 de septiembre, dentro de los casi 97 litros en total, según AVAMET . Fue suficiente para devolver a la ciudad al recuerdo de la dana de 2024, una gravísima e irresponsable desgracia que acabó con 232 personas fallecidas. Dos meses después, el Ayuntamiento ha decidido que parte de la defensa esté en la puerta de cada casa: una subvención de hasta 500 euros para comprar barreras antiinundación. Hold the door . El pasado martes, el consistorio aprobó las bases de la nueva línea, con 50.000 euros iniciales ampliables. Cubre hasta el 70% del coste, con un máximo de 500 euros por inmueble o patio de entrada, sin contar el IVA. Vale tanto para barreras compradas o instaladas durante 2026 como para las que se adquieran en los 3 meses posteriores a la concesión. La idea es tan sencilla como parece : sist",
-      "lead": "71 litros por metro cuadrado en media hora. Eso fue lo que cayó sobre Torrent la noche del 16 de septiembre, dentro de los casi 97 litros en total, según AVAMET . Fue suficiente para devolver a la ciudad al recuerdo de la dana de 2024, una gravísima e irresponsable desgracia que acabó con 232 personas fallecidas. Dos meses después, el Ayuntamiento ha decidido que parte de la defensa esté en la puerta de cada casa: una subvención de hasta 500 euros para comprar barreras antiinundación. Hold the door . El pasado martes, el consistorio aprobó las bases de la nueva línea, con 50.000 euros iniciales ampliables. Cubre hasta el 70% del coste, con un máximo de 500 euros por inmueble o patio de entrada, sin contar el IVA. Vale tanto para barreras compradas o instaladas durante 2026 como para las que se adquieran en los 3 meses posteriores a la concesión. La idea es tan sencilla como parece : sist",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/c522e6/portada/1024_2000.jpeg",
       "video": "",
       "external": true
     },
