@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T05:19:06.336553Z",
+  "generated_at": "2026-11-16T06:58:58.644918Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-1f0wta9",
+      "title": "El chollo del día en el Black Friday anticipado de Lidl: esta chimenea eléctrica sin humos ni obras",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-16T06:30:00Z",
+      "author": "Fran León",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/seleccion/chollo-dia-black-friday-anticipado-lidl-esta-chimenea-electrica-humos-obras",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Las temperaturas ya han empezado a bajar y es un buen momento para adquirir elementos de climatización con los que soportar el frío en casa. Si siempre has soñado con tener un salón con chimenea, pero quieres evitar las salidas de humo y las obras, Lidl tiene disponible (y rebajada), en su Black Week, una chimenea eléctrica Silvercrest . Su precio anterior era de 179,99 euros, pero ahora está disponible por 107,99 euros . Chimenea eléctrica 1.800 W PVP en Lidl — 107,99 € El precio podría variar. Obtenemos comisión por estos enlaces Si no llegas a conseguir este chollo de Lidl o buscas una opción más rústica, en el Black Friday anticipado de Amazon tienes disponible esta chimenea eléctrica con mueble por 179,80 euros . Funciona con una potencia de 1.800 W y cuenta también con efecto llama y temporizador semanal, entre otras funciones. KESSER® Chimenea eléctrica Hoy en Amazon — 179,80 € El",
+      "lead": "Las temperaturas ya han empezado a bajar y es un buen momento para adquirir elementos de climatización con los que soportar el frío en casa. Si siempre has soñado con tener un salón con chimenea, pero quieres evitar las salidas de humo y las obras, Lidl tiene disponible (y rebajada), en su Black Week, una chimenea eléctrica Silvercrest . Su precio anterior era de 179,99 euros, pero ahora está disponible por 107,99 euros . Chimenea eléctrica 1.800 W PVP en Lidl — 107,99 € El precio podría variar. Obtenemos comisión por estos enlaces Si no llegas a conseguir este chollo de Lidl o buscas una opción más rústica, en el Black Friday anticipado de Amazon tienes disponible esta chimenea eléctrica con mueble por 179,80 euros . Funciona con una potencia de 1.800 W y cuenta también con efecto llama y temporizador semanal, entre otras funciones. KESSER® Chimenea eléctrica Hoy en Amazon — 179,80 € El",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/0399bd/hidrolimpiadora-silenciosa-lidl/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-f50gbv",
       "title": "Sabíamos que la misión DART cambió la trayectoria de Dimorphos. Lo que no sabíamos es que también cambió su forma",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/b64292/primas/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-t01zli",
-      "title": "Nvidia se está planteando una decisión radical para dejar de depender de Samsung en la producción de memoria",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-15T11:01:22Z",
-      "author": "Alejandro Alcolea",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/componentes/produccion-memoria-siendo-drama-nvidia-planea-dar-salto-para-no-depender-samsung-se-habria-pedido-a-tsmc",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "La escasez de memoria provocada por el auge de la IA es ya uno de los mayores problemas de suministro del sector tecnológico. Los precios se han disparado y los fabricantes prevén que se prolongue hasta, al menos, 2028. Nvidia, que es una de las que ha impulsado esa crisis, se ha cansado de depender de que sólo unas pocas fabriquen la memoria para sus tarjetas. Así que se ha planteado producir su propia memoria avanzada, al menos según una filtración. En corto . Todo viene de un artículo publicado por The Information en el que se adelantó que TSMC había empezado a trazar los planes para fabricar 3D RAM a petición de Nvidia. TSMC tiene su propia hoja de ruta, pero Nvidia es el 'cliente A' de la empresa taiwanesa y, en la situación actual, es evidente que tiene mano para realizar este tipo de peticiones. El medio citaba dos fuentes con conocimiento directo del asunto y Reuters recogió la i",
-      "lead": "La escasez de memoria provocada por el auge de la IA es ya uno de los mayores problemas de suministro del sector tecnológico. Los precios se han disparado y los fabricantes prevén que se prolongue hasta, al menos, 2028. Nvidia, que es una de las que ha impulsado esa crisis, se ha cansado de depender de que sólo unas pocas fabriquen la memoria para sus tarjetas. Así que se ha planteado producir su propia memoria avanzada, al menos según una filtración. En corto . Todo viene de un artículo publicado por The Information en el que se adelantó que TSMC había empezado a trazar los planes para fabricar 3D RAM a petición de Nvidia. TSMC tiene su propia hoja de ruta, pero Nvidia es el 'cliente A' de la empresa taiwanesa y, en la situación actual, es evidente que tiene mano para realizar este tipo de peticiones. El medio citaba dos fuentes con conocimiento directo del asunto y Reuters recogió la i",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/307471/original/1024_2000.jpeg",
       "video": "",
       "external": true
     },
