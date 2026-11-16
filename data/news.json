@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T03:31:22.379752Z",
+  "generated_at": "2026-11-16T05:19:06.336553Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-f50gbv",
+      "title": "Sabíamos que la misión DART cambió la trayectoria de Dimorphos. Lo que no sabíamos es que también cambió su forma",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-16T05:01:25Z",
+      "author": "Alejandro Alcolea",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/espacio/sabiamos-que-mision-dart-cambio-trayectoria-dimorphos-que-no-sabiamos-que-tambien-cambio-su-forma-1",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "A finales de septiembre de 2022, la misión DART ( Double Asteroid Redirection Test ) hacía historia , curiosamente, estampándose contra un asteroide. El hito no estuvo en el impacto en sí sino en lograr con él desviar levemente la trayectoria de un asteroide, Dimorphos. Lo esperado y lo inesperado. En los cuatro años transcurridos desde entonces, hemos ido aprendiendo nuevos detalles sobre los efectos del impacto de DART en el asteroide Dimorphos. Ahora sabemos, por ejemplo, que DART no solo logró desviar la trayectoria orbital de la roca espacial; también consiguió con su impacto hacer que la órbita del asteroide se deformara notablemente Lo que sucedió . El asteroide, explicaba el equipo, tenía inicialmente una forma oblata, es decir, achatada en los polos, como la Tierra, “la forma de una hamburguesa”. Tras el impacto, Dimorphos pasó a tener una forma más bien prolata, alargada en los",
+      "lead": "A finales de septiembre de 2022, la misión DART ( Double Asteroid Redirection Test ) hacía historia , curiosamente, estampándose contra un asteroide. El hito no estuvo en el impacto en sí sino en lograr con él desviar levemente la trayectoria de un asteroide, Dimorphos. Lo esperado y lo inesperado. En los cuatro años transcurridos desde entonces, hemos ido aprendiendo nuevos detalles sobre los efectos del impacto de DART en el asteroide Dimorphos. Ahora sabemos, por ejemplo, que DART no solo logró desviar la trayectoria orbital de la roca espacial; también consiguió con su impacto hacer que la órbita del asteroide se deformara notablemente Lo que sucedió . El asteroide, explicaba el equipo, tenía inicialmente una forma oblata, es decir, achatada en los polos, como la Tierra, “la forma de una hamburguesa”. Tras el impacto, Dimorphos pasó a tener una forma más bien prolata, alargada en los",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/e1fb85/captura-de-pantalla-2026-11-13-a-las-11.12.47/1024_2000.png",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-dpsng4",
       "title": "\"Cualquier parecido con la realidad es pura coincidencia\": el disclaimer del cine que nos ganamos por culpa de Rasputín",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/307471/original/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-1rlnrb6",
-      "title": "China estrena su avión eléctrico por fin con gente a bordo, pero no revela lo más importante: la batería",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-15T10:30:00Z",
-      "author": "Eva R. de Luis",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/movilidad/china-estrena-su-avion-electrico-pilotos-a-bordo-no-revela-importante-bateria",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "China acaba de dar un paso de gigante hacia la aviación comercial eléctrica: la compañía aeronáutica estatal COMAC ha culminado con éxito el primer vuelo con tripulación de su avión comercial eléctrico, el CE-25A, del que hace tres años conocíamos su maqueta. Otros como el X1 de Heart Aerospace lo han logrado antes, pero ya sabemos cómo se las gasta China: ya domina en el segmento de los coches eléctricos y la gran maquinaria y ahora pretende hacer lo mismo con los vuelos. No obstante, lo más difícil está por llegar. El hito . Este primer vuelo tripulado del CE-25A tuvo lugar el 14 de noviembre en Binzhou (Shandong) y en la aeronave viajaron tres personas: dos pilotos y un ingeniero de ensayos, según CGTN . Aunque el vuelo era autónomo, los pilotos supervisaban su comportamiento y podían intervenir en la cabina. Según los informes, la aeronave ejecutó la prueba con normalidad y cumplió c",
-      "lead": "China acaba de dar un paso de gigante hacia la aviación comercial eléctrica: la compañía aeronáutica estatal COMAC ha culminado con éxito el primer vuelo con tripulación de su avión comercial eléctrico, el CE-25A, del que hace tres años conocíamos su maqueta. Otros como el X1 de Heart Aerospace lo han logrado antes, pero ya sabemos cómo se las gasta China: ya domina en el segmento de los coches eléctricos y la gran maquinaria y ahora pretende hacer lo mismo con los vuelos. No obstante, lo más difícil está por llegar. El hito . Este primer vuelo tripulado del CE-25A tuvo lugar el 14 de noviembre en Binzhou (Shandong) y en la aeronave viajaron tres personas: dos pilotos y un ingeniero de ensayos, según CGTN . Aunque el vuelo era autónomo, los pilotos supervisaban su comportamiento y podían intervenir en la cabina. Según los informes, la aeronave ejecutó la prueba con normalidad y cumplió c",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/b8f47d/gemini_generated_image_1c76k81c76k81c76/1024_2000.jpeg",
       "video": "",
       "external": true
     },
