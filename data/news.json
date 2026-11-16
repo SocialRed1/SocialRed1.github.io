@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T19:46:51.289530Z",
+  "generated_at": "2026-11-16T20:39:01.966974Z",
   "sources": [
     {
       "name": "Xataka",
@@ -22,11 +22,31 @@
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "page": "https://www.bbc.com/mundo/topics/cyx5krnw38vt",
       "status": "ok",
-      "count": 1,
+      "count": 0,
       "error": ""
     }
   ],
   "items": [
+    {
+      "id": "feed-ot04c1",
+      "title": "La guerra de Ucrania está teniendo un beneficiado inesperado: la minería ilegal de ámbar",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-16T20:01:25Z",
+      "author": "Carlos Prego",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/magnet/guerra-ucrania-esta-teniendo-beneficiado-inesperado-mineria-ilegal-ambar",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Si nada cambia ( y parece difícil ) en febrero la guerra de Ucrania cumplirá cinco años, un lustro de enfrentamientos que se ha saldado con decenas de miles de fallecidos en ambos bandos, un gasto millonario en armamento y ayuda humanitaria y, en general, un tensionamiento en la geopolítica mundial que parece lejos de aflojarse. Hay sin embargo un negocio al que el conflicto parece estar sentándole bastante bien : el comercio ilegal de ámbar ‘made in Ucrania’ . La guerra ha hecho que el esfuerzo regulador activado por Kiev en 2019 pasase a un segundo plano. Hoy la prioridad no es el ámbar, sino el frente. El negocio del ámbar. China es un mercado de 1.400 millones de potenciales clientes, lo que explica que no haya sector que no sueñe con abrirse camino allí. Si hablamos de ámbar los negocios cuentan además con un aliciente extra: el gigante asiático muestra un interés especial por esta ",
+      "lead": "Si nada cambia ( y parece difícil ) en febrero la guerra de Ucrania cumplirá cinco años, un lustro de enfrentamientos que se ha saldado con decenas de miles de fallecidos en ambos bandos, un gasto millonario en armamento y ayuda humanitaria y, en general, un tensionamiento en la geopolítica mundial que parece lejos de aflojarse. Hay sin embargo un negocio al que el conflicto parece estar sentándole bastante bien : el comercio ilegal de ámbar ‘made in Ucrania’ . La guerra ha hecho que el esfuerzo regulador activado por Kiev en 2019 pasase a un segundo plano. Hoy la prioridad no es el ámbar, sino el frente. El negocio del ámbar. China es un mercado de 1.400 millones de potenciales clientes, lo que explica que no haya sector que no sueñe con abrirse camino allí. Si hablamos de ámbar los negocios cuentan además con un aliciente extra: el gigante asiático muestra un interés especial por esta ",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/95f43f/52006326315_033c5bcb63_k-1-/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-9rtumb",
       "title": "SpaceX ha hecho historia con el vuelo 14 y 15 de Starship: ahora espera repetir la hazaña con el vuelo 16",
@@ -404,46 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/024cb3/dyson-v12-detect-slim/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-br7c51",
-      "title": "HyperX Cloud III S Wireless, análisis: prometer más de 100 horas sin cargarlos parecía una exageración hasta que los probé",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-16T15:03:25Z",
-      "author": "Pepu Ricca",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/analisis/hyperx-cloud-iii-s-wireless-analisis-caracteristicas-precio-especificaciones",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "El mercado de los periféricos gaming está saturado de auriculares que intentan justificar su precio con lucecitas RGB, diseños variopintos o especificaciones a las que no todos sacan partido. Ahora bien, cuando me siento —de nuevo— frente al PC después de trabajar, lo único que realmente importa es que no me acaben doliendo las orejas, que no me deje tirado a mitad de la partida y que suene bien. HyperX lleva tiempo perfeccionando esta fórmula , y con estos cascos de diadema quieren evolucionar uno de los aspectos más relevantes: la batería. He pasado las últimas semanas jugando a 'Project Zomboid', ‘WoW’ y 'Fortnite', entre otros, con los HyperX Cloud III S Wireless. No son unos auriculares premium prohibitivos para el bolsillo, ni pretenden competir con el sonido de unos monitores de estudio, sino que logran algo más sencillo: conformar un conjunto notable donde todo funciona como debe",
-      "lead": "El mercado de los periféricos gaming está saturado de auriculares que intentan justificar su precio con lucecitas RGB, diseños variopintos o especificaciones a las que no todos sacan partido. Ahora bien, cuando me siento —de nuevo— frente al PC después de trabajar, lo único que realmente importa es que no me acaben doliendo las orejas, que no me deje tirado a mitad de la partida y que suene bien. HyperX lleva tiempo perfeccionando esta fórmula , y con estos cascos de diadema quieren evolucionar uno de los aspectos más relevantes: la batería. He pasado las últimas semanas jugando a 'Project Zomboid', ‘WoW’ y 'Fortnite', entre otros, con los HyperX Cloud III S Wireless. No son unos auriculares premium prohibitivos para el bolsillo, ni pretenden competir con el sonido de unos monitores de estudio, sino que logran algo más sencillo: conformar un conjunto notable donde todo funciona como debe",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/b1836b/img_0369/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-puuuuj",
-      "title": "Qué se sabe sobre la falla global que afectó a Outlook y otros servicios de Microsoft",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-13T22:45:45Z",
-      "author": "No indicado por la fuente",
-      "sourceName": "BBC Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/c8dx192g5pn5o?at_medium=RSS&at_campaign=rss",
-      "sourcePage": "https://www.bbc.com/mundo/topics/cyx5krnw38vt",
-      "read": 2,
-      "excerpt": "Microsoft ha afirmado que la interrupción del servicio no fue causada por un incidente de ciberseguridad. Los esfuerzos por solucionar los problemas hasta el momento no han sido completamente exitosos.",
-      "lead": "Microsoft ha afirmado que la interrupción del servicio no fue causada por un incidente de ciberseguridad. Los esfuerzos por solucionar los problemas hasta el momento no han sido completamente exitosos.",
-      "body": [],
-      "facts": [],
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/eaad/live/73b2c830-df45-11f1-a48c-75dd2efdacb5.jpg",
       "video": "",
       "external": true
     }
