@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T17:00:06.451121Z",
+  "generated_at": "2026-11-16T17:57:02.569225Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "0CkChjZimmY",
+      "title": "¡Te roban el WhatsApp mientras duermes! 😱",
+      "date": "2026-11-16T17:21:31Z",
+      "url": "https://www.youtube.com/shorts/0CkChjZimmY",
+      "thumbnail": "https://i1.ytimg.com/vi/0CkChjZimmY/hqdefault.jpg"
+    },
     {
       "id": "29mLurt5NOA",
       "title": "¡El correo volvió! Microsoft 365 de vuelta 📧",
@@ -158,8 +165,8 @@
   "stats": {
     "subscribers": 495,
     "views": 82541,
-    "videos": 82,
-    "fetched_at": "2026-11-16T17:00:07.122846Z",
+    "videos": 83,
+    "fetched_at": "2026-11-16T17:57:03.197642Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
