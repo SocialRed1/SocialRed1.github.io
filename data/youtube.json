@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T16:51:01.637678Z",
+  "generated_at": "2026-11-17T17:51:35.947838Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "ZUZWQOSNV7k",
+      "title": "¿Se apaga el mundo mañana 17 de noviembre? La verdad 😱🌎",
+      "date": "2026-11-17T16:59:37Z",
+      "url": "https://www.youtube.com/shorts/ZUZWQOSNV7k",
+      "thumbnail": "https://i3.ytimg.com/vi/ZUZWQOSNV7k/hqdefault.jpg"
+    },
     {
       "id": "QwxUAK7JPfY",
       "title": "Los lentes de Apple controlarán tu iPhone con Siri 👓",
@@ -170,10 +177,10 @@
     }
   ],
   "stats": {
-    "subscribers": 497,
-    "views": 83405,
-    "videos": 84,
-    "fetched_at": "2026-11-17T16:51:02.118854Z",
+    "subscribers": 500,
+    "views": 83996,
+    "videos": 85,
+    "fetched_at": "2026-11-17T17:51:36.534241Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
