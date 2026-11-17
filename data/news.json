@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T19:53:21.395192Z",
+  "generated_at": "2026-11-17T20:41:21.413723Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-ajr3z5",
+      "title": "Los 30 FPS de 'GTA VI' en todas las consolas es un fastidio. También el compromiso para que se vea como se ve",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-17T20:01:24Z",
+      "author": "Alejandro Alcolea",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/videojuegos/30-fps-gta-vi-todas-consolas-fastidio-tambien-compromiso-se-vea-como-se-ve",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "'GTA VI' está al caer y, superada la polémica por la ausencia de un formato físico de verdad y por lo que puede ocupar en consolas con un almacenamiento tan comprometido como Xbox Series S , la pregunta es por qué el juego más caro y ambicioso de la historia sólo va a 30 frames por segundo en todas las consolas, incluida PS5 Pro . Y la respuesta es que no tiene nada que ver con el presupuesto, sino con una mezcla entre la ambición desmedida de este juego y la limitación de las consolas: el procesador. Los 30 FPS . Hace unos días, cuando Rockstar confirmó que la predescarga del juego ya estaba disponible, también dio algunos detalles sobre el apartado visual . Hasta ahora, todo lo que hemos visto (incluidos los 30 minutos de Netflix) se ha visto corriendo en una PS5 base y se especulaba con que PS5 Pro podría tener algunas mejoras visuales y de rendimiento. Lo primero sí parece asegurado,",
+      "lead": "'GTA VI' está al caer y, superada la polémica por la ausencia de un formato físico de verdad y por lo que puede ocupar en consolas con un almacenamiento tan comprometido como Xbox Series S , la pregunta es por qué el juego más caro y ambicioso de la historia sólo va a 30 frames por segundo en todas las consolas, incluida PS5 Pro . Y la respuesta es que no tiene nada que ver con el presupuesto, sino con una mezcla entre la ambición desmedida de este juego y la limitación de las consolas: el procesador. Los 30 FPS . Hace unos días, cuando Rockstar confirmó que la predescarga del juego ya estaba disponible, también dio algunos detalles sobre el apartado visual . Hasta ahora, todo lo que hemos visto (incluidos los 30 minutos de Netflix) se ha visto corriendo en una PS5 base y se especulaba con que PS5 Pro podría tener algunas mejoras visuales y de rendimiento. Lo primero sí parece asegurado,",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/388e1d/captura-de-pantalla-2026-11-17-a-las-14.59.03/1024_2000.png",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-2rr5e8",
       "title": "El Black Friday de PlayStation desploma el precio de casi todos sus DualSense: hay disponibles hasta ediciones limitadas con descuento",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/e9b106/20260824mjb_ay_0010/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-1u425bh",
-      "title": "El nuevo Xiaomi 18 Pro es oficial y llega a España: lo ponemos frente a frente con el anterior para ver sus diferencias",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-17T14:45:20Z",
-      "author": "Juan Lorente",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/seleccion/nuevo-xiaomi-18-pro-oficial-llega-a-espana-ponemos-frente-a-frente-anterior-para-ver-sus-diferencias",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "Xiaomi ha elegido este 17 de noviembre para hacer oficiales sus nuevos Xiaomi 18 y Xiaomi 18 Pro Max. Sus antecesores, los Xiaomi 17 Pro , se hicieron el año pasado muy virales por llevar una pantalla trasera, aunque estos no desembarcaron en España. La película ha cambiado con esto nuevos teléfonos y, aunque no tenemos la opción de comprar los dos en nuestro país, vamos a echar un vistazo por las principales diferencias entre ambos modelos Pro para ver cómo ha sido la evolución de la gama alta del fabricante chino. Xiaomi 18 Pro PVP en Xiaomi (desde) — 1.399,99 € El precio podría variar. Obtenemos comisión por estos enlaces Principales diferencias entre los Xiaomi 17 Pro y 18 Pro Xiaomi estrena su propia pantalla de privacidad A nivel de diseño, ambos teléfonos mantienen un aspecto muy similar y unas dimensiones que no cambian demasiado, más allá de un poco más de grosor y peso para el ",
-      "lead": "Xiaomi ha elegido este 17 de noviembre para hacer oficiales sus nuevos Xiaomi 18 y Xiaomi 18 Pro Max. Sus antecesores, los Xiaomi 17 Pro , se hicieron el año pasado muy virales por llevar una pantalla trasera, aunque estos no desembarcaron en España. La película ha cambiado con esto nuevos teléfonos y, aunque no tenemos la opción de comprar los dos en nuestro país, vamos a echar un vistazo por las principales diferencias entre ambos modelos Pro para ver cómo ha sido la evolución de la gama alta del fabricante chino. Xiaomi 18 Pro PVP en Xiaomi (desde) — 1.399,99 € El precio podría variar. Obtenemos comisión por estos enlaces Principales diferencias entre los Xiaomi 17 Pro y 18 Pro Xiaomi estrena su propia pantalla de privacidad A nivel de diseño, ambos teléfonos mantienen un aspecto muy similar y unas dimensiones que no cambian demasiado, más allá de un poco más de grosor y peso para el ",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/2b4957/xiaomi-18-pro-portada/1024_2000.jpeg",
       "video": "",
       "external": true
     }
