@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T00:37:39.783938Z",
+  "generated_at": "2026-11-17T01:59:26.991881Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "QwxUAK7JPfY",
+      "title": "Los lentes de Apple controlarán tu iPhone con Siri 👓",
+      "date": "2026-11-17T01:24:29Z",
+      "url": "https://www.youtube.com/shorts/QwxUAK7JPfY",
+      "thumbnail": "https://i2.ytimg.com/vi/QwxUAK7JPfY/hqdefault.jpg"
+    },
     {
       "id": "0CkChjZimmY",
       "title": "¡Te roban el WhatsApp mientras duermes! 😱",
@@ -163,10 +170,10 @@
     }
   ],
   "stats": {
-    "subscribers": 496,
+    "subscribers": 497,
     "views": 83097,
-    "videos": 83,
-    "fetched_at": "2026-11-17T00:37:40.341906Z",
+    "videos": 84,
+    "fetched_at": "2026-11-17T01:59:27.873341Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
