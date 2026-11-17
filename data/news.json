@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T05:48:58.955546Z",
+  "generated_at": "2026-11-17T06:54:59.622613Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-acdgc9",
+      "title": "En Oviedo han montado un cowork en mitad de la naturaleza y no faltan ni ayudas ni wifi de alta velocidad",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-17T06:01:23Z",
+      "author": "Isra Fdez",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/magnet/oviedo-han-montado-cowork-mitad-naturaleza-no-faltan-ayudas-wifi-alta-velocidad",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Hay coworkings con unas vistas fantásticas en plantas de torres de oficinas, o en naves industriales reconvertidas. También los hay que son bajos y locales con humedades que da miedo verlos. Y luego está el que han montado en un bosque de Ribera de Arriba, a poco más de cinco minutos de Oviedo, con contenedores marítimos por despachos y 25 plazas de aparcamiento gratuito. El invento se llama Cowtainers , que es un juego de palabras entre coworking y containers . No, lo de \"cow\" no viene por las vacas, aunque en Oviedo no es tan difícil verlas. Expansión ya lo contó en octubre de 2025, y un año después la web presume de 38 puestos, 8.000 metros cuadrados de terreno y un 5,0 en Google con 54 reseñas. Nunca he trabajado en un coworking más allá de un par de horas, pero si tuviera que elegir alguno sería este. Y no por el WiFi, aunque parece que va perfecto. Quién está detrás. El proyecto es",
+      "lead": "Hay coworkings con unas vistas fantásticas en plantas de torres de oficinas, o en naves industriales reconvertidas. También los hay que son bajos y locales con humedades que da miedo verlos. Y luego está el que han montado en un bosque de Ribera de Arriba, a poco más de cinco minutos de Oviedo, con contenedores marítimos por despachos y 25 plazas de aparcamiento gratuito. El invento se llama Cowtainers , que es un juego de palabras entre coworking y containers . No, lo de \"cow\" no viene por las vacas, aunque en Oviedo no es tan difícil verlas. Expansión ya lo contó en octubre de 2025, y un año después la web presume de 38 puestos, 8.000 metros cuadrados de terreno y un 5,0 en Google con 54 reseñas. Nunca he trabajado en un coworking más allá de un par de horas, pero si tuviera que elegir alguno sería este. Y no por el WiFi, aunque parece que va perfecto. Quién está detrás. El proyecto es",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/b828c1/hero-forest/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-c0ypex",
       "title": "El chollo del día en Lidl, hoy 17 de noviembre, es esta solución sin obras para usar los enchufes desaprovechados tras el sofá o los muebles",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/0d44d3/galaxy-watch-ultra-portada-4-/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-sdxh1s",
-      "title": "Nvidia no ha despedido a Jensen Huang: ha aceptado su dimisión, y esa diferencia abre la puerta a su vuelta",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-16T15:30:00Z",
-      "author": "Javier Lacort",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/empresas-y-economia/nvidia-no-ha-despedido-a-jensen-huang-ha-aceptado-su-dimision-esa-diferencia-puede-servir-vuelva",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "Hace un año, Huang resumió así su longevidad como CEO: “primero: no ser despedido”. Ha cumplido la regla hasta su último minuto en NVIDIA. El 11 de noviembre el consejo de NVIDIA aceptó su dimisión como CEO y consejero . No lo despidió: aceptó su dimisión. Es distinto y tiene implicaciones. Qué ha ocurrido . Tres días antes, el consejo había abierto una investigación porque Huang había sido objetivo de una operación de inteligencia extranjera, y había dicho que confiaba en él. El martes ya no. Colette Kress, la directora financiera, es CEO interina, y NVIDIA no tiene sucesor. Busca uno, interno o externo. Entre líneas . El analista Gene Munster ha subido del 10% al 51% las probabilidades de que Huang vuelva . Su argumento es que el consejo le forzó a dimitir, y que esa forma de salir permite que la readmisión sea más sencilla, ya que no implica una admisión de que el consejo se equivocó.",
-      "lead": "Hace un año, Huang resumió así su longevidad como CEO: “primero: no ser despedido”. Ha cumplido la regla hasta su último minuto en NVIDIA. El 11 de noviembre el consejo de NVIDIA aceptó su dimisión como CEO y consejero . No lo despidió: aceptó su dimisión. Es distinto y tiene implicaciones. Qué ha ocurrido . Tres días antes, el consejo había abierto una investigación porque Huang había sido objetivo de una operación de inteligencia extranjera, y había dicho que confiaba en él. El martes ya no. Colette Kress, la directora financiera, es CEO interina, y NVIDIA no tiene sucesor. Busca uno, interno o externo. Entre líneas . El analista Gene Munster ha subido del 10% al 51% las probabilidades de que Huang vuelva . Su argumento es que el consejo le forzó a dimitir, y que esa forma de salir permite que la readmisión sea más sencilla, ya que no implica una admisión de que el consejo se equivocó.",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/2a4be2/huang/1024_2000.jpeg",
       "video": "",
       "external": true
     }
