@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T18:15:03.224956Z",
+  "generated_at": "2026-11-18T19:25:31.853411Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-6d7xrm",
+      "title": "Antonio Roma tiene 350.000 seguidores y no existe. Lo más loco es que va a dar un concierto en Madrid ante 500 espectadores",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-18T19:01:15Z",
+      "author": "John Tones",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/musica/antonio-roma-tiene-350-000-seguidores-no-existe-loco-que-va-a-dar-concierto-madrid-500-espectadores",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Es el primer cantante de flamenco hecho con IA que se sube a un escenario en España. Dicho así, suena a sinsentido, pero es que éste concretamente viene acompañado de alguien de carne y hueso que le pone voz y una banda real que tocará su música. Una curiosa vía intermedia que, sin duda, no elimina la gran duda que flota sobre toda esta nueva generación de artistas virtuales sobre si van a sustituir a los músicos tradicionales. Medio aforo ya. El 3 de febrero de 2027, a las 21:00, la sala Galileo Galilei de Madrid programa un concierto del artista generado con IA Antonio Roma, con entradas a 25 euros. Ya se han vendido más de la mitad de las casi 500 localidades que tiene de aforo la sala. Es el último jalón en una carrera fulgurante: a mediados de noviembre, tres meses después de aparecer, ya sumaba más de 100.000 oyentes mensuales en Spotify, 350.000 seguidores en Instagram y dos video",
+      "lead": "Es el primer cantante de flamenco hecho con IA que se sube a un escenario en España. Dicho así, suena a sinsentido, pero es que éste concretamente viene acompañado de alguien de carne y hueso que le pone voz y una banda real que tocará su música. Una curiosa vía intermedia que, sin duda, no elimina la gran duda que flota sobre toda esta nueva generación de artistas virtuales sobre si van a sustituir a los músicos tradicionales. Medio aforo ya. El 3 de febrero de 2027, a las 21:00, la sala Galileo Galilei de Madrid programa un concierto del artista generado con IA Antonio Roma, con entradas a 25 euros. Ya se han vendido más de la mitad de las casi 500 localidades que tiene de aforo la sala. Es el último jalón en una carrera fulgurante: a mediados de noviembre, tres meses después de aparecer, ya sumaba más de 100.000 oyentes mensuales en Spotify, 350.000 seguidores en Instagram y dos video",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/0596c9/captura-de-pantalla-2026-11-18-a-las-10.22.28/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-6stzvz",
       "title": "El Gobierno da el último paso para aprobar una inversión récord en la red eléctrica hasta 2030",
@@ -444,26 +464,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/be499d/amazon-casa-prefabricada/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-1cdvww1",
-      "title": "Más de 60 hospitales europeos se unen en una campaña para concienciar del uso prudente de antibióticos",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-18T11:55:36Z",
-      "author": "José A. Lizana",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/medicina-y-salud/60-hospitales-europeos-se-unen-campana-para-concienciar-uso-prudente-antibioticos",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "En los pasillos de más de sesenta hospitales de toda Europa empiezan a verse esta semana unos pequeños pines magnéticos en las solapas de médicos y enfermeras. Tienen forma de dos corazones entrelazados que dibujan dos cápsulas y unas tiritas, y no es un simple adorno corporativo. Es el emblema de una ofensiva sanitaria para recordar que los antibióticos están perdiendo su eficacia y que los hospitales son, al mismo tiempo, la primera línea de defensa y el principal campo de batalla contra las bacterias multirresistentes. La campaña. La iniciativa , bautizada como «Antibióticos: si los cuidas, nos cuidan» , arranca este 18 de noviembre, coincidiendo con el Día Europeo para el Uso Prudente de los Antibióticos y el inicio de la Semana Mundial de Concienciación sobre la Resistencia a los Antimicrobianos. Está impulsada por la Acción Conjunta Europea EU-JAMRAI 2 , que es un consorcio que agr",
-      "lead": "En los pasillos de más de sesenta hospitales de toda Europa empiezan a verse esta semana unos pequeños pines magnéticos en las solapas de médicos y enfermeras. Tienen forma de dos corazones entrelazados que dibujan dos cápsulas y unas tiritas, y no es un simple adorno corporativo. Es el emblema de una ofensiva sanitaria para recordar que los antibióticos están perdiendo su eficacia y que los hospitales son, al mismo tiempo, la primera línea de defensa y el principal campo de batalla contra las bacterias multirresistentes. La campaña. La iniciativa , bautizada como «Antibióticos: si los cuidas, nos cuidan» , arranca este 18 de noviembre, coincidiendo con el Día Europeo para el Uso Prudente de los Antibióticos y el inicio de la Semana Mundial de Concienciación sobre la Resistencia a los Antimicrobianos. Está impulsada por la Acción Conjunta Europea EU-JAMRAI 2 , que es un consorcio que agr",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/a0ec4a/pastillas/1024_2000.jpeg",
       "video": "",
       "external": true
     },
