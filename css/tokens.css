@@ -81,3 +81,4 @@
 [data-accent="propios"] { --accent: var(--gold-400);   --accent-2: var(--orange-400); }
 [data-accent="cursos"]  { --accent: var(--orange-500); --accent-2: var(--violet-500); }
 [data-accent="noticias"]{ --accent: var(--gold-400);   --accent-2: var(--cyan-400); }
+[data-accent="compras"] { --accent: var(--orange-500); --accent-2: var(--gold-400); }

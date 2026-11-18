@@ -8,6 +8,7 @@ window.SR = window.SR || {};
 /* ---------- Menú principal ---------- */
 SR.NAV = [
   { label: 'Inicio', route: '/', icon: 'home' },
+  { label: 'Compras', route: '/compras', icon: 'cart' },
   { label: 'Aplicaciones', route: '/aplicaciones', icon: 'app' },
   { label: 'Videos del Canal', route: '/aplicaciones-del-canal', icon: 'channel' },
   { label: 'Sistemas Operativos', route: '/sistemas-operativos', icon: 'os' },
@@ -29,6 +30,18 @@ SR.SECTIONS = {
       { icon: 'bolt', title: 'Actualizadas', text: 'Versiones nuevas al día.' },
       { icon: 'download', title: 'Descarga directa', text: 'Sin pasos extra ni cuentas.' },
       { icon: 'user', title: 'Soporte', text: 'Guías y comunidad para ayudarte.' }
+    ]
+  },
+  'compras': {
+    key: 'compras', accent: 'compras', icon: 'cart', label: 'Compras',
+    eyebrow: 'Tienda de afiliados', title: ['Compras', 'recomendadas por Social Red'],
+    subtitle: 'Productos recomendados de Amazon México, Mercado Libre y otras tiendas. Tú compras directo en la tienda oficial; nosotros solo te recomendamos lo que vale la pena.',
+    tagline: ['Recomendados', 'Mejor precio', 'Compra segura', 'Sin costo extra'],
+    features: [
+      { icon: 'star', title: 'Recomendados', text: 'Solo productos que el equipo revisó y recomienda.' },
+      { icon: 'chart', title: 'Mejor precio', text: 'Comparamos antes de publicar cada recomendación.' },
+      { icon: 'shield', title: 'Compra segura', text: 'Pagas en la tienda oficial, nunca en esta página.' },
+      { icon: 'check', title: 'Sin costo extra', text: 'A ti te cuesta lo mismo: la tienda nos paga la comisión.' }
     ]
   },
   'aplicaciones-del-canal': {
@@ -113,7 +126,19 @@ SR.ITEMS = {
   // solo AdminPos. La sección "Otros sistemas propios" de
   // js/own-systems.js ya es condicional (products.length), así que
   // con la lista vacía no se renderiza nada.
-  propios: []
+  propios: [],
+  // Compras (tienda de afiliados, creada 2026-11-18 por petición de
+  // SaId): lista vacía a propósito — los primeros productos se
+  // publican cuando SaId cree sus cuentas de afiliado (Amazon
+  // Associates México y Mercado Libre Afiliados) y entregue su
+  // tag/IDs. NO se publican productos sin enlace de afiliado.
+  // Estructura de cada producto (ver también js/views/compras.js):
+  // { id, name, tagline, desc, price (número, MXN), category
+  //   ('Tecnología' | 'Gaming' | 'Hogar' | 'Audio' | ...),
+  //   store: 'amazon' | 'mercadolibre', url (enlace CON el tag de
+  //   afiliado), image (ruta en assets/ o URL pública), hue,
+  //   icon, tags: [], rating (opcional, número real o sin campo) }
+  compras: []
 };
 
 SR.SECTION_BY_KEY = {};

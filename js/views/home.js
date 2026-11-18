@@ -31,7 +31,7 @@ SR.views.home = function () {
 
   const chips = [
     { k: 'all', label: 'Todo' },
-    { k: 'apps', label: 'Aplicaciones' }, { k: 'canal', label: 'Del Canal' }, { k: 'so', label: 'Sistemas' },
+    { k: 'apps', label: 'Aplicaciones' }, { k: 'compras', label: 'Compras' }, { k: 'canal', label: 'Del Canal' }, { k: 'so', label: 'Sistemas' },
     { k: 'juegos', label: 'Juegos' }, { k: 'cursos', label: 'Cursos' }, { k: 'noticias', label: 'Noticias' }, { k: 'propios', label: 'Propios' }
   ].map((c, i) => `<button class="chip${i === 0 ? ' is-active' : ''}" data-kind="${c.k}">${c.label}</button>`).join('');
 
@@ -94,7 +94,7 @@ SR.views.home = function () {
           <span class="l2">aprendizaje y</span>
           <span class="l3">mucho más.</span>
         </h1>
-        <p>Social Red reúne aplicaciones, sistemas operativos, videojuegos, cursos, noticias y herramientas propias. Explora guías prácticas, descubre novedades y encuentra todo organizado en una sola plataforma.</p>
+        <p>Social Red reúne aplicaciones, sistemas operativos, videojuegos, cursos, noticias, herramientas propias y compras recomendadas. Explora guías prácticas, descubre novedades y encuentra todo organizado en una sola plataforma.</p>
         <div class="hero-cta">
           <a class="btn btn-light btn-pill" href="#/aplicaciones"><span class="cta-ic">${SR.icon('search')}</span><span><b>Explorar Social Red</b><small>${sectionCount}+ recursos y contenidos</small></span></a>
           <a class="btn btn-ghost" href="#/aplicaciones-del-canal">${SR.icon('play')} Videos del canal</a>
@@ -157,7 +157,7 @@ SR.views.home = function () {
         <div>
           <span class="eyebrow">${sectionCount} recursos · ${SR.COURSES.length} cursos</span>
           <h2>Explora todo<br>Social Red</h2>
-          <p>Aplicaciones, sistemas operativos, juegos, cursos y noticias. Filtra por categoría o busca lo que necesitas.</p>
+          <p>Aplicaciones, sistemas operativos, juegos, cursos, noticias y compras recomendadas. Filtra por categoría o busca lo que necesitas.</p>
         </div>
         <div class="explore-tools">
           <div class="chips" id="homeChips">${chips}</div>

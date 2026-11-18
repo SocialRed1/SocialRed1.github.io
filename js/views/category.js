@@ -23,6 +23,9 @@ SR.views.category = function ({ route, query = {} }) {
   if (route === 'aplicaciones-del-canal' && SR.channelCatalogView) {
     return SR.channelCatalogView();
   }
+  if (route === 'compras' && SR.comprasView) {
+    return SR.comprasView(query);
+  }
 
   // Si es la sección de aplicaciones, usar el catálogo autónomo integrado
   if (isApps) {
@@ -579,6 +582,9 @@ SR.views.onQueryChange = function (query) {
     SR.openGameDetail(query.item, () => { history.replaceState(null, '', '#/juegos'); });
     return true;
   }
+  // Compras no tiene modal de detalle: el botón de cada producto
+  // lleva directo a la tienda oficial. Se ignora ?item=.
+  if (SR._catCtx.key === 'compras') return true;
   if (query.item) {
     if (SR._catCtx.key === 'apps' || (SR.appsEngine && SR.appsEngine.getAppById(query.item))) {
       SR.openAppModal(query.item, () => { history.replaceState(null, '', '#/' + SR._catCtx.route); });

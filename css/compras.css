@@ -1,0 +1,76 @@
+/* ==========================================================
+   Social Red — Tienda de afiliados (Compras)
+   Tarjetas de producto, estado "Muy pronto" y nota de
+   divulgación. Reutiliza .cat-hero, .feat-row, .catalog,
+   .chips, .item-grid y .tagline-strip de category.css.
+   ========================================================== */
+
+/* Tarjeta de producto */
+.shop-card {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--t) var(--ease), box-shadow var(--t) var(--ease), border-color var(--t) var(--ease);
+}
+.shop-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--accent);
+  box-shadow: 0 24px 44px -20px var(--accent);
+}
+.shop-media { position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: rgba(255, 255, 255, .04); }
+.shop-media svg,
+.shop-media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.shop-store {
+  position: absolute; top: 12px; left: 12px;
+  font-size: 11px; font-weight: 700; letter-spacing: .04em;
+  padding: 5px 10px; border-radius: 999px;
+  background: rgba(6, 20, 42, .75); color: #fff;
+  backdrop-filter: blur(6px);
+}
+.shop-store.is-amazon { background: #ff9900; color: #131921; }
+.shop-store.is-mercadolibre { background: #ffe600; color: #333; }
+.shop-body { padding: 18px 18px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.shop-cat { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+.shop-body h3 { font-family: var(--font-display); font-size: 17px; line-height: 1.25; }
+.shop-tagline { font-size: 13px; color: #dfe3f7; }
+.shop-desc { font-size: 13px; line-height: 1.5; color: #b9c0e6; flex: 1; }
+.shop-meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 4px; }
+.shop-price { font-family: var(--font-display); font-size: 21px; color: var(--accent); }
+.shop-price small { font-size: 12px; color: #b9c0e6; }
+.shop-rating { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; font-weight: 600; color: #ffd166; }
+.shop-rating svg { width: 15px; height: 15px; }
+.shop-cta { width: 100%; justify-content: center; margin-top: 6px; }
+.shop-affiliate { font-size: 11px; color: #8d94b8; text-align: center; }
+
+/* Estado "Muy pronto" (sin productos publicados) */
+.shop-empty {
+  margin-top: 8px; padding: 44px 28px; text-align: center;
+  border: 1.5px dashed var(--glass-border); border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, .03);
+}
+.shop-empty[hidden] { display: none; }
+.shop-empty-ic {
+  width: 64px; height: 64px; margin: 0 auto 16px; border-radius: 50%;
+  display: grid; place-items: center; color: #06142a;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+}
+.shop-empty-ic svg { width: 30px; height: 30px; }
+.shop-empty h3 { font-family: var(--font-display); font-size: clamp(20px, 2.4vw, 26px); margin-bottom: 10px; }
+.shop-empty p { max-width: 640px; margin: 0 auto 8px; font-size: 14px; line-height: 1.6; color: #b9c0e6; }
+.shop-empty-note { font-size: 13px; color: var(--accent); }
+
+/* Divulgación de afiliado: siempre visible */
+.shop-disclosure {
+  margin-top: 48px; padding: 20px 24px;
+  border-radius: var(--radius); border: 1px solid var(--glass-border);
+  background: rgba(255, 255, 255, .04);
+}
+.shop-disclosure b { font-family: var(--font-display); font-size: 14px; color: var(--accent); }
+.shop-disclosure p { margin-top: 6px; font-size: 13px; line-height: 1.6; color: #b9c0e6; }
+
+@media (max-width: 640px) {
+  .shop-empty { padding: 32px 18px; }
+}
