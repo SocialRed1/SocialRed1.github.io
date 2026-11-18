@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T16:26:31.683886Z",
+  "generated_at": "2026-11-18T17:26:50.403294Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "pIs2muG7fxs",
+      "title": "13 años esperando… y mañana por fin llega GTA VI ⏳",
+      "date": "2026-11-18T17:02:48Z",
+      "url": "https://www.youtube.com/shorts/pIs2muG7fxs",
+      "thumbnail": "https://i1.ytimg.com/vi/pIs2muG7fxs/hqdefault.jpg"
+    },
     {
       "id": "SFpZV5Nf2wo",
       "title": "La IA durmiente: hackearon un modelo de IA tocando solo 7 neuronas",
@@ -186,8 +193,8 @@
   "stats": {
     "subscribers": 502,
     "views": 84322,
-    "videos": 86,
-    "fetched_at": "2026-11-18T16:26:32.308403Z",
+    "videos": 87,
+    "fetched_at": "2026-11-18T17:26:52.270712Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
