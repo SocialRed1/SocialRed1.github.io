@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T00:45:12.473402Z",
+  "generated_at": "2026-11-18T02:06:10.133680Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "SFpZV5Nf2wo",
+      "title": "La IA durmiente: hackearon un modelo de IA tocando solo 7 neuronas",
+      "date": "2026-11-18T01:05:30Z",
+      "url": "https://www.youtube.com/shorts/SFpZV5Nf2wo",
+      "thumbnail": "https://i4.ytimg.com/vi/SFpZV5Nf2wo/hqdefault.jpg"
+    },
     {
       "id": "ZUZWQOSNV7k",
       "title": "¿Se apaga el mundo mañana 17 de noviembre? La verdad 😱🌎",
@@ -179,8 +186,8 @@
   "stats": {
     "subscribers": 501,
     "views": 83996,
-    "videos": 85,
-    "fetched_at": "2026-11-18T00:45:12.989598Z",
+    "videos": 86,
+    "fetched_at": "2026-11-18T02:06:11.069322Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
