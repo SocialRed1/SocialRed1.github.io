@@ -35,7 +35,7 @@ SR.SECTIONS = {
   'compras': {
     key: 'compras', accent: 'compras', icon: 'cart', label: 'Compras',
     eyebrow: 'Tienda de afiliados', title: ['Compras', 'recomendadas por Social Red'],
-    subtitle: 'Productos recomendados de Amazon, Mercado Libre y otras tiendas. Tú compras directo en la tienda oficial; nosotros solo te recomendamos lo que vale la pena.',
+    subtitle: 'Productos recomendados de Amazon. Tú compras directo en la tienda oficial; nosotros solo te recomendamos lo que vale la pena.',
     tagline: ['Recomendados', 'Mejor precio', 'Compra segura', 'Sin costo extra'],
     features: [
       { icon: 'star', title: 'Recomendados', text: 'Solo productos que el equipo revisó y recomienda.' },

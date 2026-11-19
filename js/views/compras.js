@@ -109,14 +109,14 @@ SR.comprasView = function (query = {}) {
       <div class="shop-empty" id="shopEmpty">
         <span class="shop-empty-ic">${SR.icon('cart')}</span>
         <h3>Muy pronto: los primeros productos recomendados</h3>
-        <p>Estamos preparando las primeras recomendaciones de tecnología, gaming, hogar y audio. Cada producto dirá claramente en qué tienda se compra — Amazon o Mercado Libre — y el pago siempre lo haces en la tienda oficial, nunca en esta página.</p>
+        <p>Estamos preparando las primeras recomendaciones de tecnología, gaming, hogar y audio. Cada producto dirá claramente en qué tienda se compra — Amazon — y el pago siempre lo haces en la tienda oficial, nunca en esta página.</p>
         <p class="shop-empty-note">¿Hay algo que te gustaría que recomendemos? Escríbenos en nuestras redes.</p>
       </div>
       <p class="grid-empty" id="shopNoMatch" hidden>No hay productos con esos filtros.</p>
 
       <aside class="shop-disclosure" data-reveal>
         <b>Divulgación de afiliado</b>
-        <p>Como afiliado de Amazon, gano por las compras que cumplan los requisitos. Como afiliado de Mercado Libre, puedo ganar una comisión por las compras que realices desde estos enlaces, sin costo adicional para ti: el precio que pagas es el mismo.</p>
+        <p>Como afiliado de Amazon, gano por las compras que cumplan los requisitos, sin costo adicional para ti: el precio que pagas es el mismo.</p>
       </aside>
 
       <p class="tagline-strip">${sec.tagline.map((t) => `<span>${SR.esc(t)}</span>`).join('<i>·</i>')}</p>
