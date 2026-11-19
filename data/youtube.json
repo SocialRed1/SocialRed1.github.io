@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T15:22:23.698606Z",
+  "generated_at": "2026-11-19T16:26:58.210634Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "5PGjkosXFM0",
+      "title": "¡YA ESTÁ AQUÍ! GTA VI abre Vice City hoy 🎮",
+      "date": "2026-11-19T16:19:52Z",
+      "url": "https://www.youtube.com/shorts/5PGjkosXFM0",
+      "thumbnail": "https://i2.ytimg.com/vi/5PGjkosXFM0/hqdefault.jpg"
+    },
     {
       "id": "V15wNq-T7bc",
       "title": "¡No juegues mañana sin hacer esto! GTA VI: 3 cosas para esta noche 🛡️",
@@ -198,10 +205,10 @@
     }
   ],
   "stats": {
-    "subscribers": 506,
+    "subscribers": 507,
     "views": 86103,
-    "videos": 88,
-    "fetched_at": "2026-11-19T15:22:24.291804Z",
+    "videos": 89,
+    "fetched_at": "2026-11-19T16:26:58.922087Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
