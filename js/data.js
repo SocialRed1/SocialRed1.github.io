@@ -35,7 +35,7 @@ SR.SECTIONS = {
   'compras': {
     key: 'compras', accent: 'compras', icon: 'cart', label: 'Compras',
     eyebrow: 'Tienda de afiliados', title: ['Compras', 'recomendadas por Social Red'],
-    subtitle: 'Productos recomendados de Amazon México, Mercado Libre y otras tiendas. Tú compras directo en la tienda oficial; nosotros solo te recomendamos lo que vale la pena.',
+    subtitle: 'Productos recomendados de Amazon, Mercado Libre y otras tiendas. Tú compras directo en la tienda oficial; nosotros solo te recomendamos lo que vale la pena.',
     tagline: ['Recomendados', 'Mejor precio', 'Compra segura', 'Sin costo extra'],
     features: [
       { icon: 'star', title: 'Recomendados', text: 'Solo productos que el equipo revisó y recomienda.' },
@@ -128,17 +128,29 @@ SR.ITEMS = {
   // con la lista vacía no se renderiza nada.
   propios: [],
   // Compras (tienda de afiliados, creada 2026-11-18 por petición de
-  // SaId): lista vacía a propósito — los primeros productos se
-  // publican cuando SaId cree sus cuentas de afiliado (Amazon
-  // Associates México y Mercado Libre Afiliados) y entregue su
-  // tag/IDs. NO se publican productos sin enlace de afiliado.
+  // SaId): primeros 6 productos publicados 2026-11-18 con el tag de
+  // Amazon Associates US de SaId (socialred01-20). Precios en USD
+  // (amazon.com), verificados con rastreadores el 18 nov 2026 —
+  // Amazon NO permite verificar precios en vivo a Muse (bloqueo
+  // "Access restricted" a agentes de IA), así que los precios son
+  // los de hoy y pueden variar en la tienda. 2 productos quedaron
+  // FUERA por ahora: Echo Dot 5a gen (precio $79.99 dudoso frente
+  // a su precio de lista $49.99) y Logitech G502 HERO (stock
+  // incierto en Amazon). Imágenes locales en assets/compras/.
   // Estructura de cada producto (ver también js/views/compras.js):
-  // { id, name, tagline, desc, price (número, MXN), category
-  //   ('Tecnología' | 'Gaming' | 'Hogar' | 'Audio' | ...),
-  //   store: 'amazon' | 'mercadolibre', url (enlace CON el tag de
-  //   afiliado), image (ruta en assets/ o URL pública), hue,
-  //   icon, tags: [], rating (opcional, número real o sin campo) }
-  compras: []
+  // { id, name, tagline, desc, price (número), currency ('MXN' |
+  //   'USD'), category, store: 'amazon' | 'mercadolibre',
+  //   url (enlace CON el tag de afiliado), image (ruta en assets/
+  //   o URL pública), hue, icon, tags: [], rating (opcional,
+  //   número real o sin campo) }
+  compras: [
+    { id: 'nintendo-switch-2', name: 'Nintendo Switch 2', tagline: 'La consola que todos quieren', desc: 'La nueva consola de Nintendo: pantalla de 7.9 pulgadas, 4K en el dock, 256 GB y los Joy-Con 2.', price: 499.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B0F3GWXLTS?tag=socialred01-20', image: 'assets/compras/switch2.jpg', hue: 0, icon: 'game', tags: ['nintendo', 'consola', 'gaming'] },
+    { id: 'dualsense-ps5-blanco', name: 'Control DualSense PS5 (blanco)', tagline: 'El control de PS5 en oferta', desc: 'Control oficial de PS5 con gatillos adaptativos y vibración háptica, ideal para estrenar GTA VI.', price: 54.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B0CQKLS4RP?tag=socialred01-20', image: 'assets/compras/dualsense.jpg', hue: 220, icon: 'game', tags: ['playstation', 'ps5', 'control'], rating: 4.6 },
+    { id: 'apple-airpods-4', name: 'Apple AirPods 4', tagline: 'Sonido Apple sin cables', desc: 'Audífonos inalámbricos de Apple con audio espacial y estuche USB-C, perfectos para el día a día.', price: 84.55, currency: 'USD', category: 'Audio', store: 'amazon', url: 'https://www.amazon.com/dp/B0DGHMNQ5Z?tag=socialred01-20', image: 'assets/compras/airpods4.jpg', hue: 210, icon: 'play', tags: ['apple', 'audifonos', 'bluetooth'] },
+    { id: 'jbl-flip-6', name: 'Bocina JBL Flip 6 (negra)', tagline: 'Bocina potente para llevar', desc: 'Bocina Bluetooth resistente al agua con 12 horas de batería y graves que se sienten.', price: 99.95, currency: 'USD', category: 'Audio', store: 'amazon', url: 'https://www.amazon.com/dp/B09GJVTRNZ?tag=socialred01-20', image: 'assets/compras/jbl-flip6.jpg', hue: 25, icon: 'play', tags: ['jbl', 'bocina', 'bluetooth'] },
+    { id: 'fire-tv-stick-4k-2026', name: 'Fire TV Stick 4K (modelo 2026)', tagline: 'Tu tele, ahora en 4K', desc: 'Convierte cualquier TV en una Smart TV 4K con Alexa y tus apps de streaming.', price: 19.99, currency: 'USD', category: 'Hogar inteligente', store: 'amazon', url: 'https://www.amazon.com/dp/B0G4XRP464?tag=socialred01-20', image: 'assets/compras/firetv-4k.jpg', hue: 28, icon: 'tv', tags: ['amazon', 'streaming', '4k'] },
+    { id: 'anker-735-charger-65w', name: 'Cargador Anker 735 (65 W)', tagline: 'Carga todo con un solo cubo', desc: 'Cargador GaN de 65 W con dos USB-C y un USB-A para laptop, celular y más.', price: 29.99, currency: 'USD', category: 'Accesorios', store: 'amazon', url: 'https://www.amazon.com/dp/B09C5RG6KV?tag=socialred01-20', image: 'assets/compras/anker-735.png', hue: 200, icon: 'bolt', tags: ['anker', 'cargador', 'usb-c'] }
+  ]
 };
 
 SR.SECTION_BY_KEY = {};

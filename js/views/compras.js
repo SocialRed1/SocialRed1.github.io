@@ -8,7 +8,8 @@
    {
      id: 'slug-unico', name: 'Nombre del producto',
      tagline: 'Frase corta', desc: 'Descripción breve',
-     price: 1299,            // número, en MXN
+     price: 1299,            // número, en MXN (o en USD si currency: 'USD')
+     currency: 'MXN',       // opcional: 'MXN' (por defecto) o 'USD' (amazon.com)
      category: 'Tecnología', // para el filtro por categoría
      store: 'amazon' | 'mercadolibre',
      url: 'https://...',     // SIEMPRE con el tag de afiliado
@@ -50,7 +51,7 @@ SR.comprasView = function (query = {}) {
         <p class="shop-tagline">${SR.esc(p.tagline || '')}</p>
         <p class="shop-desc">${SR.esc(p.desc || '')}</p>
         <div class="shop-meta">
-          <b class="shop-price">$${SR.fmtNum(p.price)} <small>MXN</small></b>
+          <b class="shop-price">$${SR.fmtNum(p.price)} <small>${SR.esc(p.currency || 'MXN')}</small></b>
           ${typeof p.rating === 'number' ? `<span class="shop-rating">${SR.icon('star')} ${p.rating.toFixed(1)}</span>` : ''}
         </div>
         <a class="btn btn-accent shop-cta" href="${SR.esc(p.url)}" target="_blank" rel="noopener sponsored">${SR.icon('cart')} ${SR.esc(store.cta)}</a>
@@ -108,7 +109,7 @@ SR.comprasView = function (query = {}) {
       <div class="shop-empty" id="shopEmpty">
         <span class="shop-empty-ic">${SR.icon('cart')}</span>
         <h3>Muy pronto: los primeros productos recomendados</h3>
-        <p>Estamos preparando las primeras recomendaciones de tecnología, gaming, hogar y audio. Cada producto dirá claramente en qué tienda se compra — Amazon México o Mercado Libre — y el pago siempre lo haces en la tienda oficial, nunca en esta página.</p>
+        <p>Estamos preparando las primeras recomendaciones de tecnología, gaming, hogar y audio. Cada producto dirá claramente en qué tienda se compra — Amazon o Mercado Libre — y el pago siempre lo haces en la tienda oficial, nunca en esta página.</p>
         <p class="shop-empty-note">¿Hay algo que te gustaría que recomendemos? Escríbenos en nuestras redes.</p>
       </div>
       <p class="grid-empty" id="shopNoMatch" hidden>No hay productos con esos filtros.</p>
