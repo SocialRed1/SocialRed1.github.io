@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T18:14:50.707885Z",
+  "generated_at": "2026-11-19T19:28:10.396929Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "SGaQdHRcTSg",
+      "title": "📌 Cómo ELIMINAR una PÁGINA de FACEBOOK desde CERO | Guía Completa.",
+      "date": "2026-11-19T19:26:55Z",
+      "url": "https://www.youtube.com/watch?v=SGaQdHRcTSg",
+      "thumbnail": "https://i4.ytimg.com/vi/SGaQdHRcTSg/hqdefault.jpg"
+    },
     {
       "id": "5PGjkosXFM0",
       "title": "¡YA ESTÁ AQUÍ! GTA VI abre Vice City hoy 🎮",
@@ -207,8 +214,8 @@
   "stats": {
     "subscribers": 508,
     "views": 86103,
-    "videos": 89,
-    "fetched_at": "2026-11-19T18:14:51.105957Z",
+    "videos": 90,
+    "fetched_at": "2026-11-19T19:28:11.027904Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
