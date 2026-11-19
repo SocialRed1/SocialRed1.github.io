@@ -137,6 +137,12 @@ SR.ITEMS = {
   // FUERA por ahora: Echo Dot 5a gen (precio $79.99 dudoso frente
   // a su precio de lista $49.99) y Logitech G502 HERO (stock
   // incierto en Amazon). Imágenes locales en assets/compras/.
+  // 19 nov 2026: +2 productos (G502 HERO y Razer Viper V3 Pro),
+  // precios verificados hoy con pricehistory.app / smartvaluelab.
+  // El G502 HERO entra ahora: el rastreador lo muestra en stock
+  // a $37.99 (antes excluido por stock incierto). Quedó FUERA hoy
+  // el Meta Quest 3S 128GB: precio no verificable (rastreadores y
+  // medios discrepan entre $297 y $350).
   // Estructura de cada producto (ver también js/views/compras.js):
   // { id, name, tagline, desc, price (número), currency ('MXN' |
   //   'USD'), category, store: 'amazon' | 'mercadolibre',
@@ -149,7 +155,9 @@ SR.ITEMS = {
     { id: 'apple-airpods-4', name: 'Apple AirPods 4', tagline: 'Sonido Apple sin cables', desc: 'Audífonos inalámbricos de Apple con audio espacial y estuche USB-C, perfectos para el día a día.', price: 84.55, currency: 'USD', category: 'Audio', store: 'amazon', url: 'https://www.amazon.com/dp/B0DGHMNQ5Z?tag=socialred01-20', image: 'assets/compras/airpods4.jpg', hue: 210, icon: 'play', tags: ['apple', 'audifonos', 'bluetooth'] },
     { id: 'jbl-flip-6', name: 'Bocina JBL Flip 6 (negra)', tagline: 'Bocina potente para llevar', desc: 'Bocina Bluetooth resistente al agua con 12 horas de batería y graves que se sienten.', price: 99.95, currency: 'USD', category: 'Audio', store: 'amazon', url: 'https://www.amazon.com/dp/B09GJVTRNZ?tag=socialred01-20', image: 'assets/compras/jbl-flip6.jpg', hue: 25, icon: 'play', tags: ['jbl', 'bocina', 'bluetooth'] },
     { id: 'fire-tv-stick-4k-2026', name: 'Fire TV Stick 4K (modelo 2026)', tagline: 'Tu tele, ahora en 4K', desc: 'Convierte cualquier TV en una Smart TV 4K con Alexa y tus apps de streaming.', price: 19.99, currency: 'USD', category: 'Hogar inteligente', store: 'amazon', url: 'https://www.amazon.com/dp/B0G4XRP464?tag=socialred01-20', image: 'assets/compras/firetv-4k.jpg', hue: 28, icon: 'tv', tags: ['amazon', 'streaming', '4k'] },
-    { id: 'anker-735-charger-65w', name: 'Cargador Anker 735 (65 W)', tagline: 'Carga todo con un solo cubo', desc: 'Cargador GaN de 65 W con dos USB-C y un USB-A para laptop, celular y más.', price: 29.99, currency: 'USD', category: 'Accesorios', store: 'amazon', url: 'https://www.amazon.com/dp/B09C5RG6KV?tag=socialred01-20', image: 'assets/compras/anker-735.png', hue: 200, icon: 'bolt', tags: ['anker', 'cargador', 'usb-c'] }
+    { id: 'anker-735-charger-65w', name: 'Cargador Anker 735 (65 W)', tagline: 'Carga todo con un solo cubo', desc: 'Cargador GaN de 65 W con dos USB-C y un USB-A para laptop, celular y más.', price: 29.99, currency: 'USD', category: 'Accesorios', store: 'amazon', url: 'https://www.amazon.com/dp/B09C5RG6KV?tag=socialred01-20', image: 'assets/compras/anker-735.png', hue: 200, icon: 'bolt', tags: ['anker', 'cargador', 'usb-c'] },
+    { id: 'logitech-g502-hero', name: 'Mouse Logitech G502 HERO', tagline: 'El clásico gamer a mitad de precio', desc: 'Mouse gamer con cable, sensor HERO 25K, 11 botones programables, RGB y pesas ajustables.', price: 37.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B07GBZ4Q68?tag=socialred01-20', image: 'assets/compras/logitech-g502-hero.jpg', hue: 190, icon: 'game', tags: ['logitech', 'mouse', 'gaming'], rating: 4.6 },
+    { id: 'razer-viper-v3-pro', name: 'Mouse Razer Viper V3 Pro (negro)', tagline: 'Ultraligero pro para shooters', desc: 'Mouse inalámbrico de 54 g con sensor Focus Pro 35K, polling de 8 kHz y hasta 95 horas de batería.', price: 122.55, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B0CW25XR5R?tag=socialred01-20', image: 'assets/compras/razer-viper-v3-pro.jpg', hue: 140, icon: 'game', tags: ['razer', 'mouse', 'esports'] }
   ]
 };
 
