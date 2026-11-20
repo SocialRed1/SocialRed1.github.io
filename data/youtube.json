@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T19:49:58.871574Z",
+  "generated_at": "2026-11-20T20:38:36.320317Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "-7XG_kMq4Ho",
+      "title": "El tráiler de GTA VI se filtró… y aun así rompió un récord Guinness 👀",
+      "date": "2026-11-20T20:28:23Z",
+      "url": "https://www.youtube.com/shorts/-7XG_kMq4Ho",
+      "thumbnail": "https://i2.ytimg.com/vi/-7XG_kMq4Ho/hqdefault.jpg"
+    },
     {
       "id": "ulRVZm-xo24",
       "title": "El mapa de GTA VI es un estado entero: 6 regiones de Leonida 🗺️",
@@ -235,8 +242,8 @@
   "stats": {
     "subscribers": 509,
     "views": 88022,
-    "videos": 93,
-    "fetched_at": "2026-11-20T19:49:59.283726Z",
+    "videos": 94,
+    "fetched_at": "2026-11-20T20:38:36.833219Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
