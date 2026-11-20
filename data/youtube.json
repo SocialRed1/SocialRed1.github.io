@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T00:05:58.063565Z",
+  "generated_at": "2026-11-20T01:39:02.090492Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "_g4q5atrwhU",
+      "title": "Tus primeras horas en GTA VI: qué hacer y qué NO hacer 🚨",
+      "date": "2026-11-20T01:20:49Z",
+      "url": "https://www.youtube.com/shorts/_g4q5atrwhU",
+      "thumbnail": "https://i4.ytimg.com/vi/_g4q5atrwhU/hqdefault.jpg"
+    },
     {
       "id": "iCw_qKGYWy4",
       "title": "¿Sabías que una canción de 1986 rompió Spotify por GTA VI? 🎵",
@@ -221,8 +228,8 @@
   "stats": {
     "subscribers": 508,
     "views": 86103,
-    "videos": 91,
-    "fetched_at": "2026-11-20T00:05:58.640183Z",
+    "videos": 92,
+    "fetched_at": "2026-11-20T01:39:02.945544Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
