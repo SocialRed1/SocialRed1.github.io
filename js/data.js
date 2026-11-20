@@ -143,13 +143,13 @@ SR.ITEMS = {
   // a $37.99 (antes excluido por stock incierto). Quedó FUERA hoy
   // el Meta Quest 3S 128GB: precio no verificable (rastreadores y
   // medios discrepan entre $297 y $350).
-  // 20 nov 2026: +2 productos (HyperX Cloud II $44.99, verificado
-  // hoy con smartvaluelab y specpicks; Logitech MX Master 3S
-  // Bluetooth Edition $79.99, verificado 14-18 nov en Amazon por
-  // MacObserver/XDA/rottenwifi; CNN hoy lo lista a $76 con cupón
-  // aplicado en el carrito, así que el precio efectivo puede ser
-  // menor). Sin mantenimiento: los precios del 18-19 nov tienen
-  // menos de 7 días.
+  // 20 nov 2026: +1 producto (HyperX Cloud II $44.99, verificado
+  // hoy con smartvaluelab y specpicks). El Logitech MX Master 3S
+  // ($79.99) se RETIRÓ el mismo día: su precio NO tenía lectura
+  // de rastreador de HOY (últimas 14-18 nov; CNN hoy lo lista a
+  // $76 con cupón) y la regla dura exige verificación del día.
+  // Quedó pendiente hasta tener lectura de hoy. Sin mantenimiento:
+  // los precios del 18-19 nov tienen menos de 7 días.
   // Estructura de cada producto (ver también js/views/compras.js):
   // { id, name, tagline, desc, price (número), currency ('MXN' |
   //   'USD'), category, store: 'amazon' | 'mercadolibre',
@@ -165,8 +165,7 @@ SR.ITEMS = {
     { id: 'anker-735-charger-65w', name: 'Cargador Anker 735 (65 W)', tagline: 'Carga todo con un solo cubo', desc: 'Cargador GaN de 65 W con dos USB-C y un USB-A para laptop, celular y más.', price: 29.99, currency: 'USD', category: 'Accesorios', store: 'amazon', url: 'https://www.amazon.com/dp/B09C5RG6KV?tag=socialred01-20', image: 'assets/compras/anker-735.png', hue: 200, icon: 'bolt', tags: ['anker', 'cargador', 'usb-c'] },
     { id: 'logitech-g502-hero', name: 'Mouse Logitech G502 HERO', tagline: 'El clásico gamer a mitad de precio', desc: 'Mouse gamer con cable, sensor HERO 25K, 11 botones programables, RGB y pesas ajustables.', price: 37.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B07GBZ4Q68?tag=socialred01-20', image: 'assets/compras/logitech-g502-hero.jpg', hue: 190, icon: 'game', tags: ['logitech', 'mouse', 'gaming'], rating: 4.6 },
     { id: 'razer-viper-v3-pro', name: 'Mouse Razer Viper V3 Pro (negro)', tagline: 'Ultraligero pro para shooters', desc: 'Mouse inalámbrico de 54 g con sensor Focus Pro 35K, polling de 8 kHz y hasta 95 horas de batería.', price: 122.55, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B0CW25XR5R?tag=socialred01-20', image: 'assets/compras/razer-viper-v3-pro.jpg', hue: 140, icon: 'game', tags: ['razer', 'mouse', 'esports'] },
-    { id: 'hyperx-cloud-ii', name: 'Audífonos HyperX Cloud II (rojos)', tagline: 'Sonido 7.1 para ganar', desc: 'Audífonos gamer con sonido envolvente 7.1, micrófono desmontable y almohadillas de espuma viscoelástica.', price: 44.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B00SAYCXWG?tag=socialred01-20', image: 'assets/compras/hyperx-cloud-ii.jpg', hue: 355, icon: 'game', tags: ['hyperx', 'audifonos', 'gaming'], rating: 4.5 },
-    { id: 'logitech-mx-master-3s', name: 'Mouse Logitech MX Master 3S (Bluetooth)', tagline: 'El mouse de productividad definitivo', desc: 'Mouse inalámbrico Bluetooth con sensor 8K DPI, clics silenciosos y rueda MagSpeed para trabajar durante horas.', price: 79.99, currency: 'USD', category: 'Accesorios', store: 'amazon', url: 'https://www.amazon.com/dp/B09HM94VDS?tag=socialred01-20', image: 'assets/compras/logitech-mx-master-3s.jpg', hue: 260, icon: 'cpu', tags: ['logitech', 'mouse', 'productividad'] }
+    { id: 'hyperx-cloud-ii', name: 'Audífonos HyperX Cloud II (rojos)', tagline: 'Sonido 7.1 para ganar', desc: 'Audífonos gamer con sonido envolvente 7.1, micrófono desmontable y almohadillas de espuma viscoelástica.', price: 44.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B00SAYCXWG?tag=socialred01-20', image: 'assets/compras/hyperx-cloud-ii.jpg', hue: 355, icon: 'game', tags: ['hyperx', 'audifonos', 'gaming'], rating: 4.5 }
   ]
 };
 
