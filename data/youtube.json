@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T15:44:30.154490Z",
+  "generated_at": "2026-11-20T16:47:55.898632Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "ulRVZm-xo24",
+      "title": "El mapa de GTA VI es un estado entero: 6 regiones de Leonida 🗺️",
+      "date": "2026-11-20T16:02:32Z",
+      "url": "https://www.youtube.com/shorts/ulRVZm-xo24",
+      "thumbnail": "https://i2.ytimg.com/vi/ulRVZm-xo24/hqdefault.jpg"
+    },
     {
       "id": "_g4q5atrwhU",
       "title": "Tus primeras horas en GTA VI: qué hacer y qué NO hacer 🚨",
@@ -228,8 +235,8 @@
   "stats": {
     "subscribers": 509,
     "views": 88022,
-    "videos": 92,
-    "fetched_at": "2026-11-20T15:44:30.747276Z",
+    "videos": 93,
+    "fetched_at": "2026-11-20T16:47:56.498990Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
