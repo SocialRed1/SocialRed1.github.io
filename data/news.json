@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T23:10:38.880967Z",
+  "generated_at": "2026-11-20T00:05:57.180322Z",
   "sources": [
     {
       "name": "Xataka",
@@ -22,7 +22,7 @@
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "page": "https://www.bbc.com/mundo/topics/cyx5krnw38vt",
       "status": "ok",
-      "count": 4,
+      "count": 3,
       "error": ""
     }
   ],
@@ -444,26 +444,6 @@
       "body": [],
       "facts": [],
       "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/03f5/live/f96f8440-e350-11f1-99b6-a35a62fa4264.jpg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-1gkjfam",
-      "title": "Quiénes son los 7 fundadores de Anthropic que están a punto de convertirse en multimillonarios",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-18T17:33:57Z",
-      "author": "No indicado por la fuente",
-      "sourceName": "BBC Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cm98x39221yro?at_medium=RSS&at_campaign=rss",
-      "sourcePage": "https://www.bbc.com/mundo/topics/cyx5krnw38vt",
-      "read": 2,
-      "excerpt": "La empresa de inteligencia artificial responsable de Claude está a punto de salir a bolsa, lo que hará muy ricos a sus fundadores.",
-      "lead": "La empresa de inteligencia artificial responsable de Claude está a punto de salir a bolsa, lo que hará muy ricos a sus fundadores.",
-      "body": [],
-      "facts": [],
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f70c/live/7ee6d930-e346-11f1-99aa-0f40b013ad11.jpg",
       "video": "",
       "external": true
     },
