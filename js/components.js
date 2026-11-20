@@ -621,6 +621,13 @@ SR.mountFooter = function () {
             <ul>${c.items.map((i) => `<li><a href="#${i.route}">${i.label}</a></li>`).join('')}</ul>
           </div>`).join('')}
         <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#/privacidad">Aviso de privacidad</a></li>
+            <li><a href="#/contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
           <h4>Fuentes Oficiales</h4>
           <ul>
             <li><a href="https://ninite.com/" target="_blank" rel="noopener">Ninite.com</a></li>

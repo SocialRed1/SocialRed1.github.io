@@ -33,6 +33,8 @@ SR.router = (function () {
     }
     if (first === 'noticias' && parts.length === 1) return { view: SR.views.list, params: { type: 'noticias' } };
     if ((first === 'cursos' || first === 'noticias') && parts.length === 2) return { view: SR.views.article, params: { type: first, id: parts[1] } };
+    if (first === 'privacidad' && parts.length === 1) return { view: SR.privacyView, params: {} };
+    if (first === 'contacto' && parts.length === 1) return { view: SR.contactView, params: {} };
     return { view: SR.views.notFound, params: {} };
   }
 

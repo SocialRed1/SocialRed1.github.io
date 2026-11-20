@@ -1,0 +1,30 @@
+/* ==========================================================
+   Páginas legales — Aviso de privacidad y Contacto.
+   Creadas 2026-11-20 por petición de SaId: Google AdSense
+   pide estas páginas visibles antes de aprobar el sitio.
+   ========================================================== */
+.legal-page { background: var(--paper); color: var(--ink-900); padding-bottom: 90px; }
+.legal-hero { background: linear-gradient(135deg, var(--navy-900), var(--navy-800) 60%, var(--indigo-700)); color: #fff; padding: calc(var(--header-h, 76px) + 44px) 0 64px; }
+.legal-hero h1 { font-family: var(--font-display); font-size: clamp(30px, 4.4vw, 52px); line-height: 1.08; margin-top: 10px; }
+.legal-hero p { max-width: 680px; margin-top: 14px; color: rgba(255, 255, 255, .82); font-size: 17px; line-height: 1.6; }
+.legal-body { max-width: 780px; margin: -34px auto 0; background: #fff; border: 1px solid var(--line); border-radius: var(--radius-lg); box-shadow: var(--shadow-soft); padding: clamp(24px, 4vw, 48px); position: relative; }
+.legal-body h2 { font-family: var(--font-display); font-size: 22px; margin: 34px 0 10px; color: var(--ink-900); }
+.legal-body h2:first-child { margin-top: 0; }
+.legal-body p, .legal-body li { font-size: 16px; line-height: 1.75; color: var(--ink-700); }
+.legal-body p { margin-bottom: 12px; }
+.legal-body ul { padding-left: 22px; margin: 8px 0 14px; display: grid; gap: 6px; }
+.legal-body a { color: var(--indigo-600); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+.legal-updated { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-500); margin-bottom: 20px; }
+.legal-contact-card { display: grid; gap: 14px; margin-top: 8px; }
+.legal-contact-item { display: flex; gap: 14px; align-items: flex-start; border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; background: var(--paper); }
+.legal-contact-item b { display: block; font-size: 16px; margin-bottom: 2px; }
+.legal-contact-item span { font-size: 14px; color: var(--ink-500); line-height: 1.5; }
+.legal-contact-item .legal-ico { flex: none; width: 42px; height: 42px; border-radius: 12px; display: grid; place-items: center; background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: #06142a; }
+.legal-contact-item .legal-ico svg { width: 20px; height: 20px; }
+.legal-social { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+.legal-social a { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border-radius: 999px; border: 1px solid var(--line); background: #fff; color: var(--ink-900); font-weight: 600; font-size: 14px; text-decoration: none; }
+.legal-social a:hover { border-color: var(--accent); color: var(--indigo-600); }
+.legal-social svg { width: 16px; height: 16px; }
+@media (max-width: 640px) {
+  .legal-body { margin-inline: 16px; }
+}
