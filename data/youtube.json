@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T20:07:19.946281Z",
+  "generated_at": "2026-11-21T21:06:50.538260Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "fv32g7QVTnA",
+      "title": "Una supercomputadora de IA que cabe en tu escritorio 🤖",
+      "date": "2026-11-21T20:30:31Z",
+      "url": "https://www.youtube.com/shorts/fv32g7QVTnA",
+      "thumbnail": "https://i3.ytimg.com/vi/fv32g7QVTnA/hqdefault.jpg"
+    },
     {
       "id": "G7jV7rGVbqQ",
       "title": "En GTA VI la policía te recuerda: así escapas del Heat 🚔",
@@ -256,8 +263,8 @@
   "stats": {
     "subscribers": 509,
     "views": 89302,
-    "videos": 96,
-    "fetched_at": "2026-11-21T20:07:20.409961Z",
+    "videos": 97,
+    "fetched_at": "2026-11-21T21:06:51.126233Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
