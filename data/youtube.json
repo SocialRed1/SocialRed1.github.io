@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T00:40:28.915077Z",
+  "generated_at": "2026-11-21T01:58:47.831123Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "TYgCkjBvoKY",
+      "title": "Lucía y Jason: la pareja que cambia GTA para siempre 💥",
+      "date": "2026-11-21T00:59:07Z",
+      "url": "https://www.youtube.com/shorts/TYgCkjBvoKY",
+      "thumbnail": "https://i1.ytimg.com/vi/TYgCkjBvoKY/hqdefault.jpg"
+    },
     {
       "id": "-7XG_kMq4Ho",
       "title": "El tráiler de GTA VI se filtró… y aun así rompió un récord Guinness 👀",
@@ -241,9 +248,9 @@
   ],
   "stats": {
     "subscribers": 506,
-    "views": 88022,
-    "videos": 94,
-    "fetched_at": "2026-11-21T00:40:29.471880Z",
+    "views": 88437,
+    "videos": 95,
+    "fetched_at": "2026-11-21T01:58:48.898543Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
