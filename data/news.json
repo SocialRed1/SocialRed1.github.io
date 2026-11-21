@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T06:50:15.876374Z",
+  "generated_at": "2026-11-21T08:00:12.425998Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-lw2o8n",
+      "title": "La Segunda Guerra Mundial terminó en mayo de 1945. El problema es que había 11 soldados alemanes sin cobertura en el Ártico",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-21T07:30:28Z",
+      "author": "Miguel Jorge",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/magnet/segunda-guerra-mundial-termino-mayo-1945-problema-que-habia-11-soldados-alemanes-cobertura-artico",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "En mayo de 1945, Europa empezaba a salir de la pesadilla de la Segunda Guerra Mundial . Berlín había caído, Hitler estaba muerto y Alemania había firmado su rendición. Sin embargo, a miles de kilómetros de las celebraciones y las ruinas, una pequeña unidad del ejército alemán seguía atrapada en una misión que ya no tenía sentido. Su historia terminaría protagonizando uno de los episodios más surrealistas de toda la contienda. Una guerra que terminó en mayo, salvo para 11 alemanes. El 7 de mayo de 1945, Alemania firmó su capitulación incondicional en Reims, que entró en vigor el día 8. La Wehrmacht comenzó a desmovilizarse y las últimas unidades dispersas fueron entregando las armas. Pero en Nordaustlandet , una isla deshabitada del archipiélago noruego de Svalbard , once militares alemanes seguían instalados en una estación meteorológica secreta . Se habían enterado por radio del final d",
+      "lead": "En mayo de 1945, Europa empezaba a salir de la pesadilla de la Segunda Guerra Mundial . Berlín había caído, Hitler estaba muerto y Alemania había firmado su rendición. Sin embargo, a miles de kilómetros de las celebraciones y las ruinas, una pequeña unidad del ejército alemán seguía atrapada en una misión que ya no tenía sentido. Su historia terminaría protagonizando uno de los episodios más surrealistas de toda la contienda. Una guerra que terminó en mayo, salvo para 11 alemanes. El 7 de mayo de 1945, Alemania firmó su capitulación incondicional en Reims, que entró en vigor el día 8. La Wehrmacht comenzó a desmovilizarse y las últimas unidades dispersas fueron entregando las armas. Pero en Nordaustlandet , una isla deshabitada del archipiélago noruego de Svalbard , once militares alemanes seguían instalados en una estación meteorológica secreta . Se habían enterado por radio del final d",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/a64042/explorador-con-globo-sobre-la-costa-artica/1024_2000.png",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-dv3hty",
       "title": "En 1919, un zaragozano patentó algo que revolucionó las cocinas de todo el mundo: la historia de la olla exprés",
@@ -424,26 +444,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/af73ba/aff---es---xataka---bf26---1350x900---v2---w47/1024_2000.png",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-eqqofu",
-      "title": "Action tiene rebajada (a 12,95 euros) esta guirnalda LED de Philips de 10 metros y con sincronización con música",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-20T12:30:27Z",
-      "author": "Fran León",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/seleccion/action-tiene-rebajada-a-12-95-euros-esta-guirnalda-led-philips-10-metros-sincronizacion-musica",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "Domotizar la iluminación del salón o prepara la decoración navideña con luces inteligentes de marca renocida no siempre supone tener que hacer una gran inversión. Dentro de sus promociones semanales, la cadena de tiendas Action tiene en su promoción semanal esta guirnalda de luces inteligente Philips conectada por WiZ de 10 metros por 12,95 euros , en vez de los 17,95 euros que suele costar. Si no hay una tienda Action en tu ciudad o cuando vayas, esta guirnalda de Philips se ha agotado, en el Black Friday hemos encontrado esta otra rebajada a 18,97 euros . Tiene 10 metros, la puedes controlar desde app móvil y también se sincroniza con música. GuKKK Navidad Decoración Luces, 10M 60 LED Guirnalda Luces RGB Hoy en Amazon — 18,97 € El precio podría variar. Obtenemos comisión por estos enlaces Una tira LED que podrás conectar fácilmente La gran ventaja de este modelo de Philips (ecosistema ",
-      "lead": "Domotizar la iluminación del salón o prepara la decoración navideña con luces inteligentes de marca renocida no siempre supone tener que hacer una gran inversión. Dentro de sus promociones semanales, la cadena de tiendas Action tiene en su promoción semanal esta guirnalda de luces inteligente Philips conectada por WiZ de 10 metros por 12,95 euros , en vez de los 17,95 euros que suele costar. Si no hay una tienda Action en tu ciudad o cuando vayas, esta guirnalda de Philips se ha agotado, en el Black Friday hemos encontrado esta otra rebajada a 18,97 euros . Tiene 10 metros, la puedes controlar desde app móvil y también se sincroniza con música. GuKKK Navidad Decoración Luces, 10M 60 LED Guirnalda Luces RGB Hoy en Amazon — 18,97 € El precio podría variar. Obtenemos comisión por estos enlaces Una tira LED que podrás conectar fácilmente La gran ventaja de este modelo de Philips (ecosistema ",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/4b1650/action-tienda/1024_2000.jpeg",
       "video": "",
       "external": true
     },
