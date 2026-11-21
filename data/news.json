@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T21:06:49.415519Z",
+  "generated_at": "2026-11-21T22:05:31.090050Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-csm4vq",
+      "title": "En la India, una ciudad lleva décadas intentando vivir sin dinero, partidos políticos o religión: la utopía de Auroville",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-21T21:00:29Z",
+      "author": "Carlos Prego",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/magnet/india-ciudad-lleva-decadas-intentando-vivir-dinero-partidos-politicos-religion-utopia-auroville",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Si algo hemos demostrado a lo largo de la historia, desde los lejanos tiempos de Tomás Moro , o incluso desde la Antigua Grecia de Platón, es que a los humanos siempre se nos ha dado mejor teorizar sobre ciudades utópicas que llevarlas a la práctica. Que nos resulte complicado no significa, sin embargo, que no lo sigamos intentando en pleno siglo XXI. Auroville , una población situada cerca de Puducherry, al sur de la India y escasos cinco kilómetros del Índico, es un buen ejemplo. No es el único sueño utópico , pero sí es uno de los que ha sonado con más fuerza, en parte gracias al eco que le dieron en su día instituciones como la UNESCO . Eso y que el proyecto peina ya canas: aunque está lejos aún de los objetivos que se marcó en su origen, se fundó hace más de medio siglo. Para localizar sus orígenes hay que remontarse a 1968, a la efervescencia hippie. Su impulsora, Mirra Alfassa , u",
+      "lead": "Si algo hemos demostrado a lo largo de la historia, desde los lejanos tiempos de Tomás Moro , o incluso desde la Antigua Grecia de Platón, es que a los humanos siempre se nos ha dado mejor teorizar sobre ciudades utópicas que llevarlas a la práctica. Que nos resulte complicado no significa, sin embargo, que no lo sigamos intentando en pleno siglo XXI. Auroville , una población situada cerca de Puducherry, al sur de la India y escasos cinco kilómetros del Índico, es un buen ejemplo. No es el único sueño utópico , pero sí es uno de los que ha sonado con más fuerza, en parte gracias al eco que le dieron en su día instituciones como la UNESCO . Eso y que el proyecto peina ya canas: aunque está lejos aún de los objetivos que se marcó en su origen, se fundó hace más de medio siglo. Para localizar sus orígenes hay que remontarse a 1968, a la efervescencia hippie. Su impulsora, Mirra Alfassa , u",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/4d6976/photo-1715794202088-84a7792062b0/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-k940gl",
       "title": "De Badajoz a Escandinavia: la mina extremeña de hace 3.000 años que llevó el cobre al Báltico",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/0328e3/ecliptic-graphic-_jg8xh2ssxq-unsplash/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-xuq8ii",
-      "title": "He buscado una tele de 32 pulgadas para mi suegra que cueste menos de 200 euros. Es más complicado de lo que parece",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-21T09:30:23Z",
-      "author": "Alberto García",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/seleccion/he-buscado-tele-32-pulgadas-para-mi-suegra-que-cueste-200-euros-complicado-que-parece",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "Llevo unos meses buscando un televisor para mi suegra, y tengo dos condiciones: que sea de 32 pulgadas y que cueste menos de 200 euros . Viendo el precio que tienen modelos con mayor diagonal pensaba que será algo relativamente fácil, pero para mi sorpresa las ofertas escasean y los precios están algo elevados. Incluso en los días previos al Black Friday. Por este motivo, he reunido en este artículo los cinco mejores televisores que he encontrado por el momento. Xiaomi F Pro por 129 euros , un televisor HD con Fire TV. Philips PHS6050 por 189 euros , con resolución HD y altavoces Dolby Audio. Hisense A4S por 169 euros , con un sistema de sonido Dolby Audio. Panasonic S65C por 199 euros , una tele QLED con resolución Full HD. TCL S5KX1 por 179 euros , un televisor con Android TV y Dolby Audio. Panasonic S65C Hoy en Amazon — 199,00 € El Corte Inglés — 216,75 € El precio podría variar. Obte",
-      "lead": "Llevo unos meses buscando un televisor para mi suegra, y tengo dos condiciones: que sea de 32 pulgadas y que cueste menos de 200 euros . Viendo el precio que tienen modelos con mayor diagonal pensaba que será algo relativamente fácil, pero para mi sorpresa las ofertas escasean y los precios están algo elevados. Incluso en los días previos al Black Friday. Por este motivo, he reunido en este artículo los cinco mejores televisores que he encontrado por el momento. Xiaomi F Pro por 129 euros , un televisor HD con Fire TV. Philips PHS6050 por 189 euros , con resolución HD y altavoces Dolby Audio. Hisense A4S por 169 euros , con un sistema de sonido Dolby Audio. Panasonic S65C por 199 euros , una tele QLED con resolución Full HD. TCL S5KX1 por 179 euros , un televisor con Android TV y Dolby Audio. Panasonic S65C Hoy en Amazon — 199,00 € El Corte Inglés — 216,75 € El precio podría variar. Obte",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/31e12c/teles-xiaomi-y-hisense/1024_2000.jpeg",
       "video": "",
       "external": true
     },
