@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T03:40:09.181213Z",
+  "generated_at": "2026-11-21T04:45:22.914287Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-z4sg0x",
+      "title": "Hoy No Circula sabatino: qué autos pueden circular y cuáles descansan el 21 de noviembre",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-21T04:00:27Z",
+      "author": "Alberto de la Torre",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/mexico/hoy-no-circula-sabatino-que-autos-pueden-circular-cuales-descansan-21-noviembre",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Un fin de semana más entra en operación el calendario del Hoy No Circula sabatino, la estrategia ambiental mediante la cual la Secretaría de Medio Ambiente de la Ciudad de México ( SEDEMA ) restringe el tránsito de determinados automóviles para reducir los niveles de polución en el Valle de México. Como cada sábado, todo conductor que tenga previsto utilizar su vehículo deberá comprobar atentamente el último dígito de su placa y su holograma de verificación antes de ponerse en marcha. El alcance de esta normativa no se limita exclusivamente a las 16 alcaldías de la CDMX, sino que también abarca a múltiples municipios conurbados del Estado de México. Así, la medida rige de igual manera en: Atizapán de Zaragoza Coacalco de Berriozábal Cuautitlán Cuautitlán Izcalli Chalco Chicoloapan Chimalhuacán Ecatepec de Morelos Huixquilucan Ixtapaluca La Paz Naucalpan de Juárez Nezahualcóyotl Nicolás R",
+      "lead": "Un fin de semana más entra en operación el calendario del Hoy No Circula sabatino, la estrategia ambiental mediante la cual la Secretaría de Medio Ambiente de la Ciudad de México ( SEDEMA ) restringe el tránsito de determinados automóviles para reducir los niveles de polución en el Valle de México. Como cada sábado, todo conductor que tenga previsto utilizar su vehículo deberá comprobar atentamente el último dígito de su placa y su holograma de verificación antes de ponerse en marcha. El alcance de esta normativa no se limita exclusivamente a las 16 alcaldías de la CDMX, sino que también abarca a múltiples municipios conurbados del Estado de México. Así, la medida rige de igual manera en: Atizapán de Zaragoza Coacalco de Berriozábal Cuautitlán Cuautitlán Izcalli Chalco Chicoloapan Chimalhuacán Ecatepec de Morelos Huixquilucan Ixtapaluca La Paz Naucalpan de Juárez Nezahualcóyotl Nicolás R",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/0c1356/armands-brants-o36exbgkd1g-unsplash/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-cwjs00",
       "title": "Freidora de aire y olla multifunción: este electrodoméstico 10 en 1 de Ninja es perfecto para cocinas pequeñas y un chollo hoy",
@@ -424,26 +444,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/4cc183/semiramis_imo_5319872_p_piraeus_10-1972/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-lk8mml",
-      "title": "Tu móvil Android es cada vez menos tuyo: la acusación contra Google que recuerda a una multa de 4.125 millones",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-20T12:15:00Z",
-      "author": "Iván Linares",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/moviles/grapheneos-acusa-a-google-presionar-a-fabricantes-su-ultimo-paso-android-cada-vez-cerrado",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "Android ha caminado por una senda que cruza multitud de territorios. El open source, el código propietario, dispositivos de múltiples formatos y hasta adaptaciones a móviles de la competencia, ya que hay maneras de usar Android en iOS . Esta capacidad de disfrazarse es una de sus cualidades: la comunidad lleva casi desde el principio modificando el sistema operativo . Y esto se encuentra en peligro de extinción. Las ROMs, en retirada . No es que hayan desaparecido, ya que colosos como LineageOS siguen en plena forma. Lo que sí es cierto es que pasaron a un público muy especializado, aquel que no tiene miedo de modificar su smartphone a fondo. Yo mismo hace tiempo que dejé de ser uno de ellos. He pasado de visitar a diario los repositorios de ROMs a no acordarme ni del root. Sé que es solo mi experiencia, pero las cifras van en la misma línea: en una encuesta del medio especializado Andro",
-      "lead": "Android ha caminado por una senda que cruza multitud de territorios. El open source, el código propietario, dispositivos de múltiples formatos y hasta adaptaciones a móviles de la competencia, ya que hay maneras de usar Android en iOS . Esta capacidad de disfrazarse es una de sus cualidades: la comunidad lleva casi desde el principio modificando el sistema operativo . Y esto se encuentra en peligro de extinción. Las ROMs, en retirada . No es que hayan desaparecido, ya que colosos como LineageOS siguen en plena forma. Lo que sí es cierto es que pasaron a un público muy especializado, aquel que no tiene miedo de modificar su smartphone a fondo. Yo mismo hace tiempo que dejé de ser uno de ellos. He pasado de visitar a diario los repositorios de ROMs a no acordarme ni del root. Sé que es solo mi experiencia, pero las cifras van en la misma línea: en una encuesta del medio especializado Andro",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/fcf430/android-portada/1024_2000.jpeg",
       "video": "",
       "external": true
     },
