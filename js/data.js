@@ -150,6 +150,15 @@ SR.ITEMS = {
   // $76 con cupón) y la regla dura exige verificación del día.
   // Quedó pendiente hasta tener lectura de hoy. Sin mantenimiento:
   // los precios del 18-19 nov tienen menos de 7 días.
+  // 21 nov 2026: +1 producto (Sony WH-1000XM5 rosa ahumado $186.22,
+  // ASIN B0DDV3FRHR, verificado hoy con pricehistory.app: lectura del
+  // 21 nov, InStock). El 2º quedó PENDIENTE: el MX Master 3S NO se
+  // publicó — los rastreadores lo contradicen ($119.99 en Camel y
+  // Keepa, sin lectura del 19-21 nov; el $79.99 era de otra variante).
+  // El control Xbox B08DF25R8D ya no se ofrece ni se rastrea en
+  // Amazon.com. El Stream Deck Mini ($49.93) solo tenía lectura del
+  // 20 nov en smartvaluelab y el MX Keys S tenía precios en conflicto
+  // ($105-$126 según la fuente), así que tampoco entraron hoy.
   // Estructura de cada producto (ver también js/views/compras.js):
   // { id, name, tagline, desc, price (número), currency ('MXN' |
   //   'USD'), category, store: 'amazon' | 'mercadolibre',
@@ -166,7 +175,8 @@ SR.ITEMS = {
     { id: 'logitech-g502-hero', name: 'Mouse Logitech G502 HERO', tagline: 'El clásico gamer a mitad de precio', desc: 'Mouse gamer con cable, sensor HERO 25K, 11 botones programables, RGB y pesas ajustables.', price: 37.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B07GBZ4Q68?tag=socialred01-20', image: 'assets/compras/logitech-g502-hero.jpg', hue: 190, icon: 'game', tags: ['logitech', 'mouse', 'gaming'], rating: 4.6 },
     { id: 'razer-viper-v3-pro', name: 'Mouse Razer Viper V3 Pro (negro)', tagline: 'Ultraligero pro para shooters', desc: 'Mouse inalámbrico de 54 g con sensor Focus Pro 35K, polling de 8 kHz y hasta 95 horas de batería.', price: 122.55, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B0CW25XR5R?tag=socialred01-20', image: 'assets/compras/razer-viper-v3-pro.jpg', hue: 140, icon: 'game', tags: ['razer', 'mouse', 'esports'] },
     { id: 'hyperx-cloud-ii', name: 'Audífonos HyperX Cloud II (rojos)', tagline: 'Sonido 7.1 para ganar', desc: 'Audífonos gamer con sonido envolvente 7.1, micrófono desmontable y almohadillas de espuma viscoelástica.', price: 44.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B00SAYCXWG?tag=socialred01-20', image: 'assets/compras/hyperx-cloud-ii.jpg', hue: 355, icon: 'game', tags: ['hyperx', 'audifonos', 'gaming'], rating: 4.5 },
-    { id: 'steelseries-arctis-nova-5', name: 'Audífonos SteelSeries Arctis Nova 5', tagline: 'Inalámbrico para PC, PS5 y Switch', desc: 'Audífonos gamer inalámbricos con 2.4 GHz y Bluetooth a la vez, 60 horas de batería y más de 100 presets de audio por juego.', price: 99.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B0D2YBQQ1P?tag=socialred01-20', image: 'assets/compras/steelseries-arctis-nova-5.jpg', hue: 210, icon: 'game', tags: ['steelseries', 'audifonos', 'gaming'], rating: 4.2 }
+    { id: 'steelseries-arctis-nova-5', name: 'Audífonos SteelSeries Arctis Nova 5', tagline: 'Inalámbrico para PC, PS5 y Switch', desc: 'Audífonos gamer inalámbricos con 2.4 GHz y Bluetooth a la vez, 60 horas de batería y más de 100 presets de audio por juego.', price: 99.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B0D2YBQQ1P?tag=socialred01-20', image: 'assets/compras/steelseries-arctis-nova-5.jpg', hue: 210, icon: 'game', tags: ['steelseries', 'audifonos', 'gaming'], rating: 4.2 },
+    { id: 'sony-wh-1000xm5-rosa', name: 'Audífonos Sony WH-1000XM5 (rosa ahumado)', tagline: 'Cancelación de ruido de otro nivel', desc: 'Audífonos premium de Sony con cancelación de ruido líder, 30 horas de batería y audio de alta resolución.', price: 186.22, currency: 'USD', category: 'Audio', store: 'amazon', url: 'https://www.amazon.com/dp/B0DDV3FRHR?tag=socialred01-20', image: 'assets/compras/sony-wh-1000xm5-rosa.jpg', hue: 330, icon: 'play', tags: ['sony', 'audifonos', 'cancelacion-de-ruido'] }
   ]
 };
 
