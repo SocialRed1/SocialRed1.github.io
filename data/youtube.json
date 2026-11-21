@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T15:11:58.258196Z",
+  "generated_at": "2026-11-21T16:10:11.646124Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "G7jV7rGVbqQ",
+      "title": "En GTA VI la policía te recuerda: así escapas del Heat 🚔",
+      "date": "2026-11-21T16:02:27Z",
+      "url": "https://www.youtube.com/shorts/G7jV7rGVbqQ",
+      "thumbnail": "https://i4.ytimg.com/vi/G7jV7rGVbqQ/hqdefault.jpg"
+    },
     {
       "id": "TYgCkjBvoKY",
       "title": "Lucía y Jason: la pareja que cambia GTA para siempre 💥",
@@ -249,8 +256,8 @@
   "stats": {
     "subscribers": 508,
     "views": 88850,
-    "videos": 95,
-    "fetched_at": "2026-11-21T15:11:59.141320Z",
+    "videos": 96,
+    "fetched_at": "2026-11-21T16:10:12.233414Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
