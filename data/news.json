@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T17:09:53.293425Z",
+  "generated_at": "2026-11-21T18:03:53.850509Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-5k0w7y",
+      "title": "Lo llaman El Señor de los Bolígrafos, es de Gijón y con 61 años ha dedicado media vida a inventariar y clasificar más de 26.000 bolis",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-21T17:30:29Z",
+      "author": "Isra Fdez",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/magnet/llaman-senor-boligrafos-gijon-61-anos-ha-dedicado-media-vida-a-inventariar-clasificar-26-000-bolis",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "26.353 bolígrafos publicitarios clasificados. Ni plumas ni estilográficas, solo bolis. Ninguno de lujo (bueno, sólo uno) ni reliquias de coleccionista. Juan Carlos Fernández Peñín es un gijonés (Asturias) de 61 años que trabaja como gruista y ha convertido su garaje en un archivo de la publicidad en tinta. Colecciona bolis, miles de ellos. Y su colección ya ha dado la vuelta a medio mundo hispanohablante, incluida la prensa uruguaya . Cómo empezó. Todos tenemos un cajón con bolígrafos de dudosa procedencia: el del banco o del partido político de turno, el de la ferretería o quizá el de algún hotel en el que dormimos allá por 2009. Lo normal es dejar que mueran de agotamiento. Juan Carlos prefirió guardarlos. Primero fueron los de los cajones y los que le regalaban en las cafeterías. Después, unos 90. Luego, 400. Más tarde, 2.000. Cuando en casa ya no cabía ni un bolígrafo más, la colecci",
+      "lead": "26.353 bolígrafos publicitarios clasificados. Ni plumas ni estilográficas, solo bolis. Ninguno de lujo (bueno, sólo uno) ni reliquias de coleccionista. Juan Carlos Fernández Peñín es un gijonés (Asturias) de 61 años que trabaja como gruista y ha convertido su garaje en un archivo de la publicidad en tinta. Colecciona bolis, miles de ellos. Y su colección ya ha dado la vuelta a medio mundo hispanohablante, incluida la prensa uruguaya . Cómo empezó. Todos tenemos un cajón con bolígrafos de dudosa procedencia: el del banco o del partido político de turno, el de la ferretería o quizá el de algún hotel en el que dormimos allá por 2009. Lo normal es dejar que mueran de agotamiento. Juan Carlos prefirió guardarlos. Primero fueron los de los cajones y los que le regalaban en las cafeterías. Después, unos 90. Luego, 400. Más tarde, 2.000. Cuando en casa ya no cabía ni un bolígrafo más, la colecci",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/7e52ae/img_20140913_161701/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-1qvbs2g",
       "title": "Las viejas centrales cerradas de Europa han encontrado una segunda vida: los centros de datos",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/a64042/explorador-con-globo-sobre-la-costa-artica/1024_2000.png",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-dv3hty",
-      "title": "En 1919, un zaragozano patentó algo que revolucionó las cocinas de todo el mundo: la historia de la olla exprés",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-21T06:30:27Z",
-      "author": "Javier Jiménez",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/magnet/1919-zaragozano-patento-algo-que-revoluciono-cocinas-todo-mundo-historia-olla-expres-1",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "En una de las charlas TED más emblemáticas de la historia, Hans Rosling se plantó en el escenario con una lavadora . Así, como suena. El médico sueco contó que tenía cuatro años cuando vio a su madre poner, por primera vez en toda su vida, una lavadora. Contó cómo su abuela fue al primer uso de la máquina con un entusiasmo enorme: cómo durante toda su vida, había tenido que calentar el agua en la hoguera y lavar a mano. Pero, sobre todo, contó cómo la lavadora había cambiado buena parte del mundo y cómo va a seguir haciéndolo. Sé que es una tesis arriesgada, pero lo interesante de todo esto es que la lavadora es solo un ejemplo. Un ejemplo bueno, claro: la cantidad de horas que las sociedades (sobre todo, las mujeres) dedicaban a una actividad tan dura como lavar la ropa antes de las máquinas era una auténtica bestialidad. Pero ejemplos, hay muchos más. Uno poco conocido tiene como prota",
-      "lead": "En una de las charlas TED más emblemáticas de la historia, Hans Rosling se plantó en el escenario con una lavadora . Así, como suena. El médico sueco contó que tenía cuatro años cuando vio a su madre poner, por primera vez en toda su vida, una lavadora. Contó cómo su abuela fue al primer uso de la máquina con un entusiasmo enorme: cómo durante toda su vida, había tenido que calentar el agua en la hoguera y lavar a mano. Pero, sobre todo, contó cómo la lavadora había cambiado buena parte del mundo y cómo va a seguir haciéndolo. Sé que es una tesis arriesgada, pero lo interesante de todo esto es que la lavadora es solo un ejemplo. Un ejemplo bueno, claro: la cantidad de horas que las sociedades (sobre todo, las mujeres) dedicaban a una actividad tan dura como lavar la ropa antes de las máquinas era una auténtica bestialidad. Pero ejemplos, hay muchos más. Uno poco conocido tiene como prota",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/f6acf2/photo-1740684431519-a7cc682834b2/1024_2000.jpeg",
       "video": "",
       "external": true
     },
