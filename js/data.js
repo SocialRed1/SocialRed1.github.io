@@ -159,6 +159,18 @@ SR.ITEMS = {
   // Amazon.com. El Stream Deck Mini ($49.93) solo tenía lectura del
   // 20 nov en smartvaluelab y el MX Keys S tenía precios en conflicto
   // ($105-$126 según la fuente), así que tampoco entraron hoy.
+  // 22 nov 2026: +2 productos (Elgato Stream Deck Mini $49.93,
+  // ASIN B07DYRS1WH, rating 4.7; Logitech G305 LIGHTSPEED $26.99,
+  // ASIN B07CMS5Q6P, rating 4.6), ambos verificados HOY con
+  // smartvaluelab (lectura 22 nov, 5:02 AM UTC, InStock, precio
+  // mínimo en 90 días). Quedaron FUERA hoy: MX Master 3S ($79.99
+  // sin lectura de rastreador de HOY — solo nota de XDA del 17 nov),
+  // Meta Quest 3S 128GB (Amazon $297.00 verificado por VR.org el
+  // 20-21 nov, sin lectura de hoy), Echo Dot 5a gen (precios en
+  // conflicto $39.99/$79.99 según la fuente) y Razer DeathAdder V3
+  // Pro (rastreadores discrepan: $51.92/$64.99/$79.99/$90 según
+  // variante y fuente). Sin mantenimiento: los precios del 18-21
+  // nov tienen menos de 7 días.
   // Estructura de cada producto (ver también js/views/compras.js):
   // { id, name, tagline, desc, price (número), currency ('MXN' |
   //   'USD'), category, store: 'amazon' | 'mercadolibre',
@@ -176,7 +188,9 @@ SR.ITEMS = {
     { id: 'razer-viper-v3-pro', name: 'Mouse Razer Viper V3 Pro (negro)', tagline: 'Ultraligero pro para shooters', desc: 'Mouse inalámbrico de 54 g con sensor Focus Pro 35K, polling de 8 kHz y hasta 95 horas de batería.', price: 122.55, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B0CW25XR5R?tag=socialred01-20', image: 'assets/compras/razer-viper-v3-pro.jpg', hue: 140, icon: 'game', tags: ['razer', 'mouse', 'esports'] },
     { id: 'hyperx-cloud-ii', name: 'Audífonos HyperX Cloud II (rojos)', tagline: 'Sonido 7.1 para ganar', desc: 'Audífonos gamer con sonido envolvente 7.1, micrófono desmontable y almohadillas de espuma viscoelástica.', price: 44.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B00SAYCXWG?tag=socialred01-20', image: 'assets/compras/hyperx-cloud-ii.jpg', hue: 355, icon: 'game', tags: ['hyperx', 'audifonos', 'gaming'], rating: 4.5 },
     { id: 'steelseries-arctis-nova-5', name: 'Audífonos SteelSeries Arctis Nova 5', tagline: 'Inalámbrico para PC, PS5 y Switch', desc: 'Audífonos gamer inalámbricos con 2.4 GHz y Bluetooth a la vez, 60 horas de batería y más de 100 presets de audio por juego.', price: 99.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B0D2YBQQ1P?tag=socialred01-20', image: 'assets/compras/steelseries-arctis-nova-5.jpg', hue: 210, icon: 'game', tags: ['steelseries', 'audifonos', 'gaming'], rating: 4.2 },
-    { id: 'sony-wh-1000xm5-rosa', name: 'Audífonos Sony WH-1000XM5 (rosa ahumado)', tagline: 'Cancelación de ruido de otro nivel', desc: 'Audífonos premium de Sony con cancelación de ruido líder, 30 horas de batería y audio de alta resolución.', price: 186.22, currency: 'USD', category: 'Audio', store: 'amazon', url: 'https://www.amazon.com/dp/B0DDV3FRHR?tag=socialred01-20', image: 'assets/compras/sony-wh-1000xm5-rosa.jpg', hue: 330, icon: 'play', tags: ['sony', 'audifonos', 'cancelacion-de-ruido'] }
+    { id: 'sony-wh-1000xm5-rosa', name: 'Audífonos Sony WH-1000XM5 (rosa ahumado)', tagline: 'Cancelación de ruido de otro nivel', desc: 'Audífonos premium de Sony con cancelación de ruido líder, 30 horas de batería y audio de alta resolución.', price: 186.22, currency: 'USD', category: 'Audio', store: 'amazon', url: 'https://www.amazon.com/dp/B0DDV3FRHR?tag=socialred01-20', image: 'assets/compras/sony-wh-1000xm5-rosa.jpg', hue: 330, icon: 'play', tags: ['sony', 'audifonos', 'cancelacion-de-ruido'] },
+    { id: 'elgato-stream-deck-mini', name: 'Elgato Stream Deck Mini', tagline: '6 teclas para controlar tu stream', desc: 'Controlador con 6 teclas LCD personalizables para cambiar escenas en OBS, silenciar el micrófono, lanzar apps y atajos con un solo toque.', price: 49.93, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B07DYRS1WH?tag=socialred01-20', image: 'assets/compras/elgato-stream-deck-mini.jpg', hue: 200, icon: 'game', tags: ['elgato', 'streaming', 'stream-deck'], rating: 4.7 },
+    { id: 'logitech-g305-lightspeed', name: 'Mouse Logitech G305 LIGHTSPEED', tagline: 'Inalámbrico gamer por menos de $30', desc: 'Mouse gamer inalámbrico con sensor HERO 12K, 250 horas de batería con una sola pila AA y 6 botones programables.', price: 26.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B07CMS5Q6P?tag=socialred01-20', image: 'assets/compras/logitech-g305-lightspeed.jpg', hue: 160, icon: 'game', tags: ['logitech', 'mouse', 'gaming'], rating: 4.6 }
   ]
 };
 
