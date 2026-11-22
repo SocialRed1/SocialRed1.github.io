@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T19:40:52.548213Z",
+  "generated_at": "2026-11-22T20:33:34.071794Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "3qi9-pUxdPI",
+      "title": "6 de cada 10 jugaron GTA VI el día del estreno 🎮",
+      "date": "2026-11-22T20:28:34Z",
+      "url": "https://www.youtube.com/shorts/3qi9-pUxdPI",
+      "thumbnail": "https://i4.ytimg.com/vi/3qi9-pUxdPI/hqdefault.jpg"
+    },
     {
       "id": "ypVAH3xdVZ8",
       "title": "El teléfono de OpenAI: qué es verdad y qué es rumor 📱",
@@ -277,8 +284,8 @@
   "stats": {
     "subscribers": 513,
     "views": 92072,
-    "videos": 99,
-    "fetched_at": "2026-11-22T19:40:53.134717Z",
+    "videos": 100,
+    "fetched_at": "2026-11-22T20:33:34.573401Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
