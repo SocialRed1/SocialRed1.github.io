@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T17:32:18.540361Z",
+  "generated_at": "2026-11-22T18:30:35.343502Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-1raree1",
+      "title": "Sabemos que entrenar sin descanso perjudica al cuerpo. Ahora han descubierto qué puede ocurrir también en el cerebro",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-22T18:00:24Z",
+      "author": "José A. Lizana",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/medicina-y-salud/sabemos-que-entrenar-descanso-perjudica-al-cuerpo-ahora-han-descubierto-que-puede-ocurrir-tambien-cerebro",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "La norma que rige ahora mismo el ejercicio es la necesidad de esforzarnos para romper el equilibrio del organismo y descansar lo justo que permita reconstruirlo más fuerte. Pero cuando la balanza se inclina demasiado tiempo hacia la carga y la recuperación brilla por su ausencia, aparece el síndrome de sobreentrenamiento que castiga al músculo, al metabolismo y al sistema inmunitario. Pero ahora se ha visto que también afecta al cerebro. Está estudiado. El trabajo, publicado en la revista Neuroscience, tenía como objetivo conocer exactamente qué ocurre en el hipocampo cuando el ejercicio pasa de un estímulo saludable a una auténtica sobrecarga crónica. Y esta zona del cerebro es bastante interesante, puesto que está encargada de la memoria, la respuesta al estrés o la regulación emocional. Cómo lo hicieron. Para determinar el efecto de la sobrecarga a la hora de entrenar, los investigado",
+      "lead": "La norma que rige ahora mismo el ejercicio es la necesidad de esforzarnos para romper el equilibrio del organismo y descansar lo justo que permita reconstruirlo más fuerte. Pero cuando la balanza se inclina demasiado tiempo hacia la carga y la recuperación brilla por su ausencia, aparece el síndrome de sobreentrenamiento que castiga al músculo, al metabolismo y al sistema inmunitario. Pero ahora se ha visto que también afecta al cerebro. Está estudiado. El trabajo, publicado en la revista Neuroscience, tenía como objetivo conocer exactamente qué ocurre en el hipocampo cuando el ejercicio pasa de un estímulo saludable a una auténtica sobrecarga crónica. Y esta zona del cerebro es bastante interesante, puesto que está encargada de la memoria, la respuesta al estrés o la regulación emocional. Cómo lo hicieron. Para determinar el efecto de la sobrecarga a la hora de entrenar, los investigado",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/9b3493/ejercicio-pesas/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-1mrqthb",
       "title": "China tiene la energía, pero no los chips: lo que revelan los satélites sobre el centro de IA de Huawei",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/f6f9bd/cinturones-de-radiacion/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-1p8hm86",
-      "title": "España nunca se interesó demasiado por el café pese a la influencia arábica. Hasta que llegaron los Borbones",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-22T06:40:22Z",
-      "author": "Carlos Prego",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/magnet/espana-nunca-se-intereso-demasiado-cafe-pese-a-influencia-arabica-que-llegaron-borbones",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "Aquí un servidor es incapaz de arrancar el día sin una generosa, oscura, humeante y sobre todo bien cargada taza de café. Si a ti te pasa lo mismo y eres del club de los cafeteros debes saber que tienes una deuda importante con el rey Felipe VI y su familia. Aunque la historia de este energizante “oro negro” es muy antigua y se cuenta que los árabes asentados hace siglos en la península ya preparaban una bebida similar, que hoy podamos disfrutar del café en España se lo debemos en gran medida a una de las familias más conocidas del país: los Borbones. A ellos y a un capricho de la historia. Érase una vez un pastor… El café es excitante, su historia todavía más. Excitante, rica, antigua y con su buena dosis de leyendas. Una de ellas asegura que para conocer los orígenes del café debemos remontarnos unos cuantos siglos atrás y fijarnos en Kaffa , una antigua región del sudoeste de Etiopía.",
-      "lead": "Aquí un servidor es incapaz de arrancar el día sin una generosa, oscura, humeante y sobre todo bien cargada taza de café. Si a ti te pasa lo mismo y eres del club de los cafeteros debes saber que tienes una deuda importante con el rey Felipe VI y su familia. Aunque la historia de este energizante “oro negro” es muy antigua y se cuenta que los árabes asentados hace siglos en la península ya preparaban una bebida similar, que hoy podamos disfrutar del café en España se lo debemos en gran medida a una de las familias más conocidas del país: los Borbones. A ellos y a un capricho de la historia. Érase una vez un pastor… El café es excitante, su historia todavía más. Excitante, rica, antigua y con su buena dosis de leyendas. Una de ellas asegura que para conocer los orígenes del café debemos remontarnos unos cuantos siglos atrás y fijarnos en Kaffa , una antigua región del sudoeste de Etiopía.",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/9da38f/cafe-borbones/1024_2000.jpeg",
       "video": "",
       "external": true
     },
