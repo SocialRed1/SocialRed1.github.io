@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T15:34:06.877554Z",
+  "generated_at": "2026-11-22T16:35:08.765709Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "ypVAH3xdVZ8",
+      "title": "El teléfono de OpenAI: qué es verdad y qué es rumor 📱",
+      "date": "2026-11-22T16:03:31Z",
+      "url": "https://www.youtube.com/shorts/ypVAH3xdVZ8",
+      "thumbnail": "https://i2.ytimg.com/vi/ypVAH3xdVZ8/hqdefault.jpg"
+    },
     {
       "id": "WmGY5fZcF1E",
       "title": "El gadget de IA sin pantalla que llega el 8 de diciembre 👀",
@@ -269,9 +276,9 @@
   ],
   "stats": {
     "subscribers": 513,
-    "views": 89622,
-    "videos": 98,
-    "fetched_at": "2026-11-22T15:34:07.522325Z",
+    "views": 92072,
+    "videos": 99,
+    "fetched_at": "2026-11-22T16:35:09.403801Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
