@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T00:52:50.709417Z",
+  "generated_at": "2026-11-22T01:57:07.576792Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "WmGY5fZcF1E",
+      "title": "El gadget de IA sin pantalla que llega el 8 de diciembre 👀",
+      "date": "2026-11-22T01:01:39Z",
+      "url": "https://www.youtube.com/shorts/WmGY5fZcF1E",
+      "thumbnail": "https://i4.ytimg.com/vi/WmGY5fZcF1E/hqdefault.jpg"
+    },
     {
       "id": "fv32g7QVTnA",
       "title": "Una supercomputadora de IA que cabe en tu escritorio 🤖",
@@ -263,8 +270,8 @@
   "stats": {
     "subscribers": 509,
     "views": 89302,
-    "videos": 97,
-    "fetched_at": "2026-11-22T00:52:51.193777Z",
+    "videos": 98,
+    "fetched_at": "2026-11-22T01:57:08.285227Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
