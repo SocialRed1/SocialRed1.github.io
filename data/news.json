@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T16:35:08.072199Z",
+  "generated_at": "2026-11-22T17:32:18.540361Z",
   "sources": [
     {
       "name": "Xataka",
@@ -28,12 +28,32 @@
   ],
   "items": [
     {
+      "id": "feed-1mrqthb",
+      "title": "China tiene la energía, pero no los chips: lo que revelan los satélites sobre el centro de IA de Huawei",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-22T17:00:26Z",
+      "author": "Eva R. de Luis",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/robotica-e-ia/china-tiene-energia-no-chips-que-revelan-satelites-centro-ia-huawei",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Huawei está montando uno de los mayores centros de datos de China en Horinger, en la región autónoma de Mongolia Interior. Lo sabemos porque la propia Huawei lo anunció y también porque lo hemos visto desde el cielo gracias a los satélites Copernicus Sentinel de la UE y el estadounidense Vantor. Y como dice el refrán, una imagen vale más que mil palabras. Y si es a alta resolución, más todavía. A vista de pájaro pueden deducirse las nuevas instalaciones a nivel cualitativo, pero cuantitativamente es más difícil, así que el instituto de análisis de IA Epoch AI ha analizado cuánta potencia de cálculo alberga y ha llegado a una conclusión : puede que sea el más grande de Huawei en China, pero está años luz del mayor datacenter del mundo, el Colossus 2 de Tennessee. A ojo . Concretamente, su capacidad de datos es solo del 7% del de Colossus 2. O lo que es lo mismo: Colossus 2 tendría una cap",
+      "lead": "Huawei está montando uno de los mayores centros de datos de China en Horinger, en la región autónoma de Mongolia Interior. Lo sabemos porque la propia Huawei lo anunció y también porque lo hemos visto desde el cielo gracias a los satélites Copernicus Sentinel de la UE y el estadounidense Vantor. Y como dice el refrán, una imagen vale más que mil palabras. Y si es a alta resolución, más todavía. A vista de pájaro pueden deducirse las nuevas instalaciones a nivel cualitativo, pero cuantitativamente es más difícil, así que el instituto de análisis de IA Epoch AI ha analizado cuánta potencia de cálculo alberga y ha llegado a una conclusión : puede que sea el más grande de Huawei en China, pero está años luz del mayor datacenter del mundo, el Colossus 2 de Tennessee. A ojo . Concretamente, su capacidad de datos es solo del 7% del de Colossus 2. O lo que es lo mismo: Colossus 2 tendría una cap",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/9d4cdf/data/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
+    {
       "id": "feed-1sae1vk",
       "title": "En 1961, unos niños imitaron a un adulto que pegaba a un muñeco. Unos ratones de Princeton han empezado a explicar por qué",
       "category": "Tecnología",
       "hue": 195,
       "icon": "news",
-      "date": "2026-11-22T16:00:26Z",
+      "date": "2026-11-22T16:00:00Z",
       "author": "Javier Jiménez",
       "sourceName": "Xataka",
       "sourceUrl": "https://www.xataka.com/investigacion/1961-unos-ninos-imitaron-a-adulto-que-pegaba-a-muneco-unos-ratones-princeton-han-empezado-a-explicar-que",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/9da38f/cafe-borbones/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-csm4vq",
-      "title": "En la India, una ciudad lleva décadas intentando vivir sin dinero, partidos políticos o religión: la utopía de Auroville",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-21T21:00:29Z",
-      "author": "Carlos Prego",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/magnet/india-ciudad-lleva-decadas-intentando-vivir-dinero-partidos-politicos-religion-utopia-auroville",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "Si algo hemos demostrado a lo largo de la historia, desde los lejanos tiempos de Tomás Moro , o incluso desde la Antigua Grecia de Platón, es que a los humanos siempre se nos ha dado mejor teorizar sobre ciudades utópicas que llevarlas a la práctica. Que nos resulte complicado no significa, sin embargo, que no lo sigamos intentando en pleno siglo XXI. Auroville , una población situada cerca de Puducherry, al sur de la India y escasos cinco kilómetros del Índico, es un buen ejemplo. No es el único sueño utópico , pero sí es uno de los que ha sonado con más fuerza, en parte gracias al eco que le dieron en su día instituciones como la UNESCO . Eso y que el proyecto peina ya canas: aunque está lejos aún de los objetivos que se marcó en su origen, se fundó hace más de medio siglo. Para localizar sus orígenes hay que remontarse a 1968, a la efervescencia hippie. Su impulsora, Mirra Alfassa , u",
-      "lead": "Si algo hemos demostrado a lo largo de la historia, desde los lejanos tiempos de Tomás Moro , o incluso desde la Antigua Grecia de Platón, es que a los humanos siempre se nos ha dado mejor teorizar sobre ciudades utópicas que llevarlas a la práctica. Que nos resulte complicado no significa, sin embargo, que no lo sigamos intentando en pleno siglo XXI. Auroville , una población situada cerca de Puducherry, al sur de la India y escasos cinco kilómetros del Índico, es un buen ejemplo. No es el único sueño utópico , pero sí es uno de los que ha sonado con más fuerza, en parte gracias al eco que le dieron en su día instituciones como la UNESCO . Eso y que el proyecto peina ya canas: aunque está lejos aún de los objetivos que se marcó en su origen, se fundó hace más de medio siglo. Para localizar sus orígenes hay que remontarse a 1968, a la efervescencia hippie. Su impulsora, Mirra Alfassa , u",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/4d6976/photo-1715794202088-84a7792062b0/1024_2000.jpeg",
       "video": "",
       "external": true
     },
