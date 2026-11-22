@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T05:45:24.869783Z",
+  "generated_at": "2026-11-22T06:49:13.365116Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-1p8hm86",
+      "title": "España nunca se interesó demasiado por el café pese a la influencia arábica. Hasta que llegaron los Borbones",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-22T06:40:22Z",
+      "author": "Carlos Prego",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/magnet/espana-nunca-se-intereso-demasiado-cafe-pese-a-influencia-arabica-que-llegaron-borbones",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Aquí un servidor es incapaz de arrancar el día sin una generosa, oscura, humeante y sobre todo bien cargada taza de café. Si a ti te pasa lo mismo y eres del club de los cafeteros debes saber que tienes una deuda importante con el rey Felipe VI y su familia. Aunque la historia de este energizante “oro negro” es muy antigua y se cuenta que los árabes asentados hace siglos en la península ya preparaban una bebida similar, que hoy podamos disfrutar del café en España se lo debemos en gran medida a una de las familias más conocidas del país: los Borbones. A ellos y a un capricho de la historia. Érase una vez un pastor… El café es excitante, su historia todavía más. Excitante, rica, antigua y con su buena dosis de leyendas. Una de ellas asegura que para conocer los orígenes del café debemos remontarnos unos cuantos siglos atrás y fijarnos en Kaffa , una antigua región del sudoeste de Etiopía.",
+      "lead": "Aquí un servidor es incapaz de arrancar el día sin una generosa, oscura, humeante y sobre todo bien cargada taza de café. Si a ti te pasa lo mismo y eres del club de los cafeteros debes saber que tienes una deuda importante con el rey Felipe VI y su familia. Aunque la historia de este energizante “oro negro” es muy antigua y se cuenta que los árabes asentados hace siglos en la península ya preparaban una bebida similar, que hoy podamos disfrutar del café en España se lo debemos en gran medida a una de las familias más conocidas del país: los Borbones. A ellos y a un capricho de la historia. Érase una vez un pastor… El café es excitante, su historia todavía más. Excitante, rica, antigua y con su buena dosis de leyendas. Una de ellas asegura que para conocer los orígenes del café debemos remontarnos unos cuantos siglos atrás y fijarnos en Kaffa , una antigua región del sudoeste de Etiopía.",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/9da38f/cafe-borbones/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-csm4vq",
       "title": "En la India, una ciudad lleva décadas intentando vivir sin dinero, partidos políticos o religión: la utopía de Auroville",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/960da5/pinturas-rupestres-en-piedra-caliza/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-1oj74ff",
-      "title": "Alguien ha conectado quince \"minicerebros\" neuronales formando una mente colmena y ha superado a una IA",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-21T10:00:26Z",
-      "author": "Rubén Andrés",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/investigacion/alguien-ha-conectado-quince-minicerebros-neuronales-formando-mente-colmena-ha-superado-a-ia",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "Hace unos años, un grupo de investigadores australianos metieron un puñado de neuronas humanas en un chip y les enseñaron a jugar al Pong . La empresa que lo logró, la australiana Cortical Labs, ha dado ahora otro paso más allá en su investigación y ha conseguido enlazar quince de sus ordenadores biológicos para que trabajen en equipo . Los investigadores presentaron su nuevo proyecto de centros de datos basados en neuronas humanas a finales de octubre en la primera conferencia de inteligencia organoide en Washington. Más allá del sorprendente avance científico, el concepto de mente colmena basada en biocomputadoras recuerda a los Borg , que pusieron en serios apuros al capitán Jean- Luc Picard en ' Star Trek The Next Generation' : una colmena sin jefe visible donde cada pieza aporta algo al resultado. Según sus creadores, nadie programó ese reparto de tareas. Quince cultivos, un solo si",
-      "lead": "Hace unos años, un grupo de investigadores australianos metieron un puñado de neuronas humanas en un chip y les enseñaron a jugar al Pong . La empresa que lo logró, la australiana Cortical Labs, ha dado ahora otro paso más allá en su investigación y ha conseguido enlazar quince de sus ordenadores biológicos para que trabajen en equipo . Los investigadores presentaron su nuevo proyecto de centros de datos basados en neuronas humanas a finales de octubre en la primera conferencia de inteligencia organoide en Washington. Más allá del sorprendente avance científico, el concepto de mente colmena basada en biocomputadoras recuerda a los Borg , que pusieron en serios apuros al capitán Jean- Luc Picard en ' Star Trek The Next Generation' : una colmena sin jefe visible donde cada pieza aporta algo al resultado. Según sus creadores, nadie programó ese reparto de tareas. Quince cultivos, un solo si",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/0328e3/ecliptic-graphic-_jg8xh2ssxq-unsplash/1024_2000.jpeg",
       "video": "",
       "external": true
     },
