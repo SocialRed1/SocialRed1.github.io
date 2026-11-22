@@ -59,6 +59,14 @@ SR.router = (function () {
     SR.reveal(app);
     leaving = false;
     currentPath = path;
+    // Google Analytics 4: vista de página virtual en cada navegación SPA.
+    // La primera carga ya la registra el gtag('config') del snippet.
+    if (!first && window.gtag) {
+      window.gtag('config', 'G-2YDT4167KD', {
+        page_path: location.pathname + location.hash,
+        page_title: document.title
+      });
+    }
     if (!first) app.focus({ preventScroll: true });
   }
 
