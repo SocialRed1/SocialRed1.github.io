@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T20:33:33.045609Z",
+  "generated_at": "2026-11-22T21:30:29.898356Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-1r85a1j",
+      "title": "Hace 100 años, un explorador gallego se convirtió en el autoproclamado rey de los jíbaros: Alfonso I de la Amazonia",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-22T21:00:29Z",
+      "author": "Albert Sanchis",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/magnet/hace-100-anos-explorador-gallego-se-convirtio-autoproclamado-rey-jibaros-alfonso-i-amazonia-1",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "“Allí donde vayas, te encontrarás a un gallego”: eso dice un famoso dicho español, que hace referencia al pasado emigrante de sus gentes y a su espíritu aventurero para abrirse camino donde sea. La frase, aunque sólo sea un tópico como muchos otros, podría aplicarse al explorador Alfonso Graña , un gallego al que encontraron en la selva amazónica convertido nada menos que en el rey de los Jíbaros. Lo de “encontrarse a un gallego en cualquier parte del mundo” le sucedió a los vecinos de Iquitos, Perú, cuando un día, a finales de los años veinte, vieron aparecer en el río Amazonas a un grupo de indios wampis que llegaban de la selva y se acercaban a la ciudad en varias canoas repletas de pescado para comerciar. Lo que más les sorprendió fue percatarse de que la persona que los lideraba no era un indígena, sino que se trataba de un hombre blanco, con gafas, alto y muy delgado, que respondía",
+      "lead": "“Allí donde vayas, te encontrarás a un gallego”: eso dice un famoso dicho español, que hace referencia al pasado emigrante de sus gentes y a su espíritu aventurero para abrirse camino donde sea. La frase, aunque sólo sea un tópico como muchos otros, podría aplicarse al explorador Alfonso Graña , un gallego al que encontraron en la selva amazónica convertido nada menos que en el rey de los Jíbaros. Lo de “encontrarse a un gallego en cualquier parte del mundo” le sucedió a los vecinos de Iquitos, Perú, cuando un día, a finales de los años veinte, vieron aparecer en el río Amazonas a un grupo de indios wampis que llegaban de la selva y se acercaban a la ciudad en varias canoas repletas de pescado para comerciar. Lo que más les sorprendió fue percatarse de que la persona que los lideraba no era un indígena, sino que se trataba de un hombre blanco, con gafas, alto y muy delgado, que respondía",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/e11b05/gallego/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-8crlp9",
       "title": "La nueva guerra fría entre Estados Unidos y China no es por los chips: es por los monos de laboratorio",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/754486/mediamarkt/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-1ekr8x9",
-      "title": "Una bodega de 862, un pub de 900 y una casa de moneda de 886: las empresas más antiguas de Europa, en un mapa",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-22T09:00:23Z",
-      "author": "Eva R. de Luis",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/empresas-y-economia/bodega-862-pub-900-casa-moneda-886-empresas-antiguas-europa-mapa",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "Montar una empresa es difícil, pero conseguir que siga funcionando a lo largo de los años todavía más. Si el plazo se mide en siglos, hay que considerar guerras, cambios de frontera, crisis y revoluciones industriales que han hecho desaparecer compañías enteras. Y ni con esas. Este es el mapa de las empresas más antiguas de cada país de Europa y que siguen funcionando. La lista es de lo más variopinta y va desde una hostelería monástica de Salzburgo, una bodega del Mosela a una casa de moneda en París. El mapa se titula \" The Oldest Company in Every Country \" data de 2020 y es obra de la editorial británica de índole económica BusinessFinancing UK. Los datos proceden de una revisión documental propia que el equipo editorial realizó en cada país. Es decir, no es un mapa oficial con datos de las administraciones, por lo que aunque ya tiene tiempo y ha sido ampliamente difundido, puede albe",
-      "lead": "Montar una empresa es difícil, pero conseguir que siga funcionando a lo largo de los años todavía más. Si el plazo se mide en siglos, hay que considerar guerras, cambios de frontera, crisis y revoluciones industriales que han hecho desaparecer compañías enteras. Y ni con esas. Este es el mapa de las empresas más antiguas de cada país de Europa y que siguen funcionando. La lista es de lo más variopinta y va desde una hostelería monástica de Salzburgo, una bodega del Mosela a una casa de moneda en París. El mapa se titula \" The Oldest Company in Every Country \" data de 2020 y es obra de la editorial británica de índole económica BusinessFinancing UK. Los datos proceden de una revisión documental propia que el equipo editorial realizó en cada país. Es decir, no es un mapa oficial con datos de las administraciones, por lo que aunque ya tiene tiempo y ha sido ampliamente difundido, puede albe",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/72ad82/gemini_generated_image_2qsvj92qsvj92qsv/1024_2000.jpeg",
       "video": "",
       "external": true
     },
