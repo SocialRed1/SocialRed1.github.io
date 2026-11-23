@@ -171,6 +171,28 @@ SR.ITEMS = {
   // Pro (rastreadores discrepan: $51.92/$64.99/$79.99/$90 según
   // variante y fuente). Sin mantenimiento: los precios del 18-21
   // nov tienen menos de 7 días.
+  // 23 nov 2026: +2 productos (Razer BlackShark V2 Pro 2023 blanco
+  // $99.99, ASIN B0BY1HQBSX, verificado HOY con pricehistory.app:
+  // página rastreada 23 nov 14:14 UTC, InStock, mínimo histórico
+  // desde la bajada del 18 nov; corroborado por MIXED News 20 nov;
+  // sin rating: el 7.6/10 de pricehistory.app es puntaje convertido
+  // del rastreador, no estrellas de Amazon. HyperX Cloud III con
+  // cable negro/rojo $57.99, ASIN B0C3BV19Q3, rating 4.3, verificado
+  // HOY con smartvaluelab: lectura 23 nov 5:02 AM UTC, InStock,
+  // mínimo en 89 días; corroborado en Amazon el 14 nov a $57.99
+  // vendido y enviado por Amazon.com. El precio $57.99 es de la
+  // variante negro/rojo; otros colores están a $69.99). Quedaron
+  // FUERA hoy: Samsung 990 PRO 1TB (rastreadores en conflicto HOY:
+  // $259.99 en pricehistory.app/datacenterdisk vs $299.99 en
+  // smartvaluelab 23 nov 7:02 AM UTC), WD Black SN850X 1TB
+  // ($219.99/$246.99/$259.00 según la fuente), MX Master 3S
+  // Bluetooth ($75.99 hoy en pickoryx vs $79.99 el 20 nov),
+  // Meta Quest 3S 128GB (sin lectura de rastreador de HOY; VR.org
+  // lo vio a $297.00 en Amazon el 22 nov), Galaxy Buds 3 Pro
+  // (precio $100 solo para Prime; $148 sin Prime) y Elgato Wave:3
+  // ($124.99 en pricehistory.app vs $97.00 el 22 nov). Sin
+  // mantenimiento: ningún precio publicado tiene más de 7 días
+  // (los más antiguos son del 18 nov, 5 días).
   // Estructura de cada producto (ver también js/views/compras.js):
   // { id, name, tagline, desc, price (número), currency ('MXN' |
   //   'USD'), category, store: 'amazon' | 'mercadolibre',
@@ -190,7 +212,9 @@ SR.ITEMS = {
     { id: 'steelseries-arctis-nova-5', name: 'Audífonos SteelSeries Arctis Nova 5', tagline: 'Inalámbrico para PC, PS5 y Switch', desc: 'Audífonos gamer inalámbricos con 2.4 GHz y Bluetooth a la vez, 60 horas de batería y más de 100 presets de audio por juego.', price: 99.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B0D2YBQQ1P?tag=socialred01-20', image: 'assets/compras/steelseries-arctis-nova-5.jpg', hue: 210, icon: 'game', tags: ['steelseries', 'audifonos', 'gaming'], rating: 4.2 },
     { id: 'sony-wh-1000xm5-rosa', name: 'Audífonos Sony WH-1000XM5 (rosa ahumado)', tagline: 'Cancelación de ruido de otro nivel', desc: 'Audífonos premium de Sony con cancelación de ruido líder, 30 horas de batería y audio de alta resolución.', price: 186.22, currency: 'USD', category: 'Audio', store: 'amazon', url: 'https://www.amazon.com/dp/B0DDV3FRHR?tag=socialred01-20', image: 'assets/compras/sony-wh-1000xm5-rosa.jpg', hue: 330, icon: 'play', tags: ['sony', 'audifonos', 'cancelacion-de-ruido'] },
     { id: 'elgato-stream-deck-mini', name: 'Elgato Stream Deck Mini', tagline: '6 teclas para controlar tu stream', desc: 'Controlador con 6 teclas LCD personalizables para cambiar escenas en OBS, silenciar el micrófono, lanzar apps y atajos con un solo toque.', price: 49.93, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B07DYRS1WH?tag=socialred01-20', image: 'assets/compras/elgato-stream-deck-mini.jpg', hue: 200, icon: 'game', tags: ['elgato', 'streaming', 'stream-deck'], rating: 4.7 },
-    { id: 'logitech-g305-lightspeed', name: 'Mouse Logitech G305 LIGHTSPEED', tagline: 'Inalámbrico gamer por menos de $30', desc: 'Mouse gamer inalámbrico con sensor HERO 12K, 250 horas de batería con una sola pila AA y 6 botones programables.', price: 26.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B07CMS5Q6P?tag=socialred01-20', image: 'assets/compras/logitech-g305-lightspeed.jpg', hue: 160, icon: 'game', tags: ['logitech', 'mouse', 'gaming'], rating: 4.6 }
+    { id: 'logitech-g305-lightspeed', name: 'Mouse Logitech G305 LIGHTSPEED', tagline: 'Inalámbrico gamer por menos de $30', desc: 'Mouse gamer inalámbrico con sensor HERO 12K, 250 horas de batería con una sola pila AA y 6 botones programables.', price: 26.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B07CMS5Q6P?tag=socialred01-20', image: 'assets/compras/logitech-g305-lightspeed.jpg', hue: 160, icon: 'game', tags: ['logitech', 'mouse', 'gaming'], rating: 4.6 },
+    { id: 'razer-blackshark-v2-pro-blanco', name: 'Audífonos Razer BlackShark V2 Pro (blancos)', tagline: 'Sonido pro con 70 horas de batería', desc: 'Audífonos gamer inalámbricos con micrófono HyperClear, drivers de 50 mm y hasta 70 horas de batería.', price: 99.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B0BY1HQBSX?tag=socialred01-20', image: 'assets/compras/razer-blackshark-v2-pro-blanco.jpg', hue: 120, icon: 'game', tags: ['razer', 'audifonos', 'gaming'] },
+    { id: 'hyperx-cloud-iii-negro-rojo', name: 'Audífonos HyperX Cloud III (negro/rojo)', tagline: 'Comodidad legendaria por menos de $60', desc: 'Audífonos gamer con cable, drivers de 53 mm, audio espacial DTS y almohadillas de espuma viscoelástica.', price: 57.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B0C3BV19Q3?tag=socialred01-20', image: 'assets/compras/hyperx-cloud-iii-negro-rojo.jpg', hue: 355, icon: 'game', tags: ['hyperx', 'audifonos', 'gaming'], rating: 4.3 }
   ]
 };
 
