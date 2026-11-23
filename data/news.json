@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T18:44:17.292330Z",
+  "generated_at": "2026-11-23T19:52:27.444839Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-8xfamc",
+      "title": "Si quieres ver las luces de Navidad en Madrid, hay un mapa interactivo que puedes llevar en tu móvil",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-23T19:00:47Z",
+      "author": "Laura Sacristán",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/aplicaciones/quieres-ver-luces-navidad-madrid-hay-mapa-interactivo-que-puedes-llevar-tu-movil",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Que la Navidad cada vez empieza antes , es un hecho, como también lo es que muchas ciudades han convertido esta época en un auténtico negocio donde la iluminación navideña juega un papel crucial. Vigo es un ejemplo de ejemplo, pero Madrid tampoco quiere quedarse atrás. La decoración de la Capital no sólo busca \"llenar de magia las calles\" , sino atraer a un número cada vez mayor de visitantes. Unos visitantes que, al igual que los propios madrileños, cada vez tienen más localizaciones iluminadas que contemplar y, por supuesto, fotografiar. Si este año tienes pensado planificar un recorrido por los puntos más especiales, el Ayuntamiento de Madrid ha habilitado un mapa interactivo de iluminación navideña con el que podrás localizar fácilmente cada adorno y cada motivo luminoso. Y puedes acceder a él desde tu móvil. Imagen: Xataka 14 millones de bombillas. Este año, el alumbrado navideño de",
+      "lead": "Que la Navidad cada vez empieza antes , es un hecho, como también lo es que muchas ciudades han convertido esta época en un auténtico negocio donde la iluminación navideña juega un papel crucial. Vigo es un ejemplo de ejemplo, pero Madrid tampoco quiere quedarse atrás. La decoración de la Capital no sólo busca \"llenar de magia las calles\" , sino atraer a un número cada vez mayor de visitantes. Unos visitantes que, al igual que los propios madrileños, cada vez tienen más localizaciones iluminadas que contemplar y, por supuesto, fotografiar. Si este año tienes pensado planificar un recorrido por los puntos más especiales, el Ayuntamiento de Madrid ha habilitado un mapa interactivo de iluminación navideña con el que podrás localizar fácilmente cada adorno y cada motivo luminoso. Y puedes acceder a él desde tu móvil. Imagen: Xataka 14 millones de bombillas. Este año, el alumbrado navideño de",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/37aea7/navidad-puerta-del-sol/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-13nwk7d",
       "title": "\"Nunca voté, pero veo que es necesario\": las colas en los consulados españoles dejan el primer termómetro del 29N",
@@ -444,26 +464,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/bc7c65/sener-solar-nooro-iii-2-scaled/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-u61mg0",
-      "title": "Qué es Artex, la IA principal sospechosa del ciberataque a la Comisión Europea que tiene en alerta al FBI",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-23T13:27:00Z",
-      "author": "Antonio Vallejo",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/seguridad/que-artex-herramienta-ia-que-busca-fallos-seguridad-sola-que-preocupa-a-empresas-gobiernos",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "Con el avance de la IA generativa , son cada vez más los usuarios, empresas e instituciones que utilizan herramientas basadas en esta tecnología en sus procesos cotidianos. Sus virtudes también han destacado especialmente en el sector de la ciberseguridad, pues los modelos de IA más punteros también pueden ser tremendamente eficaces a la hora de detectar vulnerabilidades. Esa es precisamente la necesidad que pretende satisfacer a nivel empresarial e institucional la herramienta de Artex, un programa gratuito y de código abierto que permite que un modelo de IA sondee sistemas informáticos en busca de puntos débiles por su cuenta. Fue diseñado para pruebas de seguridad, pero ya hay grandes empresas que están haciendo uso de esta herramienta. El problema es que su nombre está ahora vinculado a varios incidentes informáticos. Te contamos todos los detalles. Qué es. Artex es una herramienta q",
-      "lead": "Con el avance de la IA generativa , son cada vez más los usuarios, empresas e instituciones que utilizan herramientas basadas en esta tecnología en sus procesos cotidianos. Sus virtudes también han destacado especialmente en el sector de la ciberseguridad, pues los modelos de IA más punteros también pueden ser tremendamente eficaces a la hora de detectar vulnerabilidades. Esa es precisamente la necesidad que pretende satisfacer a nivel empresarial e institucional la herramienta de Artex, un programa gratuito y de código abierto que permite que un modelo de IA sondee sistemas informáticos en busca de puntos débiles por su cuenta. Fue diseñado para pruebas de seguridad, pero ya hay grandes empresas que están haciendo uso de esta herramienta. El problema es que su nombre está ahora vinculado a varios incidentes informáticos. Te contamos todos los detalles. Qué es. Artex es una herramienta q",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/2c499e/jakub-zerdzicki-8ljjfxqfwkm-unsplash/1024_2000.jpeg",
       "video": "",
       "external": true
     },
