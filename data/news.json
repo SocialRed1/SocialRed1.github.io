@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T21:39:22.862044Z",
+  "generated_at": "2026-11-23T22:40:15.864638Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-1xba3yr",
+      "title": "Las acciones del gigante tecnológico Nvidia se disparan tras anunciarse el regreso de Jensen Huang como director ejecutivo 11 días después de su renuncia",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-23T21:40:47Z",
+      "author": "No indicado por la fuente",
+      "sourceName": "BBC Mundo",
+      "sourceUrl": "https://www.bbc.com/mundo/articles/cm4gnx691zp5o?at_medium=RSS&at_campaign=rss",
+      "sourcePage": "https://www.bbc.com/mundo/topics/cyx5krnw38vt",
+      "read": 2,
+      "excerpt": "Las acciones del gigante de la inteligencia artificial se dispararon cerca de 30% tras el anuncio del regreso de Huang al inicio de la jornada bursátil.",
+      "lead": "Las acciones del gigante de la inteligencia artificial se dispararon cerca de 30% tras el anuncio del regreso de Huang al inicio de la jornada bursátil.",
+      "body": [],
+      "facts": [],
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f8a0/live/f01ca330-e74e-11f1-88dc-f746e0cde621.jpg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-sgiug0",
       "title": "Las plataformas de streaming también se apuntan al Black Friday: ofertas y promociones de Apple TV, Disney+, Movistar Plus y más",
@@ -244,26 +264,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/fbac81/ipad-air-m4/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-1xba3yr",
-      "title": "Las acciones del gigante tecnológico Nvidia se disparan tras anunciarse el regreso de Jensen Huang como director ejecutivo 11 días después de su renuncia",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-23T16:19:52Z",
-      "author": "No indicado por la fuente",
-      "sourceName": "BBC Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cm4gnx691zp5o?at_medium=RSS&at_campaign=rss",
-      "sourcePage": "https://www.bbc.com/mundo/topics/cyx5krnw38vt",
-      "read": 2,
-      "excerpt": "Las acciones del gigante de la inteligencia artificial se dispararon cerca de 30% tras el anuncio del regreso de Huang al inicio de la jornada bursátil.",
-      "lead": "Las acciones del gigante de la inteligencia artificial se dispararon cerca de 30% tras el anuncio del regreso de Huang al inicio de la jornada bursátil.",
-      "body": [],
-      "facts": [],
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f8a0/live/f01ca330-e74e-11f1-88dc-f746e0cde621.jpg",
       "video": "",
       "external": true
     },
