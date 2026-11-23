@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T04:38:43.531810Z",
+  "generated_at": "2026-11-23T05:53:34.265544Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-1bygyx1",
+      "title": "La generación Z ha acuñado un nuevo término para quienes quieren salir a su hora y no busca ascensos: minimalismo profesional",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-23T05:02:26Z",
+      "author": "Rubén Andrés",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/empresas-y-economia/generacion-z-ha-acunado-nuevo-termino-para-quienes-quieren-salir-a-su-hora-no-busca-ascensos-minimalismo-profesional",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "La generación Z está cambiando la forma en que se entiende el trabajo y el éxito profesional . Mientras que generaciones anteriores perseguían ascensos y largas jornadas laborales, para esta generación hay nuevas prioridades que van más allá del trabajo. No se trata de pereza ni falta de ambición, sino de un cambio de enfoque que prioriza la calidad de vida y el equilibrio entre lo laboral y lo personal, todo ello en un momento marcado por la incertidumbre económica , los despidos masivos y la IA . Este cambio ha quedado registrado bajo el término \"minimalismo profesional\", que refleja cómo muchos jóvenes prefieren mantener sus trabajos con el esfuerzo justo para garantizar su seguridad financiera , pero sin buscar ascensos que impliquen mayores responsabilidades que, además, no se acompañen de un incremento salarial. En su lugar, dedican sus energías en actividades que les apasionan fue",
+      "lead": "La generación Z está cambiando la forma en que se entiende el trabajo y el éxito profesional . Mientras que generaciones anteriores perseguían ascensos y largas jornadas laborales, para esta generación hay nuevas prioridades que van más allá del trabajo. No se trata de pereza ni falta de ambición, sino de un cambio de enfoque que prioriza la calidad de vida y el equilibrio entre lo laboral y lo personal, todo ello en un momento marcado por la incertidumbre económica , los despidos masivos y la IA . Este cambio ha quedado registrado bajo el término \"minimalismo profesional\", que refleja cómo muchos jóvenes prefieren mantener sus trabajos con el esfuerzo justo para garantizar su seguridad financiera , pero sin buscar ascensos que impliquen mayores responsabilidades que, además, no se acompañen de un incremento salarial. En su lugar, dedican sus energías en actividades que les apasionan fue",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/c92ba4/mimi-thian-slwbjtghreq-unsplash/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-1r85a1j",
       "title": "Hace 100 años, un explorador gallego se convirtió en el autoproclamado rey de los jíbaros: Alfonso I de la Amazonia",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/4361e4/gta-torrent/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-1ikd5mw",
-      "title": "Las mejores ofertas de MediaMarkt durante su Black Friday: PlayStation Portal, Samsung Galaxy, Nintendo y más, hoy 20 de noviembre",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-22T09:32:24Z",
-      "author": "Alberto García",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/seleccion/mejores-ofertas-mediamarkt-durante-su-black-friday-playstation-portal-samsung-galaxy-nintendo-hoy-20-noviembre",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "MediaMarkt ha dado comienzo a su campaña del Black Friday con muchísimas ofertas en tecnología y entretenimiento . Si quieres ahorrarte el explorar el enorme catálogo de descuentos, en este artículo hemos reunido las cinco mejores ofertas que hemos encontrado y que estarán disponibles durante todo el fin de semana. Samsung Galaxy S26 Ultra por 999 euros , un excelente móvil de gama alta con buen software. Nintendo Switch 2 por 449 euros , la consola de Nintendo ahora más barata. Google Pixel 11 por 699 euros , un móvil pequeño con buen apartado fotográfico. Kindle (2026) por 149 euros , un buen eReader para leer libros electrónicos. PlayStation Portal por 219 euros , un buen accesorio para jugar sin depender de ninguna tele. PlayStation Portal PVP en MediaMarkt — 219,00 € Amazon — 232,00 € El Corte Inglés — 249,90 € PcComponentes — 249,99 € Fnac — 249,99 € Xtralife — 249,99 € El precio p",
-      "lead": "MediaMarkt ha dado comienzo a su campaña del Black Friday con muchísimas ofertas en tecnología y entretenimiento . Si quieres ahorrarte el explorar el enorme catálogo de descuentos, en este artículo hemos reunido las cinco mejores ofertas que hemos encontrado y que estarán disponibles durante todo el fin de semana. Samsung Galaxy S26 Ultra por 999 euros , un excelente móvil de gama alta con buen software. Nintendo Switch 2 por 449 euros , la consola de Nintendo ahora más barata. Google Pixel 11 por 699 euros , un móvil pequeño con buen apartado fotográfico. Kindle (2026) por 149 euros , un buen eReader para leer libros electrónicos. PlayStation Portal por 219 euros , un buen accesorio para jugar sin depender de ninguna tele. PlayStation Portal PVP en MediaMarkt — 219,00 € Amazon — 232,00 € El Corte Inglés — 249,90 € PcComponentes — 249,99 € Fnac — 249,99 € Xtralife — 249,99 € El precio p",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/754486/mediamarkt/1024_2000.jpeg",
       "video": "",
       "external": true
     },
