@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T00:38:16.922492Z",
+  "generated_at": "2026-11-23T02:05:31.107991Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "MLveHalTcf8",
+      "title": "Android 17 llegó a Motorola y trae a Qira 🤖",
+      "date": "2026-11-23T01:04:43Z",
+      "url": "https://www.youtube.com/shorts/MLveHalTcf8",
+      "thumbnail": "https://i2.ytimg.com/vi/MLveHalTcf8/hqdefault.jpg"
+    },
     {
       "id": "3qi9-pUxdPI",
       "title": "6 de cada 10 jugaron GTA VI el día del estreno 🎮",
@@ -284,8 +291,8 @@
   "stats": {
     "subscribers": 513,
     "views": 92072,
-    "videos": 100,
-    "fetched_at": "2026-11-23T00:38:17.470128Z",
+    "videos": 101,
+    "fetched_at": "2026-11-23T02:05:31.761967Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
