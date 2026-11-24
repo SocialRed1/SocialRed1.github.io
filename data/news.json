@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T20:41:38.529366Z",
+  "generated_at": "2026-11-24T21:44:43.939843Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-l9cbb7",
+      "title": "Microsoft declara un \"Código Rojo\" tras la caída global de 24 horas que afectó a Outlook, Teams y otros servicios",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-24T21:01:02Z",
+      "author": "Javier Marquez",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/aplicaciones/microsoft-declara-codigo-rojo-caida-global-24-horas-que-afecto-a-outlook-teams-otros-servicios",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Puede que el pasado 13 de noviembre tuvieras problemas para consultar tu correo electrónico o que algún compañero de trabajo te comentara que Outlook no funcionaba correctamente . Quizás ni siquiera utilices las herramientas de Microsoft, pero es posible que las empresas con las que trabajas o las administraciones con las que realizas trámites sí dependan de ellas. Estamos tan acostumbrados a que estos servicios funcionen que pocas veces nos detenemos a pensar en las consecuencias que puede tener una interrupción. Lo que sucedió aquel día ha llevado a Microsoft a declarar internamente un \"Código Rojo\", según ha revelado Reuters tras consultar varios memorandos de la compañía. Se trata de una movilización de máxima prioridad con la que pretende reformar sus procedimientos de ingeniería y su manera de responder a las grandes interrupciones de servicio. Jason Henderson, presidente de M365 C",
+      "lead": "Puede que el pasado 13 de noviembre tuvieras problemas para consultar tu correo electrónico o que algún compañero de trabajo te comentara que Outlook no funcionaba correctamente . Quizás ni siquiera utilices las herramientas de Microsoft, pero es posible que las empresas con las que trabajas o las administraciones con las que realizas trámites sí dependan de ellas. Estamos tan acostumbrados a que estos servicios funcionen que pocas veces nos detenemos a pensar en las consecuencias que puede tener una interrupción. Lo que sucedió aquel día ha llevado a Microsoft a declarar internamente un \"Código Rojo\", según ha revelado Reuters tras consultar varios memorandos de la compañía. Se trata de una movilización de máxima prioridad con la que pretende reformar sus procedimientos de ingeniería y su manera de responder a las grandes interrupciones de servicio. Jason Henderson, presidente de M365 C",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/c90e58/microsoft/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-169jsrv",
       "title": "Durante años hemos cambiado de navegador sin cambiar de motor. Ladybird acaba de ampliar nuestras opciones",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/b1cbf0/sony-wh-1000xm4c/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-1rnpe8e",
-      "title": "China se hizo un hueco regalando sus modelos de IA. Para competir con OpenAI y Anthropic, Z.ai lanza GLM-5.4 primero de pago",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-24T15:30:59Z",
-      "author": "Iván Linares",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/robotica-e-ia/china-se-hizo-hueco-regalando-sus-modelos-ia-para-competir-openai-anthropic-z-ai-lanza-glm-5-4-primero-pago",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "En cuestión de laboratorios de IA, hay actualmente dos estilos principales: los que acostumbran a liberar los pesos y aquellos que prefieren mantenerlos cerrados y cobrar por usarlos. La tendencia había colocado a los laboratorios chinos del lado abierto y a los estadounidenses en la acera contraria, aunque poco a poco las líneas se juntan. Z.ai es la prueba. Nuevo modelo insignia: GLM-5.4 . Si el anterior ya era bueno en tareas como la programación, la empresa ajusta esas capacidades con un cambio de arquitectura que apunta a la eficiencia. Según Z.ai, GLM-5.4 es su primer modelo insignia con arquitectura Loop Transformer. Según la empresa, GLM-5.4 rinde como modelos de entre 2 y 3 billones de parámetros, aunque de momento no ha presentado los benchmarks. Ofrece hasta 200 tokens por segundo fuera de las horas punta (entre 70 y 80 cuando hay más carga), admite hasta un millón de tokens d",
-      "lead": "En cuestión de laboratorios de IA, hay actualmente dos estilos principales: los que acostumbran a liberar los pesos y aquellos que prefieren mantenerlos cerrados y cobrar por usarlos. La tendencia había colocado a los laboratorios chinos del lado abierto y a los estadounidenses en la acera contraria, aunque poco a poco las líneas se juntan. Z.ai es la prueba. Nuevo modelo insignia: GLM-5.4 . Si el anterior ya era bueno en tareas como la programación, la empresa ajusta esas capacidades con un cambio de arquitectura que apunta a la eficiencia. Según Z.ai, GLM-5.4 es su primer modelo insignia con arquitectura Loop Transformer. Según la empresa, GLM-5.4 rinde como modelos de entre 2 y 3 billones de parámetros, aunque de momento no ha presentado los benchmarks. Ofrece hasta 200 tokens por segundo fuera de las horas punta (entre 70 y 80 cuando hay más carga), admite hasta un millón de tokens d",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/31b4ee/glm-5.4-portada/1024_2000.jpeg",
       "video": "",
       "external": true
     },
