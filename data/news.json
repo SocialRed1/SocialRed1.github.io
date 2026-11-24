@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T22:45:12.991423Z",
+  "generated_at": "2026-11-24T23:38:48.219212Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-f3hkel",
+      "title": "Japón tiene un problema con el futuro de sus semiconductores. Su respuesta es una fábrica de chips sobre ruedas",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-24T22:54:10Z",
+      "author": "Javier Marquez",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/empresas-y-economia/japon-tiene-problema-futuro-sus-semiconductores-su-respuesta-fabrica-chips-ruedas",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Cuando hablamos de fabricar semiconductores, solemos pensar en enormes instalaciones, máquinas de una precisión extraordinaria e inversiones de miles de millones de euros. Pero detrás de todo ese despliegue tecnológico hay algo que no se puede resolver únicamente con dinero: la formación de las personas que deben dominar los procesos de fabricación . Y aprender a fabricar un chip no es precisamente sencillo cuando el acceso a los equipos necesarios con fines educativos es limitado. Japón, que lleva años intentando recuperar protagonismo en esta industria, se enfrenta precisamente a ese desafío. Una organización japonesa especializada en tecnologías de fabricación de semiconductores ha planteado una solución poco convencional: llevar parte de una fábrica de chips hasta las puertas de las universidades. La Minimal Fab Promoting Organization ha anunciado que mostrará por primera vez su sist",
+      "lead": "Cuando hablamos de fabricar semiconductores, solemos pensar en enormes instalaciones, máquinas de una precisión extraordinaria e inversiones de miles de millones de euros. Pero detrás de todo ese despliegue tecnológico hay algo que no se puede resolver únicamente con dinero: la formación de las personas que deben dominar los procesos de fabricación . Y aprender a fabricar un chip no es precisamente sencillo cuando el acceso a los equipos necesarios con fines educativos es limitado. Japón, que lleva años intentando recuperar protagonismo en esta industria, se enfrenta precisamente a ese desafío. Una organización japonesa especializada en tecnologías de fabricación de semiconductores ha planteado una solución poco convencional: llevar parte de una fábrica de chips hasta las puertas de las universidades. La Minimal Fab Promoting Organization ha anunciado que mostrará por primera vez su sist",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/30463d/semiconductores-camion/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-11sayfq",
       "title": "Al MacBook Neo le faltaba un rival de la talla de los LG gram: la espera ha terminado y LG ha apostado por la ligereza",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/c3a8e7/s26-portada/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-u6fpg4",
-      "title": "El Gobierno prorroga las ayudas al transporte público durante 2027: 1.213 millones para mantener los descuentos en tren y autobús",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-24T15:36:31Z",
-      "author": "Antonio Vallejo",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/movilidad/gobierno-prorroga-ayudas-al-transporte-publico-durante-2027-1-213-millones-para-mantener-descuentos-tren-autobus",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "El Gobierno ha prorrogado las subvenciones al transporte público hasta 2027, y lo ha hecho de ultimísimas. El Consejo de Ministros ha aprobado este martes un real decreto-ley, manteniendo vigentes los descuentos en metros, autobuses y trenes, así como el Abono Único , que iban a caducar el próximo 31 de diciembre. El Estado aportará 1.213 millones de euros. Prórroga . Es una medida que afecta a millones de personas que dependen de abonos con descuento para su desplazamiento diario. Además, ha estado a punto de no entrar en vigor. Y es que tal y como cuentan desde El País, el Ministerio de Economía, que ha estado dirigiendo Transportes de forma interina desde la dimisión de Óscar Puente , prefería esperar hasta después de las elecciones para decidir. Pero claro, eso habría dejado los descuentos en el limbo durante meses. Qué sigue igual. La mayoría de los descuentos actuales se mantienen:",
-      "lead": "El Gobierno ha prorrogado las subvenciones al transporte público hasta 2027, y lo ha hecho de ultimísimas. El Consejo de Ministros ha aprobado este martes un real decreto-ley, manteniendo vigentes los descuentos en metros, autobuses y trenes, así como el Abono Único , que iban a caducar el próximo 31 de diciembre. El Estado aportará 1.213 millones de euros. Prórroga . Es una medida que afecta a millones de personas que dependen de abonos con descuento para su desplazamiento diario. Además, ha estado a punto de no entrar en vigor. Y es que tal y como cuentan desde El País, el Ministerio de Economía, que ha estado dirigiendo Transportes de forma interina desde la dimisión de Óscar Puente , prefería esperar hasta después de las elecciones para decidir. Pero claro, eso habría dejado los descuentos en el limbo durante meses. Qué sigue igual. La mayoría de los descuentos actuales se mantienen:",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/a09a61/55123301005_9371146572_o/1024_2000.jpeg",
       "video": "",
       "external": true
     },
