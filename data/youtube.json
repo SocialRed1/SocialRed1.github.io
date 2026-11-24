@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T15:28:25.974049Z",
+  "generated_at": "2026-11-24T16:36:38.613104Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "nG8VDZophFg",
+      "title": "¿Por qué la música de 8 bits suena así? 🎮",
+      "date": "2026-11-24T16:02:00Z",
+      "url": "https://www.youtube.com/shorts/nG8VDZophFg",
+      "thumbnail": "https://i3.ytimg.com/vi/nG8VDZophFg/hqdefault.jpg"
+    },
     {
       "id": "kLDxsT5tGL0",
       "title": "La caída de Atari y el crash de los videojuegos de 1983 🎮",
@@ -304,9 +311,9 @@
   ],
   "stats": {
     "subscribers": 516,
-    "views": 93908,
-    "videos": 103,
-    "fetched_at": "2026-11-24T15:28:26.793614Z",
+    "views": 94552,
+    "videos": 104,
+    "fetched_at": "2026-11-24T16:36:39.155413Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
