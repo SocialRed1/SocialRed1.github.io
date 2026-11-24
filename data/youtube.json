@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T00:42:22.709494Z",
+  "generated_at": "2026-11-24T02:04:16.814905Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "kLDxsT5tGL0",
+      "title": "La caída de Atari y el crash de los videojuegos de 1983 🎮",
+      "date": "2026-11-24T00:59:30Z",
+      "url": "https://www.youtube.com/shorts/kLDxsT5tGL0",
+      "thumbnail": "https://i4.ytimg.com/vi/kLDxsT5tGL0/hqdefault.jpg"
+    },
     {
       "id": "1ldkoo6I3-A",
       "title": "¿Por qué los juegos de 8 bits se veían con píxeles? 🎮",
@@ -298,8 +305,8 @@
   "stats": {
     "subscribers": 516,
     "views": 93186,
-    "videos": 102,
-    "fetched_at": "2026-11-24T00:42:23.263483Z",
+    "videos": 103,
+    "fetched_at": "2026-11-24T02:04:17.434644Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
