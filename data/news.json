@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T21:44:43.939843Z",
+  "generated_at": "2026-11-24T22:45:12.991423Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-11sayfq",
+      "title": "Al MacBook Neo le faltaba un rival de la talla de los LG gram: la espera ha terminado y LG ha apostado por la ligereza",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-24T22:00:59Z",
+      "author": "Javier Marquez",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/ordenadores/al-macbook-neo-le-faltaba-rival-talla-lg-gram-espera-ha-terminado-lg-ha-apostado-ligereza",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Apple nos tenía acostumbrados a que entrar en el universo Mac con un portátil nuevo implicaba hacer un desembolso considerable. El MacBook Neo cambió esa situación en marzo y lo hizo de una manera bastante interesante: conservando buena parte de la identidad de los ordenadores de la compañía. Teníamos un equipo con carcasa de aluminio, macOS y unas prestaciones que, pese a las limitaciones propias de su segmento, recibieron una valoración favorable en análisis especializados . Ya no necesitábamos asumir el coste de un MacBook Air para estrenar un portátil con el sistema operativo de Apple. Desde entonces, el panorama ha cambiado para quienes buscan un ordenador con Windows en este segmento de precios. Una buena muestra de ello la tuvimos en la última edición de IFA , donde vimos cómo varios fabricantes habían puesto el foco en esta categoría, con equipos basados tanto en arquitecturas x8",
+      "lead": "Apple nos tenía acostumbrados a que entrar en el universo Mac con un portátil nuevo implicaba hacer un desembolso considerable. El MacBook Neo cambió esa situación en marzo y lo hizo de una manera bastante interesante: conservando buena parte de la identidad de los ordenadores de la compañía. Teníamos un equipo con carcasa de aluminio, macOS y unas prestaciones que, pese a las limitaciones propias de su segmento, recibieron una valoración favorable en análisis especializados . Ya no necesitábamos asumir el coste de un MacBook Air para estrenar un portátil con el sistema operativo de Apple. Desde entonces, el panorama ha cambiado para quienes buscan un ordenador con Windows en este segmento de precios. Una buena muestra de ello la tuvimos en la última edición de IFA , donde vimos cómo varios fabricantes habían puesto el foco en esta categoría, con equipos basados tanto en arquitecturas x8",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/77dea4/gram-book-14-/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-l9cbb7",
       "title": "Microsoft declara un \"Código Rojo\" tras la caída global de 24 horas que afectó a Outlook, Teams y otros servicios",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/a09a61/55123301005_9371146572_o/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-7lxry8",
-      "title": "La mejor oferta del Black Friday en auriculares solo estará disponible durante unas horas",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-24T15:30:59Z",
-      "author": "Alberto García",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/seleccion/mejor-oferta-black-friday-auriculares-solo-estara-disponible-durante-unas-horas",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "MediaMarkt ha vuelto a lanzar una de sus mejores ofertas a través de su sección de Ofertas del Día con unos Sony WH-1000XM4C a muy buen precio. Los auriculares de la marca se pueden comprar ahora mismo por 188 euros (antes 279 euros), pero solo durante unas horas: la oferta finalizará mañana, 25 de noviembre, a las 09:00 horas. Sony WH-1000XM4C PVP en MediaMarkt — 188,00 € Amazon — 188,00 € El Corte Inglés — 189,00 € Fnac — 199,99 € El precio podría variar. Obtenemos comisión por estos enlaces Unos auriculares buenos, bonitos y ahora más baratos Los Sony WH-1000XM4C que tenemos disponibles de oferta en MediaMarkt son uno de los últimos lanzados por la marca. Y es que se trata de la versión \"C\" que trae batería intercambiable y que Sony empezó a comercializar hace tan solo unas semanas, adaptándose así a la regulación europea. En Xataka Mejores auriculares inalámbricos de diadema. Cuál co",
-      "lead": "MediaMarkt ha vuelto a lanzar una de sus mejores ofertas a través de su sección de Ofertas del Día con unos Sony WH-1000XM4C a muy buen precio. Los auriculares de la marca se pueden comprar ahora mismo por 188 euros (antes 279 euros), pero solo durante unas horas: la oferta finalizará mañana, 25 de noviembre, a las 09:00 horas. Sony WH-1000XM4C PVP en MediaMarkt — 188,00 € Amazon — 188,00 € El Corte Inglés — 189,00 € Fnac — 199,99 € El precio podría variar. Obtenemos comisión por estos enlaces Unos auriculares buenos, bonitos y ahora más baratos Los Sony WH-1000XM4C que tenemos disponibles de oferta en MediaMarkt son uno de los últimos lanzados por la marca. Y es que se trata de la versión \"C\" que trae batería intercambiable y que Sony empezó a comercializar hace tan solo unas semanas, adaptándose así a la regulación europea. En Xataka Mejores auriculares inalámbricos de diadema. Cuál co",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/b1cbf0/sony-wh-1000xm4c/1024_2000.jpeg",
       "video": "",
       "external": true
     },
