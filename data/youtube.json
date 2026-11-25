@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T00:45:39.854344Z",
+  "generated_at": "2026-11-25T02:11:18.006683Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "16blXURFcFI",
+      "title": "Adiós a las apps de 32 bits: Windows Server 2028 las jubila 💻",
+      "date": "2026-11-25T01:02:14Z",
+      "url": "https://www.youtube.com/shorts/16blXURFcFI",
+      "thumbnail": "https://i2.ytimg.com/vi/16blXURFcFI/hqdefault.jpg"
+    },
     {
       "id": "nG8VDZophFg",
       "title": "¿Por qué la música de 8 bits suena así? 🎮",
@@ -312,8 +319,8 @@
   "stats": {
     "subscribers": 516,
     "views": 94552,
-    "videos": 104,
-    "fetched_at": "2026-11-25T00:45:40.565724Z",
+    "videos": 105,
+    "fetched_at": "2026-11-25T02:11:18.639601Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
