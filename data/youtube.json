@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T15:28:54.191213Z",
+  "generated_at": "2026-11-25T16:36:45.872313Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "YX_Nz6wyIBU",
+      "title": "¿Por qué los códigos QR tienen tres cuadrados en las esquinas? 📱",
+      "date": "2026-11-25T16:00:18Z",
+      "url": "https://www.youtube.com/shorts/YX_Nz6wyIBU",
+      "thumbnail": "https://i2.ytimg.com/vi/YX_Nz6wyIBU/hqdefault.jpg"
+    },
     {
       "id": "16blXURFcFI",
       "title": "Adiós a las apps de 32 bits: Windows Server 2028 las jubila 💻",
@@ -318,9 +325,9 @@
   ],
   "stats": {
     "subscribers": 522,
-    "views": 94833,
-    "videos": 105,
-    "fetched_at": "2026-11-25T15:28:55.038133Z",
+    "views": 95217,
+    "videos": 106,
+    "fetched_at": "2026-11-25T16:36:46.292212Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
