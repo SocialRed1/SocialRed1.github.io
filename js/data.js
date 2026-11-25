@@ -216,7 +216,22 @@ SR.ITEMS = {
     { id: 'razer-blackshark-v2-pro-blanco', name: 'Audífonos Razer BlackShark V2 Pro (blancos)', tagline: 'Sonido pro con 70 horas de batería', desc: 'Audífonos gamer inalámbricos con micrófono HyperClear, drivers de 50 mm y hasta 70 horas de batería.', price: 99.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B0BY1HQBSX?tag=socialred01-20', image: 'assets/compras/razer-blackshark-v2-pro-blanco.jpg', hue: 120, icon: 'game', tags: ['razer', 'audifonos', 'gaming'] },
     { id: 'hyperx-cloud-iii-negro-rojo', name: 'Audífonos HyperX Cloud III (negro/rojo)', tagline: 'Comodidad legendaria por menos de $60', desc: 'Audífonos gamer con cable, drivers de 53 mm, audio espacial DTS y almohadillas de espuma viscoelástica.', price: 57.99, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B0C3BV19Q3?tag=socialred01-20', image: 'assets/compras/hyperx-cloud-iii-negro-rojo.jpg', hue: 355, icon: 'game', tags: ['hyperx', 'audifonos', 'gaming'], rating: 4.3 },
     { id: 'sony-wh-ch720n-negro', name: 'Audífonos Sony WH-CH720N (negro)', tagline: 'Cancelación de ruido por menos de $135', desc: 'Audífonos inalámbricos de Sony con cancelación de ruido, sonido claro y hasta 35 horas de batería.', price: 131.00, currency: 'USD', category: 'Audio', store: 'amazon', url: 'https://www.amazon.com/dp/B0BTDX26B2?tag=socialred01-20', image: 'assets/compras/sony-wh-ch720n-negro.jpg', hue: 220, icon: 'play', tags: ['sony', 'audifonos', 'cancelacion-de-ruido'] },
-    { id: 'sandisk-ultra-microsd-128gb', name: 'SanDisk Ultra microSD 128 GB', tagline: 'Más espacio para tu Switch y tu celular', desc: 'Tarjeta microSD de 128 GB con hasta 195 MB/s, ideal para Switch, celular, cámaras y drones.', price: 30.59, currency: 'USD', category: 'Accesorios', store: 'amazon', url: 'https://www.amazon.com/dp/B0G8L1RNPF?tag=socialred01-20', image: 'assets/compras/sandisk-ultra-microsd-128gb.jpg', hue: 0, icon: 'bolt', tags: ['sandisk', 'microsd', 'almacenamiento'] }
+  // 25 nov 2026: +2 productos (Apple AirPods Pro 2 USB-C $249.00,
+  // ASIN B0CHWRXH8B, verificado HOY con pricehistory.app: página
+  // rastreada 25 nov 14:11 UTC, InStock; sin rating: el 9.4/10 del
+  // rastreador no son estrellas de Amazon. Logitech G PRO X
+  // Superlight 2 blanco $154.64, ASIN B09NBWQDKX, verificado HOY
+  // con pricehistory.app: lectura 25 nov 06:17 UTC, InStock;
+  // corroborado por saneprice $154.94 el 24 nov; sin rating por
+  // la misma razón). Quedaron FUERA hoy: Samsung 990 PRO 1TB
+  // (rastreadores en conflicto HOY: $249.00 datacenterdisk/amezprice
+  // vs $259.99 pricehistory.app) y WD_BLACK SN850X 1TB ($219.99-
+  // $254.99 según la fuente, muy por encima de su media histórica
+  // ~$113). Sin mantenimiento: ningún precio publicado tiene más
+  // de 7 días (los más antiguos son del 18 nov, 7 días exactos).
+    { id: 'sandisk-ultra-microsd-128gb', name: 'SanDisk Ultra microSD 128 GB', tagline: 'Más espacio para tu Switch y tu celular', desc: 'Tarjeta microSD de 128 GB con hasta 195 MB/s, ideal para Switch, celular, cámaras y drones.', price: 30.59, currency: 'USD', category: 'Accesorios', store: 'amazon', url: 'https://www.amazon.com/dp/B0G8L1RNPF?tag=socialred01-20', image: 'assets/compras/sandisk-ultra-microsd-128gb.jpg', hue: 0, icon: 'bolt', tags: ['sandisk', 'microsd', 'almacenamiento'] },
+    { id: 'apple-airpods-pro-2', name: 'Apple AirPods Pro 2 (USB-C)', tagline: 'Cancelación de ruido pro de Apple', desc: 'Audífonos inalámbricos de Apple con cancelación activa de ruido, audio espacial y estuche de carga USB-C con MagSafe.', price: 249.00, currency: 'USD', category: 'Audio', store: 'amazon', url: 'https://www.amazon.com/dp/B0CHWRXH8B?tag=socialred01-20', image: 'assets/compras/apple-airpods-pro-2.jpg', hue: 210, icon: 'play', tags: ['apple', 'audifonos', 'cancelacion-de-ruido'] },
+    { id: 'logitech-g-pro-x-superlight-2-blanco', name: 'Mouse Logitech G PRO X Superlight 2 (blanco)', tagline: 'El mouse pro de 60 gramos', desc: 'Mouse gamer inalámbrico de solo 60 g con sensor HERO 2 de 32,000 DPI, switches LIGHTFORCE y hasta 95 horas de batería.', price: 154.64, currency: 'USD', category: 'Gaming', store: 'amazon', url: 'https://www.amazon.com/dp/B09NBWQDKX?tag=socialred01-20', image: 'assets/compras/logitech-g-pro-x-superlight-2-blanco.jpg', hue: 200, icon: 'game', tags: ['logitech', 'mouse', 'gaming', 'esports'] }
   ]
 };
 
