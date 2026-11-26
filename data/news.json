@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T18:41:59.250326Z",
+  "generated_at": "2026-11-26T19:52:39.239829Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-1a9armf",
+      "title": "Podíais elegir cualquier producto para el premio de la comunidad. El ganador ha sido el Xiaomi 17 Ultra",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-26T19:00:17Z",
+      "author": "Rubén Andrés",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/telefono-movil/podiais-elegir-cualquier-producto-para-premio-comunidad-ganador-ha-sido-xiaomi-17-ultra",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Con la resaca de la gala de los Premios Xataka Verisure 2026 todavía reciente, toca mirar los resultados con calma. Y hay uno que merece una explicación aparte: el Premio de la Comunidad, que ha ido a parar a un móvil que no quedó el primero en su categoría: Xiaomi 17 Ultra . Puede parecer paradójico, pero el Xiaomi 17 Ultra no ha llegado ahí por casualidad y el reconocimiento por parte de los lectores de Xataka tiene más matices de los que parece, y empiezan por entender qué se premia exactamente en esa categoría. Un premio distinto: aquí solo votan los lectores El Premio de la Comunidad no reconoce al mejor producto de una determinada categoría, ni refleja el criterio de los análisis de nuestros editores ni en su elección interviene el jurado externo: es para el dispositivo que más votos ha recibido de los lectores entre todos los candidatos, da igual que sea un móvil, un televisor o u",
+      "lead": "Con la resaca de la gala de los Premios Xataka Verisure 2026 todavía reciente, toca mirar los resultados con calma. Y hay uno que merece una explicación aparte: el Premio de la Comunidad, que ha ido a parar a un móvil que no quedó el primero en su categoría: Xiaomi 17 Ultra . Puede parecer paradójico, pero el Xiaomi 17 Ultra no ha llegado ahí por casualidad y el reconocimiento por parte de los lectores de Xataka tiene más matices de los que parece, y empiezan por entender qué se premia exactamente en esa categoría. Un premio distinto: aquí solo votan los lectores El Premio de la Comunidad no reconoce al mejor producto de una determinada categoría, ni refleja el criterio de los análisis de nuestros editores ni en su elección interviene el jurado externo: es para el dispositivo que más votos ha recibido de los lectores entre todos los candidatos, da igual que sea un móvil, un televisor o u",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/c06ece/premio-de-la-comunidad-xataka/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-69jqxw",
       "title": "El Black Friday de FRITZ! es la oportunidad perfecta para comprar un router o un sistema mesh de calidad al mejor precio",
@@ -424,26 +444,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/2ba37a/merz/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-12q0uy0",
-      "title": "Las mejores ofertas de Amazon en vísperas del Black Friday: descuentazos en portátiles, teles de 75 pulgadas y más",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-26T13:16:21Z",
-      "author": "Juan Lorente",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/seleccion/mejores-ofertas-amazon-visperas-black-friday-descuentazos-portatiles-teles-75-pulgadas",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "Ahora sí que sí: ya casi es Black Friday . Dentro de unas horas tendrá lugar este evento, pero no por eso quiere decir que nos tengamos que esperar para encontrar descuentos importantes. Tenemos activas ahora mismo un montón de ofertas en tecnología dentro de Amazon y nosotros hemos seleccionado l as cinco que nos parecen más destacadas ahora mismo . Samsung TV 75 Pulgadas QLED Q8F 4K Smart TV | Vision AI, 100% Volumen de Color con Quantum Dot, el auténtico Quantum Dot y Motion Xcelerator Hoy en Amazon — 699,00 € PcComponentes — 988,99 € El precio podría variar. Obtenemos comisión por estos enlaces Acer Nitro V 15 por 769 euros , portátil gaming económico con pantalla de 15 pulgadas. Panasonic NF-BC1000KXE por 109 euros , freidora de aire con doble cesta y ventana de visualización. Samsung QLED Q8F por 669 euros , televisor de 75 pulgadas a precio mínimo histórico. Aspiradora sin cable B",
-      "lead": "Ahora sí que sí: ya casi es Black Friday . Dentro de unas horas tendrá lugar este evento, pero no por eso quiere decir que nos tengamos que esperar para encontrar descuentos importantes. Tenemos activas ahora mismo un montón de ofertas en tecnología dentro de Amazon y nosotros hemos seleccionado l as cinco que nos parecen más destacadas ahora mismo . Samsung TV 75 Pulgadas QLED Q8F 4K Smart TV | Vision AI, 100% Volumen de Color con Quantum Dot, el auténtico Quantum Dot y Motion Xcelerator Hoy en Amazon — 699,00 € PcComponentes — 988,99 € El precio podría variar. Obtenemos comisión por estos enlaces Acer Nitro V 15 por 769 euros , portátil gaming económico con pantalla de 15 pulgadas. Panasonic NF-BC1000KXE por 109 euros , freidora de aire con doble cesta y ventana de visualización. Samsung QLED Q8F por 669 euros , televisor de 75 pulgadas a precio mínimo histórico. Aspiradora sin cable B",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/778f14/black-friday-amazon-26-de-noviembre/1024_2000.jpeg",
       "video": "",
       "external": true
     },
