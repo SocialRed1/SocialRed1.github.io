@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T00:45:03.698798Z",
+  "generated_at": "2026-11-26T02:10:10.507067Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "aihJ5xWtm14",
+      "title": "La caída de Nokia: del rey de los celulares al olvido 📱",
+      "date": "2026-11-26T01:01:25Z",
+      "url": "https://www.youtube.com/shorts/aihJ5xWtm14",
+      "thumbnail": "https://i2.ytimg.com/vi/aihJ5xWtm14/hqdefault.jpg"
+    },
     {
       "id": "YX_Nz6wyIBU",
       "title": "¿Por qué los códigos QR tienen tres cuadrados en las esquinas? 📱",
@@ -326,8 +333,8 @@
   "stats": {
     "subscribers": 523,
     "views": 95217,
-    "videos": 106,
-    "fetched_at": "2026-11-26T00:45:04.125420Z",
+    "videos": 107,
+    "fetched_at": "2026-11-26T02:10:11.003489Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
