@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T05:48:11.132344Z",
+  "generated_at": "2026-11-26T06:54:29.803973Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-3bs0kp",
+      "title": "En Jerez, un hombre con tres órdenes judiciales para ir a prisión aparece haciendo ejercicio tranquilamente en el gimnasio de un polígono",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-26T06:02:20Z",
+      "author": "Isra Fdez",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/magnet/jerez-hombre-tres-ordenes-judiciales-para-ir-a-prision-aparece-haciendo-ejercicio-tranquilamente-gimnasio-poligono",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Dos años en paradero desconocido. Tres órdenes de ingreso en prisión. Y, aun así, la Policía lo encontró en ese lugar donde cualquiera puede entrar con mochila e ir a su bola: el gimnasio de un polígono. Esconderse de la justicia suena a vida de película pero, en la práctica, suele ser una cuestión de rutinas. En Jerez, tras varias semanas de investigación, ha dado con alguien que llevaba más de dos años siendo buscado por la justicia. Sobre él pesaban tres órdenes judiciales de búsqueda, detención e ingreso en prisión, emitidas por órganos de Cádiz. Ni su nombre ni su edad constan en la información oficial, y tampoco los procedimientos concretos. Sí consta de qué trata el asunto: de presuntos vuelcos de droga. ¿Un vuelco? Es el robo de un cargamento de droga a otra banda. Los ladrones van armados y a menudo se hacen pasar por policías . Así, los narcos a veces disparan sin saber quién l",
+      "lead": "Dos años en paradero desconocido. Tres órdenes de ingreso en prisión. Y, aun así, la Policía lo encontró en ese lugar donde cualquiera puede entrar con mochila e ir a su bola: el gimnasio de un polígono. Esconderse de la justicia suena a vida de película pero, en la práctica, suele ser una cuestión de rutinas. En Jerez, tras varias semanas de investigación, ha dado con alguien que llevaba más de dos años siendo buscado por la justicia. Sobre él pesaban tres órdenes judiciales de búsqueda, detención e ingreso en prisión, emitidas por órganos de Cádiz. Ni su nombre ni su edad constan en la información oficial, y tampoco los procedimientos concretos. Sí consta de qué trata el asunto: de presuntos vuelcos de droga. ¿Un vuelco? Es el robo de un cargamento de droga a otra banda. Los ladrones van armados y a menudo se hacen pasar por policías . Así, los narcos a veces disparan sin saber quién l",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/f8af02/poli/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-1ml0unl",
       "title": "1Password ha sido hackeado",
@@ -404,26 +424,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/fe97c3/1366_2000/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-jtsp43",
-      "title": "Europa quería frenar los coches chinos. Ahora China se queda con las fábricas europeas",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-25T16:22:00Z",
-      "author": "Alberto de la Torre",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/movilidad/union-europea-quiso-frenar-a-coches-chinos-aranceles-ahora-fabrican-plantas-que-europeos-abandonaron",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "BYD fabricará en Francia. Aunque es la intención y las conversaciones siguen adelante, Emmanuel Macron, presidente del país vecino, ya lo da por hecho. La compañía china se hará con la fábrica de Hambach, al norte del país, si finalmente se la compra a Ineos. El gigante chino tendrá dos plantas en suelo europeo. Pero el movimiento esconde un detalle: sólo estamos empatando. La segunda fábrica de BYD . La compañía china hace tiempo que busca suelo europeo para fabricar coches. O, como poco, ensamblarlos porque no hay mucho más detalles de lo que pretenden hacer en Hambach , una planta que todavía es propiedad de Ineos pero cuya compra ya celebra Emmanuel Macron. El acuerdo saldrá adelante si BYD consigue convencer a los representantes sindicales. Los trabajadores no lo tienen fácil. Y es que Ineos hace tiempo que quiere salir de su fábrica francesa porque el destino del 70% de su Grenadie",
-      "lead": "BYD fabricará en Francia. Aunque es la intención y las conversaciones siguen adelante, Emmanuel Macron, presidente del país vecino, ya lo da por hecho. La compañía china se hará con la fábrica de Hambach, al norte del país, si finalmente se la compra a Ineos. El gigante chino tendrá dos plantas en suelo europeo. Pero el movimiento esconde un detalle: sólo estamos empatando. La segunda fábrica de BYD . La compañía china hace tiempo que busca suelo europeo para fabricar coches. O, como poco, ensamblarlos porque no hay mucho más detalles de lo que pretenden hacer en Hambach , una planta que todavía es propiedad de Ineos pero cuya compra ya celebra Emmanuel Macron. El acuerdo saldrá adelante si BYD consigue convencer a los representantes sindicales. Los trabajadores no lo tienen fácil. Y es que Ineos hace tiempo que quiere salir de su fábrica francesa porque el destino del 70% de su Grenadie",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/5499c5/byd-atto_2_dm-i-2026-hd-da4a07df1c8adcd6f68e69e4af9881970e6d7b67b/1024_2000.jpeg",
       "video": "",
       "external": true
     },
