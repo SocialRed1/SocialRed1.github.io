@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T15:26:58.629288Z",
+  "generated_at": "2026-11-26T16:31:20.476939Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "d9bYYgEXQ5U",
+      "title": "¿Por qué el Bluetooth se llama así? Un rey vikingo 📶",
+      "date": "2026-11-26T16:00:50Z",
+      "url": "https://www.youtube.com/shorts/d9bYYgEXQ5U",
+      "thumbnail": "https://i1.ytimg.com/vi/d9bYYgEXQ5U/hqdefault.jpg"
+    },
     {
       "id": "aihJ5xWtm14",
       "title": "La caída de Nokia: del rey de los celulares al olvido 📱",
@@ -332,9 +339,9 @@
   ],
   "stats": {
     "subscribers": 526,
-    "views": 95709,
-    "videos": 107,
-    "fetched_at": "2026-11-26T15:26:59.207061Z",
+    "views": 96049,
+    "videos": 108,
+    "fetched_at": "2026-11-26T16:31:21.028681Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
