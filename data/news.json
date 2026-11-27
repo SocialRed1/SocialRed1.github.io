@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T05:51:30.379948Z",
+  "generated_at": "2026-11-27T06:56:14.625536Z",
   "sources": [
     {
       "name": "Xataka",
@@ -27,6 +27,26 @@
     }
   ],
   "items": [
+    {
+      "id": "feed-lp3kgb",
+      "title": "La carrera por la inteligencia artificial ya no se libra solo en la Tierra: China acaba de dar otro paso desde el espacio",
+      "category": "Tecnología",
+      "hue": 195,
+      "icon": "news",
+      "date": "2026-11-27T06:02:16Z",
+      "author": "Javier Marquez",
+      "sourceName": "Xataka",
+      "sourceUrl": "https://www.xataka.com/espacio/carrera-inteligencia-artificial-no-se-libra-solo-tierra-china-acaba-dar-otro-paso-espacio",
+      "sourcePage": "https://www.xataka.com/tag/tecnologia",
+      "read": 2,
+      "excerpt": "Cuando hablamos del espacio, estamos acostumbrados a pensar en satélites que nos permiten anticipar el tiempo que hará mañana, comunicarnos con lugares remotos o estudiar la superficie de nuestro planeta. También en telescopios como el Hubble, que llevan décadas ayudándonos a comprender mejor el universo. Pero en los últimos años ha empezado a tomar forma una aplicación bastante diferente: desplegar en órbita infraestructura informática de alto rendimiento . Y uno de los terrenos en los que se está explorando esta posibilidad es el de la inteligencia artificial. La compañía aeroespacial ADAspace ha comunicado los resultados de una serie de pruebas realizadas por la Academia China de Tecnologías de la Información y las Comunicaciones (CAICT), anunciados el 25 de noviembre y detallados en un comunicado difundido este jueves . Entre ellas destaca un experimento con Qwen3-32B , un modelo de ",
+      "lead": "Cuando hablamos del espacio, estamos acostumbrados a pensar en satélites que nos permiten anticipar el tiempo que hará mañana, comunicarnos con lugares remotos o estudiar la superficie de nuestro planeta. También en telescopios como el Hubble, que llevan décadas ayudándonos a comprender mejor el universo. Pero en los últimos años ha empezado a tomar forma una aplicación bastante diferente: desplegar en órbita infraestructura informática de alto rendimiento . Y uno de los terrenos en los que se está explorando esta posibilidad es el de la inteligencia artificial. La compañía aeroespacial ADAspace ha comunicado los resultados de una serie de pruebas realizadas por la Academia China de Tecnologías de la Información y las Comunicaciones (CAICT), anunciados el 25 de noviembre y detallados en un comunicado difundido este jueves . Entre ellas destaca un experimento con Qwen3-32B , un modelo de ",
+      "body": [],
+      "facts": [],
+      "image": "https://i.blogs.es/5b79dc/adaspace/1024_2000.jpeg",
+      "video": "",
+      "external": true
+    },
     {
       "id": "feed-1nsx03y",
       "title": "Países Bajos se planta ante EEUU por las restricciones a las máquinas de ASML",
@@ -424,26 +444,6 @@
       "body": [],
       "facts": [],
       "image": "https://i.blogs.es/95df4f/delonghi-magnifica-evo-portada/1024_2000.jpeg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-rnza0o",
-      "title": "Los descuentos de este Black Friday son más reducidos que nunca: la culpa la tiene la gran crisis de componentes",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-26T13:34:00Z",
-      "author": "Antonio Vallejo",
-      "sourceName": "Xataka",
-      "sourceUrl": "https://www.xataka.com/componentes/black-friday-crisis-chips-que-descuentos-productos-este-ano-no-que-eran",
-      "sourcePage": "https://www.xataka.com/tag/tecnologia",
-      "read": 2,
-      "excerpt": "El auge de la IA ha desatado una carrera por desarrollar los mejores chips de memoria y por construir y alimentar cada vez más centros de datos que los alberguen. Y como consecuencia de ello, muchos dispositivos de consumo han encarecido significativamente su precio durante el último año. La crisis de componentes está desolando toda la cadena de suministro tecnológica, y en este Black Friday los tibios descuentos se empiezan a notar. Por qué importa. La memoria RAM y almacenamiento flash está presente en casi cualquier dispositivo que puedas comprar, por lo que cuando su precio sube, el precio del dispositivo suele seguirlo. Tal y como comparte el The Wall Street Journal, el coste de algunos chips de memoria se ha multiplicado hasta por diez en un año. Esta subida en el coste de la memoria viene como consecuencia de la gran demanda de chips por parte de las empresas tecnológicas para ali",
-      "lead": "El auge de la IA ha desatado una carrera por desarrollar los mejores chips de memoria y por construir y alimentar cada vez más centros de datos que los alberguen. Y como consecuencia de ello, muchos dispositivos de consumo han encarecido significativamente su precio durante el último año. La crisis de componentes está desolando toda la cadena de suministro tecnológica, y en este Black Friday los tibios descuentos se empiezan a notar. Por qué importa. La memoria RAM y almacenamiento flash está presente en casi cualquier dispositivo que puedas comprar, por lo que cuando su precio sube, el precio del dispositivo suele seguirlo. Tal y como comparte el The Wall Street Journal, el coste de algunos chips de memoria se ha multiplicado hasta por diez en un año. Esta subida en el coste de la memoria viene como consecuencia de la gran demanda de chips por parte de las empresas tecnológicas para ali",
-      "body": [],
-      "facts": [],
-      "image": "https://i.blogs.es/94f25b/black-friday-destacada/1024_2000.jpeg",
       "video": "",
       "external": true
     },
