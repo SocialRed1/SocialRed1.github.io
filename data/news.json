@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T00:49:23.775249Z",
+  "generated_at": "2026-11-27T02:12:49.659628Z",
   "sources": [
     {
       "name": "Xataka",
@@ -22,7 +22,7 @@
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "page": "https://www.bbc.com/mundo/topics/cyx5krnw38vt",
       "status": "ok",
-      "count": 4,
+      "count": 3,
       "error": ""
     }
   ],
@@ -484,26 +484,6 @@
       "body": [],
       "facts": [],
       "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/3e06/live/d8778490-e503-11f1-9e2f-7fb5281f0b3c.jpg",
-      "video": "",
-      "external": true
-    },
-    {
-      "id": "feed-2qodp8",
-      "title": "Dos hombres en mi vida: cómo un accidente de tráfico me enseñó nuevas formas de amar",
-      "category": "Tecnología",
-      "hue": 195,
-      "icon": "news",
-      "date": "2026-11-23T14:45:43Z",
-      "author": "No indicado por la fuente",
-      "sourceName": "BBC Mundo",
-      "sourceUrl": "https://www.bbc.com/mundo/articles/cx4gnrrqm61jo?at_medium=RSS&at_campaign=rss",
-      "sourcePage": "https://www.bbc.com/mundo/topics/cyx5krnw38vt",
-      "read": 2,
-      "excerpt": "Brandon era el amor de la adolescencia de Kris y su \"Príncipe Azul\", pero cuando él sufrió un catastrófico accidente automovilístico, ella tuvo que encontrar una nueva forma de amarlo.",
-      "lead": "Brandon era el amor de la adolescencia de Kris y su \"Príncipe Azul\", pero cuando él sufrió un catastrófico accidente automovilístico, ella tuvo que encontrar una nueva forma de amarlo.",
-      "body": [],
-      "facts": [],
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/607a/live/72877a90-e356-11f1-acd4-25eaaa5def63.jpg",
       "video": "",
       "external": true
     }

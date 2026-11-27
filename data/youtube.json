@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T00:49:24.914045Z",
+  "generated_at": "2026-11-27T02:12:50.353508Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "QB1BQgHAj-s",
+      "title": "ILOVEYOU: el virus que se disfrazó de carta de amor 💌",
+      "date": "2026-11-27T00:59:54Z",
+      "url": "https://www.youtube.com/shorts/QB1BQgHAj-s",
+      "thumbnail": "https://i2.ytimg.com/vi/QB1BQgHAj-s/hqdefault.jpg"
+    },
     {
       "id": "d9bYYgEXQ5U",
       "title": "¿Por qué el Bluetooth se llama así? Un rey vikingo 📶",
@@ -340,8 +347,8 @@
   "stats": {
     "subscribers": 526,
     "views": 96049,
-    "videos": 108,
-    "fetched_at": "2026-11-27T00:49:26.344763Z",
+    "videos": 109,
+    "fetched_at": "2026-11-27T02:12:50.936973Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
