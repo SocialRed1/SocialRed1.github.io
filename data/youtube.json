@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T15:23:37.156453Z",
+  "generated_at": "2026-11-27T16:29:24.319597Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "VdCMgXo7vlI",
+      "title": "¿Sabías que la primera webcam vigilaba una cafetera? ☕",
+      "date": "2026-11-27T16:16:23Z",
+      "url": "https://www.youtube.com/shorts/VdCMgXo7vlI",
+      "thumbnail": "https://i3.ytimg.com/vi/VdCMgXo7vlI/hqdefault.jpg"
+    },
     {
       "id": "QB1BQgHAj-s",
       "title": "ILOVEYOU: el virus que se disfrazó de carta de amor 💌",
@@ -345,10 +352,10 @@
     }
   ],
   "stats": {
-    "subscribers": 526,
-    "views": 96397,
-    "videos": 109,
-    "fetched_at": "2026-11-27T15:23:38.235030Z",
+    "subscribers": 527,
+    "views": 96721,
+    "videos": 110,
+    "fetched_at": "2026-11-27T16:29:24.880406Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
