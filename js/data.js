@@ -272,7 +272,33 @@ SR.ITEMS = {
   // Echo Dot 5a gen (precios en conflicto $39.99/$44.99) y WD_BLACK
   // SN850X 1TB ($219.99-$254.99 según la fuente).
     { id: 'samsung-990-pro-1tb', name: 'SSD Samsung 990 PRO 1 TB', tagline: 'El SSD NVMe más rápido para gaming', desc: 'SSD NVMe PCIe 4.0 de 1 TB con lecturas de hasta 7,450 MB/s, ideal para PC gamer y PS5.', price: 248.00, currency: 'USD', category: 'Almacenamiento', store: 'amazon', url: 'https://www.amazon.com/dp/B0BHJF2VRN?tag=socialred01-20', image: 'assets/compras/samsung-990-pro-1tb.jpg', hue: 210, icon: 'cpu', tags: ['samsung', 'ssd', 'almacenamiento', 'gaming'] },
-    { id: 'logitech-mx-master-3s-bluetooth', name: 'Mouse Logitech MX Master 3S (Bluetooth)', tagline: 'El mouse de productividad en mínimo histórico', desc: 'Mouse ergonómico con sensor 8K DPI, clics silenciosos y rueda MagSpeed; solo Bluetooth, sin receptor USB ni cable de carga.', price: 72.19, currency: 'USD', category: 'Accesorios', store: 'amazon', url: 'https://www.amazon.com/dp/B0FB21526X?tag=socialred01-20', image: 'assets/compras/logitech-mx-master-3s-bluetooth.jpg', hue: 200, icon: 'game', tags: ['logitech', 'mouse', 'productividad', 'bluetooth'] }
+    { id: 'logitech-mx-master-3s-bluetooth', name: 'Mouse Logitech MX Master 3S (Bluetooth)', tagline: 'El mouse de productividad en mínimo histórico', desc: 'Mouse ergonómico con sensor 8K DPI, clics silenciosos y rueda MagSpeed; solo Bluetooth, sin receptor USB ni cable de carga.', price: 72.19, currency: 'USD', category: 'Accesorios', store: 'amazon', url: 'https://www.amazon.com/dp/B0FB21526X?tag=socialred01-20', image: 'assets/compras/logitech-mx-master-3s-bluetooth.jpg', hue: 200, icon: 'game', tags: ['logitech', 'mouse', 'productividad', 'bluetooth'] },
+  // 28 nov 2026: +2 productos (Teclado Logitech MX Keys S gris pálido
+  // $99.74, ASIN B0BKVZK4TH, verificado HOY con pricehistory.app:
+  // página rastreada 28 nov 14:12 UTC, InStock; bajó de $118.95 el
+  // 25 nov. Es la variante gris pálido; la grafito estaba a $109.99
+  // el 22 nov. Sin rating: el 8.8/10 del rastreador no son estrellas
+  // de Amazon. Google Pixel Buds Pro 2 porcelana $169.00, ASIN
+  // B0D79QF9RC, verificado HOY con pricehistory.app: página
+  // rastreada 28 nov 14:16 UTC, InStock; corroborado por ProductBible
+  // 23 nov ($169 en Amazon y Google Store) y Gizmodo/TechTimes
+  // ($169, mínimo histórico). Sin rating por la misma razón.
+  // Quedaron FUERA hoy: Echo Dot 5a gen (sin lectura de rastreador
+  // de HOY: $39.99 en varias fuentes del 23-27 nov frente a $44.99
+  // del 19-20 nov), Galaxy Buds 3 Pro (precios en conflicto:
+  // $100 solo Prime, $133.49-$189.99 según la fuente), WD_BLACK
+  // SN850X 1TB ($219.99-$279.99 según la fuente), Sony WH-CH520
+  // ($28-$57.99 según la fuente) y Apple Watch SE 2 (solo variantes
+  // renovadas en los rastreadores). MANTENIMIENTO: sin cambios —
+  // DualSense $54.00 (confirmado hoy), Fire TV Stick 4K $19.99,
+  // Anker 735 $22.77 (pricehistory.app 27 nov), G502 HERO $29.99
+  // (scoopdeals 27 nov), HyperX Cloud II $44.99 (smartvaluelab y
+  // specpicks HOY 28 nov) y Arctis Nova 5 $99.99 (smartvaluelab y
+  // pricezen HOY 28 nov); sin lectura de HOY para Switch 2, AirPods
+  // 4, JBL Flip 6 nuevo negro y Viper V3 Pro negro, así que se
+  // mantienen sus precios publicados.
+    { id: 'logitech-mx-keys-s-gris-palido', name: 'Teclado Logitech MX Keys S (gris pálido)', tagline: 'El teclado pro para trabajar cómodo', desc: 'Teclado inalámbrico retroiluminado con teclas cóncavas y silenciosas, carga USB-C y conexión a 3 dispositivos a la vez.', price: 99.74, currency: 'USD', category: 'Accesorios', store: 'amazon', url: 'https://www.amazon.com/dp/B0BKVZK4TH?tag=socialred01-20', image: 'assets/compras/logitech-mx-keys-s-gris-palido.jpg', hue: 230, icon: 'bolt', tags: ['logitech', 'teclado', 'productividad', 'bluetooth'] },
+    { id: 'google-pixel-buds-pro-2-porcelana', name: 'Audífonos Google Pixel Buds Pro 2 (porcelana)', tagline: 'Cancelación de ruido con IA de Google', desc: 'Audífonos inalámbricos de Google con chip Tensor A1, cancelación activa de ruido, 30 horas de batería y Gemini integrado.', price: 169.00, currency: 'USD', category: 'Audio', store: 'amazon', url: 'https://www.amazon.com/dp/B0D79QF9RC?tag=socialred01-20', image: 'assets/compras/google-pixel-buds-pro-2-porcelana.jpg', hue: 45, icon: 'play', tags: ['google', 'audifonos', 'cancelacion-de-ruido', 'pixel'] }
   ]
 };
 
