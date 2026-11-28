@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T00:14:34.878185Z",
+  "generated_at": "2026-11-28T01:46:28.453416Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "pTAj8P3GRwk",
+      "title": "El gusano Morris: el experimento que tumbó el 10% de internet 🐛",
+      "date": "2026-11-28T01:04:12Z",
+      "url": "https://www.youtube.com/shorts/pTAj8P3GRwk",
+      "thumbnail": "https://i1.ytimg.com/vi/pTAj8P3GRwk/hqdefault.jpg"
+    },
     {
       "id": "VdCMgXo7vlI",
       "title": "¿Sabías que la primera webcam vigilaba una cafetera? ☕",
@@ -354,8 +361,8 @@
   "stats": {
     "subscribers": 528,
     "views": 96721,
-    "videos": 110,
-    "fetched_at": "2026-11-28T00:14:35.496150Z",
+    "videos": 111,
+    "fetched_at": "2026-11-28T01:46:29.108019Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
