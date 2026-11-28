@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T15:13:09.605920Z",
+  "generated_at": "2026-11-28T16:15:28.318809Z",
   "channel": {
     "id": "UC16anRJNg27tmKEIRGiyMEw",
     "handle": "@SocialRed-1",
@@ -7,6 +7,13 @@
     "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC16anRJNg27tmKEIRGiyMEw"
   },
   "videos": [
+    {
+      "id": "A1PgECJENoU",
+      "title": "¿Sabías que el primer \"bug\" informático fue una polilla de verdad? 🐛",
+      "date": "2026-11-28T16:01:01Z",
+      "url": "https://www.youtube.com/shorts/A1PgECJENoU",
+      "thumbnail": "https://i2.ytimg.com/vi/A1PgECJENoU/hqdefault.jpg"
+    },
     {
       "id": "pTAj8P3GRwk",
       "title": "El gusano Morris: el experimento que tumbó el 10% de internet 🐛",
@@ -359,10 +366,10 @@
     }
   ],
   "stats": {
-    "subscribers": 528,
-    "views": 97048,
-    "videos": 111,
-    "fetched_at": "2026-11-28T15:13:10.183874Z",
+    "subscribers": 529,
+    "views": 97354,
+    "videos": 112,
+    "fetched_at": "2026-11-28T16:15:29.602036Z",
     "live": true,
     "approximate": false,
     "note": "Cifras leídas en vivo de la página 'Acerca de' del canal. Cifras exactas, sin abreviaturas."
